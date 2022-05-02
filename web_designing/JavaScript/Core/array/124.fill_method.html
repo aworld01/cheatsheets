@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+p{
+    white-space: pre-wrap;
+}
+</style>
+</head>
+<body>
+
+<h1>fill_method in JavaScript</h1>
+<p>
+The fill() method fills all the elements in an array with a static value.
+)Last index will not included)
+
+Syntax:-
+array_name.fill(value, start, end);
+Ex:-
+geek.fill("Don"); // all elements will fill with Don
+geek.fill("Don", 1, 3); fill Don starting with index 1 to 3
+(3 will not included)
+</p>
+<br>
+<hr>
+
+<!-- <script>
+    var geek = ["Rahul","Sonam","Sumit","Raj","Rohan","Sonam"];
+    document.write(geek,"<br>");
+    geek.fill("Don");
+    document.write(geek,"<br>");
+</script> -->
+
+<!-- <script>
+    var geek = ["Rahul","Sonam","Sumit","Raj","Rohan","Sonam"];
+    document.write(geek,"<br>");
+    geek.fill("Don", 1, 3);
+    document.write(geek,"<br>");
+</script> -->
+
+<script>
+    var value = new Array(3);
+    document.write(value,"<br>");
+</script>
+
+<script>
+    var value = new Array(3).fill("Veeru");
+    document.write(value,"<br>");
+</script>     
+
+</body>
+</html>

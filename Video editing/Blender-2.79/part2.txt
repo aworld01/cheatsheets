@@ -1,0 +1,55 @@
+Add: (Shift+A)
+
+Insert point: LeftClick
+
+SELECT
+Select: RightClick
+
+Select one by one= (Shift+Right click)
+
+Select, Deselect all= (A)
+
+
+Select by drag= B, Click+Drag
+
+Deselect by drag= B, Click_middle_button+Drag
+
+Select One by one with mouse: C, click on objects
+(Middle_click on objects to Deselect)
+(Right_click to remove select circle)
+
+Delete: X+Enter
+
+MOVE
+select, click on aero and drag to move objects
+right click and drag, left click
+
+Free move: Select, G, Hover+Click
+X accesses move: Select, G, X, Hover+Click
+Y accesses move: Select, G, Y, Hover+Click
+Z accesses move: Select, G, Z, Hover+Click
+Return on first Position: Alt+G
+
+ROTATE
+Free rotate: Select, R, Hover+Click
+X accesses rotate: Select, R, X, Hover+Click
+Y accesses rotate: Select, R, Y, Hover+Click
+Z accesses rotate: Select, R, Z, Hover+Click
+Make normal: Select, Alt+R
+
+SCALE
+Free scale: Select+S+Hover+Click
+X accesses scale: Select+S+X+Hover+Click
+
+Y accesses scale: Select+S+Y+Hover+Click
+
+Z accesses scale: Select+S+Z+Hover+Click
+
+Tranform: N
+Tab: EditMode/ObjectMode
+
+Undo: Ctrl+Z
+Redo: Ctrl+Shift+Z
+
+
+00:11:00

@@ -1,0 +1,52 @@
+Rotate view: Push middle button and Hover.
+
+Move view: Push Shift+Middle button and hover.
+
+Zoom in: (CTRL++) Scroll mouse wheel to computer screen side.
+
+Zoom out: (CTRL+-) Scroll mouse wheel to your side.
+
+Zoom in, Zoom out: CTRL+Puse middle button and Hover.
+
+Left, Right: CTRL+Scroll wheel.
+
+Up, Down: Shift+Scroll wheel.
+
+Rotate view: Push middle button and Hover.
+
+Move view: Shift+Push middle button and hover.
+
+Goto focal_point: Del
+
+ToolBar: T
+
+
+
+
+Outliner and Property
+
+Viewport
+
+NumberPad
+View
+2D/Artho mode, 3D/Perspective mode: 5
+
+3D/Perspective mode
+Sides
+Front side: 1
+Top side: 7
+Bottom side: 9
+Right side: 3
+Spin ACW: 4
+Spin CW: 6
+Spin bottom to top: 2
+Spin top to bottom: 8
+
+2D/Artho mode
+Sides
+Front side: 1
+Back side: CTRL+1
+Left side: CTRL+3
+Right side: 3
+Top side: 7
+Bottom: 9

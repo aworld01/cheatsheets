@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+p{
+    white-space: pre-wrap;
+}
+</style>
+</head>
+<body>
+
+<h1>indexOf_method in JavaScript</h1>
+<p>
+This method allows to easily find the occurrence of an item in an array.
+
+If the item not found, it returns -1.
+
+The search will start at the specified position, or at the beginning if not start position is specified, and end the search at the end of the array.
+
+If the item is present more than once, the indexOf method returns the position of the first occurrence.
+
+Syntax:-
+var position = array_name.indexOf(item, start);
+Ex:-
+var position = geek.indexOf("Rohit",2);
+</p>
+<br>
+<hr>
+
+<!-- <script>
+    var geek = ["Rahul","Sonam","Sumit","Raj","Rohan","Sonam"];
+    document.write(geek,"<br>");
+    var position = geek.indexOf("Jyoti");
+    document.write(position,"<br>");
+</script> -->
+
+<!-- <script>
+    var geek = ["Rahul","Sonam","Sumit","Raj","Rohan","Sonam"];
+    document.write(geek,"<br>");
+    var position = geek.indexOf("Sonam");
+    document.write(position,"<br>");
+</script> -->
+
+<script>
+    var geek = ["Rahul","Sonam","Sumit","Raj","Rohan","Sonam"];
+    document.write(geek,"<br>");
+    var position = geek.indexOf("Sonam",2);
+    document.write(position,"<br>");
+</script>                 
+
+</body>
+</html>

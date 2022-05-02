@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/star.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <script src="script/menu.js" defer></script>
+    <title>SQLite</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="left items">
+            <a href="mysql.html">MySQL</a><br>
+            <a href="terminalCommnads.html">terminalCommnads</a><br>
+        </div>
+
+        <div class="right">
+<pre>
+    Datatype:-
+    NULL = None
+    INTEGER = Integer
+    REAL = Float
+    TEXT = String
+    BLOB = Image, mp3
+</pre> 
+            <h1>Commands</h1>
+            <dl>
+                <dt>.open myDatabase.db</dt>
+                <dd>to open database or create a new one.</dd>
+
+                <dt>sqllite3 test.db</dt>
+                <dd>to open database or create a new one from outside.</dd>
+
+                <dt>.shell ls</dt>
+                <dd>to check database file.</dd>
+
+                <dt>.database</dt>
+                <dd>to see the name of your current database.</dd>
+
+                <dt>.tables</dt>
+                <dd>to see all the tables.</dd>
+
+                <dt>.schema Product</dt>
+                <dd>to see structures of table.</dd>
+
+                <dt>.shell clear</dt>
+                <dd>to clear the terminal.</dd>
+
+                <dt>.exit</dt>
+                <dd>to exit.</dd>
+
+                <dt>.quit</dt>
+                <dd>to exit.</dd>
+
+                <dt>CTRL+D</dt>
+                <dd>to exit.</dd>
+
+                <dt>.schema Product</dt>
+                <dd>to see structures of table.</dd>
+            </dl>
+            <hr>
+            <h1>Queries</h1>
+            <dl>
+                <dt>CREATE TABLE Product(Id INTEGER PRIMARY KEY AUTOINCREMENT, Name TEXT NOT NULL, Price REAL, Quantity INTEGER);</dt>
+                <dd>to create a table.</dd>
+
+                <dt>INSERT INTO Product(Name, Price, Quantity) VALUES('AutoCAD', 200, 20);</dt>
+                <dd>to insert data.</dd>
+
+                <dt>SELECT * FROM Product;</dt>
+                <dd>to see all table records.</dd>
+
+                <dt>SELECT Name FROM Product;</dt>
+                <dd>to see name of all records.</dd>
+
+                <dt>SELECT Name, Quantity FROM Product;</dt>
+                <dd>to see name and quantity of all records.</dd>
+
+                <dt>UPDATE Product SET Name = "Photoshop" WHERE Name = "MS Office";</dt>
+                <dd>to update record.</dd>
+
+                <dt>DELETE FROM Product WHERE Id = 1;</dt>
+                <dd>to delete record.</dd>
+
+                <dt>DROP TABLE Product;</dt>
+                <dd>to delete the table.</dd>
+            </dl>
+        </div>
+    </div>
+    
+</body>
+</html>

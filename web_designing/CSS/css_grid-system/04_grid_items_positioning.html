@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Grid introduction</title>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 100px 100px;
+        background: gray;
+        width: 700px;
+        margin: 50px 0 0 50px;
+        grid-gap: 15px 20px;
+    }
+    /* (Press> F12/.container/grid/display line numbers) */
+    .item1{
+        background: orangered;
+        /* grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4; */
+
+        /* grid-row: 2 / 3;
+        grid-column: 2 / 3; */
+
+        grid-area: 2 / 2 / 3 / 3; /* row-start / column-start / row-end / column-end */
+    }
+    
+    .item2{
+        background: yellowgreen;
+    }
+
+    .item3{
+    background: slateblue;
+    }
+    
+    .item4{
+        background: hotpink;
+    }
+    
+    .item5{
+        background: royalblue;
+    }
+    
+    .item6{
+        background: goldenrod;
+    }
+</style>
+</head>
+<body>
+    
+<h2>Grid items positioning Properties:</h2>
+<ul>
+    <li>grid-row-start</li>
+    <li>grid-row-end</li>
+    <li>grid-row</li>
+
+    <li>grid-column-start</li>
+    <li>grid-column-end</li>
+    <li>grid-column</li>
+    <li>grid-aria</li>
+</ul>
+<hr>
+
+<div class="container">
+    <div class="item1">First</div>
+    <div class="item2">Second</div>
+    <div class="item3">Third</div>
+    <div class="item4">Fourth</div>
+    <div class="item5">Fifth</div>
+    <div class="item6">Sixth</div>
+</div>
+
+</body>
+</html>

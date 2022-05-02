@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>HTML audio</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+	text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>video</h1>
+<h2>video controls</h2>
+
+<video controls>
+	<source src="av/a.mp4" type="video/mp4" />
+	<source src="av/a.mp4" type="video/webm" />
+	<source src="av/a.mp4" type="video/ogg" />
+</video>
+<hr>
+
+
+
+<h2>video controls poster="images/a.jpg"</h2>
+
+<video controls poster="images/a.jpg">
+	<source src="av/a.mp4" type="video/mp4"/>
+</video>
+<hr>
+
+
+
+<h2>video controls poster="images/a.jpg" width="500px" height="200px"</h2>
+
+<video controls poster="images/a.jpg" width="500px" height="200px">
+	<source src="av/a.mp4" type="video/mp4"/>
+</video>
+<hr>
+
+
+
+<h2>video controls poster="images/a.jpg" width="500px" height="200px" autoplay</h2>
+
+<video controls poster="images/a.jpg" width="500px" height="200px" autoplay>
+	<source src="av/a.mp4" type="video/mp4" />
+</video>
+<hr>
+
+
+
+<h2>video controls poster="images/a.jpg" width="500px" height="200px" autoplay loop</h2>
+
+<video controls poster="images/a.jpg" width="500px" height="200px" autoplay loop>
+	<source src="av/a.mp4" type="video/mp4" />
+</video>
+<hr>
+
+
+
+<h2>video controls poster="images/a.jpg" width="500px" height="200px" autoplay loop muted</h2>
+
+<video controls autoplay loop muted poster="images/a.jpg" width="500px" height="200px">
+	<source src="av/a.mp4" type="video/mp4" />
+</video>
+<hr>
+
+</body>
+</html>

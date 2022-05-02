@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<link rel="icon" href="images/javascript.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+</style>
+</head>
+<body> 
+
+<h1>constructor as a class in JavaScript</h1>
+<script>
+    // You can make only one object using object literal
+    var Mobile = function(model_no, sprice){
+        this.model = model_no;
+        this.color = 'white';
+        this.price = 3000;
+        this.sp = sprice;
+        this.sellingprice = function(){
+            return (this.price + this.sp);
+        };
+        this.data = function(){
+            document.write(" Model No:"+this.model+"<br> Price: "+this.sellingprice());
+        }
+    };
+    var samsung = new Mobile('Galaxy',2000);
+    var nokia = new Mobile('3310',1000);
+    samsung.data()
+</script>
+
+</body>
+</html>

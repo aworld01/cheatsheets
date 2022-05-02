@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transparent Dropdown menu</title>
+	<style type="text/css">
+		body{
+			background: url("Images/abstract_0012.jpg") center no-repeat; 
+			height: 100vh;
+			background-size: cover;
+		}
+		.dd{
+			width: 70%;
+			height: 70px;
+			margin: 0px auto;
+		}
+
+		.dd ul{
+			padding: 0px;
+		}
+
+		.dd ul li{
+			float: left;
+			background-color: black;
+			color: white;
+			width: 200px;
+			list-style: none;
+			height: 50px;
+			line-height: 50px;
+			font-size: 25px;
+			text-align: center;
+			opacity: 0.6;
+		}
+
+		.dd ul li ul{
+			display: none;
+		}
+
+		.dd ul li:hover > ul{
+			display: block;
+		}
+
+		.dd ul li:hover{
+			background-color: #32CD32;
+			opacity: 0.9
+		}
+
+		.dd ul li ul li{
+			position: relative;
+		}
+
+		.dd ul li ul li ul{
+			position: absolute;
+			left: 200px;
+			top: 0px;
+		}
+	</style>
+</head>
+<body>
+	<div class="dd">
+		<ul>
+			<li>USA<ul>
+				<li>New York</li>
+			</ul></li>
+			<li>India
+			<ul>
+				<li>Mumbai</li>
+				<li>Pune</li>
+				<li>Bangalore</li>
+				<li>Dehradun</li>
+				<li>Delhi
+					<ul>
+						<li>Kutub Minar</li>
+						<li>Red fort</li>
+					</ul></li>
+			</ul></li>
+			<li>France</li>
+			<li>Australia</li>
+			<li>Brazil</li>
+		</ul>
+	<div>
+</body>
+</html>

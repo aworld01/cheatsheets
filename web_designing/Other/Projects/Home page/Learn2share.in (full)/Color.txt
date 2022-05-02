@@ -1,0 +1,239 @@
+Dark code: #31353d
+Light code: #e9edf2
+
+JQuery Fade lists:-
+01. $('#s1').cycle('pinch');
+02. $('#s2').cycle({ 
+    fx: 'pinch', 
+    delay: 2000 
+});
+
+03. $('#shuffle').cycle({ 
+    fx:     'shuffle', 
+    easing: 'easeOutBack', 
+    delay:  -4000 
+});
+
+04. $('#zoom').cycle({ 
+    fx:    'zoom', 
+    sync:  false, 
+    delay: -2000 
+});
+
+05. $('#fade').cycle();
+
+06. $('#slide').cycle({ 
+    fx:      'turnDown', 
+    delay:   -4000 
+});
+
+07. $('#up').cycle({ 
+    fx:    'curtainX', 
+    sync:  false, 
+    delay: -2000 
+ });
+
+08. $('#right').cycle({ 
+    fx:      'scrollRight', 
+    next:   '#right', 
+    timeout:  0, 
+    easing:  'easeInOutBack' 
+});
+
+09. $('#s2').cycle({ 
+    fx: 'scrollDown' 
+});
+
+10. $('#s3').cycle({ 
+    fx:    'fade', 
+    speed:  2500 
+ });
+
+11. $('#s4').cycle({ 
+    fx:      'scrollDown', 
+    speed:    300, 
+    timeout:  2000 
+});
+
+12. $('#s5').cycle({ 
+    fx:    'fade', 
+    pause:  1 
+});
+
+13. $('#s6').cycle({ 
+    fx:     'scrollDown', 
+    random:  1 
+});
+
+14. $('#s1').cycle({ 
+    fx:     'zoom', 
+    easing: 'easeInBounce', 
+    delay:  -4000 
+});
+
+15. $('#s2').cycle({ 
+    fx:     'scrollDown', 
+    easing: 'easeOutBounce', 
+    delay:  -2000 
+});
+
+16. $('#s3').cycle({ 
+    fx:    'zoom', 
+    sync:   0, 
+    delay: -4000 
+ });
+
+17. $('#s4').cycle({ 
+    fx:    'scrollDown', 
+    sync:   0, 
+    delay: -2000 
+});
+
+18. $('#s5').cycle({ 
+    fx:    'shuffle', 
+    delay: -4000 
+});
+
+19. $('#s6').cycle({ 
+    fx:   'shuffle', 
+    shuffle: { 
+        top:  -230, 
+        left:  230 
+    }, 
+    easing: 'easeInOutBack', 
+    delay: -2000 
+});
+
+20. $('#s1').cycle({ 
+    fx:      'zoom', 
+    speedIn:  2500, 
+    speedOut: 500, 
+    easeIn:  'easeInBounce', 
+    easeOut: 'easeOutElastic', 
+    sync:     0, 
+    delay:   -4000 
+});
+
+21. $('#s2').cycle({ 
+    fx:      'scrollDown', 
+    speedIn:  2000, 
+    speedOut: 500, 
+    easeIn:  'easeInCirc', 
+    easeOut: 'easeOutBounce', 
+    delay:   -2000 
+});
+
+22. $('#s3').cycle({ 
+    fx:      'custom', 
+    cssBefore:{  
+        left: 232,   
+        top: -232,  
+        display: 'block' 
+    }, 
+    animIn: {  
+        left: 0, 
+        top: 0  
+    }, 
+    animOut: {  
+        left: 232,   
+        top: 232 
+    }, 
+    delay: -3000 
+});
+
+23. $('#s4').cycle({ 
+    fx:      'custom', 
+    sync: 0, 
+    cssBefore: {  
+        top:  0, 
+        left: 232, 
+        display: 'block' 
+    }, 
+    animIn:  { 
+        left: 0 
+    }, 
+    animOut: {  
+        top: 232 
+    }, 
+    delay: -1000 
+});
+
+24. $('#s5').cycle({ 
+    fx:      'custom', 
+    cssBefore: {  
+        left: 115,  
+        top:  115,  
+        width: 0,  
+        height: 0,  
+        opacity: 1, 
+        display: 'block' 
+    }, 
+    animOut: {  
+        opacity: 0  
+    }, 
+    animIn: {  
+        left: 0,  
+        top: 0,  
+        width: 200,  
+        height: 200  
+    }, 
+    cssAfter: {  
+        zIndex: 0 
+    }, 
+    delay: -3000 
+});
+
+25. $('#s6').cycle({ 
+    fx: 'custom', 
+    cssBefore: {  
+        top:  0, 
+        left: 0, 
+        width: 0, 
+        height: 0,  
+        display: 'block' 
+    }, 
+    animIn:  {  
+        width: 200, 
+        height: 200  
+    }, 
+    animOut: {  
+        top:  200, 
+        left: 200, 
+        width: 0, 
+        height: 0 
+    }, 
+    cssAfter: {  
+        zIndex: 0  
+    }, 
+    delay: -1000 
+});
+
+26. 
+
+blindX
+blindY
+blindZ
+cover
+curtainX
+curtainY
+fade
+fadeZoom
+growX
+growY
+scrollUp
+scrollDown
+scrollLeft
+scrollRight
+scrollHorz
+scrollVert
+shuffle
+slideX
+slideY
+toss
+turnUp
+turnDown
+turnLeft
+turnRight
+uncover
+wipe
+zoom

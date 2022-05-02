@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Home</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+.effect{
+	width: 400px;
+	height: 400px;
+	background-color: blue;
+}
+.effect1{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	background-color: green;
+	z-index: 1;
+}
+.effect2{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	background-color: magenta;
+	top: 50px;
+	left: 50px;
+	z-index: 2;
+}
+</style>
+</head>
+<body>
+
+<h1>Z-index</h1>
+	
+<h2>
+	z-index property is used to set the layer of elements. It works only with position property value: fixed, relative, and absolute. <br>
+	The element which has higher number appear at the top.
+</h2>
+
+<div class="effect">
+	<div class="effect1"></div>
+	<div class="effect2">
+		<h1 class="title">This is heading One</h1>
+	</div>
+</div>
+
+</body>
+</html>

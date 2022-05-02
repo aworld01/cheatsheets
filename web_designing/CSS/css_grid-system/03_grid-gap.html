@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Grid introduction</title>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 100px 100px 100px;
+        background: gray;
+        width: 700px;
+        margin: 50px 0 0 50px;
+
+        /* grid-row-gap: 20px;
+        grid-column-gap: 15px; */
+
+        grid-gap: 15px 20px; /*(row column) */
+    }
+    
+    .item1{
+        background: orangered;
+    }
+    
+    .item2{
+        background: yellowgreen;
+    }
+
+    .item3{
+    background: slateblue;
+    }
+    
+    .item4{
+        background: hotpink;
+    }
+    
+    .item5{
+        background: royalblue;
+    }
+    
+    .item6{
+        background: goldenrod;
+    }
+</style>
+</head>
+<body>
+    
+<h2>Grid-Gap related Properties</h2>
+<ul>
+    <li>grid-row-gap</li>
+    <li>grid-column-gap</li>
+    <li>grid-gap</li>
+</ul>
+<hr>
+
+<div class="container">
+    <!-- div.item$*6: to create 6 div-->
+    <div class="item1">First</div>
+    <div class="item2">Second</div>
+    <div class="item3">Third</div>
+    <div class="item4">Fourth</div>
+    <div class="item5">Fifth</div>
+    <div class="item6">Sixth</div>
+</div>
+
+</body>
+</html>

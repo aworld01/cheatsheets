@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Home</title>
+<link rel="icon" href="images/css.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+#container{
+	border: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+}
+.div{
+	text-align: center;
+	width: 300px;
+	padding: 20px;
+	margin: 10px;
+}
+#firstdiv{
+	background-color: pink;
+}
+#seconddiv{
+	background-color: blue;
+}
+#thirddiv{
+	background-color: red;
+}
+#fourthdiv{
+	background-color: green;
+}
+#fifthdiv{
+	background-color: orange;
+}
+</style>
+</head>
+<body>
+
+<h1>flex-wrap</h1>
+<p class="def">
+	This property is used to specify whether the flexible items should wrap or not. If the elements are not flexible items, the flex-wrap property has no effect. We can set this property to nowrap(default), wrap, and wrap-reverse.
+</p>
+
+<div class="ls">
+flex-wrap: wrap; (default)
+flex-wrap: nowrap;
+flex-wrap: wrap-reverse;
+</div>
+
+<p class="def">
+	nowrap: It spacifies that the flexible items will not wrap.<br><br>
+
+	wrap: It specifies that the flexible items will wrap, if necessary.<br><br>
+
+	wrap-reverse: It specifies that the flexible items will wrap, if necessary, in reverse order.
+</p>
+<div id="container">
+	<div id="firstdiv" class="div">1</div>
+	<div id="seconddiv" class="div">2</div>
+	<div id="thirddiv" class="div">3</div>
+	<div id="fourthdiv" class="div">4</div>
+	<div id="fifthdiv" class="div">5</div>
+</div>
+
+</body>
+</html>

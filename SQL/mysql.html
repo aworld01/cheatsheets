@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/star.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <script src="script/menu.js" defer></script>
+    <title>MySQL</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="left items">
+            <a href="sqlite.html">SQLite</a><br>
+            <a href="terminalCommnads.html">terminalCommnads</a><br>
+        </div>
+        <div class="right">
+<pre>
+    Datatype:-
+    NULL = None
+    int = Integer
+    varchar = String
+</pre> 
+            <h1>Commands</h1>
+            <dl>
+                <dt>SHOW DATABASES;</dt>
+                <dd>to check database lists.</dd>
+
+                <dt>SHOW TABLES;</dt>
+                <dd>to check table lists.</dd>
+
+                <dt>CREATE DATABASE Student;</dt>
+                <dd>to create a new database.</dd>
+
+                <dt>CREATE DATABASE IF NOT EXISTS Collage;</dt>
+                <dd>to create a database if not exists.</dd>
+
+                <dt>USE Collage;</dt>
+                <dd>to use database.</dd>
+
+                <dt>SELECT DATABASE();</dt>
+                <dd>to check selected database.</dd>
+
+                <dt>DROP DATABASE myDatabase;</dt>
+                <dd>to delete database.</dd>
+
+                <dt>SHOW TABLES;</dt>
+                <dd>to check tables of selected database</dd>
+
+                <dt>DESC Students;</dt>
+                <dd>to check table datatype.</dd>
+
+                <dt>SHOW COLUMNS FROM Students;</dt>
+                <dd>to check table datatype.</dd>
+
+                <dt>system clear</dt>
+                <dd>to clear mysql terminal.</dd>
+
+                <dt>CTRL+L</dt>
+                <dd>to clear mysql terminal.</dd>
+
+                <dt>exit</dt>
+                <dd>to exit.</dd>
+
+                <dt>quit</dt>
+                <dd>to exit.</dd>
+
+                <dt>CTRL+D</dt>
+                <dd>to exit.</dd>
+            </dl>
+            <hr>
+            <h1>Queries</h1>
+            <dl>
+                <dt>CREATE TABLE Students(name varchar(15), class int, roll_no int, school_name varchar(25));</dt>
+                <dd>to create a table.</dd>
+
+                <dt>INSERT INTO Students(name, class, roll_no, school_name) values('Abdul Zoha', 3, 25, 'MD Jaan Public School');</dt>
+                <dd>to insert values into table</dd>
+
+                <dt>INSERT INTO Students values('Abdul Zoha', 3, 25, 'MD Jaan Public School');</dt>
+                <dd>To directaly insert values into table.</dd>
+
+                <dt>SELECT * FROM Students;</dt>
+                <dd>to see all table records.</dd>
+
+                <dt>SELECT Name FROM Product;</dt>
+                <dd>to see name of all records.</dd>
+
+                <dt>SELECT Name, Quantity FROM Product;</dt>
+                <dd>to see name and quantity of all records.</dd>
+
+                <dt>SHOW WARNINGS;</dt>
+                <dd>to check warnings of selected database.</dd>
+
+                <dt>CREATE TABLE Students(Roll int not null, Name varchar(20), Class varchar(7) not null);</dt>
+                <dd>not null values.</dd>
+
+                <dt>CREATE TABLE Students(Name varchar(30) not null default 'unNamed', Age int not null default 18);</dt>
+                <dd>defalut values.</dd>
+
+                <dt>ALTER TABLE Students DROP COLUMN school;</dt>
+                <dd>no description</dd>
+
+                <dt>ALTER TABLE Students ADD s_no varchar(30);</dt>
+                <dd>no description</dd>
+
+                <dt>DROP TABLE Students;</dt>
+                <dd>to delete table.</dd>
+            </dl>
+        </div>
+    </div>
+    
+</body>
+</html>

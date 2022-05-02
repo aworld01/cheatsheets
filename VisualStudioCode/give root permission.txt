@@ -1,0 +1,6 @@
+nono /usr/bin/code
+
+#       if [ -z $CAN_LAUNCH_AS_ROOT ]; then
+#           echo "You are trying to start vscode as a super user whic>
+#           exit 1
+#       fi

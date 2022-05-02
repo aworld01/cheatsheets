@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Lists (Python3)</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+li
+	{
+	white-space: pre-wrap;
+	}
+</style>
+</head>
+<body style="background: gray;">
+
+<p>
+	http://127.0.0.1:5500/python_final.html<br>
+	http://www.github.com/artificialworld09
+</p>
+
+<h1 style="text-align: center;">Lists (Python3)</h1>
+<pre style="font-weight: bold;">
+"""
+list_creation
+len()_function_in_list
+list_indexing
+list_slicing
+list_step_argument
+Adding_items_to_the_list .append() method) #add an item to end of list.
+Adding_items_to_the_list .insert() method #add indexed value into list.
+Adding_items_to_the_list .extend() method #add a list into list.
+Adding_items_to_the_list += #add a list into list.
+Deleting_items_from_the_list .pop() method #remove last item in the list.
+Deleting_items_from_the_list .pop(1) method  #remove indexed value from list.
+Deleting_items_from_the_list .remove() method #remove by value.
+Deleting_items_from_the_list del
+Replace_list_items
+in_keyword_with_lis
+list Sorting = .sort() method #sorting the list.
+list Sorting = sorted() #sorting the list.
+list reverse = sorted(fruits, reverse=True) #reversing the list
+list reverse = .reverse() #reversing the list
+list reverse = fruits[::-1] #display item in reverse order.
+list .count() #search list and return number of instances found.
+list .copy()
+list .clear()
+"""
+</pre>
+
+<ol>
+<li>
+<h2>List creation</h2>
+# emptyList = []
+# print(emptyList)
+
+# r = range(0,11)
+# print(s)
+
+# fruits = ["Apple", "Mango", "Banana"]
+# print(fruits)
+
+# numbers = [1, 2, 3, 4]
+# print(numbers)
+
+# mixed = ['Abdul Zoha', 5,2.25, [1,2,3,4,], (1,2,3,4), None]
+# print(mixed)
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>len()_function_in_list</h2>
+mixed = ['Abdul Zoha', 5,2.25, [1,2,3,4,], (1,2,3,4), None]
+print(len(mixed))
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>list_indexing</h2>
+# 0 = Apple
+# 1 = Mango
+# 2 = Banana
+# 3 = Orange
+# 4 = Grapes
+# 5 = Guava
+<br>
+# -6 = Apple
+# -5 = Mango
+# -4 = Banana
+# -3 = Orange
+# -2 = Grapes
+# -1 = Guava
+
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits[1])
+print(fruits[3])
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits[-1])
+print(fruits[-3])
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>list_slicing</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits[:])
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits[2:])
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits[-2:])
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits[:2])
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits[:-2])
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits[0:3])
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits[3:6])
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits[-2:6])
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits[::-1])
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>list_step_argument</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits[::2])
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits[::-1])
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits[0:5:2])
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>Adding items to the list</h2>
+fruits = ["Apple", "Mango", "Banana"]
+print(fruits)
+fruits.append("Orange") #add an item to end of list.
+print(fruits)
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana"]
+print(fruits)
+fruits.insert(1, 'Grapes') #add item at any particular position.
+print(fruits)
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana"]
+fruits2 = ["Orange","Grapes","Guava"]
+print(fruits)
+fruits.extend(fruits2) #add complete list.
+print(fruits)
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana"]
+fruits2 = ["Orange","Grapes","Guava"]
+print(fruits)
+fruits += fruits2 #add complete list.
+print(fruits)
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>Deleting items to the list = .pop() method</h2>
+#pop method() (if don't pass any argument, then it will remove last item of the list, and you can store popped data into any variable and use later)
+
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+fruits.pop() #remove last item of the list.
+print(fruits)
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+fruits.pop(1) #remove item by index.
+print(fruits)
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+popped = fruits.pop(2) #store into popped variable.
+print(fruits)
+print(f"This is the popped item: {popped}")
+</li>
+
+
+
+
+<li>
+<h2>Deleting items to the list = del</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+del fruits[1] #delete by index.
+print(fruits)
+</li>
+
+
+
+
+<li>
+<h2>Deleting items to the list = .remove() method</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+fruits.remove("Orange") #delete item by value.
+print(fruits)
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>Replace list items</h2>
+fruits = ["Apple", "Mango", "Banana"]
+print(fruits)
+fruits[1] = "Strawberry" #to replace Mango into Strawberry.
+print(fruits)
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana"]
+print(fruits)
+fruits[1:] = ["Orange","Grapes","Guava"] #to replace all list items except 0 index item.
+print(fruits)
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>in_keyword_with_list</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+if "Apple" in fruits:
+	print("Apple is present !")
+else:
+	print("Apple is not present !")
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>list Sorting = .sort()</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+fruits.sort()
+print(fruits)
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>list Sorting = sorted()</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+print(sorted(fruits))
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+print(sorted(fruits, reverse=True))
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>list .reverse()</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+fruits.reverse()
+print(fruits)
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+print(fruits[::-1])
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>list .count()</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava","Banana"]
+print(fruits)
+print(fruits.count("Banana"))
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>list .copy()</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+fruits2 = fruits.copy()
+print(fruits2)
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>list .clear()</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+fruits.clear()
+print(fruits)
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>'in' and 'not in' keyword in List</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+if 'Mango' in fruits:
+  print('Mango is persent')
+if 'Papaya' not in fruits:
+  print('Papaya is not persent')
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>loops_in_List</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+i = 0
+while i < len(fruits):
+    print(fruits[i])
+    i = i + 1
+</li>
+
+
+
+
+<li>
+list = [1,2,3,5,8,2,5.2]
+total = 0
+i = 0
+while i < len(list):
+    total += list[i]
+    i = i + 1
+average = total / len(list)
+print(average)
+</li>
+
+
+
+
+<li>
+maching = []
+a = [1,3,4,6,8]
+b = range(1,11)
+for i in b:
+	if i not in a:
+		maching.append(i)
+print(maching)
+</li>
+<hr>
+</ol>
+
+</body>
+</html>

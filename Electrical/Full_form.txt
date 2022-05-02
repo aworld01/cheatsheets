@@ -1,0 +1,13 @@
+Fullforms:-
+
+MCB: Miniature Circuit Breaker.
+0.5-63Amps
+
+MCCB: Molded Case Circuit Breaker.
+63-3000Amps
+
+ELCB: Earth Leakage Circuit Breaker.
+
+RCCB: Residual Current Circuit Breaker.
+
+HRC Fuse: High Rupturing Capacity Fuse.

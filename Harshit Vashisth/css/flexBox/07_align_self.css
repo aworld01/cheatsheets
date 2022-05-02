@@ -1,0 +1,28 @@
+.container{
+    border: 3px solid blue;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: space-between;
+}
+.box{
+    border: 1px solid #666;
+    width: 100px;
+}
+.box1{
+    background: pink;
+}
+.box2{
+    background: lightblue;
+    width: 400px;
+    align-self: stretch;
+}
+.box3{
+    background: lightcoral;
+}
+.box4{
+    background: lightgrey;
+}
+.box5{
+    background: lightsalmon;
+}

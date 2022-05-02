@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Make a KaliLinux Persistence USB</title>
+<style>
+table
+	{
+	border-collapse: collapse;
+	width: 100%;
+	}
+th, td
+	{
+	padding: 8px;
+	text-align: left;
+	}
+tr:nth-child(even)
+	{
+	background-color: #f2f2f2;
+	}
+</style>
+</head>
+<body>
+
+<h1>Make a KaliLinux Persistence USB</h1>
+<h2>Requirements:-</h2>
+<ul>
+	<li>KaliLinux.iso</li>
+	<li>PowerISO.exe</li>
+	<li>USB drive (more than 8GB)</li>
+</ul>
+<ol>
+	<li>Insert your USB drive into PC.</li>
+	<li>
+		Open PowerISO and goto: <b>Tools\Create Bootable USB Drive</b> (if there is any message, click on <b>OK\Yes</b>.)<br>
+	</li>
+
+	<b>Source Image File:</b> <u>Click on three dots and select your ISO image path.</u><br>
+	<b>Destination USB Drive:</b> <u>Select your USB drive.</u><br>
+	Click on <b>Start\OK</b>.<br>
+
+	(<b>Note:</b> a process will be start, wait till finish it.)
+	<li>After finishing that, close the all windows and PowerISO.</li>
+	<li>Now boot your PC with USB drive and select <b>Live System.</b></li>
+	<br><br>
+	<li>Press <b>CTRL+ALT+T</b> and type:</li>
+	<b>sudo fdisk -l</b><br>
+	<li>Select and copy your disk in the lists. (<b>/dev/sdb</b>)</li>
+	<li>Type: <b>sudo fdisk /dev/sdb</b></li>
+	<li>Type: <b>n</b> and press <b>ENTER</b> five times</li>
+	<li>Type: <b>w</b></li>
+	<li>Type: <b>sudo fdisk -l</b> (To check your created disk and copy that.)</li>
+	<li>Type: <b>sudo mkfs.ext4 -L persistence /dev/sdb3</b></li>
+	(<b>Remember:</b> <u>/dev/sdb3</u> is your USB disk.)<br>
+	(<b>Note:</b> Wait for a while and let the process completed)
+	<li>Type: <b>sudo e2label /dev/sdb3 persistence</b></li>
+	<li>Type: <b>sudo mkdir -p /mnt/USB</b></li>
+	<li>Type: <b>sudo mount /dev/sdb3 /mnt/USB</b></li>
+	<li>Type: <b>sudo echo "/ union" > /mnt/USB/persistence.conf</b></li>
+	<li>Type: <b>sudo umount /dev/sdb3</b></li>
+	<li>Type: <b>sudo init 0</b> (To shutdown the PC)</li>
+	<li>Boot your PC with USB drive and select <b>Live system (Persistence, check Kali.org/Prst</b></li>
+	<li>
+		Make some changes in your PC settings and Reboot with USB drive and select <b>Live system (Persistence, check Kali.org/Prst</b><br>
+		If all changes are still there then your persistence USB has been created successfully.
+	</li>
+</ol>
+<hr>
+
+<h1>Do this after installation of KaliLinux</h1>
+<ol>
+	<li>Connect your PC with <b>Internet</b></li>
+	<li>Press: <b>CTRL + ALT + T</b> (to open the <u>Terminal Window</u>)</li>
+	<li>Type: <b>apt-get update</b> (wait till process completed)</li>
+	<li>Type: <b>apt-get upgrade</b> (wait till process completed)</li>
+	<li>Type: <b>apt-get dist-upgrade</b>  (wait till process completed)</li>
+	<br>
+	<li>Install: <b>VisualStudioCode</b></li>
+	<li>Install: <b>VisualStudioCode/CodeRunner</b></li>
+</ol>
+<hr>
+
+<h1>HostNames:-</h1>
+<ul>
+	<li>ArtificialWorld</li>
+</ul>
+
+<h1>UserNames:-</h1>
+<ul>
+	<li>User77</li>
+	<li>UniqueBoy</li>
+	<li>UnknownMaster</li>
+</ul>
+
+ </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Home</title>
+<link rel="icon" href="images/css.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+#container{
+	border: 2px solid black;
+	display: flex;
+	height: 300px;
+	justify-content: center;
+	align-items: baseline;
+}
+.div{
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+}
+#firstdiv{
+	background-color: pink;
+}
+#seconddiv{
+	background-color: blue;
+}
+#thirddiv{
+	background-color: red;
+	font-size: 2em;
+}
+#fourthdiv{
+	background-color: green;
+}
+#fifthdiv{
+	background-color: orange;
+}
+</style>
+</head>
+<body>
+
+<h1>align-items</h1>
+<p class="def">
+	This property is used to specify the defalut alignment for items inside the container. This property can be override using align-self property for each item. We can set this property to stretch(default), center, flex-start, flex-end, baseline.
+</p>
+
+<div class="ls">
+align-items: stretch; (default)
+align-items: flex-start;
+align-items: flex-end;
+align-items: center;
+align-items: baseline;
+</div>
+
+<p class="def">
+	align-items: stretch; (default): This is used to stretch the item to fit the container. It won't work if you spacify height already.<br><br>
+
+	align-items: flex-start; This is used to position the item at the beginning of the container.<br><br>
+
+	align-items: flex-end; This is used to position the item at the end of the container.<br><br>
+
+	align-items: center; This is used to position the item at the center of the container.<br><br>
+
+	align-items: baseline; This is used to position the item at the baseline of the container.
+</p>
+<div id="container">
+	<div id="firstdiv" class="div">1</div>
+	<div id="seconddiv" class="div">2</div>
+	<div id="thirddiv" class="div">3</div>
+	<div id="fourthdiv" class="div">4</div>
+	<div id="fifthdiv" class="div">5</div>
+</div>
+
+</body>
+</html>

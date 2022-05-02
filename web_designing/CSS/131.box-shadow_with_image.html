@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Home</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+img{	
+	margin-left: 10px;
+	box-shadow: 5px 5px 10px 3px red, 10px 10px 20px 6px green;
+}
+</style>
+</head>
+<body>
+
+<h1>box-shadow</h1>
+<div class="ls">
+	syntax:- box-shadow: h-shadow v-shadow blur spread color inset;
+	box-shadow: 30px 30px;
+	box-shadow: 30px 30px 15px;
+	box-shadow: 30px 30px 15px 20px;
+	box-shadow: 5px 5px 10px 3px red;
+	
+	/* we can add more then one shadow */
+	box-shadow: 5px 5px 10px 3px red, 10px 10px 20px 6px green;
+
+	h-shadow: The position of the horizontal shadow. Nagative values are allowed.
+	v-shadow: The position of the vertical shadow. Nagative values are allowed.
+	blur: The blur distance.
+	spread: Size of shadow. Nagative values are allowed.
+	color: The color of shadow.
+	inset: Changes the shadow from an outer shadow (outset) to an inner shadow.
+</div>
+<hr>
+
+<img src="images/a.jpg" alt="Image" width="400" height="500">
+
+</body>
+</html>

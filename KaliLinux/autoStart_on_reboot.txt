@@ -1,0 +1,41 @@
+1. Overview
+In this short tutorial, we’ll go through different options for executing a script on startup in Linux. This comes in handy in plenty of situations, such as if we want to start a server application automatically.
+
+2. Solutions
+Without further ado, let’s create a simple script to execute:
+
+#!/bin/sh
+echo "Last reboot time: $(date)" > /etc/motd
+
+
+This piece of code sets the message of the day to be the last reboot time so that each user can see it after their first login.
+
+After that, let’s save our file and make it executable:
+
+$ chmod +x reboot_message.sh
+
+
+Now that our script is ready, let’s see how to schedule its execution.
+
+
+2.1. Using cron
+Let’s begin with the easiest solution, which involves using cron. In order to do that, we need to edit our crontab file:
+
+
+$ crontab -e
+
+Here, we’re just going to add a line using the @reboot expression, which will execute our code once at startup:
+
+@reboot sh /home/ec2-user/reboot_message.sh
+
+This solution is quick and clean since we don’t have to deal with additional configuration, but not every version of cron supports @reboot.
+
+
+
+
+2.2. Using rc.local
+Let’s now consider another solution that takes advantage of the /etc/rc.d/rc.local file. Since this file already runs at startup, we can append a line that invokes our script:
+
+sh /home/ec2-user/reboot_message.sh
+
+$ chmod +x /etc/rc.d/rc.local

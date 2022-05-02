@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Creating Grid</title>
+<style>
+.container{
+    background: gray;
+    width: 700px;
+    margin: 70px 0 0 50px;
+
+    /* Press F12/container/grid (Layout/Display line numbers) */
+
+    display: grid;
+    /* grid-template-columns: 300px 200px 100px; */
+
+    /* grid-template-columns: 300px 200px auto; */
+
+    /* grid-template-columns: 200px auto 200px;
+    grid-template-rows: 50px 100px 150px; */
+
+    /* grid-template-columns: 55% 25% auto;
+    grid-template-rows: 50px 100px 150px; */
+
+    /* grid-template-columns: 55% 100px auto;
+    grid-template-rows: 50px 100px 150px; */
+
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 100px 150px; */
+
+    /* grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 50px 100px 150px; */
+
+    /* grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 50px 100px 150px;
+    grid-gap: 20px; */
+
+    /* grid-template-columns: repeat(3, 15%);
+    grid-template-rows: 50px 100px 150px; */
+
+    /* grid-template-columns: repeat(2, 15%) 1fr;
+    grid-template-rows: 50px 100px 150px; */
+
+    /* grid-template-columns: repeat(2, 15%) 50px;
+    grid-template-rows: 50px 100px 150px; */
+
+    grid-template-columns: repeat(2, 15%) 50px;
+    grid-template-rows: repeat(1, 1fr) 100px;
+}
+
+.item1{
+    background: orangered;
+}
+
+.item2{
+    background: yellowgreen;
+}
+
+.item3{
+    background: slateblue;
+}
+
+.item4{
+    background: hotpink;
+}
+
+.item5{
+    background: royalblue;
+}
+
+.item6{
+    background: goldenrod;
+}
+</style>
+</head>
+<body>
+    
+<h1>Grid creating properties</h1>
+<ul>
+    <li>grid-template-columns</li>
+    <li>grid-template-rows</li>
+</ul>
+
+<div class="container">
+    <!-- div.item$*6: to create 6 div-->
+    <div class="item1">First</div>
+    <div class="item2">Second</div>
+    <div class="item3">Third</div>
+    <div class="item4">Fourth</div>
+    <div class="item5">Fifth</div>
+    <div class="item6">Sixth</div>
+</div>
+    
+</body>
+</html>

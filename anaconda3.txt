@@ -1,0 +1,6 @@
+cd anaconda3/bin
+source activate root
+conda update anaconda
+conda update anaconda-navigator
+anaconda-navigator
+conda deactivate

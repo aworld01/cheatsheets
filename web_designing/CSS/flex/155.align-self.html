@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Home</title>
+<link rel="icon" href="images/css.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+#container{
+	border: 2px solid black;
+	display: flex;
+	align-items: flex-start;
+	height: 300px;
+}
+.div{
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+}
+#firstdiv{
+	background-color: pink;
+}
+#seconddiv{
+	background-color: blue;
+}
+#thirddiv{
+	background-color: red;
+	font-size: 2em;
+	align-self: flex-end;
+}
+#fourthdiv{
+	background-color: green;
+}
+#fifthdiv{
+	background-color: orange;
+}
+</style>
+</head>
+<body>
+
+<h1>align-self</h1>
+<p class="def">
+	This property is used to spacify the alignment for the selected item inside the flexible container. The align-self property override the flexible container's align-items property. We can set this property to auto(default), stretch, center, flex-start, flex-end, baseline.
+</p>
+
+<div class="ls">
+align-self: auto; (default)
+align-self: stretch;
+align-self: center;
+align-self: flex-start;
+align-self: flex-end;
+align-self: baseline;
+</div>
+
+<p class="def">
+	auto: The element inherits its parent container's align-items property, or 'stretch' if it has no parent container.<br><br>
+
+	stretch: This is used to position the element to fit the container.<br><br>
+
+	center: This is used to position the element at the center of the container.<br><br>
+
+	flex-start: This is used to position the element at the beginning of the container.<br><br>
+
+	flex-end: This is used to position the element at the end of the container.<br><br>
+
+	baseline: This is used to position the element at the baseline of the container.
+</p>
+
+<div id="container">
+	<div id="firstdiv" class="div">1</div>
+	<div id="seconddiv" class="div">2</div>
+	<div id="thirddiv" class="div">3</div>
+	<div id="fourthdiv" class="div">4</div>
+	<div id="fifthdiv" class="div">5</div>
+</div>
+
+</body>
+</html>

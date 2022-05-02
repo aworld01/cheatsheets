@@ -1,0 +1,27 @@
+AGGREGATE FUNCTIONS
+COUNT(): This function returns the number of rows that matches a specified criteria.
+AVG(): This function returns the average value of a numeric column.
+SUM(): This function returns the total sum of a numeric column.
+MIN():
+MAX():
+
+Syntax:
+select max(age) from students;
+select min(age) from students;
+select sum(age) from students;
+select count(age) from students;
+select avg(age) from students;
+select sum(age) as total_sum from students;
+select avg(age) as average from students;
+
+
+
+
+
+ORDER BY KEYWORD
+The ORDER BY keyword is used to sort the result-set in ascending or descending order.
+
+Syntax:
+select * from students order by age desc;
+select * from students order by age;
+select * from students order by fname;

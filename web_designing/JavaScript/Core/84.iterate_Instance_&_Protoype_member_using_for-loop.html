@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<link rel="icon" href="images/javascript.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+</style>
+</head>
+<body> 
+
+<h1>iterate_Instance_&_Prototype member using for-loop in JavaScript</h1>
+
+<script>
+    var Mobile = function(model_no){
+        // Instance Member
+        this.model = model_no;
+        this.price = 3000;
+    };
+    var samsung = new Mobile('Galaxy');
+    var nokia = new Mobile('3310');
+
+    // Prototype Member
+    Mobile.prototype.color = 'white'; // to add color property for all object.
+
+    // // to see only instance member
+    // key = Object.keys(samsung)
+    // document.write(key)
+
+    // to see all member including prototype also.
+    for (var key in samsung){
+        document.write(key,"<br>");
+    }
+</script>
+
+</body>
+</html>

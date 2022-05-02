@@ -1,0 +1,12 @@
+https://sundowndev.github.io/phoneinfoga/
+
+
+instalation
+sudo curl -sSL https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/support/scripts/install | bash
+
+You can now install the program globally : sudo mv ./phoneinfoga /usr/bin/phoneinfoga
+
+sudo ./phoneinfoga scan -n +919006228083: to scan in cli mode
+sudo ./phoneinfoga serve -p 8080: to scan on webserver
+
+localhost:8080 :to open localhost

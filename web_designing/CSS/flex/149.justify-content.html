@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Home</title>
+<link rel="icon" href="images/css.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+#container{
+	border: 2px solid black;
+	display: flex;
+	justify-content: space-around;
+}
+.div{
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+}
+#firstdiv{
+	background-color: pink;
+}
+#seconddiv{
+	background-color: blue;
+}
+#thirddiv{
+	background-color: red;
+}
+#fourthdiv{
+	background-color: green;
+}
+#fifthdiv{
+	background-color: orange;
+}
+</style>
+</head>
+<body>
+
+<h1>Justify content</h1>
+<p class="def">
+	This property is used to align the flexible container's items when the items do not use all available space on the main-axis (horizontally). We can set this property to flex-start (default), flex-end, center, space-between, space-around.
+</p>
+
+<div class="ls">
+justify-content: flex-start; (default)
+justify-content: flex-end;
+justify-content: center;
+justify-content: space-between;
+justify-content: space-around;
+</div>
+
+<p class="def">
+	flex-start: This is used to position the item at the beginning of the container.<br><br>
+
+	flex-end: This is used to position the item at the end of the container.<br><br>
+
+	center: This is used to position the item at the center of the container.<br><br>
+
+	space-between: This is used to position the item with space between the lines.<br><br>
+
+	space-around: This is used to position the item at with space before, between, and after the lines.
+</p>
+<div id="container">
+	<div id="firstdiv" class="div">1</div>
+	<div id="seconddiv" class="div">2</div>
+	<div id="thirddiv" class="div">3</div>
+	<div id="fourthdiv" class="div">4</div>
+	<div id="fifthdiv" class="div">5</div>
+</div>
+
+</body>
+</html>

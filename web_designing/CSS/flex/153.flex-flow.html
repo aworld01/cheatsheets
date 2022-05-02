@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Home</title>
+<link rel="icon" href="images/css.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+#container{
+	border: 2px solid black;
+	display: flex;
+	align-items: start;
+	height: 300px;
+	flex-flow: row-reverse wrap;
+}
+.div{
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+	width: 300px;
+}
+#firstdiv{
+	background-color: pink;
+}
+#seconddiv{
+	background-color: blue;
+}
+#thirddiv{
+	background-color: red;
+}
+#fourthdiv{
+	background-color: green;
+}
+#fifthdiv{
+	background-color: orange;
+}
+</style>
+</head>
+<body>
+
+<h1>flex-flow</h1>
+<p class="def">
+	It's a shorthand property for the flex-direction and the flex-wrap properties. If the elements are not flexible items, the flex-flow property has no effect.
+</p>
+
+<div class="ls">
+flex-flow: flex-direction flex-wrap; (flex-flow: row-reverse wrap;)
+</div>
+
+<div id="container">
+	<div id="firstdiv" class="div">1</div>
+	<div id="seconddiv" class="div">2</div>
+	<div id="thirddiv" class="div">3</div>
+	<div id="fourthdiv" class="div">4</div>
+	<div id="fifthdiv" class="div">5</div>
+</div>
+
+</body>
+</html>

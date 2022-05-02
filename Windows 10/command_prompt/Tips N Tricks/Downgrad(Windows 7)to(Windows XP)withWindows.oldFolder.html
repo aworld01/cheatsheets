@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Downgrad (Windows 7) to (Windows XP) with Windows.old folder</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<div class="logo">
+		<a href="iisstart.htm" alt="HomePage" title="HomePage""><img src="Logo.png"></a>
+	</div>
+	<div class="marq">
+		<marquee>Empowered over 1 lack students across 200 computer institute in 2 years,
+        "Learn2share.in" is the leader of the 21st century revolt of education.
+        As the largest visual training provider in India <q>Learn2share.in</q> has envisased the evolution of creativity in entire education ecosystem by creating
+        and making the best use of digital product and videos lectures.</marquee>
+	</div>
+	<div class="nvgt">
+		  <div style="text-align: center;">
+          <h1>Goto</h1>
+          <font color=maroon size=5>
+        <a href="CLI-CommandLineInterface.htm">CLI (Command Line Interface)</a>
+          </font>
+    	</div>
+	</div>
+    
+    <div class="date">Date: 02/05/2019</div>
+    <h1>Downgrad (Windows 7) to (Windows XP) with Windows.old folder</h1>
+<hr>
+<ol>
+    <li>Boot your pc with (Windows 7) CD.</li>
+    <li>When it ask to Install or Repair press <div class="btn">Shift</div> + <div class="btn">F10</div> (CMD Shuld be appare)</li>
+<h2>Then type the command step by step below</h2>
+    <div class="cmd">
+    <ol type="a">
+        <li>x:\> <div class="comm">c:</div> <div class="btn">ENTER</div><br>
+        <li>c:\> <div class="comm">md W7</div> <div class="btn">ENTER</div>
+        <li>c:\> <div class="comm">move Windows W7\Windows</div> <div class="btn">ENTER</div>
+        <li>c:\> <div class="comm">move "Program Files" "W7\Program Files"</div> <div class="btn">ENTER</div>
+        <li>c:\> <div class="comm">move Users W7\Users</div> <div class="btn">ENTER</div>
+        <li>c:\> <div class="comm">attrib -h -s -r ProgramData</div> <div class="btn">ENTER</div>
+        <li>c:\> <div class="comm">move ProgramData W7\ProgramData</div> <div class="btn">ENTER</div>
+        <li>c:\> <div class="comm">rd "Documents and Settings"</div> <div class="btn">ENTER</div>
+        <li>c:\> <div class="comm">move /y c:\Windows.old\Windows c:\</div> <div class="btn">ENTER</div>
+        <li>c:\> <div class="comm">move /y "c:\Windows.old\Program Files" c:\</div> <div class="btn">ENTER</div>
+        <li>c:\> <div class="comm">move /y "c:\Windows.old\Documents and Settings"</div> <div class="btn">ENTER</div>
+        <li>c:\> <div class="comm">e:\boot\bootsect /nt52 c:</div> <div class="btn">ENTER</div>
+        <li>c:\> <div class="comm">attrib -h -s -r boot.ini.saved</div> <div class="btn">ENTER</div>
+        <li>c:\> <div class="comm">copy boot.ini.saved boot.ini</div> <div class="btn">ENTER</div>
+        <li>c:\> <div class="comm">exit</div> <div class="btn">ENTER</div>
+    </div>
+        <li>Now restart your computer and injoy</li>
+    </ol>
+</ol>
+
+
+</body>
+</html>

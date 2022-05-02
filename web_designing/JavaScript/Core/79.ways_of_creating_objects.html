@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<link rel="icon" href="images/javascript.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+</style>
+</head>
+<body> 
+
+<h1>ways of creating objects in JavaScript</h1>
+<!-- <script>
+    // You can make only one object using object literal
+    // Object literal
+    var fees = {};
+    fees["Rahul"] = 100;
+    fees["Sumit"] = 200;
+    fees["Rohan"] = 300;
+    document.write(fees["Rohan"],"<br>");
+</script> -->
+
+
+<!-- <script>
+    // Object literal Declare and Initial
+    var fees = {
+        Rahul: 100,
+        Sumit: 200,
+        Rohan: 300,
+        "Rajesh Kumar": 500
+        };
+        document.write(fees["Rajesh Kumar"])
+</script> -->
+
+
+<!-- <script>
+    // Object Constructor
+    var fees = new Object();
+    fees["total"] = function() {return(300+250);};
+    document.write(fees["total"] (),"<br>");
+</script> -->
+
+
+<!-- <script>
+    // You can make multiple objects using Factory Function
+    // Factory Function
+    function mobile(){
+        return {
+            model: 'Samsung-M30',
+            price: function(){
+                return "Price Rs. 3000";}
+            };
+    }
+    var samsung = mobile();
+    document.write(samsung.model + "<br>" + samsung.price())
+</script> -->
+
+
+<script>
+    // Constructor Function
+    function Mobile(){
+        this.model = 'Samsung-M30';
+        this.price = function(){
+            document.write(this.model + "<br>" + "Rs. 3000<br>");
+        }
+    }
+    var samsung = new Mobile();
+    var nokia = new Mobile()
+    samsung.price();
+    nokia.price()
+</script>
+
+</body>
+</html>

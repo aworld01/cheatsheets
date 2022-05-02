@@ -1,0 +1,8 @@
+Monokai-Contrast Theme
+Jupyter
+Python
+
+Prettier: to pretify your code.
+Live Server: to run your code live
+Auto Rename Tag: to rename  tag automaticly
+Bracket Pair Colorizer: to color tag auto maticly

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<!-- <link rel="icon" href="images/html5.gif"> -->
+<link rel="stylesheet" type="text/css"? href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+
+<h1>getElementsByTagName_with_Loop</h1>
+
+<xmp>
+    var len=getSpan.getElementsByTagName("p").length;
+    for (i=0; i<len; i++){
+        var result=document.getElementsByTagName("p")[i]
+        document.write(result, "<br>");
+    }
+</xmp>
+
+
+<hr>
+
+
+<h1>Examples</h1>
+<h2>We are learning JS</h2>
+<h2>Now</h2>
+<p id="geek">Hello
+    <span>Geekyshows</span>
+    <em>world </em>
+    <span>Youtube</span>
+</p>
+<p id="find">
+    <span>Bye</span>
+    Geekyshows
+</p>
+<div>
+    <p>1st p inside div</p>
+    <p>2nd p inside div</p>
+</div>
+<br>
+
+<script>
+    // var result=document.getElementsByTagName("p")[0];
+    // document.write(result)
+
+    var len=document.getElementsByTagName("p").length;
+    for (let i=0; i<len; i++){
+        var result=document.getElementsByTagName("p")[i];
+        document.write(result, "<br>");
+    }
+</script>
+
+</body>
+</html>

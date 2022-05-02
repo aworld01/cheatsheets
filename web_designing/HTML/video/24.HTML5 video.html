@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>basicStructure</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+</style>
+</head>
+<body>		
+
+<video width="500" height="auto" controls>
+    <source src="VideoFiles/a.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+</video>
+<p>
+    Video courtesy of
+    <a href="learn2share.in" target="_blank">
+    Big Buck Bunny
+    </a>
+</p>
+<hr>
+
+
+<h2>HTML video Autoplay</h2>
+
+<video width="500" height="auto" autoplay>
+	<source src="VideoFiles/a.mp4" type="video/mp4">
+		Your browser does not support HTML5 video.
+</video>
+<p>
+	Video courtesy of
+	<a href="learn2share.in" target="_blank">
+	Big Buck Bunny
+	</a>
+</p>
+<hr>
+
+
+<h2>HTML Video - Methods, Properties, and Events</h2>
+
+<div style="text-aling: center">
+	<button onclick="playPause()">
+		Play/Pause
+	</button>
+	<button onclick="makeBig()">
+		Big
+	</button>
+	<button onclick="makeSmall()">
+		Small
+	</button>
+	<button onclick="makeNormal()">
+		Normal
+	</button>
+	<br /><br />
+	<video id="video" width="420" height="auto">
+		<source src="VideoFiles/a.mp4" type="video/mp4">
+			Your browser does not support HTML5 video.
+	</video>
+</div>
+<script>
+	var myVideo = document.getElementById("video");
+	function playPause()
+	{
+	if (myVideo.paused) myVideo.play();
+	else
+	myVideo.pause();
+	}
+
+	function makeBig()
+	{
+	myVideo.width = 560;
+	}
+
+	function makeSmall()
+	{
+	myVideo.width = 320;
+	}
+
+	function makeNormal()
+	{
+	myVideo.width = 420;
+	}
+</script>
+<p>
+	Video courtesy of 
+	<a href="learn2share.in" target="_blank">
+	Big Buck Bunny
+	</a>
+</p>
+<hr>
+<hr>
+
+
+<h2>HTML5 Audio</h2>
+
+<audio controls>
+    <source src="AudioFiles/16D.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+</body>
+</html>

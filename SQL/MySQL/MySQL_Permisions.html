@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySQL</title>
+</head>
+<body>
+    <p>There are two options to change permision settings</p>
+
+    <b>Option-1</b>
+    <pre>
+        USE mysql;
+        SELECT User, Host, Plugin from mysql.user;
+        UPDATE User SET Plugin='mysql_native_password' WHERE User='root';
+        FLUSH PRIVILEGES;
+        exit
+        service mysql restart
+    </pre>
+    
+    <b>Option-2</b>
+    <pre>
+        USE mysql;
+        CREATE USER 'your_system_user'@'localhost' IDENTIFIED VIA mysql_native_password;
+        GRANT ALL PRIVILEGES ON *.* TO 'your_system_user'@'localhost';
+        UPDATE User SET PLUGIN 'auth_socket' WHERE User='your_system_user';
+        FLUSH PRIVILEGES;
+        exit
+        service mysql restart
+    </pre>
+    <hr>
+
+    <p>service mysql start: to start mysql service.</p>
+
+    <p>service mysql stop: to stop mysql service.</p>
+
+    <p>service mysql restart: to restart mysql service.</p>
+
+    <p>service mysql status: to see status.</p>
+
+    <p>mysql: to start mysql.</p>
+
+    <p>mysql -u thor: to start mysql with thor user.</p>
+
+    <p>mysql -u thor -p: to start mysql with thor user and password.</p>
+
+    <p>
+        SHOW VARIABLES WHERE Variable_Name = 'port'; to see port number.
+    </p>
+    <hr>
+
+    <h3>Change password</h3>
+    <b>--for MySQL</b>
+    <pre>
+        ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+    </pre>
+
+    <b>--for MariaDB</b>
+    <pre>
+        ALTER USER 'root'@'localhost' IDENTIFIED VIA mysql_native_password USING PASSWORD('root');
+    </pre>
+
+
+
+
+
+</body>
+</html>

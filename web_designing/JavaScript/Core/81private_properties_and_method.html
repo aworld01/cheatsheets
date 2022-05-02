@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<link rel="icon" href="images/javascript.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+</style>
+</head>
+<body> 
+
+<h1>private properties and method in JavaScript</h1>
+<p>Using var, let, or const you can create private properties and methods</p>
+<hr>
+
+<!-- <script>
+    var Mobile = function(model_no, sprice){
+        this.model = model_no;
+        this.color = 'white';
+        this.price = 3000;
+        this.sp = sprice;
+        this.show = function(){return "<br>Hello world<br>";};
+    };
+    var samsung = new Mobile('Galaxy',2000);
+    var nokia = new Mobile('3310',1000);
+    document.write(nokia.price);
+    document.write(nokia.show());
+</script> -->
+
+<script>
+    var Mobile = function(model_no, sprice){
+        this.model = model_no;
+        this.color = 'white';
+        var price = 3000; // To make this private
+        this.sp = sprice;
+        var show = function(){return "<br>Hello world";}; // To make this private
+    };
+    var samsung = new Mobile('Galaxy',2000);
+    var nokia = new Mobile('3310',1000);
+    document.write(nokia.price);
+    document.write(nokia.show());
+</script>
+
+</body>
+</html>

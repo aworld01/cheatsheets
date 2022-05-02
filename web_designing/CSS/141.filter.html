@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Home</title>
+<link rel="icon" href="images/css.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+img{
+	filter: sepia(80%);
+}
+</style>
+</head>
+<body>
+
+<h1>Filter</h1>
+<p class="def">
+	This property is used to define visual effects like blur and brightness to an element:-
+</p>
+<p class="def" style="display: block; margin-bottom: 10px;">
+	none (default): Specifies no effects.<br><br>
+
+	blur(px): This is used to apply blur effect to the image. A larger value will create more blur.<br><br>
+
+	brightness(%): This is used to adjust the brightness of the image. 0% will make the image completely black. 100% is default and represents the original image.
+	Values over 100% will provide brighter results.<br><br>
+
+	contrast(%): This is used to adjust the contrast of the image. 0% will make the image completely black. 100% is default and represents the original image.
+	Values over 100% will provide results with less contrast.<br><br>
+
+	drop-shadow(h-shadow v-shadow blur spread color): This is used to apply a shadow effect to the image. This is very similar to box-shadow property.<br><br>
+
+	grayscale(%): This is used to convert the image to grayscale. 0% is default and represents the original image. 100% will make the image completely gray. Negative values are not allowed.<br><br>
+
+	hue-rotate(deg): This is used to specify a hue-rotation on the image. ()deg is default, and represents the original image. Maximum value is 360deg<br><br>
+
+	invert(%): This is used to invert the samples in the image. 0% is default and represents the original image. 100% will make the image completely inverted. Negative values are not allowed.<br><br>
+
+	opacity(%): This is used to set the opacity level for the image. This is similar to the opacity property. 0% is completely transparent. 100% is default and represents the original image. Negative values are not allowed.<br><br>
+
+	saturate(%): This is used to saturate the image. 0% will make the image completely un-saturated. 100% is default and represents the original image. Values over 100% provide higher-saturated result. Negative values are not allowed.<br><br>
+
+	sepia(%): This is used to convert the image to sepia. 0% is default and represents the original image. 100% will make the image completely sepia. Negative values are not allowed.<br><br>
+</p>
+
+<div class="ls">
+filter: blur(5px);
+filter: brightness(40%);
+filter: contrast(40%);
+filter: drop-shadow(10px 10px 5px red);
+filter: grayscale(80%);
+filter: hue-rotate(100deg);
+filter: invert(60%);
+filter: opacity(30%);
+filter: saturate(200%);
+filter: sepia(80%);
+</div>
+<hr>
+
+<img src="Images/a.jpg" alt="Image" width="300" height="500">
+
+</body>
+</html>

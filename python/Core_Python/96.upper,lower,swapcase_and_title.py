@@ -1,0 +1,10 @@
+s = "Hello world! How are you?"
+upper = s.upper()
+lower = s.lower()
+swap = s.swapcase()
+title = s.title()
+print(f"This is original case: {s}")
+print(f"This is uppercase: {upper}")
+print(f"This is lowercase: {lower}")
+print(f"This is swapcase: {swap}")
+print(f"This is titlecase: {title}")

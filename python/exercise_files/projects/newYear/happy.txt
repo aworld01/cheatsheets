@@ -1,0 +1,22 @@
+Afrikaans: Voorspoedige nuwe jaar.
+Basque: Urte Berri on.
+Chinese: Sun nien fai lok.
+Dutch: Gelukkig nieuwjaar.
+Finnish: Onnellista uutta vuotta.
+French: Bonne année.
+English: Wish you happy new year.
+Hindi: Naye saal ki suubh kaamnaaye.
+Vietnamese: Chuc mung nam moi.
+German: Ein gluckliches neues Jahr.
+Hawaiian: Hauoli Makahiki hou.
+Greek: Eutychismenos o kainourgios chronos.
+Italian: Felice Anno Nuovo or Buon anno.
+Japanese: Akemashite Omedetou Gozaimasu.
+Korean: Sehe Bokmanee Bateuseyo.
+Latin: Felix sit annus novus.
+Filipino: Manigong Bagong Taon.
+Spanish: Feliz año nuevo.
+Thai: Sawatdee Pi Mai.
+Welsh: Blwyddyn Newydd Dda.
+Romanian: La Multi Ani si Un An Nou Fericit.
+Indonesian: Selamat Tahun Baru

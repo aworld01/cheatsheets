@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Home</title>
+<link rel="icon" href="images/css.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+#container{
+	border: 2px solid black;
+	height: 300px;
+	display: flex;
+}
+.div{
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+	height: 50px;
+	flex-grow: 1;
+}
+#firstdiv{
+	background-color: pink;
+}
+#seconddiv{
+	background-color: blue;
+}
+#thirddiv{
+	background-color: red;
+	flex-grow: 2;
+}
+#fourthdiv{
+	background-color: green;
+}
+#fifthdiv{
+	background-color: orange;
+}
+</style>
+</head>
+<body>
+
+<h1>flex-grow</h1>
+<p class="def">
+	This property is used to spacify how much the item will grow relative to the rest of the flexible items inside the same container. If the element is not a flexible item, the flex-grow property has no effect. We can set this property to number (default number is "0")
+</p>
+
+<div class="ls">
+	flex-grow: 2;
+</div>
+
+<div id="container">
+	<div id="firstdiv" class="div">1</div>
+	<div id="seconddiv" class="div">2</div>
+	<div id="thirddiv" class="div">3</div>
+	<div id="fourthdiv" class="div">4</div>
+	<div id="fifthdiv" class="div">5</div>
+</div>
+
+</body>
+</html>

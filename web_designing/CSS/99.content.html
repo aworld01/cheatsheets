@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Home</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+.pr{
+	white-space: pre-wrap;
+	font-weight: bold;
+}
+p.st::before{content: "Geekyshows Say: ";}
+p.st::after{content: "  :The end!";}
+span.q::before{content: open-quote;}
+span.q::after{content: close-quote;}
+</style>
+</head>
+<body>
+
+<h1>Content</h1>
+<p>
+	It's used to generated content at run time dynamically with the ::before and ::after pseudo-elements, to insert generated content
+</p>
+
+<p class="pr">
+normal (default)
+none
+counter
+attr(attribute)
+no-open-quote
+no-close-quote
+
+p::before{content: "Geekyshows Say: ";}
+p::after{content: "  :The end!";}
+span.q::before{content: open-quote;}
+span.q::after{content: close-quote;}
+span.q::before{content: url(url);}
+</p>
+<hr>
+
+<p class="st">This is my world!</p>
+<p class="st">This is my world!</p>
+<p class="st">This is my world!</p>
+
+<p>Hello world! This is <span class="q">Abdul Zoha</span></p>
+
+</body>
+</html>

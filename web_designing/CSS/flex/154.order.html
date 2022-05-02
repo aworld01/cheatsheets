@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Home</title>
+<link rel="icon" href="images/css.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+#container{
+	border: 2px solid black;
+	display: flex;
+}
+.div{
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+	width: 300px;
+}
+#firstdiv{
+	background-color: pink;
+	order: 1;
+}
+#seconddiv{
+	background-color: blue;
+}
+#thirddiv{
+	background-color: red;
+	order: 2;
+}
+#fourthdiv{
+	background-color: green;
+	order: -1;
+}
+#fifthdiv{
+	background-color: orange;
+}
+</style>
+</head>
+<body>
+
+<h1>Order</h1>
+<p class="def">
+	This property is used to specify the order of a flexible item relative to the rest of the flexible items inside the same container. If the element is not a flexible item, the order property has no effect. We can set this property to number(default number is "0")
+</p>
+
+<div class="ls">
+	order: 1;
+</div>
+
+<div id="container">
+	<div id="firstdiv" class="div">About Us</div>
+	<div id="seconddiv" class="div">Home</div>
+	<div id="thirddiv" class="div">Contact Us</div>
+	<div id="fourthdiv" class="div">Tutorial</div>
+	<div id="fifthdiv" class="div">Video</div>
+</div>
+
+</body>
+</html>

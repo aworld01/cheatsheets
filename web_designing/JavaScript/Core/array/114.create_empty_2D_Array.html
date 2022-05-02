@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<link rel="icon" href="images/javascript.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+</style>
+</head>
+<body> 
+
+<h1>create_empty_2D_Array in JavaScript</h1>
+
+<!-- <script>
+    // array literal
+    var stu = [
+        [],
+        []
+    ];
+    for(let i=0; i<2; i++){
+        for(let j=0; j<3; j++){
+            document.write(stu[i][j]+" ");
+        }
+        document.write("<br>")
+    }
+</script> -->
+
+<!-- <script>
+    // array literal
+    var stu = [
+        [],
+        []
+    ];
+
+    // // array constructor
+    // var stu = new Array(
+    //     [],
+    //     []
+    // )
+
+    for(let i=0; i<2; i++){
+        for(let j=0; j<3; j++){
+            document.write(i+""+j+" | ");
+        }
+        document.write("<br>")
+    }
+</script> -->
+
+<!-- <script>
+    // array literal
+    var stu = [];
+    var rows = 2;
+    var cols = 3;
+
+    for(var i=0; i<rows; i++){
+        stu[i] = [];
+    }
+    for(var i=0; i<rows; i++){
+        for(var j=0; j<cols; j++){
+            document.write(stu[i][j]+" ");
+        }
+        document.write("<br>")
+    }
+</script> -->
+
+<!-- <script>
+    // array literal
+    var stu = [];
+    var rows = 2;
+    var cols = 3;
+
+    for(var i=0; i<rows; i++){
+        stu[i] = [];
+    }
+    for(var i=0; i<rows; i++){
+        for(var j=0; j<cols; j++){
+            document.write(i+""+j+" ");
+        }
+        document.write("<br>")
+    }
+</script> -->
+
+<script>
+    var rows = 2;
+    var cols = 3;
+    // array constructor
+    var stu = new Array(rows);
+
+    for(var i=0; i<rows; i++){
+        stu[i] = new Array(cols);
+    }
+    for(var i=0; i<rows; i++){
+        for(var j=0; j<cols; j++){
+            document.write(i+""+j+" ");
+        }
+        document.write("<br>")
+    }
+</script>
+
+</body>
+</html>
