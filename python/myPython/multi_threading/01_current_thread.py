@@ -1,4 +1,4 @@
-import threading
+from threading import Thread, current_thread
 
-name = threading.current_thread().name #to get Current Thread Name
-print('The current_thread name is:', name)
+main = current_thread()
+print(main.name) #to get Current Thread Name

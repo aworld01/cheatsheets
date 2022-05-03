@@ -10,21 +10,27 @@ from threading import Thread, current_thread
 
 """to get thread name"""
 # def disp():
-#   print('ChildThread name:', current_thread().name) #to get current_thread name
+#     t_name = current_thread()
+#     print('ChildThread name:', t_name.name) #to get current_thread name
 # t=Thread(target=disp)
 # t.start()
-# print('MainThread name:', current_thread().name)
+
+# main = current_thread()
+# print('MainThread name:', main.name)
 
 
 """to set thread name"""
 # def disp():
-#   print('ChildThread name:', current_thread().name)
-#   current_thread().name = "New born" #to set current_thread name
-#   print('ChildThread name:', current_thread().name)
+#     thread1 = current_thread()
+#     print('ChildThread name:', thread1.name)
+#     thread1.name = "New born" #to set current_thread name
+#     print('ChildThread name:', thread1.name)
 # t=Thread(target=disp)
 # t.start()
-# print('MainThread name:', current_thread().name)
-# current_thread().name = "Father" #to set current_thread name
+
+# main = current_thread()
+# print('MainThread name:', main.name)
+# main.name = "Father" #to set current_thread name
 # print('MainThread name:', current_thread().name)
 
 
@@ -34,13 +40,14 @@ from threading import Thread, current_thread
 #     pass
 
 # t=Thread(target=disp)
-# print('MainThread name:', current_thread().name)
-# current_thread().name = "Father" #to set current_thread name
-# print('MainThread name:', current_thread().name)
-
 # print("ChildThread name:", t.name) #to get thread name
 # t.name = "New born" #to set thread name
 # print("ChildThread name:", t.name)
+
+# main = current_thread()
+# print('MainThread name:', main.name)
+# main.name = "Father" #to set current_thread name
+# print('MainThread name:', main.name)
 
 
 

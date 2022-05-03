@@ -9,8 +9,8 @@ image = ImageTk.PhotoImage(img)
 lbl = Label(root, image=image)
 lbl.pack()
 
-area = (200, 50, 600, 300) #(x, y, width, height)
-img2 = img.crop(area) #to crop image
+# img2 = img.transpose(Image.FLIP_LEFT_RIGHT) #to flip image left to right
+img2 = img.transpose(Image.FLIP_TOP_BOTTOM) #to flip image left to right
 image2 = ImageTk.PhotoImage(img2)
 lbl2 = Label(root, image=image2)
 lbl2.pack()

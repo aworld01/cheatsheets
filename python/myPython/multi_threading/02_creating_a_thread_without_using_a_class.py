@@ -20,10 +20,10 @@ def disp():
         print(i,"Thread-1 Running")
         sleep(2)
 t=Thread(target=disp)
+t.start()
 
 def main():
     for i in range(5):
         print(i, "MainThread is running")
         sleep(2)
-t.start()
 main()
