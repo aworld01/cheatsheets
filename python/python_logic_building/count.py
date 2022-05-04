@@ -2,8 +2,8 @@ import os
 path = ('.')
 count = 0
 
-for p_path, p_dir, p_file in os.walk(path):
-  for file in p_file:
+for path, folders, files in os.walk(path):
+  for file in files:
     if file == 'count.py':
       continue
     count += file.count(file)
