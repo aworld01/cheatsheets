@@ -45,14 +45,13 @@
     (id_rsa: to system) <br>
     (id_rsa.pub: to github)
     
-    <li>ssh-keygen -t rsa -b 4096 -C 'artificialworld09@gmail.com': to generate a new SSH key.</li>
+    <li><b>ssh-keygen -t rsa -b 4096 -C 'artificialworld09@gmail.com'</b> <b>ENTER<sup>3</sup></b>: to generate a new SSH key.</li>
 
-    <li>Copy <b>eval $(ssh-agent -s)</b> then open <b>Git Bash</b> and paste <b>ENTER</b></li>
-    <li>ssh-add -K ~/.ssh/id_rsa: to add ssh to system.</li>
+    <li><b>eval $(ssh-agent -s)</b> <b>ENTER</b></li>
+    <li><b>ssh-add -K ~/.ssh/id_rsa</b>: to add ssh to system.</li>
 
-    <li>Goto <b>Add the SSH key to your GitHub account./Copy the SSH key to your clipbord</b></li>
-
-    <li>Fire <b>cat ~/.ssh/id_rsa.pub</b> command: copy and goto <b>'github.com/settings/SSH Key and GPG Key/New SSH key/ add SSH key</b>:-<br><br>
+    <li><b>cat ~/.ssh/id_rsa.pub</b>
+    <li>Copy and goto <b>'github.com/settings/SSH Key and GPG Key/New SSH key/ add SSH key</b></li>
     <b>Title:</b> my_home_computer <br>
     <b>key:</b> paste your key <br>
     <b>ADD KEY</b><br><br>
