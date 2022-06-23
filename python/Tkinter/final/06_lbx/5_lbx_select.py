@@ -14,10 +14,10 @@ btn2 = Button(root, text = 'SELECT', command=datafetch).place(x=20, y=360)
 """define functions"""
 def datafetch():
     x = lbx.get(ACTIVE)
-    print('You selected:', x)
+    print('You selected by ACTIVE:', x)
 def show_index():
     x = lbx.curselection()
-    print('You selected:', x)
+    print('You selected by curselection:', x)
 def delete():
     get_cursor = lbx.curselection() #to get all cursor selected index in tuple.
     for i in get_cursor:

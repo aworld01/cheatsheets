@@ -1,8 +1,8 @@
 #!/bin/bash
-apt update
-apt upgrade -y
-apt dist-upgrade -y
-apt autoremove -y
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get dist-upgrade -y
+sudo apt autoremove -y
 apt autoclean -y
 apt clean -y
 
