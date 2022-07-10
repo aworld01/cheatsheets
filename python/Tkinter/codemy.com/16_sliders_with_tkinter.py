@@ -11,7 +11,7 @@ length=500: to define the length of scale
 sliderlength=100: to define slider length.
 showvalue=FALSE: to disable showvalue
 '''
-# """example-1"""
+"""example-1"""
 # from tkinter import*
 
 # """function"""
@@ -53,7 +53,7 @@ root.geometry("800x500+200+50")
 root.resizable(False,False)
 root.config(bg="#262626")
 """defining Scale"""
-price = Scale(root,orient=HORIZONTAL,from_=50,to=250,length=700,showvalue=FALSE,command=getValue)
+price = Scale(root,orient=HORIZONTAL,from_=0,to=100,length=700,showvalue=FALSE,command=getValue)
 price.pack(pady=10)
 
 root.mainloop()

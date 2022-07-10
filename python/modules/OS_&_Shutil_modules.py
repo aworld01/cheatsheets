@@ -68,10 +68,10 @@ import os
 
 ## os.walk
 # path = r'testings'
-# for current_path, folder_names, file_names in os.walk(path):
-#     print("Current path: ",current_path)
-#     print("Folder names: ",folder_names)
-#     print("File names: ",file_names)
+# for path, folders, files in os.walk(path):
+#     print("path: ",path)
+#     print("Folders: ",folders)
+#     print("Files: ",files)
 
 
 import shutil

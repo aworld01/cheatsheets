@@ -5,7 +5,7 @@ mode = "indeterminate" / "determinate" (default)
 value= 5 / 0 (default)
 
 determinate #to fix oprations
-inderminate #to show runnint task
+inderminate #to show running task
 
 "determinate"
 length #size of Progressbar
