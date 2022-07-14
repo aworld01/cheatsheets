@@ -7,13 +7,13 @@ class Ex_changer:
         self.old_name = old
     def modify(self):
         for file in os.listdir(self.path):
-            if file == "modifier.py":
+            if file == "ex_changer.py":
                 continue
             self.extension_changer(file)
     def modify_bulk(self):
         for path, folders, files in os.walk(self.path):
             for new_file in files:
-                if new_file == "modifier.py":
+                if new_file == "ex_changer.py":
                     continue
                 file = os.path.join(path, new_file)
                 self.extension_changer(file)
