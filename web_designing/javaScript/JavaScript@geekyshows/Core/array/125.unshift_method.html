@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+p{
+    white-space: pre-wrap;
+}
+</style>
+</head>
+<body>
+
+<h1>unshift methed in JavaScript</h1>
+<p>
+The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
+This method changes the length of an array.
+
+Syntax:-
+Array_name.unshift(value1, value2, value_n);
+
+Ex:-
+geek.unshift("Dell","HP");
+
+var geek_length = geek.unshift("Dell","HP"); // it will return length of new array
+</p>
+<br>
+<hr>
+
+<!-- <script>
+    var geek = ["Rahul","Sonam","Sumit","Raj","Rohan"];
+    document.write(geek,"<br>");
+    geek.unshift("Dell","HP");
+    document.write(geek,"<br>");
+</script> -->
+
+<script>
+    var geek = ["Rahul","Sonam","Sumit","Raj","Rohan"];
+    var new_length = geek.unshift("Dell","HP");
+    document.write(geek,"<br>");
+    document.write(new_length,"<br>");
+</script>
+
+</body>
+</html>

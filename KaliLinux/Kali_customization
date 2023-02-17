@@ -1,0 +1,16 @@
+sudo apt install terminator: to split Terminal...
+
+sudo apt install plank
+Run plank
+Session and Startup/Application Autostart/Add application:
+command: /usr/bin/plank
+CTRL+rightClick: to change settings
+
+Appearance/Style/High Contrast/
+Window Manager/Kali-Light/
+Window Manager Tweaks/Show shadows under dock windows (Uncheck)
+
+sudo rm -rf /root/.config/xfce4/ && reboot: to make default all settings
+sudo apt install kali-community-wallpapers: to install kali wallpapers
+sudo apt install neofetch: to install and see pc configration.
+neofetch: to see pc configration.

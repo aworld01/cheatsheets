@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+ul{
+    margin: 15px;
+}
+p.i{
+    text-indent: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>getElementsByTagName("Tag_Name")</h1>
+<p>
+    The method getElementsByTagName("Tag_Name") returns a live node list meaning that it updates itself with the DOM tree automaticallly, so modification of the DOM tree will be reflected in the returned collection. The returned Node List or Collection of Nodes can be accessed by index numbers starting with index 0.
+</p>
+<ul>
+    <li>
+        This method accepts a string indication the type of elements that be retrieved, a special value "*" returns all elements in the documents.
+    </li>
+    <li>
+        You can use the length property of the NodeList object to determine the number of elements with the specified tag name, then you can loop through all elements and exatract the info you want.
+    </li>
+</ul>
+
+<p>getElementsByTagName("p")</p>
+<p class="i">Where p is name of Tag.</p>
+
+<p>getElementsByTagName("*")</p>
+<p class="i">The parameter value "*" returns all elements in the document.</p>
+
+<xmp>
+    <p id="geek">Hello world</p>
+    document.getElementsByTagName("p")
+    var result=document.getElementsByTagName("p")
+</xmp>
+
+<xmp>
+    <h1 id="find">Bye world</h1>
+    document.getElementsByTagName("h1")
+    var result=document.getElementsByTagName("h1")
+</xmp>
+
+
+
+
+
+<h1>Examples</h1>
+<h2>We are learning JS</h2>
+<h2>Now</h2>
+<p id="geek">Hello world</p>
+<p id="find">Bye world</p>
+<div>
+    <p>1st p inside div</p>
+    <p>2nd p inside div</p>
+</div>
+<br>
+
+<!-- <script>
+   var result=document.getElementsByTagName("*");
+   document.write(result)
+   console.log(result)
+</script> -->
+
+<!-- <script>
+   var result=document.getElementsByTagName("p");
+   document.write(result)
+   console.log(result)
+</script> -->
+
+<!-- <script>
+   var result=document.body.getElementsByTagName("*");
+   document.write(result)
+   console.log(result)
+</script> -->
+
+<script>
+   var result=document.body.getElementsByTagName("p");
+   document.write(result)
+   console.log(result)
+</script>
+
+</body>
+</html>

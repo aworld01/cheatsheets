@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Home</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+p.normal{
+	border: 1px solid blue;
+	background-color: mintcream;
+}
+p.i_line{
+	border: 1px solid blue;
+	background-color: pink;
+	display: inline;
+}
+p.i_line-block{
+	border: 1px solid blue;
+	background-color: magenta;
+	width: 100px;
+	display: inline-block;
+}
+p.none{
+	border: 1px solid blue;
+	background-color: mintcream;
+	display: none;
+}
+</style>
+</head>
+<body>
+
+<h1>Display</h1>
+
+<div class="prpt">
+	display: block; (defalut)
+	display: inline;
+	display: inline-block;
+	display: none;
+</div>
+<hr>
+
+<p class="normal">This is a normal paragraph with display: block; (defalut)</p>
+
+
+<p class="none">This paragraph is example of display: none; property.</p>
+
+<p class="i_line">This paragraph is example of inline, we can't set width and height</p>
+
+<p class="i_line-block">This paragraph is example of inline-block, we can set width and height as well as inline property.</p>
+    
+</body>
+</html>

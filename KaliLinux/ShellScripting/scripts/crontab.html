@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>basicStructure</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+</style>
+</head>
+<body>		
+<pre>
+#Edit this file to introduce tasks to be run by cron
+#
+Each task to run has to be defined through a single line
+indicating with different fields when th task will be run
+and what command to run for the tasks
+
+To define the time you can provide concrete values for minute (m), hour (h), day of month (dom), month( mon), and day of week (dow) or use '*' in these fields (for 'any').
+
+Notice that tasks will be started based on the cron's system daemon's notion of the time and timezones.
+
+Output of the crontab jobs (including errors) is sent through email to the user the crontab file belongs to (unless redirected).
+
+For example, you can run a backup of all your user accounts at 5 a.m every week with: 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+
+<pre>
+    man crontab: to check manual of crontab.
+    crontab -l: to check set crontab.
+    crontab -e: to edit crontab.
+    crontab -r: to delete user's crontab
+    crontab -i: to prompt before deleting user's crontab.
+</pre>
+
+Syntax: m h dom mon dow command
+sudo crontab -e -u thor
+16 * * * * /usr/sbin/reboot #for timezones
+*/2 * * * * /usr/sbin/reboot #for every two minutes
+</pre>
+</body>
+</html>

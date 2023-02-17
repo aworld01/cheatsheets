@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Git and GitHub</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+h1, h2
+    {
+    text-align: center;
+    }
+body
+    {
+    background-color: gray;
+    }
+</style>
+</head>
+<body>
+    
+<h1>Connect Visual Studio Code to GitHub</h1>
+
+<ul>
+    <li>Download and install <b>Git</b>:</li>
+    <li>Download and install <b>Visual Studio Code</b>:</li>
+    <li>Make an account at <b>github.com</b></li>
+</ul>
+<hr>
+
+<ol>
+    <li>Open <b>Visual Studio Code</b> and select the folder that you want to backup.</li>
+    <li>Goto <b>Source Control (CTRL + SHIFT + G)</b> click on <b>intitialize Repository.</b></li>
+    <li>Type your commit message in the <b>Message box</b> and click on <b>Commit</b>/<b>Always.</b></li>
+    (<b>Note:</b> configure email and name if require)
+    <li>Go and login to your <b>github</b> account.</li>
+    <li>
+        Click on right side <b>git icon/Your repositories/New</b> and make a repository.<br><br>
+        <b>Repository name</b>: my_backup_files<br>
+        <b>Description (optional)</b>: Making this repository only for backup all my files.<br>
+        <b>Create repository</b>
+    </li><br>
+    <li>Copy the line that will be look like <b>git remote add origin git@github.com:artificialworld09/my_backup_files.git"</b></li>
+
+    <li>Goto <b>Visual Studio Code/View/Terminal</b> and paste the line that you just copied, hit <b>ENTER</b></li>
+    <li>Goto <b>Source Control (CTRL + SHIFT + G)</b> click on <b>Three dots/Push/OK</b></li>
+    (<b>Note:</b> give email id and password if require)
+    <li>Goto <b>github</b>, reload your page and see your repository has been uploaded there.</li>
+    <li>Now goto <b>Visual Studio Code</b> and modify some files/folders then goto <b>Source Control (CTRL + SHIFT + G)</b> and type your commit message in the <b>Message box</b> and click on <b>Commit</b></li>
+    <li>Then click on <b>Three dots/Push/OK</b></li>
+</ol>
+</body>
+</html>

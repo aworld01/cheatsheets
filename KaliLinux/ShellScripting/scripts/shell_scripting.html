@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>basicStructure</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+.pre{
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+</style>
+</head>
+<body>		
+
+<h1>ShellScripting</h1>
+<p>Open any text editor and type:-</p>
+
+<p>to make folders and files.</p>
+<p class="pre">
+#!/bin/bash
+mkdir my_folder
+cd my_folder
+mkdir second_folder
+</p>
+<hr>
+
+
+
+<p>to print message on screen.</p>
+<p class="pre">
+#!/bin/bash
+echo "Hello world!"
+</p>
+<hr>
+
+
+
+<p>to print message with a new line and tab.</p>
+<p class="pre">
+#!/bin/bash
+echo "Hi this is ArtificialWorld!"
+echo
+echo "You are welcome to my world"
+</p>
+<hr>
+
+
+
+<p>to put comment in the script.</p>
+<p class="pre">
+#!/bin/bash
+echo "This is line 01"
+# This is comment that will be not shown in the script.
+echo "This is line 03"
+</p>
+<hr>
+
+
+
+<h2>There are two types of variable in linux os:-</h2>
+<p>
+    System variable<br/>
+    User defined variable
+</p> 
+
+<p>System variable</p>
+<p class="pre">
+#!/bin/bash
+echo This is my shell location: $BASH
+echo This is my bash version: $BASH_VERSION
+echo My Present Working Directory location is: $PWD
+</p>
+
+<p>User defined variable</p>
+<p class="pre">
+#!/bin/bash
+name='Abdul Zoha'
+echo My name is $name
+</p>
+<hr>
+
+
+
+<p>to take user input.</p>
+<p class="pre">
+#!/bin/bash
+clear
+read -p "Enter your name: " name
+echo "Hi $name ! How are you today?"
+</p>
+<hr>
+
+<p class="pre">
+#!/bin/bash
+clear
+read -p "Enter your name: " name
+read -sp "Enter your password: " password
+echo
+echo "Hi $name ! How are you today?"
+echo "Your password is: $password"
+</p>
+<hr>
+
+
+
+<p>to take user input in array.</p>
+<p class="pre">
+#!/bin/bash
+clear
+echo "Enter the list of the names: "
+read -a names
+echo "You have entered: ${names[0]}, ${names[1]}, ${names[2]}"
+</p>
+<hr>
+
+
+
+<p>if else.</p>
+<p class="pre">
+#!/bin/bash
+clear
+read -p "Enter your name: " name
+if [ "$name" = "Abdul" ];
+then
+    echo -e "\tPermision granted"
+else
+    echo -e "\tYou are not woner, who the hell are you?"
+fi
+</p>
+<hr>
+
+
+<p>nested if else.</p>
+<p class="pre">
+#!/bin/bash
+clear
+read -p "Enter your name: " name
+if [ "$name" = "Abdul" ];
+then
+    echo -e "\tPermision granted"
+    read -p "Enter your age: " age
+    if [ "$age" -ge 18 ];
+    then
+        echo -e "\tYou are authorised to view everything"
+    else
+        echo -e "\tSorry you can view only limited stuff"
+    fi
+else
+    echo -e "\tYou are not woner, who the hell are you?"
+fi
+</p>
+
+
+
+
+
+
+<p>if else in numbers</p>
+<p class="pre">    
+#       syntax
+# -eq = equal to
+# -ne = not equal to
+# -gt = greater than
+# -lt = less than
+# -ge = greater than or equal to
+# -le = less than or equal to
+
+#-eq   if the value of two oprands are equal or not;
+#-ne   if the value of two oprands are equal or not;
+#-gt   if the value of left oprand is greater than the value of right operand;
+#-lt   if the value of left oprand is less than the value of right operand;
+#-ge   if the value of left oprand is greater than or equal to the value of right oprand;
+#-le   if the value of left oprand is less than or equal to the value of right oprand;
+
+##if statement
+#!/bin/bash
+clear
+if [ 5 -eq 5 ];
+then
+    echo 'Yeh equal hai yaar'
+fi
+
+#!/bin/bash
+clear
+if [ 6 -gt 5 ];
+then
+    echo 'Yeh bada hai yaar'
+fi
+
+#!/bin/bash
+clear
+if [ 4 -lt 5 ];
+then
+    echo 'Yeh chhota hai yaar'
+fi
+
+
+##if else statement
+#!/bin/bash
+clear
+if [ 5 -eq 5 ];
+then
+    echo 'Yeh equal hai yaar'
+else
+    echo 'Yeh equal nahi hai yaar'
+fi
+</p>
+<hr>
+
+
+
+
+<p>logical operators</p>
+<p class="pre">    
+#       syntax
+# -a  / && = and operator (both side must be satisfy)
+# -o  / || = or operator (atleast one side must be satisfy)
+# ! = not operator (reverse the value)
+
+## and operator (&& / -a)
+#!/bin/bash
+clear
+read -p "Enter your age: " age
+if [ $age -ge 18 ] && [ $age -le 35 ];
+then
+    echo "You are eligible"
+else
+    echo "You are not eligible"
+fi
+
+
+#!/bin/bash
+clear
+read -p "Enter your age: " age
+if [[ $age -ge 18 && $age -le 35 ]];
+then
+    echo "You are eligible"
+else
+    echo "You are not eligible"
+fi
+</p>
+<hr>
+
+<p class="pre">
+#!/bin/bash
+clear
+read -p "Enter your name: " uname
+read -p "Enter your age: " age
+if [ "$uname" = "Abdul" -a "$age" -gt 18 ];
+then
+    echo "You can view everything"
+else
+    echo "Sorry you are not authorised to view"
+fi
+</p>
+<hr>
+
+<p class="pre">
+#!/bin/bash
+clear
+read -p "Enter your name: " uname
+read -p "Enter your password: " passwd
+if [ "$uname" = "Abdul" -a "$passwd" = 12345 ];
+then
+    echo -e "\tYou are Welcome"
+elif [ "$uname" = "Abdul"  ];
+then
+    echo -e "\tUser name is OK"
+    echo -e "\tEnter the currect password"
+elif [ "$passwd" = "12345"  ];
+then
+    echo -e "\tPssword is OK"
+    echo -e "\tEnter the currect user name"
+else
+    echo -e "\tYou can not access"
+fi
+
+
+## or operator (|| / -o)
+#!/bin/bash
+clear
+read -p "Enter your name: " uname
+read -p "Enter your age: " age
+if [ "$uname" = "Abdul" -o "$age" -gt 18 ];
+then
+    echo "You can view everything"
+else
+    echo "Sorry you are not authorised to view"
+fi
+</p>
+<hr>
+
+
+
+
+<p>arithmetic operators</p>
+<p class="pre">    
+#       syntax
+# + = to addition
+# - = to substraction
+# * = to multiplication
+# / = to division.
+# % = to modulas
+# ** = to exponent
+
+
+<p>to addition.</p>
+<p class="pre">
+#!/bin/bash
+clear
+echo -e "\t\t\tLearning Arithmetic operator:-"
+read -p "Enter any two numbers separated by space: " num1 num2
+add=$(($num1 + $num2))
+echo "Addition is: $add"
+</p>
+<hr>
+
+
+
+<p>to substraction.</p>
+<p class="pre">
+#!/bin/bash
+clear
+echo -e "\t\t\tLearning Arithmetic operator:-"
+read -p "Enter any two numbers separated by space: " num1 num2
+subs=$(($num1 - $num2))
+echo "Substraction is: $subs"
+</p>
+<hr>
+
+
+
+<p>to multiplication.</p>
+<p class="pre">
+#!/bin/bash
+clear
+echo -e "\t\t\tLearning Arithmetic operator:-"
+read -p "Enter any two numbers separated by space: " num1 num2
+mult=$(($num1 * $num2))
+echo "Substraction is: $mult"
+</p>
+<hr>
+
+
+
+<p>to division.</p>
+<p class="pre">
+#!/bin/bash
+clear
+echo -e "\t\t\tLearning Arithmetic operator:-"
+read -p "Enter any two numbers separated by space: " num1 num2
+div=$(($num1 / $num2))
+echo "Division is: $div"
+</p>
+<hr>
+
+
+
+<p>to modulas.</p>
+<p class="pre">
+#!/bin/bash
+clear
+echo -e "\t\t\tLearning Arithmetic operator:-"
+read -p "Enter any two numbers separated by space: " num1 num2
+a=$(($num1 % $num2))
+echo "Remander is: $a"
+</p>
+<hr>
+
+
+
+<p>to exponent.</p>
+<p class="pre">
+#!/bin/bash
+clear
+echo -e "\t\t\tLearning Arithmetic operator:-"
+read -p "Enter any two numbers separated by space: " num1 num2
+e=$(($num1 ** $num2))
+echo "Exponent is: $e"
+</p>
+<hr>
+
+
+
+<p>to addition by two input.</p>
+<p class="pre">
+#!/bin/bash
+clear
+echo -e "\t\t\tLearning Arithmetic operator:-"
+read -p "Enter the first number: " num1
+read -p "Enter the second number: " num2
+e=$(($num1 + $num2))
+echo "Result: $e"
+</p>
+<hr>
+
+
+
+<p>to addition by two input.</p>
+<p class="pre">
+#!/bin/bash
+clear
+echo -e "\t\t\tLearning Arithmetic operator:-"
+read -p "Enter the first number: " num1
+read -p "Enter the second number: " num2
+e=$(expr $num1 + $num2)
+echo "Result: $e"
+</p>
+<hr>
+
+
+
+
+<p>test_script</p>
+<p class="pre">
+#       syntax
+# -f to check regular file
+# -c to check charector specific file. (test file, script file, html file etc)
+# -b to check block specific file. (audio file, video file etc)
+# -s to check empty file.
+# -r to check read permision.
+# -w to check write permision.
+# -x to check execute permision.
+
+
+#!/bin/bash
+clear
+read -p "Enter filename: " fname
+if [ -a $fname ]; # -a to check all file and folder
+then
+    echo -e "\tFile exists"
+else
+    echo -e "\tFile doesn't exists"
+fi
+</p>
+<hr>
+
+
+<p class="pre">
+#!/bin/bash
+clear
+read -p "Enter filename: " fname
+if [ -d $fname ]; # -d to check only folder
+then
+    echo -e "\tFolder exists"
+else
+    echo -e "\tFolder doesn't exists"
+fi
+</p>
+<hr>
+
+
+<p class="pre">
+#!/bin/bash
+clear
+read -p "Enter filename: " fname
+if [ -s $fname ]; # -d to check empty file.
+then
+    echo -e "\tThe file is empty"
+else
+    echo -e "\tThe file is not empty"
+fi
+</p>
+<hr>
+
+
+<p class="pre">
+#!/bin/bash
+clear
+read -p "Enter filename: " fname
+if [ -x $fname ]; # -d to check file is executable or not.
+then
+    echo -e "\tThe file is executable"
+else
+    echo -e "\tThe file is not executable"
+fi
+</p>
+<hr>
+
+
+
+
+
+<p>String comparison</p>
+#       syntax
+# == is equal to
+# = is equal to
+# != is not equal to
+# > is greater than, in ASCII alphabetic order
+# < is less than, in ASCII alphabetic order
+# -z is string is null
+
+<p>is equal to</p>
+<p class="pre">
+#!/bin/bash
+clear
+read -p "Enter your name: " name
+if [ "$name" = "Abdul" ];
+then
+    echo "Permision granted"
+else
+    echo "You are blocked"
+fi
+</p>
+
+<p>is not equal to</p>
+<p class="pre">
+#!/bin/bash
+clear
+read -p "Enter your name: " name
+if [ "$name" != "Abdul" ];
+then
+    echo "You are blocked"
+else
+    echo "Permision granted"
+fi
+</p>
+
+<p>is greater than</p>
+<p class="pre">
+#!/bin/bash
+clear
+n="Raju"
+read -p "Enter your name: " name
+if [[ "$name" > $n ]];
+then
+    echo "You are bigger"
+else
+    echo $n "is bigger"
+fi
+</p>
+
+<p>is less than</p>
+<p class="pre">
+#!/bin/bash
+clear
+n="Raju"
+read -p "Enter your name: " name
+if [[ "$name" < $n ]];
+then
+    echo "You are bigger"
+else
+    echo $n "is bigger"
+fi
+</p>
+<hr>
+
+
+#!/bin/bash
+clear
+read -p "Enter a number greager than 10: " name
+if [ "$name" -gt 10 ];
+then
+    echo "You are correct"
+else
+    echo "You are incorrect"
+fi
+
+
+##if elif and else statement
+#!/bin/bash
+clear
+read -p "Enter your age: " age
+if [ $age -le 10 ];
+then
+    echo 'You are child'
+elif [ $age -le 18 ];
+then
+    echo 'You are teenager'
+elif [ $age -le 40 ];
+then
+    echo 'You are young'
+else
+    echo 'You are old'
+fi
+
+
+## append_string
+
+#!/bin/bash
+clear
+read -p "Enter your filename: " filename
+if [ -f $filename ]
+then
+    if [ -w $filename ]
+        then
+            echo "Write your matter that you want to append in your file and press Ctrl+D to quit:"
+            cat >> skv.txt
+    else
+        echo $filename "doesn't have write permission."
+    fi
+else
+    echo $filename "doesn't exist"
+fi
+</p>
+<hr>
+
+
+
+
+<p>Small calculator project</p>
+<p class="pre">
+#!/bin/bash
+clear
+echo -e "\t\t\tCalculator 2020"
+echo -e "Choose your operations:-"
+echo -e "+ to addition"
+echo -e "- to substraction"
+echo -e "/ to division"
+echo -e "% to modulas"
+
+# echo -e "* to multiplication"
+# echo -e "** to exponent"
+echo
+read -p "Enter your opration: " operation
+read -p "Enter the first number: " num1
+read -p "Enter the second number: " num2
+if [ $operation = "+" ]
+then
+    echo "Your addition is: $(($num1+$num2))"
+elif [ $operation = "-" ]
+then
+    echo "Your substraction is: $(($num1-$num2))"
+elif [ $operation = "/" ]
+then
+    echo "Your division is: $(($num1/$num2))"
+elif [ $operation = "%" ]
+then
+    echo "Your modulas is: $(($num1%$num2))"
+
+# elif [ $operation = "*" ]
+# then
+#     echo "Your multiplication is: $(($num1*$num2))"
+# elif [ $operation = "**" ]
+# then
+#     echo "Your exponent is: $(($num1**$num2))"
+else
+    echo "Please enter the currect number"
+fi
+<hr>
+
+## Case statement
+## Syntax:-
+#!/bin/bash
+case expression in
+    pattern1)
+        Statement(s) to be executed if pattern1 matches
+        ;;
+    pattern2)
+        Statement(s) to be executed if pattern2 matches
+        ;;
+    *)
+        Default condition to be executed
+        ;;
+esac
+
+
+## Example:-
+#!/bin/bash
+clear
+student=$1
+case $student in
+    "Raju")
+        echo "Raju is a mechanical engineer."
+        ;;
+    "Rohan")
+        echo "Rohan is a civil engineer."
+        ;;
+    "Aabid")
+        echo "Aabid is an electrical engineer."
+        ;;
+    *)
+        echo "Write a currect statement please."
+        ;;
+esac
+#./file.sh Raju: to execute the programe
+</p>
+<hr>
+
+
+
+# num1=10
+# num2=20
+# ans=$(expr $num1 \* $num2)
+# echo $ans
+</p>
+<hr>
+
+
+
+
+
+<p class="pre">
+<b>ls -l</b>: to check permisions.
+<b>chmod u+x first_script.sh</b>: to give user permision.
+<b>./first_script.sh</b>: to execute shellscript.
+<b>sh first_script.sh</b>: to execute shellscript.
+<b>>></b>: to append
+<b>></b>: to overwrite
+<b>Ctrl+L</b>: to clear screen
+</p>
+</body>
+</html>

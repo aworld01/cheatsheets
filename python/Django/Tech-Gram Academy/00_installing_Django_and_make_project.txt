@@ -1,0 +1,17 @@
+"""
+pip install django: to install django
+pip install django==2.1: to install a specific version of django
+pip install django --upgrade: to upgrade
+
+django-admin startproject artificialworld
+
+cd artificialworld
+
+python3 manage.py runserver
+
+CTRL+Click on http://127.0.0.1:800/: to open in browser.
+
+CTRL+C: to stop server
+
+python3 manage.py help: to get help
+"""

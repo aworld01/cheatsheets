@@ -1,0 +1,3 @@
+Control Panel\System\Advanced system settings\Environment Variables\Path\New\:-
+"C:\myApps\Git\bin\git.exe"
+OK

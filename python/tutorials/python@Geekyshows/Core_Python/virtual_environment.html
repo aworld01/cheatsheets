@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>virtual_environment</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+    .bt{
+        border: 1px solid white;
+        background-color: blue;
+        color: white;
+        border-radius: 2px;
+        padding: 4px;
+    }
+    .bt:hover{
+        background-color: red;
+    }
+</style>
+</head>
+<body style="background: gray url('Images/d.jpgd')">
+
+<h1 style="text-align: center;">Create a VirtualEnvironment for python3</h1>
+<h2>Open Command prompt in your desired folder and fire these commands.</h2>
+<ol>
+    <li>
+        <b>pip install virtualenv</b>: to install VirtualEnvironment package in your pc if not installed.
+    </li>
+    <li>
+        <b>virtualenv VirtualEnv</b>: to create a fresh VirtualEnvronment.<br>
+        <b>Note:</b> You have to install packages in fresh created VirtualEnvironment by <b>pip install 'package name'</b>.<br>
+        or<br>
+        <b>virtualenv --system-site-packages VirtualEnv</b>: to create a virtual_Environment with all installed packages.
+    </li>
+    <li>
+        <b>VirtualEnv\Scripts\activate</b>: to activate VirtualEnvironment.<br>
+        <b>source VirtualEnv/Scripts/activate</b>: if you are using Linux os.
+    </li>
+    <li>
+        <b>pip list</b>: to check list of installed packages.
+    </li>
+    <li>
+        <b>deactivate</b>: to deactivate VirtualEnvironment.
+    </li>
+</ol>
+    <hr>
+
+<h1 style="text-align: center;">Requirements.txt for python3</h1>
+<ol>
+    <li>
+        <b>pip freeze > requirements.txt</b>: to create a requirements.txt file.
+    </li>
+    <li>
+        <b>pip install -r requirements.txt</b>: to install all packages that is listed in requirements.txt file.
+    </li>
+</ol>
+<hr>
+ 
+<ol>   
+<li>sudo apt install python3-venv -y</li>
+<li>mkdir Environments</li>
+<li>cd Environments</li>
+<li>python3 -m venv myEnv</li>
+<li>source myEnv/bin/activate</li>
+</ol>
+
+
+   
+</body>
+</html>

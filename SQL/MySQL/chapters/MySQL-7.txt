@@ -1,0 +1,44 @@
+STRING FUNCTIONS
+
+CONCAT() function: This function adds two or more expressions together.
+Exp:
+select concat('Abdul', ' ', 'Zoha');
+select concat('Abdul', ' ', 'Zoha') as fullName;
+select concat(fname, ' ', lname) from students;
+select concat(fname, ' ', lname) as fullName from students;
+
+
+REVERSE() function: This function reverses a string and returns the result.
+Exp:
+select reverse(fname) from students;
+
+
+CHAR_LENGTH() function: This function returns the length of a string (in characters).
+Exp:
+select char_length('Hello world!');
+select char_length('Hello world!') as len;
+select fname, char_length(fname) from students;
+select fname, char_length(fname) as length from students;
+
+
+LOWER() function: This function converts a string into lower-case.
+Exp:
+select lower('ABDUL');
+select fname, lower(fname) from students;
+select lower(fname) as fullName from students;
+
+
+UPPER() function: This function converts a string into upper-case.
+Exp:
+select upper('abdul Zoha');
+select upper('Abdul zoha') as fullName;
+
+select fname, upper(fname) from students;
+select fname, upper(fname) as fullName from students;
+
+
+REPLACE() function: This function replaces all occurrences of a substring within a string, with a new substring.
+Syntax:
+select replace(string, find, replace);
+Exp:
+select replace('Hello world', 'world', 'Abdul Zoha');

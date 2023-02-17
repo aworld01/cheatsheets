@@ -1,0 +1,23 @@
+BETWEEN OPERATOR
+The BETWEEN operator is inclusive: begin and end values are included.
+Exp:
+select * from students where age >= 22 and age <= 30;
+select * from students where age BETWEEN 22 AND 30;
+
+
+
+NOT BETWEEN OPERATOR
+Exp:
+select * from students where age NOT BETWEEN 22 AND 30;
+
+
+IN OPERATOR
+The IN operator is a shorthand for multiple OR conditions.
+Exp:
+select * from students where fname = 'vinod' or fname = 'arjun' or fname = 'ram';
+select * from students where fname IN('vinod', 'arjun', 'ram');
+
+
+NOT IN OPERATOR
+Exp:
+select * from students where fname NOT IN('vinod', 'arjun', 'ram');

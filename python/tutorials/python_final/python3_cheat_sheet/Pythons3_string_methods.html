@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Pythons3_string_methods</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+li
+	{
+	white-space: pre-wrap;
+	}
+</style>
+</head>
+<body style="background: gray;">
+
+<p>
+	http://127.0.0.1:5500/python_final.html<br>
+	http://www.github.com/artificialworld09
+</p>
+	
+<h1>Pythons3_string_methods</h1>
+
+<ol>
+<h2>string_methods</h2>
+<pre>
+1. len() function
+2. lower() method
+3. upper() method
+4. title() method
+5. count() method
+7. strip() method
+6. replace() method
+</pre>
+
+<li>
+#len() function
+name = "Abdul Zoha"
+print(len(name))
+	
+name = "Abdul Zoha"
+result = len(name)
+print(result)
+</li>
+
+<li>
+#lower() method
+name = "Abdul Zoha"
+result = name.lower()
+print(result)
+</li>
+
+<li>
+#upper() method
+name = "Abdul Zoha"
+result = name.upper()
+print(result)
+</li>
+
+<li>
+#title() method
+name = "My name is Abdul Zoha"
+result = name.title()
+print(result)
+</li>
+
+<li>
+#count() method
+name = "My name is Abdul Zoha"
+result = name.count("a")
+print(result)
+</li>
+
+<li>
+#strip() method
+#without strip
+name = "     My name is Abdul Zoha     "
+dots = "......."
+result = dots + name + dots
+print(result)
+</li>
+
+<li>
+#lstrip()
+name = "     My name is Abdul Zoha     "
+dots = "......."
+result = dots + name.lstrip() + dots
+print(result)
+</li>
+
+<li>
+#rstrip()
+name = "     My name is Abdul Zoha     "
+dots = "......."
+result = dots + name.rstrip() + dots
+print(result)
+</li>
+
+<li>
+#strip()
+name = "     My name is Abdul Zoha     "
+dots = "......."
+result = dots + name.strip() + dots
+print(result)
+</li>
+
+<li>
+#replace() method
+name = "My name is Abdul Zoha"
+result = name.replace(" ", ",")
+print(result)
+</li>
+
+<li>
+name = "My name is Abdul Zoha"
+result = name.replace(" ", "")
+print(result)
+</li>
+
+<li>
+name = "My name is Abdul Zoha"
+result = name.replace("Abdul Zoha", "Raju")
+print(result)
+</li>
+<hr>
+
+
+<h2>18(vid:34) exercise_3_solution</h2>
+
+<li>
+name, char = input("Enter comma seperated name and charecter: ").split(",")
+print(f"Length of your name is: {len(name)}")
+print(f"Charecter count: {name.lower().count(char.lower())}")
+</li>
+<hr>
+
+
+<h2>19(vid:35) solve_problem_with_spaces_using_strip_methods</h2>
+1. strip() method
+2. rstrip() method
+3. lstrip() method
+4. name.replace(" ", "") method
+
+<li>
+#no strips
+name = "      Abdul       Zoha          "
+dots = "........"
+print(f"{dots} {name} {dots}")
+</li>
+	
+<li>
+#lstrip()
+name = "      Abdul       Zoha          "
+dots = "........"
+print(f"{dots} {name.lstrip()} {dots}")
+</li>
+
+<li>
+#rstrip()
+name = "      Abdul       Zoha          "
+dots = "........"
+print(f"{dots} {name.rstrip()} {dots}")
+</li>
+
+<li>
+#strip()
+name = "      Abdul       Zoha          "
+dots = "........"
+print(f"{dots} {name.strip()} {dots}")
+</li>
+
+<li>
+#replace()
+name = "      Abdul       Zoha          "
+dots = "........"
+print(f"{dots} {name.replace(' ', '')} {dots}")
+</li>
+
+
+<h2>exercise_3.2_solution</h2>
+
+<li>
+name, char = input("Enter comma separated name and character: ").split(",")
+print(f"Length of your name is: {len(name.lower().strip())}")
+print(f"Character count is: {name.lower().count(char.strip())}")
+	</pre>	
+</li>
+<hr>
+
+
+<h2>20(vid:36) find_and_replace_method</h2>
+
+# replace() method
+
+<li>
+string = "She is beautiful and she is a good dancer"
+replace = string.replace(" ", "_")
+print(replace)
+</li>
+
+<li>
+string = "She is beautiful and she is a good dancer"
+replace = string.replace("is", "was")
+print(replace)
+	</pre>	
+</li>
+
+<li>
+string = "She is beautiful and she is a good dancer"
+replace = string.replace("is", "was", 1)
+print(replace)
+	</pre>	
+</li>
+
+# find() method
+<li>
+string = "She is beautiful and she is a good dancer"
+
+find = string.find("is", 5)
+print(find)
+
+pos1 = string.find("is")
+print(pos1)
+
+pos2 = string.find("is", pos1 + 1)
+print(pos2)
+	</pre>	
+</li>
+<hr>
+
+
+<h2>21(vid:37) center_method</h2>
+
+<li>
+name = "Abdul Zoha"
+center = name.center(14, "#")
+print(center)
+	</pre>	
+</li>
+
+<li>
+name = input("Enter your name: ")
+center = name.center(len(name) + 8, "*")
+print(center)
+	</pre>	
+</li>
+</ol>
+
+</body>
+</html>

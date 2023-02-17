@@ -1,0 +1,59 @@
+<html>
+<head>
+	<style>
+		body{
+			background-color: gray;
+			color: black;
+		}
+		h1{
+			text-align: center;
+		}
+		pre{
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+		.com{	
+			font-weight: bold;
+			border: 1px solid blue;
+			padding-top: 10px;
+		}
+		.pr{
+			border: 1px solid blue;
+			padding: 10 10;
+		}
+	</style>
+	<title>Host a static website on github</title>
+</head>
+<body>
+	<h1>Host a static website on Github</h1>
+	<h2>Requirements</h2>
+	<pre>
+	01: A ID on github.com
+	02: Code for a static website
+	03: Make sure in the root directory of your code you have 'index.html'
+	04: Goto <a href="github.com">Github.com</a> and Sign In
+	05: Create a public repository (the repository name should be ends with '.io')
+	</pre>
+	<h3>Open gitbash and fire these commands:-</h3>
+	<pre class="com">
+	git init
+	git status
+	git add .
+	git status
+	git commit -m "initial_commit"
+	git status
+	git remote add origin "url of your repository"
+	git push origin master
+	</pre>
+
+	<p>Goto=> <b>settings/pages/</b></p>
+	<p class="pr">
+			<b>Source</b> [master]<br>
+			<b>Save</b>
+	</p>
+
+	Your site is ready to be published at <a href="https://aworld01.github.io/aw01.io/">https://aworld01.github.io/aw01/</a> <br>
+
+	<b>Note: </b>Wait for 4 to 5 hours and your website can be access now.
+</body>
+</html>

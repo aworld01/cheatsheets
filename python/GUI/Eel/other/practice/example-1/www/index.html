@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="eel.js"></script>
+    <script>
+        function compute(){
+            var textbox = document.getElementById("input").value;
+            eel.sort(text)
+        }
+
+        eel.expose(showAnswers)
+        function showAnswers(answer){
+            var outputDiv = document.getElementById("result");
+            outputDiv.innerHTML = "Result: " + answer
+        }
+    </script>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Number Sorted</h1>
+    
+    <label>Enter number here:</label>
+    <input type="text" class="input"><br>
+    <button onclick="compute()">Click me</button>
+    
+    <div id="result">Hi</div>
+</body>
+</html>

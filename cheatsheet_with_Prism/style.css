@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 32px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gray;
+    color: white;
+    height: 52px;
+}
+.container{
+    width: 60vw;
+    margin: auto;
+    padding: 32px 0;
+}
+li p{
+    border-radius: 0;
+}
+.toolbar-item button{
+    cursor: pointer;
+}

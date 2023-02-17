@@ -1,0 +1,16 @@
+apt update && apt upgrade -y
+alias pbcopy=termux-clipboard-set
+alias pbpaste=termux-clipboard-get
+pkg install openssh
+ls -al .ssh
+ssh-keygen -t rsa -b 4096 -C 'artificialworld09@gmail.com'
+eval "$(ssh-agent -s)"
+ssh-add .ssh/id_rsa
+
+Goto: github.com/artificialworld09/Settings/SSH and GPG keys/New SSH keys:
+
+Title: Samsung M30
+Key: (paste your SSH key)
+Add SSH key
+
+pdcopy < .ssh/id_rsa.pub

@@ -1,0 +1,31 @@
+FOREIGN KEY
+A FOREIGN KEY is a key used to link two tables together.
+A FOREIGN KEY is a field (or collection of fields) in one tables that refers to the PRIMARY KEY in another table.
+
+create table customers(
+cid int not null auto_increment primary key,
+cname varchar(30),
+cemail varchar(30)
+);
+
+create table orders(
+oid int not null auto_increment primary key,
+odate date,
+oamount int,
+cid int, foreign key(cid) references customers(cid)
+);
+
+insert into customers(cname, cemail)
+values
+('Vinod', 'vinod@gmail.com'),
+('Bahadur', 'bahadu@gmail.com'),
+('Thapa', 'thapa@gmail.com');
+
+insert into orders(odate, oamount, cid)
+values
+('2019/05/05', 55, 1),
+('2019/08/06', 85, 2),
+('2019/08/05', 155, 1),
+('2019/05/12', 95, 3);
+
+select * from orders, customers;

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/star.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <script src="script/menu.js" defer></script>
+    <title>MySQL</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="left items">
+            <a href="linux_Commnads.html">linux_Commnads</a><br>
+            <a href="sqlite.html">SQLite</a>
+        </div>
+        <div class="right">
+<pre>
+    Datatype:-
+    NULL = None
+    INTEGER = Integer
+    REAL = Float
+    TEXT = String
+    BLOB = Image, mp3
+</pre> 
+            <h1>Commands</h1>
+            <dl>
+                <dt><b>SHOW DATABASES;</b></dt>
+                <dd>to see database lists.</dd>
+
+                <dt><b>CREATE DATABASE Student;</b></dt>
+                <dd>to create a new database.</dd>
+
+                <dt><b>CREATE DATABASE IF NOT EXISTS Collage;</b></dt>
+                <dd>to create a database if not exists.</dd>
+
+                <dt><b>USE Collage;</b></dt>
+                <dd>to use database.</dd>
+
+                <dt><b>SELECT DATABASE();</b></dt>
+                <dd>to check selected database.</dd>
+
+                <dt><b>SHOW TABLES;</b></dt>
+                <dd>to check tables of selected database</dd>
+
+                <dt><b>DESC Students;</b></dt>
+                <dd>to check table datatype.</dd>
+
+                <dt><b>SHOW COLUMNS FROM Students;</b></dt>
+                <dd>to check table datatype.</dd>
+
+                <dt><b>exit</b></dt>
+                <dd>to exit.</dd>
+
+                <dt><b>quit</b></dt>
+                <dd>to exit.</dd>
+
+                <dt><b>CTRL+D</b></dt>
+                <dd>to exit.</dd>
+            </dl>
+            <hr>
+            <h1>Queries</h1>
+            <dl>
+                <dt><b>CREATE TABLE Students(name varchar(15), class int, roll_no int, school_name varchar(25));</b></dt>
+                <dd>to create a table.</dd>
+
+                <dt><b>INSERT INTO Students(name, class, roll_no, school_name) values('Abdul Zoha', 3, 25, 'MD Jaan Public School');</b></dt>
+                <dd>to insert values into table</dd>
+
+                <dt><b>INSERT INTO Students values('Abdul Zoha', 3, 25, 'MD Jaan Public School');</b></dt>
+                <dd>To directaly insert values into table.</dd>
+
+                <dt><b>SELECT * FROM Students;</b></dt>
+                <dd>to see all table records.</dd>
+
+                <dt><b>SELECT Name FROM Product;</b></dt>
+                <dd>to see name of all records.</dd>
+
+                <dt><b>SELECT Name, Quantity FROM Product;</b></dt>
+                <dd>to see name and quantity of all records.</dd>
+
+                <dt><b>SHOW WARNINGS;</b></dt>
+                <dd>to check warnings of selected database.</dd>
+
+                <dt><b>CREATE TABLE Students(Roll int not null, Name varchar(20), Class varchar(7) not null);</b></dt>
+                <dd>not null values.</dd>
+
+                <dt><b>CREATE TABLE Students(Name varchar(30) not null default 'unNamed', Age int not null default 18);</b></dt>
+                <dd>defalut values.</dd>
+
+                <dt><b>ALTER TABLE Students DROP COLUMN school;</b></dt>
+                <dd>no description</dd>
+
+                <dt><b>ALTER TABLE Students ADD s_no varchar(30);</b></dt>
+                <dd>no description</dd>
+
+                <dt><b>DROP TABLE Students;</b></dt>
+                <dd>to delete table.</dd>
+            </dl>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>python3_file_IO-exercises</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 10px;
+    background-color: gray;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+}
+ol{
+    white-space: Pre-wrap;
+    padding: 0px 16px;
+    margin-bottom: 10px;
+}
+</style>
+</head>
+<body>
+
+<h1>python3_file_IO-exercises</h1>
+<ol>
+<li>
+<h2>sourceFile.txt</h2>
+Harshit,100
+Mohit,50
+Aaditya,200
+Nitish,500
+
+<h2>outputFile.txt</h2>
+Harshit's salary is 100.
+Mohit's salary is 50.
+Aaditya's salary is 200.
+Nitish's salary is 500.
+
+<h2>code.py</h2>
+with open("sourceFile.txt","r") as rf:
+    with open("outputFile.txt","a") as af:
+        for i in rf.readlines():
+            name,salary = i.split(",")
+            af.write(f"{name}'s salary is: {salary}")
+</li>
+<hr>
+
+<li>
+<h2>sourceFile.html</h2>
+<xmp>
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>python3_file_IO-exercises</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+
+<a href="www.google.com">Google</a>
+<a href="www.facebook.com">Facebook</a>
+<a href="www.youtube.com">YouTube</a>
+
+</body>
+</html>
+</xmp>
+  
+<h2>outputFile.txt</h2>
+www.google.com
+www.facebook.com
+www.youtube.com
+  
+<h2>code.py</h2>
+with open('index.html', mode='r', encoding='utf-8') as webpage:
+  with open('output.txt', mode='w', encoding='utf-8') as wf:
+    page = webpage.read()
+    link_exist = True
+    while link_exist:
+      pos = page.find('a href=')
+      if pos == -1:
+        link_exist = False
+      else:
+        f_quote = page.find('"', pos)
+        s_quote =page.find('"',f_quote+1)
+        url = page[f_quote+1:s_quote]+'\n'
+        wf.write(url)
+        page = page[s_quote:]
+</li>
+<hr>
+</ol>
+   
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Techchip</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+p{
+    white-space: pre-wrap;
+}
+</style>
+</head>
+<body>
+
+<h1>Make your PC Ultrafast</h1>
+<p>
+Copy and paste the command below in 'Windows Powershell' and hit ENTER:
+powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
+
+Goto: Control Panel/Power Options/Show additional plans/Ultimate Performance (check)
+
+Press: Win+Alt+Del and Click on Task manager/Startup(Disable all unwanted apps to auto start)
+
+
+Press: Win+I ENTER
+Goto "Privacy"(unmark all)
+Goto: Speech (off)
+Goto: Inking & typing personalisation (off)
+Goto: Activity history (uncheck all)
+Goto: Location/Change/Location access for this device(off)
+Goto: Camera(off unwanted app which is using your camera)
+Goto: Microphone(off unwanted app which is using your microphone)
+Goto: Voice activarion(uncheck all)
+Goto: Notifications/Change/User notifications access for this device(off)
+Goto: Account info/Change/Account info access for this device(off)
+Goto: Contacts/Change/Contacts access for this device(off)
+Goto: Calendar/Change/Calendar access for this device(off)
+Goto: Phone calls/Change/Phone call access for this device(off)
+Goto: Call history/Change/Call history info access for this device(off)
+Goto: Email/Change/Email access for this device(off)
+Goto: Messaging/Change/Messaging access for this device(off)
+Goto: Radios/Change/Radios access for this device(off)
+Goto: Other devices(off)
+Goto: Background apps/Let apps run in the background(off)
+Goto: File system/Change/File system accesss for this device(off)
+
+
+
+Click on Home/System/Notifications & actions
+
+Show notifications on the lock screen(unmark)
+
+Show reminders and incoming VoIP calls on the lock screen(unmark)
+
+Allow notifications to play sounds(unmark)
+
+Suggest ways I can finish setting up my device to get the most out of Windows(unmark)
+
+AutoPlay(off)
+
+Click on Home/Gaming(off and unmark all accept Game Mode(on))
+
+Press Win+R, type(regedit) and hit Enter click on Yes(Alt+Y):-
+Goto: HKEY_CURRENT_USER/Control Panel/Mouse/MouseHoverTime(dubble click and change Value data from 400 to 10)
+
+Goto: HKEY_CURRENT_USER/Control Panel/Desktop/MenuShowDelay(dubble click and change Value data from 400 to 10)
+
+Goto: HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Multimedia/SystemProfile/SystemResponsiveness(dubble click and change Value data from 14 to 0) #Hexadecimal should be selected
+
+Goto: HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Multimedia/SystemProfile/Tasks/Games/GPU Priority(dubble click and check there should be Value data 8) #Hexadecimal should be selected
+
+Goto: HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Multimedia/SystemProfile/Tasks/Games/Priority(dubble click and change Value data from 2 to 6) #Hexadecimal should be selected
+
+
+Press Win+R, type(msconfig) and hit Enter:-
+Click on: Services/Hide all Microsoft services(check), Unmark all thirdparty services and click on: Apply/OK/Restart
+
+
+Goto: Control Panel/System/Advanced system settings/Advanced/Performance(Settings(Visual Effects)):-
+Unmark all except:
+Show shadows under mouse pointer(mark)
+Smooth edges of screen fonts(mark)
+Apply/OK/OK
+</p>
+
+<h2>Do this after every Month or Week</h2>
+<p>
+Press Win+I and Goto: Update & Security/Check for updates
+
+
+Press "Win+R"(temp):-
+Press "Ctrl+A" all files and folders will be selected
+Now press "Shift+Delete/Yes"
+
+Press "Win+R"(%temp%):-
+Press "Ctrl+A" all files and folders will be selected
+Now press "Shift+Delete/Yes"
+
+Press "Win+R"(prefetch)/Continue:-
+Press "Ctrl+A" all files and folders will be selected
+Now press "Shift+Delete/Yes/Skip"
+
+
+Press Win+E and select "C:" drive then press Alt+Enter (Remember: "C:" drive is your Windows drive):-
+Click on "Disk Clean-up/Clean up system files"
+Under "Files to delete" mark all radio buttons except "Download"
+Now click on "OK/Delete Files" and let the process complete....
+</p>
+
+<p>
+<h2>Do this if you have HDD in your PC</h2>
+Press Win+Q(defragment and optimize drives):-
+Select all the drives and click on "Optimize all" and let the process complete....
+</p>
+  
+</body>
+</html>

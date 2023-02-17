@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background: green;
+            font-size: 1.5rem;
+            position: relative;
+            margin: 100px auto;
+            transition: transform 1s ease-in;
+        }
+        .box:hover{
+            transform: scale(3, 2);
+        }
+    </style>
+    <title>Transform</title>
+</head>
+<body>
+    <h3>transform</h3>
+    <pre>
+        scalex = width
+        scaley = height
+        scale = both
+        scale(x_value, y_value)
+        ex:
+            transform: scale(2); (1 is default value)
+            transform: scale(x_value, y_value)
+    </pre>
+    <div class="box">Hello world</div>
+</body>
+</html>

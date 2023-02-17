@@ -1,0 +1,19 @@
+
+/*-------------desktops and laptops---------------*/
+@media (max-width: 1024px){
+    h1{
+        color: green;
+    }
+}
+/*-------------tablets and iPads---------------*/
+@media (min-width: 769px) and (max-width: 1023px){
+    h1{
+        text-transform: uppercase;
+    }
+}
+/*-------------mobile phones---------------*/
+@media (max-width: 768px){
+    .nevs{
+        width: 100%;
+    }
+}

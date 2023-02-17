@@ -1,0 +1,96 @@
+Learn More
+
+Open "Run (Win+R)"
+Open "MS Excel(excel)
+
+
+
+Microsoft Excel 2016 (book.xlsx) Workbook/Sheet
+Zoom: 10%-400% (Alt+V+Z)
+Goto: Last-column=16384 (Ctrl+Right Arrow)
+Goto: First-column (Ctrl+Left Arrow)
+Goto: Last-row=(Ctrl+Down Arrow)
+Goto: First-row=1048576(Ctrl+Up Arrow)
+
+TAB(Home, Insert, Page Layout, Formulas, Data, Review, View)
+RIBBON
+GROUP(Clipboard, Font, Alignment, Number, Styles, Cells, Editing)
+NAME BOX
+FORMULA BAR
+CELL NAME
+CELL NUMBER
+CELL (C3)
+RANGE OF CELL (C3:F11)
+SHEET
+Insert new sheet(Shift+F11)
+SHEET Rename
+SHEET Delete
+SHEET Tab Color
+Undo (Ctrl+Z)
+Redo (Ctrl+Y)
+Restore Window (Alt+Space+R)
+Maximize Window (Alt+Space+X)
+Close open workbook (Ctrl+W)
+New workbook (Ctrl+N)
+FILL HANDLE
+AutoFit Column Width (Ctrl+A, Alt, H, O, I)
+SUM function (Alt+=)
+Fill Down (Ctrl+D)
+MAX function (Alt, H, U, M)
+MIN function (Alt, H, U, I)
+Increase Decimal
+Decrease Decimal
+
+CONDITIONAL FORMATTING
+Highlight Cells Rules/Greater Than..
+Highlight Cells Rules/Less Than...
+Highlight Cells Rules/Between...
+Highlight Cells Rules/Equal To...
+Highlight Cells Rules/Text that Contains...
+Highlight Cells Rules/A Date Occurring...
+Highlight Cells Rules/Duplicate Values...
+Numbers (Ctrl+1)
+Alt, H, FM, and Goto Custom/Type and type ';' To hide numbers
+Insert row/column (Ctrl+Shift++)
+Delete row/column (Ctrl+-)
+Insert column (Alt, I, C)
+Insert row (Alt, I, R)
+Merge & Center (Alt, H, M, C)
+All Borders (Alt, H, B, A)
+Format as Table
+Convert to Range (Alt, JT, G, Y)
+Clear Formats (Alt, H, E, F)
+Filter (Ctrl+Shift+L) (Alt, A, T)
+Sort
+Custom Sort
+=IF(E14>=70,"Pass","Fail"): Only for two arguments.
+=IF(AND(C14>=30,D14>=30,E14>=30),"Pass","Fail"): More than two arguments. All arguments should be True.
+=IF(OR(C15<35,D15<35,E15<35),"Fail","Pass"): More than two arguments. All arguments should  be True.
+=IF(L3="Fail","Fail",IF(K3>=75,"A+",IF(K3>=60,"A",IF(K3>=45,"B",IF(K3>=30,"C"))))): Nested IF.
+Insert Chart with New Sheet (F11)
+Vertical Titles
+Select Data
+
+
+HOME TAB ALL OPTIONS
+Paste special
+Format painter
+Border
+Fill Color
+Font color
+Row Height
+Align
+Indent
+Orientation
+Merge & Center
+Wrap Text
+Wrap Text (Alt+Enter)
+View/Freeze Panes
+Number Format
+Clear
+Find & Select
+Find (Ctrl+F)
+Replece (Ctrl+H)
+Print
+
+Completed........

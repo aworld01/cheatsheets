@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>HTML/Form Source code...</title>
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+body{
+	background-color: black;
+	color: white;
+	}
+.scode
+	{
+	background-color: gray;
+	border: 3px solid blue;
+	width: 80%;
+	border-radius: 10px;
+	}
+xmp
+	{
+	font-size: 200%;
+	font-family: arial;
+	margin: 0px;
+	}
+</style>
+</head>
+<body>
+
+<h1>HTML form example</h1>
+	
+<form name="frmDataEntry" action="processor.html" method="post">
+<h1>Data Entry Form</h1>
+		
+<label>User name:</label><br/><br/>
+<input type="text" name="uname" id="uname" value="" Placeholder="Enter your name" maxlength="12" size="30" required /><br/>
+		
+<label>Enter your password:</label><br/>
+<input type="password" name="passwd" id="passwd" value="" placeholder="Enter your password" maxlength="16" size="30" required /><br/>
+
+<label>Confirm your password:</label><br/>
+<input type="password" name="passwdConfirm" id="passwdConfirm" value="" placeholder="Confirm your password" maxlength="16" size="30" required /><br/>
+		
+<label>Gender:</label><br/>
+<input type="radio" name="gender" id="male" value="m" checked/><label for="male">Male</label>
+<input type="radio" name="gender" id="female" value="f" /><label for="female">Female</label><br/><br/>
+		
+<label>Software Skills:</label><br/>
+<input type="checkbox" name="chkSoftwareSkills" id="c" value="c" checked /><label for="c">C</label>
+<input type="checkbox" name="chkSoftwareSkills" id="cpp" value="cpp" /><label for="cpp">C++</label>
+<input type="checkbox" name="chkSoftwareSkills" id="java" value="j" /><label for="java">Java</label><br/><br/>
+		
+<label>Country</label>
+<select name="slctcountry" size="2" multiple>
+	<option value="in">India</option>
+	<option value="pak">Pakistan</option>
+	<option value="nepal">Nepal</option>
+	<option value="china" selected>China</option>
+	<option value="ban">Bangladesh</option>
+</select>		
+		
+<p>Please Upload your file:</p>
+<input type="file" name="image" id="image" required ><br/><br/>
+		
+<label>Address:</label><br/><br/>
+<textarea rows="10" cols="30" name="suggestion" wrap="physical" required>Please type here your suggestion</textarea>
+
+<p>textarea by CSS</p>
+<textarea name="message" style="width: 200px; height: 200px;">The cat was playing in the garden.</textarea>
+		
+		
+<input type="submit" value="Send"/>
+<input type="reset" value="Clear all" />
+
+<button type="button" onclick="alert('Hello World!')">Click Me</button>
+</form>
+
+ </body>
+</html>

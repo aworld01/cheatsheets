@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+p{
+    white-space: pre-wrap;
+}
+</style>
+</head>
+<body>
+
+<h1>shift methed in JavaScript</h1>
+<p>
+The shift() method removes the first element from an array and returns that removed element.
+This method changes the length of the array.
+
+Syntax:-
+Array_name.shift();
+
+Ex:-
+geek.shift();
+
+var geek_length = geek.shift(); // it will return length of new array
+</p>
+<br>
+<hr>
+
+<!-- <script>
+    var geek = ["Rahul","Sonam","Sumit","Raj","Rohan"];
+    document.write(geek,"<br>");
+    geek.shift();
+    document.write(geek,"<br>");
+</script> -->
+
+<script>
+    var geek = ["Rahul","Sonam","Sumit","Raj","Rohan"];
+    var removed = geek.shift();
+    document.write(geek,"<br>");
+    document.write(removed,"<br>");
+</script>
+
+</body>
+</html>

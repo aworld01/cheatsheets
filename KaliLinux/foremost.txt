@@ -1,0 +1,14 @@
+apt install foremost
+
+foremost -h: to help
+-t: to specify filetype
+-v: verbose mode. Logs all messages to screen
+-q: enables quick mode. Search are performed on 512 byte boundaries.
+-i: specify input file.
+-o: set output directory
+
+
+
+fdisk -l
+foremost -t jpg -v -q -i /dev/sdb2 -o /home/neo/Desktop/recover
+foremost -t jpg,pdf,mp4,exe

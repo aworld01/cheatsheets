@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>KaliLinux</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+    
+</style>
+</head>
+<body>
+
+<h1>Make Global alias in linux</h1>
+
+<h2>Method-1</h2>
+<p class="pre">
+    Goto: <b>/home/'user'/</b>, edit <b>.bashrc</b> file and add the line below:-
+    <b>alias cls=clear</b>: to clear the 'Terminal'.
+    <b>alias ll='ls -l'</b>: to see the long list.
+    Now <b>save</b> the file, open <b>Terminal</b> and fire <b>source .bashrc</b>: command to apply changes.
+</p>
+<hr>
+
+<h2>Mehod-2</h2>
+<p class="pre">
+sudo nano .bashrc
+
+# Alias definitions.
+# You may want to put all your additions into a separate file like
+# ~/.bash_aliases, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+<b>CTRL+S</b>,<b>CTRL+X</b>
+</p>
+
+<p class="pre">
+sudo nano .bash_aliases
+
+alias 'kali --version'='lsb_release -a'
+alias desk='cd /home/thor/Desktop'
+alias doc='cd /home/thor/Documents'
+alias downl='cd /home/thor/Downloads'
+alias ll='ls -l'
+alias la='ls -la'
+alias de='rm -rf'
+alias cls='clear'
+alias sedit='sudo nano'
+</p>
+
+</body>
+</html>

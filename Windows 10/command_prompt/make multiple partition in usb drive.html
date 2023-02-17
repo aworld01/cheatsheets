@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Make multiple partition in usb drive</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+.pre{
+    white-space: pre-wrap;
+}
+</style>
+</head>
+<body>
+
+<h1>Make multiple partition in usb drive</h1>
+<h2>Open <b>CMD</b> and type the following commands</h2>
+<p class="pre">
+<b>diskpart</b>: to open partition manager.
+<b>list disk</b>: to check the disk in list.
+<b>select disk 1</b>: in my case 'disk 1' is usb drive, you will select your disk by list above.
+<b>clean</b>: to clean disk configration.
+<b>create part pri size=92160</b>: to create partition. ('size=92160' is the size of disk)
+<b>format fs=ntfs label="softwares" quick</b>: to format and create name of partition.
+<b>assign letter=x</b>: to assign the partition letter.
+<b>create part pri</b>: to create partition with balace space.
+<b>format fs=ntfs label="my_files" quick</b>
+<b>assign letter=z</b>
+</p>
+
+</body>
+</html>

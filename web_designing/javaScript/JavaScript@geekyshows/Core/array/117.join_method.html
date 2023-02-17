@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>join method in JavaScript</h1>
+
+<script>
+var stu = ["Rahul","Sonam","Sumit"];
+document.write(stu,"<br>");
+</script>
+
+<script>
+var stu = ["Rahul","Sonam","Sumit"];
+var stu2 = stu.join("/");
+document.write(stu2,"<br>");
+t = typeof(stu);
+t2 = typeof(stu2);
+document.write(t,"<br>");
+document.write(t2,"<br>")
+</script>
+
+<script>
+var stu = ["Rahul","Sonam","Sumit"];
+var stu2 = stu.join(" and ");
+document.write(stu2,"<br>");
+</script>
+
+<script>
+var stu = ["Rahul","Sonam","Sumit"];
+var stu2 = stu.join("")
+document.write(stu2,"<br>")
+</script>
+
+</body>
+</html>

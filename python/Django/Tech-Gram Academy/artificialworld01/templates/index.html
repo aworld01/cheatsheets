@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my homepage....</title>
+</head>
+<body>
+    
+<h1>Welcome to wordCount website...</h1>
+    
+<form action="{% url 'count' %}">
+    <textarea name="textaria" cols="40" rows="10"></textarea>
+    <br>
+    <input type="submit" value="Count">
+</form>    
+</body>
+</html>

@@ -1,0 +1,10 @@
+sudo apt install npm: to install npm.
+npm -v: to check version.
+
+sudo apt install nodejs: to install version.
+node -v: to check version.
+
+npm init
+electronApp
+
+npm install electron --dev --save

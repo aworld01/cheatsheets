@@ -1,0 +1,1 @@
+rm -f ~/.zsh_history && kill -9 $$: to clear the zsh history

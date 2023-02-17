@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Git and GitHub</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+    
+</style>
+</head>
+<body>
+
+    <p>KaliLinux 2020.1(cd /home/kali/Documents)</p>
+    
+    <h1>Git 2.27.0</h1>
+    
+    <h2>create a github account and repository and configure with your device:-</h2>
+    <hr>
+    
+    <div class="def">Goto <a href="www.github.com">github.com</a> and make an id:</div>
+    <div class="def">Login with your id and make a repository:-</div>
+    <div class="def">Click on "Repositories/New" and follow the steps below:-</div>
+    
+    <div class="pre">Repository name: Tutorials
+    Description: This tutorial is a sample of learning HTML and CSS.
+    Public [yes]
+    Create repository
+    </div>
+
+    <li>Copy: <b>git remote add origin git@github.com:artificialworld09/Tutorials.git</b>: to configure repository with pc.(origin is an alias of your repository url, you can change that if you want.)</li>
+
+    <li>Open <b>GitBash</b> and paste you just copy the line and hit <b>ENTER</b> and type:</li>
+</ul>
+<br>
+<ol>
+    <li><b>git remote</b>: to check saved repository. (This command will work in only the repository dir)</li>
+    <li><b>git remote -v</b>: to check saved repository. with url. (This command will work in only the repository dir)</li>
+</ol>
+<br><br>
+
+<ul>
+    <li><b>ls ~/.ssh</b>: to check existing SSH keys</li>
+    (id_rsa: to system) <br>
+    (id_rsa.pub: to github)
+    
+    <li><b>ssh-keygen -t rsa -b 4096 -C 'artificialworld09@gmail.com'</b> <b>ENTER<sup>3</sup></b>: to generate a new SSH key.</li>
+
+    <li><b>eval $(ssh-agent -s)</b> <b>ENTER</b></li>
+    <li><b>ssh-add -K ~/.ssh/id_rsa</b>: to add ssh to system.</li>
+
+    <li><b>cat ~/.ssh/id_rsa.pub</b>
+    <li>Copy and goto <b>'github.com/settings/SSH Key and GPG Key/New SSH key/ add SSH key</b></li>
+    <b>Title:</b> my_home_computer <br>
+    <b>key:</b> paste your key <br>
+    <b>ADD KEY</b><br><br>
+
+    <li>Type your password and confirm</li>
+
+    <li>Goto: github.com/repository/(select repo)/copy ssh url.</li>
+    <li>Goto <b>Git Bash</b> and type:</li>
+</ul>
+
+<ol>
+    <li><b>git remote -v</b>: to check saved repository. with url. (This command will work in only the repository dir)</li>
+    <li><b>git remote remove my_origin</b>: to delete existing repository.</li>
+    <li><b>git remote add this_origin "ssh url"</b>: to add repository.</li>
+    <li><b>ssh -T git@github.com</b>: to test SSH connection.</li>
+
+
+
+
+
+    <li><b>git push origin master</b></li>
+    Modify your document and goto <b>Git Bash</b> and type:
+    <li><b>git status</b>: to check all changes.</li>
+    <li><b>git add .</b>: to stage all file.</li>
+    <li><b>git commit -m "Change utility.txt"</b>: to commit file.</li>
+    <li><b>git push origin master</b>: to send updates to github repository.</li>
+    <li><b>git pull origin master</b>: to get updates from github repository.</li>
+    <li><b>git log</b>: to check updates.</li>
+</ol>
+
+</body>
+</html>

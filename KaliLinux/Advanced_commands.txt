@@ -1,0 +1,2 @@
+CTRL+H: to Hide/Unhide
+CTRL+ALT+T: to open the Terminal

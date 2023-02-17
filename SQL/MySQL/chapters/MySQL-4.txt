@@ -1,0 +1,43 @@
+(Create Read Update Delete) CRUD operations.
+
+CREATE for create.
+SELECT for Read.
+UPDATE for Update.
+DELETE for Delete.
+
+
+CREATE(Create)
+create table students(
+Id int not null auto_increment,
+fName varchar(15),
+lName varchar(15),
+Age int, primary key(id)
+);
+
+#insert data in it.
+insert into students(
+fname, lname, age)
+values
+('Vinod', 'Thapa', 25),
+('Vinod', 'Bahadur', 25),
+('Karan', 'Chopra', 28),
+('Thapa', 'Technical', 24),
+('Arjun', 'Kumar', 26),
+('Binita', 'Thapa', 21),
+('Ramesh', 'Thapa', 22),
+('Amrit', 'Thapa', 23),
+('Ram', 'Chettri', 30),
+('Kanxi', 'Thapa', 25);
+
+SELECT(Read)
+select * from students;
+select * from students where age=25;
+select * from students where fname='ramesh';
+select age from students where fname='ramesh';
+
+UPDATE(Update)
+update students set age=23 where fname='ramesh';
+update students set lname='Babu' where fname='ramesh';
+
+DELETE(Delete)
+delete from students where id=2;

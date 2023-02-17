@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Home</title>
+<link rel="icon" href="images/css.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+div.c_box{
+	background-color: yellow;
+	border: 5px solid green;
+	box-sizing: content-box;
+	width: 300px;
+	height: 300px;
+	margin: 5px;
+	padding: 15px;
+}
+div.b_box{
+	background-color: yellow;
+	border: 5px solid green;
+	box-sizing: border-box;
+	width: 300px;
+	height: 300px;
+	margin: 5px;
+	padding: 15px;
+}
+</style>
+</head>
+<body>
+
+<h1>box-sizing</h1>
+<div class="ls">
+box-sizing: content-box(default);
+box-sizing: border-box(default);
+</div>
+
+
+<p class="def" style="display: block;">
+The box-sizing property tells the browser what the sizing properties should include. The box-sizing property is used to include the padding and border in an element's total width and height.
+</p>
+<hr>
+
+<div class="c_box">
+	content-box: The width and height properties (and min/max properties) include only the content. <b>border</b>, <b>padding</b>, or <b>margin</b> are not included.
+</div>
+<div class="b_box">
+	border-box: The width and height properties (and min/max properties) includes <b>content</b>, <b>padding</b>, and <b>border</b>, but not the margin.
+</div>
+
+</body>
+</html>

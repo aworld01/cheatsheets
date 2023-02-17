@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>user-account</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.right{
+    padding: 10px;
+    width: 70%;
+    float: right;
+    min-height: 650px;
+}
+.left{
+    border: 2px solid blue;
+    color: green;
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+    width: 30%;
+    float: left;
+    min-height: 650px;
+}
+ol{
+    margin: 10px;
+    padding: 10px;
+}
+li{
+    margin: 10px;
+}
+</style>
+</head>
+<body style="background: gray">
+
+<h1>Kali Linux (user-account)</h1>
+
+<div class="right">
+    <h2>Open Command prompt and fire these commands to add a user in Kali Linux:- </h2>
+    <ol>
+    <li>
+        <b>useradd -m thor</b># to add a user named thor.<br>
+        (use <b>tail -5 /etc/passwd</b># to check added or deleted user.)
+    </li>
+    <br>
+
+    <li>
+        <b>passwd thor</b># to create a password for thor user.<br>
+        New password: *****<br>
+        Retype new password: *****<br>
+        passwd: password updated successfully
+    </li>
+    <br>
+
+    <li>
+        <b>usermod -a -G sudo thor</b># to Add the user to the sudo group (to install software etc).
+    </li>
+    <br>
+
+    <li>
+        <b>chsh -s /bin/bash thor</b># Now finally change the default shell of the newly added user to bash.<br>
+        ("-s" to provide a new login shell for the user account)
+    </li>
+    <br>
+
+    <li>
+        <b>su - thor</b># to switch the user.
+    </li>
+    <br>
+
+    <li>
+        <b>sudo su</b># to first time login to the root user when you install kali.
+    </li>
+    <br>
+
+    <li>
+        <b>su -</b># to switch to the root user.
+    </li>
+    <br>
+
+    <li>
+        <b>useradd -d /temp/ thor</b># to add user with any specific location home directory.
+    </li>
+    <br>
+
+    <li>
+        <b>useradd -u 1010 thor</b># to create a user with a specific id.
+    </li>
+    <br>
+
+    <li>
+        <b>usermod -d /home thor</b># to change user home directory.
+    </li>
+    <br>
+
+    <li>
+        <b>usermod -c "This is thor shell" thor</b># to give full name or write comment.
+    </li>
+    <br>
+
+    <li>
+        <b>sudo userdel -r thor</b># to completely delete user and his directories.
+    </li>
+    <br>
+
+    <li>
+        <b>chage thor</b># to set user expiry date etc.
+    </li>
+    <br>
+
+    <li>
+        <b>groups</b># to check the groups of current user.
+    </li>
+    <br>
+
+    <li>
+        <b>id thor</b># to check user group and id.
+    </li>
+    <br>
+
+    <li>
+        <b>passwd -l thor</b># to lock password.<br>
+        (use <b>cat /etc/shadow</b># to check password status.)
+    </li>
+    <br>
+
+    <li>
+        <b>passwd -u thor</b># to unlock password.<br>
+        (use <b>cat /etc/shadow</b># to check password status.)
+    </li>
+    <br>
+
+    <li>
+        <b>usermod -l 'newName' 'oldName'</b># to change the login name of user.
+    </li>
+    <br>
+
+    <li>
+        <b>usermod -u 1011 thor</b># to change the user id.
+    </li>
+    <br>
+
+    <li>
+        <b>usermod -G superman thor</b># to be the member of any group.
+    </li>
+    <br>
+
+    <li>
+        <b>usermod -G superman batman thor</b># to be the member of multiple group.
+    </li>
+    <br>
+
+    <li>
+        <b>usermod -a -G root thor</b># to change the user group.
+    </li>
+    <br>
+
+    <li>
+        <b>usermod -g superman thor</b># to change "primary group" of any user.
+    </li>
+    <br>
+    <hr>
+
+
+
+    <h1>Kali Linux (user-group)</h1>
+    <h2>There are two types of group:-</h2>
+    <p>
+        01: Primary group (it group automatically created when we add a user.<br>
+        02: Supplymentry group (we have to create this group)
+    </p><br>
+    <li>
+        <b>groupadd superman</b># to add a group named superman.<br>
+        (use <b>tail -5 /etc/group</b># command to check added or deleted group.)
+    </li>
+    <br>
+
+    <li>
+        <b>groupadd -g 2020 superman</b># to create a group with a specific id.
+    </li>
+    <br>
+
+    <li>
+        <b>groupmod -g 1006 superman</b># to change group id.
+    </li>
+    <br>
+
+    <li>
+        <b>groupmod -n 'newName' 'oldName'</b># to change the group name.
+    </li>
+    <br>
+
+    <li>
+        <b>gpasswd -M user1,user2 'groupName'</b># to add multiple users into a group.
+    </li>
+    <br>
+
+    <li>
+        <b>newgrp 'groupName'</b># to login group.
+    </li>
+    <br>
+
+    <li>
+        <b>gpasswd 'groupName'</b># to set a group password.<br>
+        (use <b>cat /etc/gshadow</b># command to check password is applied or not.)
+    </li>
+    <br>
+
+    <li>
+        <b>groupdel superman</b># to delete group.
+    </li>
+    </ol>
+</div>
+
+<div class="left">
+    <h2>When a new user is created. These files are modified.</h2>
+    <ol>
+        <li>/etc/passwd</li>
+        <li>/etc/shadow</li>
+        <li>/etc/group</li>
+        <li>/etc/gshadow</li>
+    </ol>
+    <p>
+        A new directory is created under <b>/home/ with the name of the user</b>.<br>
+        It will automatically have all the contents from <b>/etc/skel/ directory copied into it</b>.
+    </p>
+</div>
+   
+</body>
+</html>

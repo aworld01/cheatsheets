@@ -1,0 +1,6 @@
+name=input("Enter your name: ").lower()
+f=input("Enter a string to count in your name: ").lower()
+find=name.count(f)
+n=len(name)
+print(f"The length of your name is: {n}")
+print(f"Character count: {find}")

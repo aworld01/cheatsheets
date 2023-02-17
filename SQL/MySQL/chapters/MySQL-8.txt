@@ -1,0 +1,24 @@
+COMPARISON OPERATORS
+In sql, comparison operators are used to compare one expression with another expression using mathematical operators like equal(=), not equal(!=), greater than(>), less than(<), greater than or equal to(>=), less than or equal to(<=), not equal(<>), etc. on sql statements.
+
+EQUAL(=)
+select * from students where age=25;
+select * from students where fname='vinod';
+select *, count(age) from students where age=25;
+
+
+NOT EQUAL(!=)
+select * from students where age!=25;
+
+GREATER THAN(>)
+select * from students where age>24;
+
+LESS THAN(<)
+select * from students where age<24;
+
+GREATER THAN OR EQUAL TO(>=)
+select * from students where age>=25;
+
+LESS THAN OR EQUAL TO(<=)
+select * from students where age<=25;
+

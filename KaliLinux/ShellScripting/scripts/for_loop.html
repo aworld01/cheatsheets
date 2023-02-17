@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>basicStructure</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+.pre{
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+</style>
+</head>
+<body>		
+
+<h1>ShellScripting</h1>
+<p>For loop</p>
+<p class="pre">
+#!/bin/bash
+for day in Monday Tuesday Wednesday Thursday Friday Saturday
+do
+echo $day
+done
+</p>
+
+
+<h2>Train script</h2>
+<p class="pre">
+#!/bin/bash
+for train in 'Patna' 'Chhapra' 'Halt1' 'Siwan' 'Aarah' 'Halt2' 'Allahabad' 'Kanpur' 'Delhi'
+do
+    if [ $train = 'Halt1' -o $train = 'Halt2' ]
+    then
+    continue
+    fi
+    echo $train
+done
+</p>
+
+
+<p class="pre">
+#!/bin/bash
+for nums in {1..10}
+do
+echo $nums
+done
+</p>
+
+
+<p class="pre">
+#!/bin/bash
+for nums in {2..20..2}
+do
+echo $nums
+done
+</p>
+
+
+<p class="pre">
+#!/bin/bash
+for nums in {10..0..-1}
+do
+echo $nums
+done
+</p>
+<hr>	
+
+<h1>For loop with commands</h1>
+<p class="pre">
+#!/bin/bash
+for (( i=0; i<=10; i++))
+do
+echo "$i"
+done
+</p>
+
+
+<p class="pre">
+#!/bin/bash
+for (( i=0; i<=10; i+=1))
+do
+echo "$i"
+done
+</p>
+
+
+<p class="pre">
+#!/bin/bash
+for command in ls date
+do
+echo ".......$command........"
+$command
+done
+</p>	
+
+<h1>For loop with *</h1>
+<p class="pre">
+#!/bin/bash
+for file in *
+do
+    if [ -e $file ]
+    then
+        echo $file
+    fi
+done
+</p>
+
+
+<p class="pre">
+#!/bin/bash
+for file in /etc/*
+do
+    if [ -e $file ]
+    then
+        echo $file
+    fi
+done
+</p>
+<hr>
+
+
+<h1>Timer script</h1>
+<p class="pre">
+#!/bin/bash
+while true;
+do
+date
+sleep 3 # 3 is for seconds
+done
+</p>
+<hr>
+
+
+<h1>Automation update script</h1>
+<p class="pre">
+#!/bin/bash
+while true;
+do
+sudo apt update
+echo "...........The update has been finished................."
+sleep 1m 5s
+clear
+done
+</p>
+<hr>
+
+
+<h1>Automation tool for create folder</h1>
+<p class="pre">
+#!/bin/bash
+Destination=/home/thor/Desktop/www
+while true;
+do
+Second=`date +%s`
+sudo mkdir $Destination/"$Second"
+sleep 5
+done
+</p>
+<hr>
+
+
+
+<h1>Read a file</h1>
+<p class="pre">
+#!/bin/bash
+cat s.txt | while read var
+do
+echo $var
+done
+</p>
+
+<p class="pre">
+#!/bin/bash
+while read var
+do
+echo $var
+done <s.txt
+</p>
+
+
+
+<p class="pre">
+<b>ls -l</b>: to check permisions.
+<b>chmod u+x first_script.sh</b>: to give user permision.
+<b>./first_script.sh</b>: to execute shellscript.
+<b>sh first_script.sh</b>: to execute shellscript.
+<b>>></b>: to append
+<b>></b>: to overwrite
+<b>Ctrl+L</b>: to clear screen
+</p>
+</body>
+</html>

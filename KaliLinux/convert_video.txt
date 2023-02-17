@@ -1,0 +1,3 @@
+Encode in MJPEG: ffmpeg -i raw_footage.mp4 -vcodec mjpeg -q:v 2 -acodec pcm_s16be -q:a 0 -f mov footage_mjpeg.mov
+
+Encode back to H264: ffmpeg -i final_cut.mov -c:v libx264 -preset ultrafast -crf 0 final_video.mp4

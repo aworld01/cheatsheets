@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<link rel="icon" href="images/javascript.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+</style>
+</head>
+<body> 
+
+<h1>prototype in JavaScript</h1>
+
+<!-- <script>
+    var Mobile = function(model_no){
+        this.model = model_no;
+        this.price = 3000;
+    };
+    var samsung = new Mobile('Galaxy');
+    var nokia = new Mobile('3310');
+    console.log(samsung);
+    console.log(nokia);
+    samsung.color = 'white' // to add a property for a specefic object.
+    nokia.color = 'white' // to add a property for a specefic object.
+</script> -->
+
+
+<script>
+    var Mobile = function(model_no){
+        // Instance Member
+        this.model = model_no;
+        this.price = 3000;
+    };
+    var samsung = new Mobile('Galaxy');
+    var nokia = new Mobile('3310');
+    // Prototype Member
+    Mobile.prototype.color = 'white'; // to add color property for all object.
+    console.log(samsung);
+    console.log(nokia);
+</script>
+
+</body>
+</html>

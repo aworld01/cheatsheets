@@ -1,0 +1,34 @@
+SQL JOIN
+A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+
+
+Different Types of SQL JOINS
+(INNER) JOIN: Returns records that have matching values in both tables.
+
+LEF(OUTER) JOIN: The LEFT JOIN keyword returns all records from the left table(table1), and the matched records from the right table(table2). The result is NULL from the right side, if there is no match.
+
+RIGHT(OUTER) JOIN: The LEFT JOIN keyword returns all records from the left table(table1), and the matched records from the right table(table2). The result is NULL from the right side, if there is no match.
+
+
+INNER JOIN
+select * from customers, orders where customers.cid=orders.cid;
+select * from customers join orders on customers.cid = orders.cid;
+
+select customers.cid, cname, oamount
+from customers
+join orders
+on customers.cid = orders.cid;
+
+
+LEFT JOIN
+select customers.cid, cname, oamount
+from customers
+left join orders
+on customers.cid = orders.cid;
+
+
+RIGHT JOIN
+select customers.cid, cname, oamount
+from customers
+right join orders
+on customers.cid = orders.cid;

@@ -1,0 +1,12 @@
+Right click on Desktop.
+Goto:- New>Shortcut(shutdown -s -t 00)>Next(Shortcut name)>Finish
+
+Right click on Shortcut that you made just.
+Click on "Change Icon>OK"
+Select the "Icon>OK>OK"
+
+Note: shutdown -a (to abort shutdown command)
+
+Shutdown: shutdown -s -t 00
+Restart: shutdown -r -t 00
+Log off: shutdown -l
