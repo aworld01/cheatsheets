@@ -1,6 +1,3 @@
-02:09:00/11:08:32
-
-
 00:00 Introduction
 01:09 Syllabus
 11:12 History of JavaScript
@@ -50,7 +47,6 @@
 04:46:03 Nested destructuring
 04:51:08 Function declaration
 05:11:43 Function Expression
-
 05:16:22 Arrow Functions
 05:24:46 Hoisting intro ( later covered in detail)
 05:29:22 Functions inside functions
@@ -60,6 +56,7 @@
 05:56:19 Rest parameters
 06:02:35 Param destructuring
 06:05:54 callback functions
+
 06:13:09 Function returning function
 06:18:48 forEach method
 06:35:48 map method

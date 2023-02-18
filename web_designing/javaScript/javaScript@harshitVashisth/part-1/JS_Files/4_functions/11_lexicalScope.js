@@ -1,3 +1,12 @@
+const myVar = "Global"; //first value
+function myApp(){
+    const myVar = "Father"; //second value
+    function myfunc(){
+        const myVar = "Son"; //third value
+        console.log("inside myFunc", myVar);
+    }
+    console.log(myVar);
+    myfunc();
+}
 
-
-/* 5:33:00 / 11:08:32 */
+myApp();
