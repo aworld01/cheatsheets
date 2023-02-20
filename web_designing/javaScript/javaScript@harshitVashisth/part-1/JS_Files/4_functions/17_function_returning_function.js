@@ -1,3 +1,25 @@
+/* example1 */
+// function myFunc(){
+//     function hello(){
+//         return "Hello world"
+//     };
+//     return hello;
+// };
+
+// const ans = myFunc();
+// console.log(ans);
+// result = ans();
+// console.log(result);
 
 
-/* 6:13:15 / 11:08:32 */
+/* example2 */
+function myFunc(){
+    return function hello(){
+        return "Hello world"
+    };
+};
+
+const ans = myFunc();
+console.log(ans);
+result = ans();
+console.log(result);

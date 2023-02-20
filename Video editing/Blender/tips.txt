@@ -1,5 +1,5 @@
 https://google.com/ [fbx model free download]
-blender/file/import fbx[select your model]
+blender/file/import/fbx[select your model]
 
 web4click
 =========
