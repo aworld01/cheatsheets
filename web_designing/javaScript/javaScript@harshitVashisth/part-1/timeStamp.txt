@@ -56,7 +56,6 @@
 05:56:19 Rest parameters
 06:02:35 Param destructuring
 06:05:54 callback functions
-
 06:13:09 Function returning function
 06:18:48 forEach method
 06:35:48 map method
@@ -69,6 +68,7 @@
 07:43:18 fill method
 07:46:08 splice method
 07:52:20 Iterables, array like objects
+
 07:57:15 sets
 08:11:13 map data structure
 08:29:10 clone using Object.assign
