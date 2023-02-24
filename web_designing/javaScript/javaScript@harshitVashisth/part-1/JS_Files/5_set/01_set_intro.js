@@ -15,5 +15,3 @@ const items3 = new Set([1,2,3,2]); //no duplicates allowed
 console.log(items);
 console.log(items2);
 console.log(items3);
-
-/* 8:01:50 / 11:08:32 */
