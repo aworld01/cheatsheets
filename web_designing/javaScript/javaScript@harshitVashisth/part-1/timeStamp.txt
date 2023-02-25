@@ -68,9 +68,9 @@
 07:43:18 fill method
 07:46:08 splice method
 07:52:20 Iterables, array like objects
-
 07:57:15 sets
 08:11:13 map data structure
+
 08:29:10 clone using Object.assign
 08:32:02 optional chaining
 08:38:42 Create your own methods
