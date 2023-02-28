@@ -72,7 +72,6 @@
 08:11:13 map data structure
 08:29:10 clone using Object.assign
 08:32:02 optional chaining
-
 08:38:42 Create your own methods
 08:52:00 This keyword
 08:55:44 call, apply, bind methods
@@ -84,6 +83,7 @@
 09:28:37 solution using object.create
 09:45:55 What is prototype
 09:56:21 Use prototype
+
 10:04:18 New keyword
 10:17:17 hasOwnProperty
 10:19:35 more about prototype
