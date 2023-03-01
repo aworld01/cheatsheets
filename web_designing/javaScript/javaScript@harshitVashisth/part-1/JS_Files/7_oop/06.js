@@ -28,5 +28,3 @@ const user2 = usr2.about();
 
 console.log(user1);
 console.log(user2);
-
-/* 10:04:00 / 11:08:32 */

@@ -83,7 +83,6 @@
 09:28:37 solution using object.create
 09:45:55 What is prototype
 09:56:21 Use prototype
-
 10:04:18 New keyword
 10:17:17 hasOwnProperty
 10:19:35 more about prototype
