@@ -5,7 +5,7 @@ function myFunc(){
 
 
 /* function expression */
-function myFunc2(){
+let myFunc2 = function(){
     console.log("Hello world...");
 };
 

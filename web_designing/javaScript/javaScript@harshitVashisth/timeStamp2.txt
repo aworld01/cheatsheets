@@ -3,9 +3,9 @@ Time Stamp
 02:39 How javascript works overview
 16:19 How javascript execute code
 18:00 Global execution context
-32:11 What happens to function declarations ? 
+32:11 What happens to function declarations ?
 45:33 What is hoisting ? 
-49:07 What happens to function expressions ? 
+49:07 What happens to function expressions ?
 56:18 Are let and const are hoisted ? 
 01:08:36 Quick summary of what we’ve learned so far
 01:14:54 Function execution context
@@ -17,9 +17,10 @@ Time Stamp
 02:31:55 Closures Example 4
 02:50:43 Create Webpage using HTML & CSS
 03:25:37 Async vs Defer | Correct way of linking JS file
-03:39:46 What is DOM ? 
+03:39:46 What is DOM ?
 03:47:38 getElementById
 03:52:23 querySelector
+
 03:57:48 textContent and innerText
 04:02:53 Change the styles of elements
 04:09:20 get and set attributes
