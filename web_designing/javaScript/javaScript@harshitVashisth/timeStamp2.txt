@@ -20,9 +20,9 @@ Time Stamp
 03:39:46 What is DOM ?
 03:47:38 getElementById
 03:52:23 querySelector
-
 03:57:48 textContent and innerText
 04:02:53 Change the styles of elements
+
 04:09:20 get and set attributes
 04:14:29 querySelectorAll & getElementsbyClassName
 04:20:01 Iterate elements
