@@ -61,4 +61,4 @@ console.log("\n");
 
 console.log("headChilds =>", head.childNodes);
 
-/* 5:07:00 / 8:13:32 */
+console.log("headChildren =>", head.children); //to ignore text nodes
