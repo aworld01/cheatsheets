@@ -24,5 +24,4 @@ example-4
     <script src="dinamic.js" defer></script> <!-- it wil parse full file then execute (best way) -->
     <title>Testing</title>
 </head>
-
 */
