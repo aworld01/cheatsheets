@@ -1,0 +1,12 @@
+.todo-list{
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+.todo-list li{
+    padding: 0.7rem;
+    margin-top: 1rem;
+    color: cyan;
+    background: #444;
+    text-transform: capitalize;
+}

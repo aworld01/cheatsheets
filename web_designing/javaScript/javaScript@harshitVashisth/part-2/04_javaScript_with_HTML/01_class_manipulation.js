@@ -13,5 +13,3 @@ function removed(){
 function cleared(){
     para.classList.remove("bg", "fg", "align");
 }
-
-/* 5:20:00 / 8:13:32 */
