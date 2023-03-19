@@ -12,7 +12,24 @@ console.log(todoList);
 
 
 
-/* example2 */
+/* example2 (a)*/
+// const newTodoItem = document.createElement("li"); //to create new 'li' element
+// console.log(newTodoItem);
+
+// const newTodoItemText = document.createTextNode("Hello world"); //to create textNode
+// console.log(newTodoItemText);
+
+// newTodoItem.appendChild(newTodoItemText); //to add text into new li
+
+// todoList.append(newTodoItem); //to add into ul
 
 
-/* 5:31:50 / 8:13:32 */
+
+/* example2 (b)*/
+const newTodoItem = document.createElement("li"); //to create new 'li' element
+
+newTodoItem.textContent = "Hello world";
+
+// todoList.append(newTodoItem); //to add into last of ul
+
+todoList.prepend(newTodoItem); //to add at first of ul

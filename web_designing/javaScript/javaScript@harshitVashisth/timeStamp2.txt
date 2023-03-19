@@ -22,7 +22,6 @@ Time Stamp
 03:52:23 querySelector
 03:57:48 textContent and innerText
 04:02:53 Change the styles of elements
-
 04:09:20 get and set attributes
 04:14:29 querySelectorAll & getElementsbyClassName
 04:20:01 Iterate elements
@@ -32,6 +31,7 @@ Time Stamp
 05:16:55 classList ,add and remove, toggle classes
 05:25:10 Add HTML element using JavaScript
 05:31:49 createElement, append, prepend, remove, before, after
+
 05:40:15 insertAdjacentHTML
 05:45:45 Clone Nodes
 05:48:58 appendChild, insertBefore, replaceChild, removeChild
