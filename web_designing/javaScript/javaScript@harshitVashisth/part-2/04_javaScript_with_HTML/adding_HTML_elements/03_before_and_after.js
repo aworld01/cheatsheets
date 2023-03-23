@@ -8,7 +8,4 @@ newTodoItem.textContent = "Hello world"; //to add text into list
 
 // todoList.before(newTodoItem); //to add at before
 
-todoList.after(newTodoItem); //to add after
-
-
-/* 5:40:00 / 8:13:32 */
+// todoList.after(newTodoItem); //to add after
