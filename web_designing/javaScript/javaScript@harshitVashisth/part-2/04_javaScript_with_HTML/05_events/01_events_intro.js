@@ -59,7 +59,3 @@ function show(){
 
 const btn = document.querySelector(".btn");
 btn.addEventListener("click", show);
-
-
-
-/* 6:15:00 / 8:13:32 */
