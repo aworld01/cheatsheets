@@ -42,9 +42,9 @@ Time Stamp
 06:31:27 Event object
 06:45:02 Events Behind the scenes
 07:04:32 practice with click events
-
 07:06:51 Little demo project
 07:18:09 Keypress & mouseover event
+
 07:22:38 Event bubbling & Event Capturing
 07:43:28 Event Delegation
 07:49:25 Project Using Event Delegation
