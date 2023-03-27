@@ -26,4 +26,14 @@ todoForm.addEventListener("submit", (e) =>{
     todoInput.value = "";
 });
 
-/* 8:05:00 / 8:13:32 */
+todoList.addEventListener("click", (e) => {
+    //check if user clicked on done button
+    if(e.target.classList.contains("remove")){
+        const targetedLi = e.target.parentNode.parentNode;
+        targetedLi.remove()
+    }
+    if(e.target.classList.contains("done")){
+        const liSpan = e.target.parentNode.previousElementSibling;
+        liSpan.style.textDecoration = "line-through";
+    }
+});
