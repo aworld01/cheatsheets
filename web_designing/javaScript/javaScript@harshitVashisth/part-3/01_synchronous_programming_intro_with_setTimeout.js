@@ -1,4 +1,5 @@
 /*
+synchronousProgramming vs aSynchronousProgramming
 javaScript is a single threaded synchronousProgramming
 */
 
@@ -29,11 +30,33 @@ javaScript is a single threaded synchronousProgramming
 // function hello(){
 //     console.log("Inside setTimeout");
 // }
-// setTimeout(hello, 0); //3000 millisecond = 3 seconds
+// setTimeout(hello, 0);
 
 // for(let i = 1; i<100; i++){
 //     console.log("......")
 // };
 
 
-/* 17:20 / 3:49:26 */
+/* setTimeout (id)*/
+// console.log("Script start");
+
+// function hello(){
+//     console.log("Inside setTimeout");
+// }
+// const id = setTimeout(hello, 0);
+// console.log("setTimeout id is: ",id);
+// console.log("Script end");
+
+
+/* setTimeout (use of id)*/
+console.log("Script start");
+
+function hello(){
+    console.log("Inside setTimeout");
+}
+const id = setTimeout(hello, 0);
+console.log("setTimeout id is: ",id);
+console.log("Clearing timeout");
+clearTimeout(id); //to clear setTimeOut
+console.log("Script end");
+/* 00:25:00 / 3:49:26 */
