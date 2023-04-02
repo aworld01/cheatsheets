@@ -1,0 +1,3 @@
+/*
+A comparison operator compares its operands and returns a logical value based on wheter the comparison is true.
+*/
