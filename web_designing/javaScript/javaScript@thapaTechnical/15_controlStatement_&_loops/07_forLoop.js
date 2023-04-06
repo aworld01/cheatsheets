@@ -1,7 +1,7 @@
 /*
 syntax:
     for(initializer: condition; iteration){
-        //code ot be executed
+        //code to be executed
     }
 */
 /* whileLoop */
