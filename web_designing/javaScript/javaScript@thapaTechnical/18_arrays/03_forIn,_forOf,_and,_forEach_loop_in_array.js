@@ -14,7 +14,13 @@ let students = ["Rahul", "Mahesh", "Abid", "Subhan", "Akbar"];
 // }
 
 
-/* for..of loop (returns element*/
-for(let elements of students){
-    console.log(elements);
-}
+/* for..of loop (returns element) */
+// for(let elements of students){
+//     console.log(elements);
+// }
+
+
+/* .forEach loop (returns element and index), this is Array.prototype */
+students.forEach(function(element, index, array){
+    console.log(`${index} => ${element}`);
+});
