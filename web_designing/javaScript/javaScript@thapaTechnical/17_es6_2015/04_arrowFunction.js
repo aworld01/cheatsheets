@@ -30,6 +30,8 @@
 
 
 /* arrowFunction_in_oneline */
-const sum = () => 'The sum of the two number is ${(x=5)+(y=6)}.`;
-    
+// const sum = () => `The sum of the two numbers is ${(x=5)+(y=7)}.`;
+const sum = (x=5, y=6) => `The sum of the two numbers is ${x+y}.`;
+
+console.log(sum())
 // console.log(sum(9,3));
