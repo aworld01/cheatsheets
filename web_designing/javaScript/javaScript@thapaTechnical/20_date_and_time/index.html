@@ -8,14 +8,31 @@
 </head>
 <body>
     <button onclick="(myfunc())">Try it</button>
-
     <p id="demo"></p>
-    <script>
+
+    <!-- example1  -->
+    <!-- <script>
         function myfunc(){
             let time = new Date();
             let now = time.toLocaleString();
             // document.getElementById("demo").innerHTML = time;
             document.getElementById("demo").innerHTML = now;
+        }
+    </script> -->
+
+    <!-- example2 -->
+    <!-- <script>
+        setInterval(() => console.log(new Date().toLocaleString(), 1000));
+    </script> -->
+
+
+    <!-- example3 -->
+    <script>
+        function myfunc(){
+            let time = new Date();
+            let now = time.toLocaleTimeString();
+            document.getElementById("demo").innerHTML = now;
+            setInterval(myfunc, 1000);
         }
     </script>
 </body>
