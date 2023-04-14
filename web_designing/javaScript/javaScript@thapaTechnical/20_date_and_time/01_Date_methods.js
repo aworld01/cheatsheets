@@ -37,7 +37,26 @@ javaScript counts months form 0-11;
 // console.log(d.toLocaleString());
 
 
-/* example5 */
-let now = Date.now(); //represents milliseconds since 1 January 1970 UTC
-console.log(now);
+/* example4 */
+// let now = Date.now(); //represents milliseconds since 1 January 1970 UTC
+// console.log(now);
 
+
+/* example5 */
+let now = new Date();
+
+/* how to get the indivisual date */
+// console.log(now.toLocaleString());
+// console.log(now.getFullYear()); //to get year
+// console.log(now.getMonth()); //to get month 0-1 (jan-Dec);
+// console.log(now.getDate()); //to get date
+// console.log(now.getDay()); //to get day
+
+
+/* how to set the indivisual date */
+let year = now.setFullYear(2020); //the setFullYear() method can optionally set month and day
+let month = now.setMonth(10); //to set month
+let date = now.setDate(04); //to set date
+let dateAndYear = now.setFullYear(2021, 10, 5); //to set year and date
+
+console.log(now.toLocaleString());
