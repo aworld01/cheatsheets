@@ -44,9 +44,10 @@
 // console.log(Math.max(0,150,30,20,-8,-200));
 
 
-/* Math.trunc() returns the integer part of a number */
-console.log(Math.trunc(4.6));
-console.log(Math.trunc(-99.1));
+/* if the argument is a positive number, Math.trunc() is a equivalent to Math.floor(). Otherwise Math.trunc() is equivalent to Math.ceil().
+Math.trunc() returns the integer part of a number */
+// console.log(Math.trunc(4.6));
+// console.log(Math.trunc(-99.1));
 
 
 
