@@ -20,11 +20,17 @@ Searching and getting Elements Reference
 consoleCommands:-
 Window
     window: to get window object.
+    window.history.back() //to goback on history
     window.location: to get location url.
     location: to get location url. //we don't need to refer the window object.
     location.href: to get url
     innerHeight: to get Height of browserWindow
     innerWidth: to get Width of browserWindow
 Document
+    document: to access document
+    document.documentElement: to access only root element
+    document.head: to access only head tag
+    document.body: to access only body tag
     document.body.style.background = "grey";
+
 */
