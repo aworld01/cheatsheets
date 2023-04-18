@@ -20,7 +20,7 @@ Searching and getting Elements Reference
 consoleCommands:-
 Window
     window: to get window object.
-    window.history.back() //to goback on history
+    window.history.back() to goback on history
     window.location: to get location url.
     location: to get location url. //we don't need to refer the window object.
     location.href: to get url
@@ -28,9 +28,16 @@ Window
     innerWidth: to get Width of browserWindow
 Document
     document: to access document
-    document.documentElement: to access only root element
+    document.documentElement: returns the Element that is the root element of the document.
     document.head: to access only head tag
     document.body: to access only body tag
     document.body.style.background = "grey";
+    document.body.childNodes: to see the list of direct children only (include tab, enter, and whiteSpace)
+    document.body.children: to see only regularElements (without textNode)
+    document.body.children.length: to see the length of body child
+    document.body.firstChild: to fecth firstChild of body including textNode (tab, enter, and whiteSpace)
+    document.body.firstElementChild: to fech only regularElements (without textNode)
 
+    document.body.parentNode: to see the parentNode
+    document.body.parentElement: to see the parentNode
 */
