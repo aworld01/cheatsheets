@@ -32,12 +32,34 @@ Document
     document.head: to access only head tag
     document.body: to access only body tag
     document.body.style.background = "grey";
+
+    CHILD
+    =====
     document.body.childNodes: to see the list of direct children only (include tab, enter, and whiteSpace)
     document.body.children: to see only regularElements (without textNode)
     document.body.children.length: to see the length of body child
     document.body.firstChild: to fecth firstChild of body including textNode (tab, enter, and whiteSpace)
     document.body.firstElementChild: to fech only regularElements (without textNode)
 
+    PARENT
+    =====
     document.body.parentNode: to see the parentNode
     document.body.parentElement: to see the parentNode
+
+    SIBLING
+    =======
+    document.head.nextSibling //to check nextSibling
+    document.body.previousSibling //to check previousSibling
+    document.head.nextElementSibling //to check next sibling (without textNode)
+    document.body.previousElementSibling //to check previous sibling (without textNode)
+
+    SEARCH THE ELEMENTS
+    ===================
+    console.log(document.getElementsByClassName("para"))
+    console.log(document.getElementsByTagName("p"));
+    console.log(document.getElementsByName("txt"));
+    console.log(document.getElementById("name").value); //for input fields
+    console.log(document.querySelector("#heading")) //it finds first element
+    console.log(document.querySelectorAll("p")) //returns all the elements
+
 */

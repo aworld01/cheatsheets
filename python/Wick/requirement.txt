@@ -1,0 +1,5 @@
+%pip install ipywidgets
+%pip install pyaudio
+%pip install vosk
+%pip install transformers
+%pip install torch
