@@ -8,12 +8,15 @@ import sys
 # print(dir(sys)) #to list functions and variables
 # help(sys) #to read documentation
 
-"""examples"""
+"""examples1"""
 # print(sys.platform) #to see installed python bit
-# print()
 # print(sys.version) #to see python version
-# print()
-# print(sys.path) #to check where python go and check for it requirments
+# print(sys.version) #to see python version
+
+"""example2 (to check where python go and check for it requirments)"""
+# n = sys.path
+# for index, path in enumerate(n):
+#     print(f"{index}: => {path}\n")
 
 
 
