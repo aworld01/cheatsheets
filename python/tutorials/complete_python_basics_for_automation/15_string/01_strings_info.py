@@ -35,5 +35,8 @@ Now I'm 25 years old. And I do my job very easily.
 # print(len(firstName))
 
 """string concatinating"""
-print(firstName)
-print(f"{firstName} {lastName}")
+# print(firstName)
+# print(f"{firstName} {lastName}")
+
+string = "hello world"
+print(dir(string)) #to see all methods, functions, and variables of string datatype
