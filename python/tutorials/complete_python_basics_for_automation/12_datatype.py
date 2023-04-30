@@ -1,6 +1,18 @@
 """
 Every value in python has a datatype.
 Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes.
+
+1: boolean
+2: string
+3: numbers
+    1: integer
+    2: float
+    3: complex
+4: sequence data type (data structure)
+    1: list => []
+    2: tuple => ()
+    3: set => {}
+    4: dictionary => {:}
 """
 string = "Hello world" #string
 """boolean"""
@@ -10,6 +22,10 @@ boolean2 = False
 num = 123
 flt = 2.5
 com = 3+4j
+
+"""sequence datatype (data structure)"""
+
+
 
 """to check datatype"""
 # print(f"{string} => {type(string)}")
