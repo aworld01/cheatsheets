@@ -22,6 +22,7 @@ Rules to create a pattern:
     \w => Matches any single letter, digit or underscore
     \W => Matches any character not part of \w
     \d => Matches decimal digit 0-9
+    . => Matches any single character except newline character
 
 28:00 / 41:01
 """
@@ -88,8 +89,62 @@ import re
 
 
 """Matches decimal digit 0-9"""
-txt = "This is python and it 412346 is very easy to learn2-@_@$&." #remove spaces example
-myPattern = "\d" #Matches decimal digit 0-9
+# txt = "This is python 2 3 4 and it 412346 is very easy to learn2-@_@$&." #remove spaces example
+# myPattern = "\d" #Matches decimal digit 0-9
+# result = re.findall(myPattern, txt)
+# n = len(result)
+# print(result)
+# print(n)
+
+
+"""Example1"""
+# txt = "This is python2 3 4 it @ is easy to _ learn_@ python3" #remove spaces example
+# myPattern = "python\d" #Matches decimal digit 0-9
+# result = re.findall(myPattern, txt)
+# n = len(result)
+# print(result)
+# print(n)
+
+
+"""Example2"""
+# txt = "This is python2 34 it @ is easy to _ learn_@ python3" #remove spaces example
+# myPattern = "\d\d" #Matches decimal digit 0-9
+# result = re.findall(myPattern, txt)
+# n = len(result)
+# print(result)
+# print(n)
+
+
+"""select all except newline character"""
+# txt = "This is python2 34 it @ is easy to _ learn_@ \n python3" #remove spaces example
+# myPattern = "." #Matches decimal digit 0-9
+# result = re.findall(myPattern, txt)
+# n = len(result)
+# print(result)
+# print(n)
+
+
+"""select dot"""
+# txt = "This is python2 34 it @ is easy. to _ learn_@ \n python3." #remove spaces example
+# myPattern = "\." #Matches decimal digit 0-9
+# result = re.findall(myPattern, txt)
+# n = len(result)
+# print(result)
+# print(n)
+
+
+"""example of dot"""
+# txt = "This is my ip of a db server: 255.100.102.103  338339339383839393776678" #remove spaces example
+# myPattern = "\d\d\d.\d\d\d.\d\d\d" #Matches decimal digit 0-9
+# result = re.findall(myPattern, txt)
+# n = len(result)
+# print(result)
+# print(n)
+
+
+"""final example of dot"""
+txt = "This is my ip of a db server: 255.100.102.103  338339339383839393776678" #remove spaces example
+myPattern = "\d\d\d\.\d\d\d\.\d\d\d" #Matches decimal digit 0-9
 result = re.findall(myPattern, txt)
 n = len(result)
 print(result)
