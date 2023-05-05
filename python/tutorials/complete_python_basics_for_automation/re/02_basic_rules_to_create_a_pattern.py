@@ -23,8 +23,6 @@ Rules to create a pattern:
     \W => Matches any character not part of \w
     \d => Matches decimal digit 0-9
     . => Matches any single character except newline character
-
-28:00 / 41:01
 """
 import re
 
