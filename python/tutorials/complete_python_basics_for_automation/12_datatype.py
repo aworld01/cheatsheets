@@ -15,16 +15,21 @@ Since everything is an object in Python programming, data types are actually cla
     4: dictionary => {:}
 """
 string = "Hello world" #string
+
 """boolean"""
 boolean1 = True
 boolean2 = False
+
 """number"""
 num = 123
 flt = 2.5
 com = 3+4j
 
-"""sequence datatype (data structure)"""
 
+"""printing informations"""
+# print(f"Data => {string}") #print variable
+# print(f"Type => {type(string)}") #to check datatype
+# print(f"Memory location => {id(string)}") #to check memory location
 
 
 """to check datatype"""
@@ -34,12 +39,6 @@ com = 3+4j
 # print(f"{num} => {type(num)}")
 # print(f"{flt} => {type(flt)}")
 # print(f"{com} => {type(com)}")
-
-
-"""printing informations"""
-# print(f"Data => {string}") #print variable
-# print(f"Type => {type(string)}") #to check datatype
-# print(f"Memory location => {id(string)}") #to check memory location
 
 
 
