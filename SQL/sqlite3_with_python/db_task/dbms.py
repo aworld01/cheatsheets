@@ -9,6 +9,14 @@ query = """CREATE TABLE IF NOT EXISTS students(
 )"""
 con.execute(query)
 
+cur = con.cursor()
+
+def structure():
+    query = "schema students"
+    data = cur(query)
+    print(data)
+
+
 def show():
     tables = con.execute("SELECT * FROM students")
     for records in tables:
@@ -30,3 +38,5 @@ def update(name, s_class, email, s_id):
     query = "UPDATE students SET name = ?, s_class = ?, email = ? WHERE id = ?"
     con.execute(query, (name, s_class, email, s_id))
     con.commit()
+
+structure()
