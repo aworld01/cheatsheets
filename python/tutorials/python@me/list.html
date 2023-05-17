@@ -7,47 +7,60 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style>
+	.disc{
+		background: yellow;
+		white-space: pre-wrap;
+		border: 2px solid blue;
+		font-weight: bold;
+	}
+	.disc h2{
+		margin-bottom: 0;
+	}
 li
 	{
 	white-space: pre-wrap;
 	}
 </style>
 </head>
-<body style="background: gray;">
+<body>
 
-<p>
-	http://127.0.0.1:5500/python_final.html<br>
-	http://www.github.com/artificialworld09
-</p>
+<h1 style="text-align: center;">List (Python3)</h1>
+<div class="disc">
+	print(bool(empty_list)) #False
+	print(bool(none-empty_list)) #True
 
-<h1 style="text-align: center;">Lists (Python3)</h1>
-<pre style="font-weight: bold;">
-"""
-list_creation
-len()_function_in_list
-list_indexing
-list_slicing
-list_step_argument
-Adding_items_to_the_list .append() method) #add an item to end of list.
-Adding_items_to_the_list .insert() method #add indexed value into list.
-Adding_items_to_the_list .extend() method #add a list into list.
-Adding_items_to_the_list += #add a list into list.
-Deleting_items_from_the_list .pop() method #remove last item in the list.
-Deleting_items_from_the_list .pop(1) method  #remove indexed value from list.
-Deleting_items_from_the_list .remove() method #remove by value.
-Deleting_items_from_the_list del
-Replace_list_items
-in_keyword_with_lis
-list Sorting = .sort() method #sorting the list.
-list Sorting = sorted() #sorting the list.
-list reverse = sorted(fruits, reverse=True) #reversing the list
-list reverse = .reverse() #reversing the list
-list reverse = fruits[::-1] #display item in reverse order.
-list .count() #search list and return number of instances found.
-list .copy()
-list .clear()
-"""
-</pre>
+	a => list creation
+	b => list indexing
+	c => list_slicing
+	d => step_argument
+	e => replacing items
+	f => len() function
+	g => deleting items
+	h => in keyword
+	
+
+<h2>list methods:</h2>
+	01: .append() #add an item to the end of the list.
+	07: .insert() #add an item by the index value.
+	05: .extend() #add a list into list.
+		+= #add a list into list.
+
+	08: .pop() #remove an item from the last in the list.
+		.pop(1) #remove an item by the index value.
+	09: .remove() #remove an item by value.
+	02: .clear()
+	03: .copy()
+	04: .count() #search list and return number of instances.
+	06: .index()
+	10: .reverse() #reversing the list
+	11: .sort() #sorting the list.
+
+	sorted() #sorting the list.
+	sorted(fruits, reverse=True) #reversing the list
+	fruits[::-1] make reverse item
+
+print(dir(l2)) #to print all functions and methods of list
+</div>
 
 <ol>
 <li>
