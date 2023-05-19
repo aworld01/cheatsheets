@@ -1,0 +1,2 @@
+emptyString = ""
+print(dir(emptyString))
