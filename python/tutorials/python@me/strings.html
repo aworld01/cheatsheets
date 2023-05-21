@@ -29,6 +29,16 @@ li
 <div class="disc">
 String is a collection of charecters inside single quotes or double quotes.
 
+A string is a sequence of characters and it's imutable.
+
+A character is simply a symbol. For example, the English language has 26 characters.
+
+Computers don't deal with character, the deal with numbers (binary). Even though you may see characters on your screen, internally it is stored and manipulated as a combination of 0's and 1's.
+
+This conversion of character to a number is called encoding, and the reverse process is decoding. ASCII and Unicode are some of the popular encoding used.
+
+In Python, string is a sequence of Unicode character. Unicode was introduced to include every character in all languages and bring uniformity in encoding.
+
 a => string creation
 b => string indexing
 c => string_slicing
@@ -80,17 +90,17 @@ h => in keyword
 	10: .format_map()
 
 	12: .isalnum()
-	13: .isalpha()
+	13: .isalpha() #to check if all string is in alphabetic (characters)
 	14: .isascii()
 	15: .isdecimal()
 	16: .isdigit()
 	17: .isidentifier()
-	18: .islower()
-	19: .isnumeric()
+	18: .islower() #to check if all string is in lowercase
+	19: .isnumeric() #to check if all string is in numeric (numbers)
 	20: .isprintable()
-	21: .isspace()
-	22: .istitle()
-	23: .isupper()
+	21: .isspace() #to check if all string is in space
+	22: .istitle() #to check if all string is in titlecase
+	23: .isupper() #to check if all string is in uppercase
 	28: .maketrans()
 	29: .partition()
 	30: .removeprefix()
