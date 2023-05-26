@@ -1,0 +1,10 @@
+nvidia-smi #to check if cuda available or not
+
+pip install numpy #to install numpy
+pip install matplotlib #to install matplotlib
+
+
+import torch
+torch.__version__ #to check pytorch version
+
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 #to download torchvision with cuda driver
