@@ -1,0 +1,46 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, how can I help you?"
+            ]
+        },
+        {
+            "tag": "leave",
+            "patterns":[
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses":[
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! come back again soon"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns":[
+                "Tell me a joke",
+                "Tell me something funny!",
+                "Do you know a joke?"
+            ],
+            "responses":[
+                "Why did the hipster burn his mouth? He drank the coffee before it was cool",
+                "What did the buffalo say when his son left for college? Bison.",
+                "Bye! come back again soon"
+            ]
+        }
+    ]
+}
