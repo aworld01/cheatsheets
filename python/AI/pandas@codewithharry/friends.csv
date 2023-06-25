@@ -1,5 +1,8 @@
-name,marks,city
-Harry,92,Rampur
-Rohan,34,Kolkata
-Skillf,24,Bareilly
-Shubh,17,Antarctica
+name,city,marks
+Harry,Rampur,92
+Rohan,Kolkata,34
+Skillf,Bareilly,24
+Shubh,Antarctica,17
+Aamit,Kolkata,15
+Ahmed,Delhi,14
+Raheman,Mumbai,34
