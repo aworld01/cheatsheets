@@ -27,38 +27,43 @@
 </pre> 
             <h1>Commands</h1>
             <dl>
-                <dt>.open myDatabase.db</dt>
-                <dd>to open database or create a new one.</dd>
-
                 <dt>sqllite3 test.db</dt>
-                <dd>to open database or create a new one from outside.</dd>
+                <dd>to select database or create a new one if not exist and select.</dd>
+
+                <dt>sqlite3</dt>
+                <dd>to lunch sqlite</dd>
+
+                <h3>Note: No need semi-colon with dot commands</h3>
+
+                <dt>.open myDatabase.db</dt>
+                <dd>to open database or create if not exist.</dd>
 
                 <dt>.shell ls</dt>
                 <dd>to check database file.</dd>
 
                 <dt>.database</dt>
-                <dd>to see the name of your current database.</dd>
+                <dd>to check selected databse.</dd>
 
-                <dt>.tables</dt>
-                <dd>to see all the tables.</dd>
+                <dt>.table</dt>
+                <dd>to check list of tables.</dd>
+
+                <dt>.schema</dt>
+                <dd>to check all available table structure.</dd>
 
                 <dt>.schema Product</dt>
-                <dd>to see structures of table.</dd>
+                <dd>to check desired table structure.</dd>
 
                 <dt>.shell clear</dt>
-                <dd>to clear the terminal.</dd>
+                <dd>to clear the sqlite console.</dd>
 
                 <dt>.exit</dt>
-                <dd>to exit.</dd>
+                <dd>to exit from sqlite console</dd>
 
                 <dt>.quit</dt>
-                <dd>to exit.</dd>
+                <dd>to exit from sqlite console.</dd>
 
                 <dt>CTRL+D</dt>
-                <dd>to exit.</dd>
-
-                <dt>.schema Product</dt>
-                <dd>to see structures of table.</dd>
+                <dd>to exit from sqlite console.</dd>
             </dl>
             <hr>
             <h1>Queries</h1>
@@ -69,23 +74,56 @@
                 <dt>INSERT INTO Product(Name, Price, Quantity) VALUES('AutoCAD', 200, 20);</dt>
                 <dd>to insert data.</dd>
 
+                <dt>INSERT INTO Product VALUES('AutoCAD', 200, 20);</dt>
+                <dd>to insert data by structure.</dd>
+
                 <dt>SELECT * FROM Product;</dt>
-                <dd>to see all table records.</dd>
+                <dd>to reterive all records.</dd>
 
                 <dt>SELECT Name FROM Product;</dt>
-                <dd>to see name of all records.</dd>
+                <dd>to select Name column only.</dd>
 
                 <dt>SELECT Name, Quantity FROM Product;</dt>
-                <dd>to see name and quantity of all records.</dd>
+                <dd>to select multiple columns record.</dd>
+
+                <dt>SELECT hin FROM dict WHERE eng = "apple";</dt>
+                <dd>to search a specific data.</dd>
+
+                <dt>SELECT LOWER(eng) FROM dict;</dt>
+                <dd>to get result in lowercase.</dd>
+
+                <dt>SELECT UPPER(eng) FROM dict;</dt>
+                <dd>to get result in uppercase.</dd>
+
+                <dt>UPDATE dict SET verbs = "yes";</dt>
+                <dd>to update full verbs columns</dd>
 
                 <dt>UPDATE Product SET Name = "Photoshop" WHERE Name = "MS Office";</dt>
                 <dd>to update record.</dd>
 
+                <dt>UPDATE dict SET eng = "come", hin = "aana"  WHERE verbs = "yes";</dt>
+                <dd>to update multiple records</dd>
+
                 <dt>DELETE FROM Product WHERE Id = 1;</dt>
                 <dd>to delete record.</dd>
 
+                <dt>ALTER TABLE trans RENAME TO translation;</dt>
+                <dd>to change table name.</dd>
+
+                <dt>ALTER TABLE dict ADD COLUMN verbs TEXT;</dt>
+                <dd>to add column.</dd>
+
+                <dt>ALTER TABLE dict DROP COLUMN verbs;</dt>
+                <dd>to delete column.</dd>
+
                 <dt>DROP TABLE Product;</dt>
                 <dd>to delete the table.</dd>
+
+                <h3>export data into csv</h3>
+                <dt>.header on</dt>
+                <dt>.mode csv</dt>
+                <dt>.once data.csv (c:/Users/Abdul/Desktop/data.csv)</dt>
+                <dt>select * from dict;</dt>
             </dl>
         </div>
     </div>
