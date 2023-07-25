@@ -1,0 +1,9 @@
+A) Win+R => Run[regedit] => HKEY_LOCAL_MACHINE => SOFTWARE => Microsoft => Speech => Voices => Tokens: to get already added voices
+
+A) Win+R => Run[regedit] => HKEY_LOCAL_MACHINE => SOFTWARE => Microsoft => Speech_OneCore => Voices => Tokens: to get all existing voices
+
+B) rightClick on any voice => Export => Select Path, Give name => Save
+
+C) Open with Notepad => Modify file as given mode file
+
+D) Click and install
