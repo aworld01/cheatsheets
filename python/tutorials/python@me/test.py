@@ -1,2 +1,0 @@
-emptyString = ""
-print(dir(emptyString))
