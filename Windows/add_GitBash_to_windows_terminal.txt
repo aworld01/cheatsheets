@@ -1,0 +1,32 @@
+01: Download and Install GitBash (https://git-scm.com/download/win)
+02: Win+R[cmd]: open Command Line
+03: Ctrl+,: (Open settings)
+04: Add a new profile/New empty profile:-
+
+Name:
+Git Bash
+
+Command line:
+C:\Program Files\Git\bin\bash.exe
+
+Starting directory:
+%USERPROFILE%
+
+
+Icon:
+C:\Program Files\Git\mingw64\share\git\git-for-windows.ico
+
+Tab title:
+Git Bash
+
+SAVE
+
+=====================================================================
+
+
+
+Make it Default
+===============
+
+01: Ctrl+,: (Open settings)
+02: Startup/Default profile[Git Bash]

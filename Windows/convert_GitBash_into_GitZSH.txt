@@ -1,0 +1,48 @@
+Goto: https://packages.msys2.org/queue
+Search: [zsh] Search
+Goto: Base package[zsh]/Binary Packages[zsh]:-
+
+File: https://mirror.msys2.org/msys/x86_64/zsh-5.9-2-x86_64.pkg.tar.zst
+
+Click and download file link above:-
+
+Download PeaZip and install (https://peazip.github.io/peazip-64bit.html)
+
+Uncompress file: writeClick on/"zsh-5.9-2-x86_64.pkg.tar"/PeaZip/Extract here (smart new folder)
+
+Uncompress *.tar file.
+
+copy "zsh-5.9-2-x86_64.pkg" directories items into git similar name's directories.
+
+Reopen "GitBash" and type: [zsh], 0
+==================================================================================
+
+
+Install oh-my-zsh
+=================
+fire this command in GitBash: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+Editing theme
+=============
+nano .zshrc
+ZSH_THEME="robbyrussell": to change theme
+
+
+
+Installing "powerlevel10k" theme
+================================
+fire this command in GitBash: git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
+nano .zshrc
+ZSH_THEME="powerlevel10k/powerlevel10k": to change theme
+
+Relunch the terminal/zsh, and answer the questions
+
+
+Installing zsh-autosuggestions
+==============================
+fire this command in GitBash: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+before: plugins=(git)
+after: plugins=(git zsh-autosuggestions)
+
