@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <title>Techchip</title>
+    <title>System Customization</title>
 <link rel="icon" href="images/html5.gif">
 <link rel="stylesheet" type="text/css" href="#">
 <meta charset="utf-8" />
@@ -27,6 +27,27 @@ p{
 <body>
 
 <h1>Make your PC Ultrafast</h1>
+<p>
+    "Win+R"[services.msc]/SysMain/rightClick/Properties/Startup type [Disabled]/Stop/Apply/OK
+
+    "Win+R"[services.msc]/Connected Devices Platform Service/rightClick/Properties/Startup type [Disabled]/Stop/Apply/OK
+
+    "Win+R"[services.msc]/Print spooler/rightClick/Properties/Startup type [Disabled]/Stop/Apply/OK
+
+    "Win+R"[services.msc]/Geolocation service/rightClick/Properties/Startup type [Disabled]/Stop/Apply/OK
+</p>
+<hr>
+
+<p>
+    "Win+Q"[cmd]/Run as administrator/Yes [sfc /scannow]
+    "Win+Q"[cmd]/Run as administrator/Yes [chkdsk.exe /f /r]/y
+</p>
+<hr>
+
+<p>
+    Open "Google Chrome"/Click on "rightTopThreeDots"/Settings/Performance/Memory saver [Enabled]
+</p>
+
 <p>
 Copy and paste the command below in 'Windows Powershell' and hit ENTER:
 powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
@@ -60,9 +81,7 @@ Goto: File system/Change/File system accesss for this device(off)
 
 
 
-Click on Home/System/Notifications & actions
-
-Show notifications on the lock screen(unmark)
+Click on Home/System/Notifications/Notifications (uncheck)
 
 Show reminders and incoming VoIP calls on the lock screen(unmark)
 
@@ -73,6 +92,7 @@ Suggest ways I can finish setting up my device to get the most out of Windows(un
 AutoPlay(off)
 
 Click on Home/Gaming(off and unmark all accept Game Mode(on))
+<hr>
 
 Press Win+R, type(regedit) and hit Enter click on Yes(Alt+Y):-
 Goto: HKEY_CURRENT_USER/Control Panel/Mouse/MouseHoverTime(dubble click and change Value data from 400 to 10)
@@ -84,18 +104,26 @@ Goto: HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Multimedia
 Goto: HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Multimedia/SystemProfile/Tasks/Games/GPU Priority(dubble click and check there should be Value data 8) #Hexadecimal should be selected
 
 Goto: HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Multimedia/SystemProfile/Tasks/Games/Priority(dubble click and change Value data from 2 to 6) #Hexadecimal should be selected
-
+<hr>
 
 Press Win+R, type(msconfig) and hit Enter:-
 Click on: Services/Hide all Microsoft services(check), Unmark all thirdparty services and click on: Apply/OK/Restart
+<hr>
 
 
-Goto: Control Panel/System/Advanced system settings/Advanced/Performance(Settings(Visual Effects)):-
-Unmark all except:
-Show shadows under mouse pointer(mark)
-Smooth edges of screen fonts(mark)
+Press "Win+R"[sysdm.cpl]/Advanced/Performance[Settings]/Adjust for best performance:-
+[check] Show thumbnails instead of icons
+[check] Smooth edges of screen fonts
 Apply/OK/OK
 </p>
+<hr>
+
+<p>
+    "Win+R"[sysdm.cpl]/Advanced/Performance[Settings]/Advanced/Virtual Mamory[Change]/[Uncheck] Automatically manage paging file size for all drives/Custom size:
+    Initial size: RAM*1024*1.5= []
+    Maximum size: RAM*1024*3= []
+</p>
+<hr>
 
 <h2>Do this after every Month or Week</h2>
 <p>
