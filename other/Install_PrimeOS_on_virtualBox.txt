@@ -1,0 +1,89 @@
+PART-1
+New:
+    Virtual machine Name and Operating System:
+        Name[PrimeOS]
+        Type[Other]
+        Version[Other/Unknown (64bit)]
+        Next
+    
+    Hardware:
+        Base Memory: [6144]
+        Processor: [4]
+        Next
+
+    Virtual Hard disk:
+        Create a Virtual Hard Disk Now
+        Disk Size: [20.00GB]
+        Next/Finish
+    
+
+PART-2
+Settings/System:
+    Display/Screen:
+        Video Memory: [128MB]
+        Graphics Controller: [VBoxVGA]
+        Extended Features: Enable 3D Acceleration
+
+    Storage/Empty:
+        Optical Drive [IDE Secondary 0]
+        Click on "disk icon"/Choose a disk file...:
+            File [D:\Computer softwares\Windows\PrimeOS\primeOS.iso]
+        OK
+
+
+PART-3
+Start:
+    Instalation-Install PrimeOS to harddisk:
+    Create/Modify partitions/OK
+    Do you want to use GPT/NO
+
+    New/Primary/Size (in MB): **.*
+    Bootable
+    Write
+    Yes
+    Quit
+
+    sda1/OK
+    ext4/OK
+    
+    You chose to format sda1 to ext4: Yes
+    Do you want to install boot loader GRUB? Yes
+    Do you want to install /system directory as read-write? Yes
+    Run PrimeOS/Cancel
+
+
+PART-4
+Start/Devices/Optical drives/Remove disk from virtual drive
+
+
+PART-5
+Start/PrimeOS/Proceed:
+    Please enter your details to activate PrimeOS:
+        Username: Kali
+        Timezone: Asia/Calcutta
+        Country: India
+        City: Select City
+    
+    License Terms:
+        Accept
+
+Start Menu/Settings/PrimeOS settings:
+    Root access [Apps and ADB]
+
+
+
+
+
+
+
+
+
+
+
+        
+    Hard disk file type:
+        VDI (Virtual Disk Image)
+        Next
+    Storage on physical hard disk:
+        Dynamically allocated
+        Next
