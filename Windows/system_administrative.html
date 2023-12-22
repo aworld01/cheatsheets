@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>trubleShootings</title>
+    <title>System Administrative</title>
 </head>
 <body>
-    <h1>Windows Trubleshootings</h1>
-    <h2>Get PC details</h2>
+    <h1>System Administrative</h1>
+    <h2>Run commands</h2>
+    <dl>
+        <dt>cleanmgr</dt>
+            <dd>to run diskCleanupManager</dd>
+        <dt>chkdsk /r X:</dt>
+            <dd>to repair corrupted memory (X: is memory drive)</dd>
+        <dt>cmd, Ctrl+Shift+Enter, Alt+Y</dt>
+            <dd>to open cmd as administrator</dd>
+    </dl>
+
+
+    <h2>CMD commands</h2>
+    <h3>Get PC details</h3>
     <dl>
         <dt>wmic computersystem get model</dt>
             <dd>to get model number</dd>
@@ -24,8 +36,8 @@
             <dd>to get hostName</dd>
         <dt>wmic computersystem where caption = "Desktop1-PC" rename "usr1-PC"</dt>
             <dd>to change hostName</dd>
-        <dt>cleanmgr</dt>
-            <dd>to run diskCleanupManager</dd>
     </dl>
+    <hr>
+
 </body>
 </html>
