@@ -1,0 +1,59 @@
+L = Length
+W = Width
+H = Height
+WV = Wall Volume
+BV = Brick Volume
+CFT = Cubic Fit
+CIH = Cubic Inch
+
+Find Wall Volume
+================
+W = 09"
+L = 10'
+H = 10'
+
+10*10 = 100'
+
+Door: 3'x6' = 18'
+Window: 4'x5' = 20'
+Total: 18+20 = 38'
+
+Total: 100'-38' = 62'
+
+
+Inch into Fit
+09" / 12 = 0.75'
+
+62*0.75 = 46.5
+
+
+Find Brick Volume
+=================
+Brick size:
+L = 9"
+W = 4.5"
+H = 2.68"
+
+Motar: .394" (1cm)
+
+Including motar:
+L = 9.394"
+W = 4.894"
+H = 3.074"
+
+Total: 9.394x4.894x3.074 = 141.325 CEH
+
+Divide into Fit
+===============
+141.325 / 1728 = 0.0818
+
+
+No. of Bricks = WV / BV
+
+WV / BV
+46.5 / 0.0818 = 568.459 No. Brick
+
+
+
+
+
