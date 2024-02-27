@@ -1,0 +1,14 @@
+Given these home prices find out prices of homes whose area is:
+    3300 square feet
+    5000 square feet
+
+
+price: 550000
+area: 2600
+
+price = m * area + b
+
+price => Dependent variable
+area => Independent variable
+m => slop
+b => intercept
