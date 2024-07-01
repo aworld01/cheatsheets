@@ -1,0 +1,13 @@
+Press "Win+S[env]"
+
+Click the “Environment Variables” button.
+
+Under "User variables", find the "Path" variable and click “Edit.”
+
+Click “New” and paste the path to the Anaconda Scripts folder:-
+
+e.g., "C:\Users\YourUsername\anaconda3\Scripts"
+
+Open a new command prompt.
+
+Type "conda --version" again. It should now recognize the command.
