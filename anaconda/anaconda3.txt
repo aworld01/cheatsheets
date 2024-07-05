@@ -1,15 +1,12 @@
 Create virtual environment
 ==========================
+conda env list: to check all available Conda environments
 conda create --name python3.12 -y: to create virtual environment
 conda activate python3.12: to activate the environment
 conda deactivate: to deactivate the environment
 conda remove -n ENV_NAME --all -y: to remove virtual environment
-
 conda install -c conda-forge ffmpeg -y: to install ffmpeg
-
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y: to install pytorch gpu version
-
-conda env list: to check all available Conda environments
 
 jupyter notebook: to open "Jupyter notebook"
 Ctrl+C: to terminate "jupyter notebook" running command.
