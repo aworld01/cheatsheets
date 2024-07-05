@@ -1,11 +1,3 @@
-cd anaconda3/bin
-source activate root
-conda update anaconda
-conda update anaconda-navigator
-anaconda-navigator
-conda deactivate
-
-
 Create virtual environment
 ==========================
 conda create --name python3.12 -y: to create virtual environment
@@ -15,9 +7,11 @@ conda remove -n ENV_NAME --all -y: to remove virtual environment
 
 conda install -c conda-forge ffmpeg -y: to install ffmpeg
 
-jupyter notebook: to open "Jupyter notebook"
-Ctrl+C: to terminate "jupyter notebook" command.
-
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y: to install pytorch gpu version
 
 conda env list: to check all available Conda environments
+
+jupyter notebook: to open "Jupyter notebook"
+Ctrl+C: to terminate "jupyter notebook" running command.
+
+pip install tensorflow: to install tensorflow
