@@ -1,5 +1,13 @@
 Create virtual environment
 ==========================
+conda -V: to check version
+
+# Update the conda package manager to the latest version in your base environment
+conda update -n base conda
+
+# Use conda to update Navigator in your base environment
+conda update -n base anaconda-navigator
+
 conda env list: to check all available Conda environments
 conda create --name python3.12 -y: to create virtual environment
 conda activate python3.12: to activate the environment
