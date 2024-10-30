@@ -1,0 +1,10 @@
+Win+R[cmd], Shift+Enter
+
+diskpart
+list disk
+select disk ___
+clean
+create part pri
+select part 1
+format fs=fat32 quick
+
