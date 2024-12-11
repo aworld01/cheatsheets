@@ -1,0 +1,11 @@
+conda install pytorch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 pytorch-cuda=12.4 -c pytorch -c nvdia
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
+
+pip install torch==2.3.0
+pip install torchtext==0.18
+
+conda update conda
+conda update --all
+
+

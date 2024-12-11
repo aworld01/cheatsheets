@@ -18,7 +18,7 @@ conda remove -n ENV_NAME --all -y: to remove virtual environment
 conda search python: to check available python versions
 conda install python=3.6: to install python 3.6 version
 conda install -c conda-forge ffmpeg -y: to install ffmpeg
-conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y: to install pytorch gpu version
+conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia: to install pytorch gpu version
 
 jupyter notebook: to open "Jupyter notebook"
 Ctrl+C: to terminate "jupyter notebook" running command.
