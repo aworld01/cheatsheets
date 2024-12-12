@@ -1,0 +1,35 @@
+Win+R [diskmgmt.msc]: to open diskmanagement
+remove your os partitions
+
+open "cmd" Run as administrator
+
+
+diskpart
+list volume
+
+select "system" volume: select volume 4
+
+assign letter = z
+exit
+
+reopen "cmd" Run as administrator
+z:
+
+dir
+cd efi
+dir
+rmdir /s kali
+y
+
+"diskpart"
+list volume
+select volume 4
+remove letter=z
+
+
+
+
+
+
+
+
