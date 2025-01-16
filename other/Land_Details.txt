@@ -1,5 +1,60 @@
+Bibi Saharvani, Safi Ahmad > Bibi Saharvani
+91/1798: Near Bamboo (01.01.0*2= 2.02.0)
+North> Samsher Ali
+South> Rojid
+East> Enamul Haque
+West> Matwaliya
+Total: 15.05.10
+
+Deeh-Baskit = Gharari
+Rahimullah,Habibullah,Rahimullah > Hafijullah
+207/1787: Home (0.05.0)       (2.03/3 = )
+North: Hafijullah, Anwar
+South: Md. Islam
+East: Ali Aktar
+West: Moharm Miyan
+
+05/1788: Empty Land & Toilet (0.05.0)     (1.07/3 = 0.09.07)
+North: Hafijullah, Anwar
+South: Md. Islam
+East: Ali Aktar
+West: Moharm Miyan
+
+
+40/1789: Home (1.08/3 = 0.09)
+North: Hafijullah
+East: Anwar Ali
+
+Adiran (Nak bhebhan) > Nabi Hussain
+		       Matvar Hussain
+230/2114: Bangla (0.07.10) (0.01.13)
+North: Shekh Khairat
+South: Pond
+East: Kurban Ali
+West: Jabar Ali
+
+
+Kamrun Nesha > Saharvani
+               Gulbahar
+	       Anwar (Laila Khatoon)
+	       Raja Babu (Ayesh Khatoon)
+	       Faiyazullah
+40/2119: Road (0.05.0)
+North: Nij
+South: Md.Noor (Abrun Nesha)
+East: Nij
+West: Md.Noor (Abrun Nesha), Enamul Haque
+
+
+
+
+230/2115: New Ghar (1.07/3=0.9/2 =0.4.5)
+231/1037: Gosai / Dukhharan puri (16.03/3 = 05.07.15/2 = 2.17.07
+
+
+
 91/1360: Near Chhatibal (3.15/3 = 1.05/2 = 0.12.5)
-91/1798: Near Bamboo (2.03) y
+
 91/1888: Near Munj (1.12)
 91/1932: Dhunsi (1.07)
 91/2605: Bauli (2.03)
@@ -9,44 +64,140 @@
 91/2981: Dakhin chaora (3.05/2)
 91/2720: Dhobahi (2.08/2 = 1.04)
 91/1856: Near bans (0.05.07/2 =0.02.10.03)
-Total: 15.05.10
-
-05/1788: Gharari (1.07/3 = 0.09.07) y
-40/1789: Empty land (1.08/3 = 0.09) y
-207/1787: Toilet (2.03/3 = ) y
-
-230/2114: Bangla Ismat Ali/Goga (0.01.13) y
-	          		(0.03.16)
-
-230/2115: New Ghar (1.07/3=0.9/2 =0.4.5)
-231/1037: Gosai / Dukhharan puri (16.03/3 = 05.07.15/2 = 2.17.07
 
 
 
 91/1785: (0.07.0)
+North: Adiran
+South: Sekh Ibrahim
+East: Ejan
+West: Daroga
+
 91/1791: (0.11.0)
+North: Ejan
+South: Ali Ullah (Usuf)
+East: Sekh Bikan
+West: Sekh Bikan
+
+
 91/2179: (02.0.0)
+North: Road
+South: Nabi Hasan
+East: Dos Mohammad
+West: Mohammad Deen
+
 Total: 3.05.00
 
 52/2844: (01.08.0)
-149/2409: Bibi Rajbano ( )
+North: Saikh Tapsi
+South: Mohammad Deen
+East: Sabir Ali
+West: Saikh Hussain Baks
+
+
+Bibi Rajbano
+149/2409:  ( )
+North: Saikh Sujayat
+South: Sabir Ali
+East: Saikh Pomal
+West: Saikh Rahmat
+
+
 149/2411: ( )
+North: Ejan
+South: Saikh Rahmat
+East: Saikh Rahmat
+West: Saikh Dilwas
+
+
 149/2915: ( )
+North: Ejan
+South: Budhu Ahir
+East: Ejan
+West: Ejan
+
+
 149/3013: ( )
+North: Ejan
+South: Ejan
+East: Abdul Gani
+West: Ali Baks
+
+
 34/1789: (0.04.15)
+North: Senaullah
+South: Saikh Khairat
+East: Jaan Mohammad
+West: Saikh Najir
+
+
 207/1786: (0.05.0)
-216/1874: ( ) sell
+North: Saikh Ibrahim
+South: Saikh Najir
+East: Md. Usuf
+West: Saikh Khadish
+
+
+Sell
+216/1874: ( )
+North: Road
+South: Takiran Shah
+East: Saikh Pomal
+West: Mohammad Taki
+
+
 05/1788: (0.06.0)
+North: Saikh Hussain
+South: Saikh Khairat
+East: Saikh Usuf
+West: Building, Ibrahim
+
+
 05/2114: (0.03.15)
+North: Saikh Khairat
+South: Pond
+East: Saikh Kurban
+West: Saikh Jabir Ali
+
+
 230/2114: (0.01.15)
+North: Saikh Najir
+South: Pond
+East: Hasmuddin
+West: Md. Najim
+
+
 230/2114: (0.0.10)
+North: Haja
+South: Hira Digar Patti
+East: Dosh Mohammad
+West: Abdul Rahman
+
+
 230/2114: (0.01.10.10)
+North: Marbar Hussain
+South: Hissa Digar Patti
+East: Md. Haja
+West: Abdur Rahman
+
+
 230/2115: (0.04.10)
+North: Jabar Ali
+South: Pond
+East: Mus Adiran
+West: Kurban Ali
+
 Total: 0.14.0
 
 149/2910: Bibi Rajbano ( )
 
-91/1798: (01.01.0)
+
+91/1798: (0.07.0)
+North: Habibullah
+South: Adiran
+East: Ali Ullah (Usuf)
+West: Bhgelu
+
 207/1887: (0.05.0)
 40/1789: ( )
 230/1788: ( )
