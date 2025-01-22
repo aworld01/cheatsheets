@@ -9,3 +9,5 @@ winget source update: to update winget source
 winget search vlc: to search vlc
 winget install VideoLAN.VLC: to install vlc
 winget uninstall VideoLAN.VLC: to uninstall vlc
+
+winget install -e --id Oracle.VirtualBox --silent
