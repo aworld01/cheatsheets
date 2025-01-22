@@ -6,7 +6,7 @@
 
 4. Open cmd and goto that folder
 
-https://cdimage.kali.org/kali-2024.4/kali-linux-2024.4-installer-amd64.iso
+aria2c https://cdimage.kali.org/kali-2024.4/kali-linux-2024.4-installer-amd64.iso
 
 Download from WEB:
 	aria2c http://example.org/mylinux.iso

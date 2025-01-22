@@ -1,0 +1,11 @@
+The winget command was introduced in Windows 10 version 1809 (October 2018) update.
+It comes standard with Windows 10 Version 2004 (May 2020) update.
+You can check Windows version using "winver" command.
+
+
+
+winget --version: to check winget version
+winget source update: to update winget source
+winget search vlc: to search vlc
+winget install VideoLAN.VLC: to install vlc
+winget uninstall VideoLAN.VLC: to uninstall vlc
