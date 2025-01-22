@@ -1,0 +1,5 @@
+Goto: "Office installed folder/Office16" and type cmd in adderess bar.
+
+Write command below:
+
+cscript ospp.vbs /dstatus
