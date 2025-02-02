@@ -1,1 +1,0 @@
-Win+R[diskmgmt.msc], Enter

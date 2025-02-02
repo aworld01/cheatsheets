@@ -1,0 +1,32 @@
+Restart your pc to Reset Windows uptime
+
+Ctrl+Shift+Esc: to open "Task Manager"
+
+Win+R:-
+	Services: to open Services
+	sdclt: to open "Backup and Restore"
+	cleanmgr: to open "Disk Cleanup"
+	msinfo32: to get complete information about pc
+	dxdiag, Alt+Y: to open "DirectX Diagnostic Tool"
+	netplwiz: to open "User Accounts"
+	sysdm.cpl: to open "System Properties"
+	appwiz.cpl: to open "Programs and Features"
+	firewall.cpl: to open "Firewall"
+	. -: to open "Current User Folder"
+	taskmgr: to open "Task Manager"
+	osk: to open "On-Screen Keyboard"
+	diskmgmt.msc: to open "Disk Management"
+	devmgmt.msc: to open "Device Manager"
+	wsreset: to Reset Windows Store Cache
+	powercfg /list: to check list of "Power Scheme"
+	powercfg /s <GUID>: to set "Power Scheme"
+	powercfg -h off: to disable Hibernation
+	tasklist: to check Running task list
+	taskkill /f /PID 7116: to kill a specific task by it's Process Id
+	shutdown /r /o /t 0: to restart your pc in recovery mode
+
+
+
+
+Open "Command Prompt" as administrator:
+	Win+R[cmd], Ctrl+Shift+Enter, Alt+Y

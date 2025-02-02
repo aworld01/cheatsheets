@@ -1,0 +1,10 @@
+Win+R: to open "Run"
+Ctrl+Shift+Esc: to open "Task Manager"
+Start, F11: to goto "Recovery Mode" in HP Laptops
+
+
+Boot from Windows OS:-
+	Shift+F10: to switch into "Command Prompt"
+	Alt+Tab: to switch into "Windows"
+	Shift+F10, oobe\bypassnro: to bypass internet requirement
+
