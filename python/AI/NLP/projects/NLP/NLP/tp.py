@@ -2,7 +2,7 @@ import nltk #pip install nltk
 # nltk.download('punkt_tab')
 from nltk.stem.porter import PorterStemmer
 
-def token(arg):
+def tokenize(arg):
     return nltk.word_tokenize(arg)
 
 def stem(tok):
@@ -11,7 +11,7 @@ def stem(tok):
 
 if __name__=="__main__":
     doc = "This is an apple and the apple is red"
-    t = token(doc)
+    t = tokenize(doc)
     print(t)
     
     st = [stem(w) for w in t]
