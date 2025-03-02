@@ -1,3 +1,8 @@
+Customize termux welcome massage
+================================
+nano ../usr/etc/motd[type your welcome massage]
+Ctrl+s, Ctrl+x
+
 termux-setup-storage
 pkg install man
 pkg install openssh
