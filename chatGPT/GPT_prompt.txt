@@ -1,0 +1,27 @@
+Use when starting a new course
+1. Learning Roadmap Prompt:-
+Prompt: Act like an expert mentor. Give me a complete roadmap to master [COURSE NAME] from scratch to advanced. Include key topics, tools, resources, and estimated time.
+
+
+Helps in consistent progress
+2. Daily Study Plan Prompt:-
+Prompt: Break down the learning of [COURSE NAME] into a daily study plan for 30 days. Include tasks, practice, and review sessions.
+
+
+Use this to learn by doing.
+3. Practice & Project Ideas Prompt:-
+Prompt: Give me hands-on project ideas and practical exercises to master [COURSE NAME] at each level (beginner, intermediate, advanced).
+
+
+Helpful to save time & confusion
+4. Mistakes to Avoid
+Prompt: What are the most common mistakes beginners make while learning [COURSE NAME], and how can avoid them?
+
+
+
+For practical motivation and career focus.
+5. Real-World Application
+Prompt: Explain how [COURSE NAME] is used in the real world. What are the career paths, freelance opportunities, and income potential?
+
+
+6. Prompt: Based on the learning roadmap of [COURSE NAME], explain each topic one by one in simple language as if I'm a beginner. Include examples, use-cases, and mini practice tasks for each.

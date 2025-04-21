@@ -1,0 +1,8 @@
+Magnifier/Settings/Go to settings:
+  View:
+    Full screen (Ctrl + Alt + F)-
+  Have Magnifier follow my:
+    Mouse pointer [checked]
+
+Win++: Start "Magnifier" and zoom in
+Win+-: zoom out

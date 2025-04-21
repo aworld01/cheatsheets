@@ -8,11 +8,22 @@ sinkless
 Al wakeel
 
 
-Companies
-=========
-CCC
-Becktail
-Bhawan
-Nesma
-Binladen
-STS (Oman)
+Good Companies name:
+====================
+
+Dubai
+=====
+Sobha facilities: Dubai
+NPCC: Dubai
+
+Oman
+====
+STS: Oman
+Becktail: Oman
+Bhawan: Oman
+
+Saudi Arabia
+============
+CCC: Saudi
+Nesma: Saudi
+ABC Binladen: Saudi

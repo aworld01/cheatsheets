@@ -1,0 +1,6 @@
+MDB: Main Distribution Board
+SDB: Sub Distribution Board
+LDB: Lighting Distribution Board
+PDB: Power Distribution Board
+IDB: Industrial Distribution Board
+CU: Consumer Unit
