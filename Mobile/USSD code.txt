@@ -1,0 +1,3 @@
+*#21#: to check "Call forwarding"
+**67*[mobile number]#: to call forwarding 
+#002#: to disable call forwarding
