@@ -1,0 +1,5 @@
+Run "Powershell as Administrator" and fire the command below:
+
+   irm https://get.activated.win | iex
+
+   Press 1 to activate windows
