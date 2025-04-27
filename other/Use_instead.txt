@@ -1,0 +1,40 @@
+2020 => 2025
+
+Ask anything
+============
+Google => Preplexity
+
+
+Photo Editing
+=============
+Photoshop => Pixlr
+
+
+Presentation
+============
+PPT => Gamma
+
+
+Video Editing
+=============
+Premiere Pro => Runway
+
+
+Animations
+==========
+After Effects => Pika
+
+
+Writing
+=======
+Docs => Jasper
+
+
+Voice Over
+==========
+Fiverr => Elevenlabs
+
+
+Graphics
+========
+Illustrator => Leonardo

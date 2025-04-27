@@ -1,0 +1,3 @@
+cleanmgr => to run "Disk Cleanup Manager"
+chkdsk /r X => to repair corrupted memory (X: is memory drive)
+Win+R[cmd], Ctrl+Shift+Enter, Alt+Y => to open "CMD" as administrator

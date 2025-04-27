@@ -1,0 +1,14 @@
+Run "Windows PowerShell" as Administrator and run the command below:-
+
+
+command => Get-CimInstance Win32_WinSat
+
+CPUScore              : 8.9
+D3DScore              : 9.9
+DiskScore             : 9.15
+GraphicsScore         : 6.7
+MemoryScore           : 8.9
+TimeTaken             : MostRecentAssessment
+WinSATAssessmentState : 1
+Win SPRLevel          : 6.7
+PSComputerName        :
