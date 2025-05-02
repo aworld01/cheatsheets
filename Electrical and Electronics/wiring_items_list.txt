@@ -1,0 +1,26 @@
+Wires
+=====
+0.75mm : 09 Rs.
+1mm    : 12 Rs.
+1.50mm : 17 Rs.
+2.50mm : 30 Rs.
+
+T              : 1.5 Rs.
+L              : 1.5 Rs.
+Internal       : 1.5 Rs.
+External       : 1.5 Rs.
+
+Square box     : 05 Rs
+Switch         : 20 Rs
+Tape           : 10 Rs.
+3pin Socket    : 30 Rs.
+3way board     : 35 Rs.
+Indicator      : 30 Rs.
+Fuse           : 50 Rs.
+Casing         : 30 Rs.
+Celling rose   : 20 Rs.
+
+MCB 32A        : 150 Rs. Greatwhite
+8way MCB box   : 820 Rs. Anchor
+
+
