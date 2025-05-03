@@ -9,5 +9,7 @@ winget source update: to update winget source
 winget search vlc: to search vlc
 winget install VideoLAN.VLC: to install vlc
 winget uninstall VideoLAN.VLC: to uninstall vlc
+winget upgrade: to check upgradable apps
+winget upgrade --all: to upgrade all upgradable apps
 
 winget install -e --id Oracle.VirtualBox --silent

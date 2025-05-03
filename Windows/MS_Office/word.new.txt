@@ -1,0 +1,1 @@
+Google => word.new: to use word online
