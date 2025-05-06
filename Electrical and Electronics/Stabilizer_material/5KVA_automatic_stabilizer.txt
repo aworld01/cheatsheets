@@ -1,0 +1,21 @@
+90V-300V = 5KVA automatic stabilizer
+
+01 => Coil (7N*5") => 2.620 kg
+02 => Core (7N) E+I => 15 kg
+03 => Clamp (7N) => 2p
+04 => Stud (6") => 4p
+05 => Volt-Meter (300v) => 1p
+06 => MCB (25A) => 1p
+07 => Relay (25A) => 4p
+08 => Single preset, 5 step kit => 1p
+09 => Rocker switch => 1p
+10 => HT (30A 3pole) => 2p
+11 => 0.5mm wire => 05 meter
+12 => 4mm wire => 2.5 meter
+13 => LED R+G => 1p
+14 => LED ruber => 1p
+15 => Nut-bolt (7N) for Volt-meter, HT and Stand => 12p
+16 => Nut-bolt (11N) for transformer => 4p
+17 => Star-scroop (for body) => 4p
+18 => Stand => 4p
+19 => Body => 1p
