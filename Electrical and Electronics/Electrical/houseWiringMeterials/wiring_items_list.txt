@@ -13,10 +13,10 @@ Pendent holder
 
 Wires
 =====
-0.75mm : 09 Rs.
-1mm    : 12 Rs.
-1.50mm : 17 Rs.
-2.50mm : 30 Rs.
+0.75mm : 09 Rs. (Greatwhite)
+1mm    : 12 Rs. (Greatwhite)
+1.50mm : 17 Rs. (Greatwhite)
+2.50mm : 28 Rs. (Greatwhite)
 4mm    : 40 Rs.
 
 
@@ -30,11 +30,12 @@ Fisher         : 30 Rs.
 Square box     : 05 Rs
 Switch         : 20 Rs
 3pin Socket    : 30 Rs.
-3way board     : 35 Rs.
+3M pvc board   : 35 Rs.
 Indicator      : 30 Rs.
 Fuse           : 50 Rs.
 Casing         : 30 Rs.
 Celling rose   : 20 Rs.
+
 T              : 1.5 Rs.
 L              : 1.5 Rs.
 Internal       : 1.5 Rs.
@@ -45,6 +46,11 @@ Coupler        :
 
 Concealed wiring
 =============
+3pin socket 16A (Greatwhite): 120 Rs.
+1way switch 16A (Greatwhite):  80 Rs.
+Indicator (Greatwhite)      :  50 Rs.
+4M box panel (Greatwhite)   :  85 Rs.
+
 Pipes
 -----
 HMS (Heavy Mechanical Stress) : for slape piping.
@@ -55,7 +61,7 @@ Modular Box size in inch
 ------------------------
 2M     = 3x3
 3M     = 4x3
-4M     = 5x3
+4M     = 5x3: 80 Rs.
 6M     = 8x3
 8M (H) = 9x3
 8M (V) = 5x5
@@ -65,10 +71,9 @@ Modular Box size in inch
 Round sheet/plate
 -----------------
 for "pull box" (plane)
-for "Angle holder"
+for "Angle holder": 3 Rs.
 for "Fan box"
 
 Blank plate    : for modular board
 Machine scroop : 4", 3", 2.5", 2", 1.5", 1"
 Gipson scroop  : 3", 2.5, 2", 1.5", 1"
-
