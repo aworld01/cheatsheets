@@ -12,14 +12,14 @@
 
 
 
-##Without index
+# #Without index
 # a = ((10,20,30),(40,50,60))
 # for r in a:
 #     for c in r:
 #         print(c)
 #     print()
 
-##With index
+#With index
 a = ((10,20,30),(40,50,60))
 n = len(a)
 for i in range(n):
