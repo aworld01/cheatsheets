@@ -1,13 +1,15 @@
 MCB 32A        : 150 Rs. Great white
 RCCB 32A       :
-6way MCB box   : 750 Rs. Anchor
-8way MCB box   : 820 Rs. Anchor
+6way MCB box   : 750 Rs. (Anchor)
+8way MCB box   : 820 Rs. (Anchor)
 Tape           : 10 Rs.
+Top plug 6A    : 50 - 55 Rs. (Anchor)
+Top plug 16A   : 60 Rs.      (Anchor)
 
 Holders
 -------
 Batten holder
-Angle holder
+Angle holder : 28 Rs.
 Pendent holder
 
 
@@ -46,15 +48,19 @@ Coupler        :
 
 Concealed wiring
 =============
-3pin socket 16A (Greatwhite): 120 Rs.
-1way switch 16A (Greatwhite):  80 Rs.
-Indicator (Greatwhite)      :  50 Rs.
-4M box panel (Greatwhite)   :  85 Rs.
+Socket 16A (Greatwhite)      : 120 Rs.
+Socket  6A (Greatwhite)      :  50 Rs.
+1way switch 16A (Greatwhite) :  80 Rs.
+1way Switch 10A (Greatwhite) : 18-20 Rs.
+Indicator (Greatwhite)       :  50 Rs.
+4M sheet (Greatwhite)        :  65 - 85 Rs.
+JB                           :  15 Rs.
+Bend                         :  10 Rs.
 
 Pipes
 -----
 HMS (Heavy Mechanical Stress) : for slape piping.
-MMS (Medium Mechanical Stress : for slape piping.
+MMS (Medium Mechanical Stress) : for slape piping. (35 Rs.)
 LMS (Light Mechanical Stress) : for wall piping.
 
 Modular Box size in inch
