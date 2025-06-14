@@ -9,8 +9,9 @@ Top plug 16A   : 60 Rs.      (Anchor)
 Holders
 -------
 Batten holder
-Angle holder : 28 Rs.
+Angle holder        : 28 Rs.
 Pendent holder
+Fan capacitor (4uf) : 40 Rs.
 
 
 Wires
@@ -25,14 +26,16 @@ Wires
 
 Casing Wiring
 =============
-Casing-capping : 35 Rs.
-Casing pin     : 20 Rs.
+Casing-capping : 30 Rs.
+Casing nail    : 20 Rs.
 Wire clip      : 20 Rs.
 Fisher         : 30 Rs.
 Square box     : 05 Rs
 Switch         : 20 Rs
-3pin Socket    : 30 Rs.
-3M pvc board   : 35 Rs.
+Socket         : 30 Rs.
+M3 PVC board   : 35 Rs.
+M5 PVC board   : 50 Rs.
+
 Indicator      : 30 Rs.
 Fuse           : 50 Rs.
 Casing         : 30 Rs.
@@ -49,18 +52,23 @@ Coupler        :
 Concealed wiring
 =============
 Socket 16A (Greatwhite)      : 120 Rs.
-Socket  6A (Greatwhite)      :  50 Rs.
+Socket  6A (Greatwhite)      :  47-50 Rs.
 1way switch 16A (Greatwhite) :  80 Rs.
 1way Switch 10A (Greatwhite) : 18-20 Rs.
 Indicator (Greatwhite)       :  50 Rs.
-4M sheet (Greatwhite)        :  65 - 85 Rs.
+Mini MCB 6A (Greatwhite)     : 135 Rs.
+
+M4 sheet (Greatwhite)        :  65 - 85 Rs.
+M8 sheet (Greatwhite)        : 100 Rs.
+M12 sheet (Greatwhite)       : 150 Rs.
+
 JB                           :  15 Rs.
 Bend                         :  10 Rs.
 
 Pipes
 -----
-HMS (Heavy Mechanical Stress) : for slape piping.
-MMS (Medium Mechanical Stress) : for slape piping. (35 Rs.)
+HMS (Heavy Mechanical Stress) : for slape piping. (35 Rs.)
+MMS (Medium Mechanical Stress) : for slape piping.
 LMS (Light Mechanical Stress) : for wall piping.
 
 Modular Box size in inch
