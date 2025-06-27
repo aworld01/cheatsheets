@@ -24,15 +24,6 @@ wsl --install -d kali-Linux: to install additional Linux distributions after the
 
 wsl -d kali-linux -u root: to login with root user.
 
-Set root password
-=================
-passwd root:
-    New password:
-    Retype new password:
-    passwd: password update successfully.
-
- cat /etc/os-release: to check Linux version.
-
 wsl config --default-user root: to make "root" as default user.
 
 wsl -d ubuntu -u geek: to switch into ubuntu distribution.
@@ -68,3 +59,46 @@ wsl --set-default-version 1: switch from wsl2 into wsl1
 wsl --export <distribution> <backupFileName.tar>: Backup WSL
 
 wsl --import-in-place <distribution> <fileName>: Restore WSL
+
+wsl ip a: to check ip address
+
+wsl hostname: to check default distribution's hostname
+
+
+LINUX COMMANDS
+==============
+
+Set root password
+=================
+passwd root:
+    New password:
+    Retype new password:
+    passwd: password update successfully.
+
+ cat /etc/os-release: to check Linux version.
+
+ ip a: check ip
+
+ su
+ Password: login to root user
+
+ hostname: check hostname
+
+
+ Change hostname
+ ===============
+ sudo nano /etc/wsl.conf
+
+ [boot]
+ systemd=true
+
+ [network]
+hostname=ubuntu
+generateHosts=false
+
+Ctrl+S, Ctrl+X
+
+wsl -l -v
+wsl --shutdown
+
+
