@@ -2,9 +2,9 @@ MCB 32A        : 150 Rs. Great white
 RCCB 32A       :
 6way MCB box   : 750 Rs. (Anchor)
 8way MCB box   : 820 Rs. (Anchor)
-Tape           : 10 Rs.
 Top plug 6A    : 50 - 55 Rs. (Anchor)
 Top plug 16A   : 60 Rs.      (Anchor)
+Tape           : 10 Rs.
 
 Holders
 -------
@@ -52,13 +52,16 @@ Coupler        :
 Concealed wiring
 =============
 Socket 16A (Greatwhite)      : 120 Rs.
-Socket  6A (Greatwhite)      :  47-50 Rs.
-1way switch 16A (Greatwhite) :  80 Rs.
+Socket  6A (Greatwhite)      : 47-50 Rs.
+1way switch 16A (Greatwhite) : 80 Rs.
 1way Switch 10A (Greatwhite) : 18-20 Rs.
-Indicator (Greatwhite)       :  50 Rs.
+Indicator (Greatwhite)       : 50 Rs.
+Regulator (Greatwhite)       : 180 Rs.
 Mini MCB 6A (Greatwhite)     : 135 Rs.
 
-M4 sheet (Greatwhite)        :  65 - 85 Rs.
+M3 PVC Box                   : 50 Rs.
+M3 sheet (Greatwhite)        : 60 Rs.
+M4 sheet (Greatwhite)        : 65 - 85 Rs.
 M8 sheet (Greatwhite)        : 100 Rs.
 M12 sheet (Greatwhite)       : 150 Rs.
 

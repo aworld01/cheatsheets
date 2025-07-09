@@ -1,0 +1,31 @@
+Text preprocessing:
+    Text cleanup
+
+    Basic text preprocessing:
+        sentence tokenization
+        word tokenization
+        lowerCasing
+
+        Optional:
+            stemming
+            lematization
+            removing punctuations
+            removing stopWords
+            language detection
+
+    Advance preprocessing:
+        POS tagging (Parts Of Speech) it can perform without removing stopWords.
+        parsing
+        co-refrence resolutions
+
+
+Feature engineering / Word embedding:
+    Using Count / Frequency:
+        OHE (One Hot Encoding)
+        BOW (Bag Of Words)
+        TF-IDF (Term Frequency-Inverse Document Frequency)
+
+    Using Deep learning trained model:
+        word2vector:
+            CBOW (Continuous Bag Of Words)
+            Skip Gram
