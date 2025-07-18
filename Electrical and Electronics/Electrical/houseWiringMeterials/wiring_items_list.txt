@@ -58,6 +58,7 @@ Socket  6A (Greatwhite)      : 47-50 Rs.
 Indicator (Greatwhite)       : 50 Rs.
 Regulator (Greatwhite)       : 180 Rs.
 Mini MCB 6A (Greatwhite)     : 135 Rs.
+Mini MCB 32A (Greatwhite)    : 150 Rs.
 
 M3 PVC Box                   : 50 Rs.
 M3 sheet (Greatwhite)        : 60 Rs.

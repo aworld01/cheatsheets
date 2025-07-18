@@ -1,0 +1,14 @@
+Battery: 12v / 200Ah
+Battery in Watts: 12*200 = 2400 Watts
+
+Sunlight hours: 5 hours
+Solar panel capacity: 2400/5 = 480 Watts
+Loss: 20%
+Total: 480*1.2 = 576 Watt
+
+Solar panel: 200 Watt
+No. of solar panels: 576/200 = 2.88 (3pcs in round figure)
+
+Charge controller Efficiency:
+  PWM (Pulse Width Modulation): 68-73%
+  MPPT (Maximum Power Point Tracking): 95%
