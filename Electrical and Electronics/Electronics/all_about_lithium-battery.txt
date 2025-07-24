@@ -1,3 +1,10 @@
+Type of Lithium batteries:
+    Prismatic cell (LiFePO4)
+    Cylindrica Cell
+
+
+
+
 The "number codes" on lithium batteries can refer to several different things, depending on the type of battery and what information the manufacturer is conveying. Here's a breakdown of the common meanings.
 
 1. Dimensions (especially for cylindrical and prismatic batteries):
@@ -23,3 +30,15 @@ Discharge Rate (C-rating):
     C: This refers to the discharge rate, which indicates how quickly a battery can be safely discharged without damage. It's a multiple of the battery's capacity. 
 
     Example: A 50C rating on a 5Ah (5000mAh) battery means it can safely deliver a continuous current of 50C*5A = 250 Amperes.
+
+
+Model of batteries:
+    18650
+    32700
+    32650
+    32140
+
+Items requered in lithium battery build:
+    Service lead
+    BMS (Battery Management System)
+    Active Balancer
