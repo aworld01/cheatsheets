@@ -1,0 +1,49 @@
+Famili Tree
+===========
+
+Nawab, Mithu, Ismat
+
+Nawab
+=====
+Molajim, Islam, Rahman
+
+Mithu
+=====
+Nabi Hasan, Matbar
+
+Ismat
+=====
+Dosh Mohammad, Inayat (Goga)
+=====================================================
+                        (Nawab)
+Molajim
+=======
+Hamidan, Tabijan, Sobratan, Sairi
+
+Islam
+=====
+Gulbahar
+
+Rahman
+======
+Aashik, Henan, Faiyaz, Faiyazullah
+======================================================
+
+                        (Mithu)
+Nabi Hasan
+==========
+Safi Ahmad, Ashraf Ali
+
+Matbar
+======
+Amarullah
+======================================================
+
+                        (Ismat)
+Dosh Mohammad
+=============
+Inamul Haque, Rojeed, Rasheed
+
+Inayat (Goga)
+=============
+Moti Mohammad, Habi Mohammad, Rahmullah
