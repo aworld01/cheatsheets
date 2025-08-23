@@ -1,1 +1,2 @@
 Win++: Enable magnifier
+Win+H: Enable voice typing (online)
