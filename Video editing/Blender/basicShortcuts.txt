@@ -8,3 +8,8 @@ Alt+A: Deselect All
 
 Shift+A: Add object
 E: Extrude
+Shift+D: Duplicate
+Select+L: Select all linked object
+Ctrl+R: Loopcut
+Edge select+F: Fill
+
