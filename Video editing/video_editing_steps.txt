@@ -21,3 +21,7 @@ Color grading
 Retouching
 Speech ramping
 Export file
+
+Note:
+	Animation: for image and text
+	Translation: for smooth scene changes
