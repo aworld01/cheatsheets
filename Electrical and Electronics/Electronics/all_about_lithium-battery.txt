@@ -1,4 +1,11 @@
+Lithium Battery Cell Company Name:
+============================
+EVE
+HighStar
+
+
 Type of Lithium batteries:
+    INR, IFR
     Prismatic cell (LiFePO4)
     Cylindrica Cell
 

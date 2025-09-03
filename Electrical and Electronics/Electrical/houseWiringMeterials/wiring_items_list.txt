@@ -1,77 +1,79 @@
-MCB 32A        : 150 Rs. Great white
+MCB 32A        : Rs.150/- Great white
 RCCB 32A       :
-6way MCB box   : 750 Rs. (Anchor)
-8way MCB box   : 820 Rs. (Anchor)
-Top plug 6A    : 50 - 55 Rs. (Anchor)
-Top plug 16A   : 60 Rs.      (Anchor)
-Tape           : 10 Rs.
+6way MCB box   : Rs.750/- (Anchor)
+8way MCB box   : Rs.820/- (Anchor)
+Top plug 6A    : Rs.50 - 55/- (Anchor)
+Top plug 16A   : Rs.60/- (Anchor)
+Tape           : Rs.10/-
+DIN rail       :
 
 Holders
 -------
 Batten holder
-Angle holder        : 28 Rs.
+Angle holder        : Rs.28/-
 Pendent holder
-Fan capacitor (4uf) : 40 Rs.
+Fan capacitor (4uf) : Rs.40/-
+Ragulator           : Rs.160/-
 
 
 Wires
 =====
-0.75mm : 09 Rs. (Greatwhite)
-1mm    : 12 Rs. (Greatwhite)
-1.50mm : 17 Rs. (Greatwhite)
-2.50mm : 28 Rs. (Greatwhite)
-4mm    : 40 Rs.
+0.75mm : Rs.09/- (Greatwhite)
+1mm    : Rs.12/- (Greatwhite)
+1.50mm : Rs.17/- (Greatwhite)
+2.50mm : Rs.28/- (Greatwhite)
+4mm    : Rs.40/-
 
 
 
 Casing Wiring
 =============
-Casing-capping : 30 Rs.
-Casing nail    : 20 Rs.
-Wire clip      : 20 Rs.
-Fisher         : 30 Rs.
-Square box     : 05 Rs
-Switch         : 20 Rs
-Socket         : 30 Rs.
-M3 PVC board   : 35 Rs.
-M5 PVC board   : 50 Rs.
+Casing-capping : Rs.30/-
+Casing nail    : Rs.20/-
+Wire clip      : Rs.20/-
+Fisher         : Rs.30/-
+Square box     : Rs.05/-
+Switch         : Rs.20/-
+Socket         : Rs.30/-
+M3 PVC board   : Rs.35/-
+M5 PVC board   : Rs.50/-
 
-Indicator      : 30 Rs.
-Fuse           : 50 Rs.
-Casing         : 30 Rs.
-Celling rose   : 20 Rs.
+Indicator      : Rs.30/-
+Fuse           : Rs.50/-
+Casing         : Rs.30/-
+Celling rose   : Rs.20/-
 
-T              : 1.5 Rs.
-L              : 1.5 Rs.
-Internal       : 1.5 Rs.
-External       : 1.5 Rs.
+T              : Rs.1.5/-
+L              : Rs.1.5/-
+Internal       : Rs.1.5/-
+External       : Rs.1.5/-
 Coupler        :
 +/Doctor joint : 
 
 
 Concealed wiring
 =============
-Socket 16A (Greatwhite)      : 120 Rs.
-Socket  6A (Greatwhite)      : 47-50 Rs.
-1way switch 16A (Greatwhite) : 80 Rs.
-1way Switch 10A (Greatwhite) : 18-20 Rs.
-Indicator (Greatwhite)       : 50 Rs.
-Regulator (Greatwhite)       : 180 Rs.
-Mini MCB 6A (Greatwhite)     : 135 Rs.
-Mini MCB 32A (Greatwhite)    : 150 Rs.
+Socket 16A (Greatwhite)      : Rs.120/-
+Socket  6A (Greatwhite)      : Rs.47-50/-
+1way switch 16A (Greatwhite) : Rs.80/-
+1way Switch 10A (Greatwhite) : Rs.18-20/-
+Indicator (Greatwhite)       : Rs.50/-
+Regulator (Greatwhite)       : Rs.180/-
+Mini MCB 6A (Greatwhite)     : Rs.135/-
+Mini MCB 32A (Greatwhite)    : Rs.150/-
 
-M3 PVC Box                   : 50 Rs.
-M3 sheet (Greatwhite)        : 60 Rs.
-M4 sheet (Greatwhite)        : 65 - 85 Rs.
-M8 sheet (Greatwhite)        : 100 Rs.
-M12 sheet (Greatwhite)       : 150 Rs.
+M3 PVC Box                   : Rs.50/-
+M3 sheet (Greatwhite)        : Rs.60/-
+M4 sheet (Greatwhite)        : Rs.65 - 85/-
+M8 sheet (Greatwhite)        : Rs.100/-
+M12 sheet (Greatwhite)       : Rs.150/-
 
-JB                           :  15 Rs.
-Bend                         :  10 Rs.
+JB                           :  Rs.15/-
+Bend                         :  Rs.10/-
 
 Pipes
 -----
-HMS (Heavy Mechanical Stress) : for slape piping. (35 Rs.)
+HMS (Heavy Mechanical Stress) : for slape piping. (Rs.35/-)
 MMS (Medium Mechanical Stress) : for slape piping.
 LMS (Light Mechanical Stress) : for wall piping.
 
@@ -79,7 +81,7 @@ Modular Box size in inch
 ------------------------
 2M     = 3x3
 3M     = 4x3
-4M     = 5x3: 80 Rs.
+4M     = 5x3: Rs.80/-
 6M     = 8x3
 8M (H) = 9x3
 8M (V) = 5x5
@@ -89,7 +91,7 @@ Modular Box size in inch
 Round sheet/plate
 -----------------
 for "pull box" (plane)
-for "Angle holder": 3 Rs.
+for "Angle holder": Rs.3/-
 for "Fan box"
 
 Blank plate    : for modular board
