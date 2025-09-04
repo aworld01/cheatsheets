@@ -1,0 +1,25 @@
+207/1787 => Toilet
+05/1788 => House
+40/1789 => Near House
+230/2114 => Banglow (3 dhur, 15.1/2 dhurki)
+230/2114 => Banglow (1 dhur, 18 dhurki)
+230/2114 => Banglow (12 dhur, 10 dhurki)
+230/2114 => Banglow (1 dhur, 16 dhurki)
+230/2115 => New Ghar (4 dhur, 10.1/2 dhurki)
+91/1798 => Baswadi ()
+91/1798 => Baswadi
+Jamdali
+Akdaha
+Dakhin Chaura
+Dakhin Chaura
+Bazar ke paswala
+Bazar ke paswala
+91/1360 => Chatibal ke paswala
+91/1856 => pappuBhai ke paswala
+91/1888 => Mujwani wala
+91/1932 => Dhunsi par
+91/2605 => Bauli par
+91/2507 => Thutha pipal
+91/2720 => Dhobahi
+231/1037 => Gosai
+Bagicha
