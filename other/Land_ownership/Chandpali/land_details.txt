@@ -1,25 +1,37 @@
-207/1787 => Toilet
+Gharari = Deeh-Baskit
+
+
 05/1788 => House
 40/1789 => Near House
+40/2119 => Road / Kamrun Nesha (05 dhur)
+
+
+91/1798 => Baswadi (1 kattha, 1 dhur)
+91/1798 => Baswadi (1 kattha, 2 dhur)
+
+
+91/1360 => Chatibal ke paswala (12 dhur, 10 dhurki)
+91/1856 => pappuBhai ke paswala (2 dhur, 13 dhurki, 10 furki)
+91/1888 => Mujwani wala (1 kattha, 12 dhur)
+91/1932 => Dhunsi par (1 kattha, 07 dhur)
+91/2605 => Bauli par
+91/2507 => Thutha pipal
+91/2720 => Dhobahi (1 kattha, 04 dhur)
+
+
+207/1787 => Toilet
 230/2114 => Banglow (3 dhur, 15.1/2 dhurki)
 230/2114 => Banglow (1 dhur, 18 dhurki)
 230/2114 => Banglow (12 dhur, 10 dhurki)
 230/2114 => Banglow (1 dhur, 16 dhurki)
-230/2115 => New Ghar (4 dhur, 10.1/2 dhurki)
-91/1798 => Baswadi ()
-91/1798 => Baswadi
+230/2115 => New Ghar (4 dhur, 10 dhurki)
+231/1037 => Gosai (2 kattha, 17 dhur, 7 dhurki)
+
 Jamdali
 Akdaha
 Dakhin Chaura
 Dakhin Chaura
 Bazar ke paswala
 Bazar ke paswala
-91/1360 => Chatibal ke paswala
-91/1856 => pappuBhai ke paswala
-91/1888 => Mujwani wala
-91/1932 => Dhunsi par
-91/2605 => Bauli par
-91/2507 => Thutha pipal
-91/2720 => Dhobahi
-231/1037 => Gosai
+Jamdali
 Bagicha
