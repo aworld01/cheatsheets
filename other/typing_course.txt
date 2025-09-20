@@ -1,0 +1,7 @@
+https://www.keybr.com/
+
+
+Backspace: delete one-by-one charector.
+Ctrl+Backspace: delete the whole word.
+AeroKey: move cursor
+Ctrl+AeroKey: fast move cursor. 

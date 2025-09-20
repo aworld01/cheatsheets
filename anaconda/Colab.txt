@@ -1,2 +1,0 @@
-Ctrl+M, M: to change "Code Shell" into "Text Shell"
-Ctrl+M, Y: to change "Text Shell" into "Code Shell"
