@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Python3_function</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+li
+	{
+	white-space: pre-wrap;
+	}
+</style>
+</head>
+<body style="background: gray;">
+
+<p>
+	http://127.0.0.1:5500/python_final.html<br>
+	http://www.github.com/artificialworld09
+</p>
+
+<h1>Python3_function</h1>
+
+<ol>
+<h2>46(vid:72) functions_intro</h2>
+<li>
+name = "Abdul Zoha"
+print(len(name))
+</li>
+<hr>
+
+
+<h2>48(vid:74) function_practice</h2>
+
+<li>
+def odd_even(num):
+	if num%2 == 0:
+		return "Even"
+	else:
+		return "Odd"
+print(odd_even(9))
+</li>
+
+<li>
+def odd_even(num):
+	if num%2 == 0:
+		return "Even"
+	return "Odd"
+print(odd_even(9))
+</li>
+
+<li>
+def is_even(num):
+	if num%2 == 0:
+		return True
+	else:
+		return False
+print(is_even(9))
+</li>
+
+<li>
+def is_even(num):
+	if num%2 == 0:
+		return True
+	return False
+print(is_even(9))
+</li>
+
+<li>
+def is_even(num):
+	return num%2 == 0
+print(is_even(9))
+</li>
+
+<li>
+def song():
+	return "Happy birth day to you !"
+print(song())
+</li>
+<hr>
+
+
+<h2>49(vid:76) chapter_4__exercise_1_solution</h2>
+
+<li>
+def greater(a,b):
+	if a > b:
+		return a
+	else:
+		return b
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+bigger = greater(num1, num2)
+print(f"{bigger} is greater:")
+</li>
+<hr>
+
+
+<h2>50(vid:77) define_greatest</h2>
+
+<li>
+def greatest(a,b,c):
+	if a > b and a > c:
+		return a
+	elif b > a and b > c:
+		return b
+	else:
+		return c
+
+print(greatest(10,20,30))
+</li>
+<hr>
+
+
+<h2>51(vid:80) chapter_4__exercise_2_solution</h2>
+
+<li>
+def is_palindrom(word):
+	reversed_word = word[::-1]
+	if word == reversed_word:
+		return True
+	else:
+		return False
+
+print(is_palindrom("naman"))
+print(is_palindrom("horse"))
+</li>
+
+<li>
+def is_palindrom(word):
+	reversed_word = word[::-1]
+	if word == reversed_word:
+		return True
+	return False
+
+print(is_palindrom("naman"))
+print(is_palindrom("horse"))
+</li>
+
+<li>
+def is_palindrom(word):
+	if word == word[::-1]:
+		return True
+	return False
+
+print(is_palindrom("naman"))
+print(is_palindrom("horse"))
+</li>
+
+<li>
+def is_palindrom(word):
+	return word == word[::-1]
+
+print(is_palindrom("naman"))
+print(is_palindrom("horse"))
+</li>
+<hr>
+
+
+<h2>52(vid:81) fibonacci_series_program</h2>
+
+<li>
+# fibonacci series
+
+def fibonacci_seq(n):
+	a = 0
+	b = 1
+	if n == 1:
+		print(a)
+	elif n == 2:
+		print(a, b)
+	else:
+		print(a,b, end=" ")
+		for i in range(n-2):
+			c = a + b
+			a = b
+			b = c
+			print(b, end=" ")
+fibonacci_seq(10)
+</li>
+</ol>
+
+</body>
+</html>
