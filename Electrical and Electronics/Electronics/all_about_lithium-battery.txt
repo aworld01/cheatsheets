@@ -49,3 +49,6 @@ Items requered in lithium battery build:
     Service lead
     BMS (Battery Management System)
     Active Balancer
+
+
+New Lithium cell size: 4680

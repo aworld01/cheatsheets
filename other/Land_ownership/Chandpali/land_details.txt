@@ -25,7 +25,12 @@ Gharari = Deeh-Baskit
 230/2114 => Banglow (12 dhur, 10 dhurki)
 230/2114 => Banglow (1 dhur, 16 dhurki)
 230/2115 => New Ghar (4 dhur, 10 dhurki)
-231/1037 => Gosai (2 kattha, 17 dhur, 7 dhurki)
+
+231/1037 => Gosai (2 kattha, 14 dhur, 17 dhurki)
+Total: 16 katha, 02 dhur = 60.06 dismal
+60.06/3 = 20.02/2 = 10.01
+16 katha, 02 dhur = 322 dhur/3 = 107.34/2=53.67 (54 round figure) = 54/20 = 2 kahta, 14 dhur
+
 
 Jamdali
 Akdaha
@@ -34,4 +39,13 @@ Dakhin Chaura
 Bazar ke paswala
 Bazar ke paswala
 Jamdali
-Bagicha
+
+
+Khata: 125 (Bagicha)
+1098: 02 katha, 19 dhur
+1070: 01 katha, 07 dhur
+1071: 01 katha, 12 dhur
+Total: 05 katha, 18 dhur = 21.94 dismal
+
+
+
