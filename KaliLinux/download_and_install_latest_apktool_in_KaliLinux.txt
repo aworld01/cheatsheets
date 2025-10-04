@@ -1,0 +1,13 @@
+sudo apktool --version: check version
+sudo apt remove apktool -y: remove apktool
+
+
+Download apktool from it's official website
+===========================================
+apktool.org/Install/Linux:-
+    1. Download the Linux 'wrapper script'. (Right click, Save Link As apktool)
+    2. Downlaod the 'latest version' of Apktool.
+    3. Rename the downloaded jar to apktool.jar.
+    4. Make sure both files are executable. (chmod +x)
+    5. Move both apktool.jar and apktool to '/usr/local/bin'. (sudo mv * '/usr/local/bin')
+    6. Try running apktool via CLI (sudo apktool --version)
