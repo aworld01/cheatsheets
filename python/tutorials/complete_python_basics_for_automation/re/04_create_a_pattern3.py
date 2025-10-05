@@ -1,13 +1,3 @@
-"""
-{2}: exactly 2 times
-{2,4}: 2, 3 or 4 times
-{2,}: two or more times
-+: one or more times
-*: zero or more times
-?: once or none (lazy)
-
-07:19 / 12:33
-"""
 import re
 
 # txt = "This is a pythonnnn and python aaa haaafd aaaaaaaa"

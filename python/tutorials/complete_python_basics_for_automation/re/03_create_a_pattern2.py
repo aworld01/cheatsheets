@@ -1,11 +1,3 @@
-"""
-Rules to create a pattern:
-    ^ => Start of the string (and start of the line in-case of multiline string)
-    \b => Empty string at the beginning or end of a word.
-    \B => Empty string not at the beginning or end of a word.
-    \t, \n, \r => Matches tab, newline, return respectively
-09:53 / 11:19
-"""
 import re
 
 """example of ^"""
