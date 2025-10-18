@@ -45,12 +45,3 @@ fire this command in GitBash: git clone https://github.com/zsh-users/zsh-autosug
 
 before: plugins=(git)
 after: plugins=(git zsh-autosuggestions)
-
-
-
-
-
-
-
-
-10:30/20:00
