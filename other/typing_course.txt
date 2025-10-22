@@ -4,4 +4,25 @@ https://www.keybr.com/
 Backspace: delete one-by-one charector.
 Ctrl+Backspace: delete the whole word.
 AeroKey: move cursor
-Ctrl+AeroKey: fast move cursor. 
+Ctrl+AeroKey: fast move cursor.
+
+
+Hindi typing
+============
+https://www.easyhindityping.com/unicode-hindi-typing
+
+
+a=अ, aa=आ, i=इ, ee=ई, u=उ, U=ऊ oo=ऊ,
+e=ए, ai=ऐ o=ओ, au=औ, aM=अं, a:=अः R=ऋ,
+
+ka=क, kha=ख, ga=ग, gha=घ, NGa=ङ,
+cha=च, Cha=छ, ja=ज, jha=झ, NYa=ञ,      Za=ज़,
+Ta=ट, Tha=ठ, Da=ड, Dha=ढ, Na=ण,
+ta=त, tha=थ, da=द, dha=ध, na=न,
+pa=प, pha=फ, ba=ब, bha=भ, ma=म,
+ya=य, ra=र, la=ल, va=व, sha=श,
+Sha=ष, sa=स, ha=ह, kSha=क्ष, xa=क्ष, tra=त्र,
+
+.=।
+
+Gnya
