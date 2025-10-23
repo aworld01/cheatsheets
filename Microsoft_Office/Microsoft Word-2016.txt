@@ -3,7 +3,7 @@ Open "MS Word(winword)
 
 
 
-Microsoft Word 2016 (.docx) Document/Page
+Microsoft Word 2024 (.docx) Document/Page
 Zoom: 10%-500% (Alt+V+Z)
 
 FILE
@@ -102,14 +102,3 @@ Spelling & Grammar (F7)
 Thesaurus (Shift+F7)
 
 VIEW TAB
-
-
-
-
-
-
-
-
-
-
-03:13:00/03:45:43

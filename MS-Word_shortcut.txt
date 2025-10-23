@@ -1,3 +1,0 @@
-Ctrl + Shift + +: Superscript
-Ctrl + =: Subscript
-Alt + =: Equation
