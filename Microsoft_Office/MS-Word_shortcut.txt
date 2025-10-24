@@ -29,13 +29,24 @@ Select, Ctrl+Shift+<: Shrink
 Tab,Tab: Nested Tab
 Shift,Tab: PreTab
 Ctrl+F9: Curly braket, perform any type of calculation inside.
+Ctrl+Enter: page break
+Alt+N,X,Enter,Backspace: Insert Textbox
+Ctrl+L: Align Left
 
 Creating Table
 --------------
 +,Tab,+,Tab,+,Tab,+,Enter: 1 row, 3 column Table, increase row by pressing Tab
 
 
-
+Equation
+========
+Alt+=: Insert New Equation
+x/y, space: Fraction
+x^y, space: Superscript
+x_y, space: Subscript
+\sqrt, space: square root
+\sqrt, (1+2+4): to put more than one value
+{2/3}, space: value in bracket
 
 
 
