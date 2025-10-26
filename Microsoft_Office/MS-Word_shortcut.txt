@@ -32,10 +32,10 @@ Ctrl+F9: Curly braket, perform any type of calculation inside.
 Ctrl+Enter: page break
 Alt+N,X,Enter,Backspace: Insert Textbox
 Ctrl+L: Align Left
+Alt+W+O: to enable/disable focus mode.
+Ctrl+D: Font Setting
 
-Creating Table
---------------
-+,Tab,+,Tab,+,Tab,+,Enter: 1 row, 3 column Table, increase row by pressing Tab
+
 
 
 Equation
@@ -48,6 +48,24 @@ x_y, space: Subscript
 \sqrt, (1+2+4): to put more than one value
 {2/3}, space: value in bracket
 
+Table
+=====
++-------------+----------+------------+: Three column, 1 row.
+Tab: to move forward
+Shift+Tab: to move backward
+Goto last cell,Tab: to add more 'row'
+Goto right outside of any row, Enter: to add more 'row' between to rows.
+select one row, Alt+Shift+Up/DownAuro: to move 'row' up and down
+selectCells,Alt+A,M: Merge cell
+selectRow,Shift+Ctrl+Enter: split table
+select some cell below, Alt+Shift+DownAuro: split table
+selectCell,rightClick,Delete cells/[Delete entire row/columns]/Ok
++,Tab,+,Tab,+,Tab,+,Enter: 1 row, 3 column Table, increase row by pressing Tab
+
+Macro
+=====
+File > Options > Trust Center > Trust Center Settings > Enabel all macros > OK > OK
+View > Macros
 
 
 Tip: use 'Tab' button instead 'Space' for writing things blockwise.
