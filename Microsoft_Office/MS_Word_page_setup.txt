@@ -1,0 +1,15 @@
+Page setup:
+==========
+Home/Font: 16
+
+Layout
+    Size: A4 / 8.27"x11.69"
+    Margins:-
+        Top    : 1"
+        Left   : 1"
+        Bottom : 0.2"
+        Right  : 0.2"
+
+        Layout::-
+            Header: 0.5"
+        Footer: 0"
