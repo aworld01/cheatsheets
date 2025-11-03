@@ -47,6 +47,18 @@ x_y, space: Subscript
 \sqrt, space: square root
 \sqrt, (1+2+4): to put more than one value
 {2/3}, space: value in bracket
+Ctrl+L: Align left
+Ctrl+R: Align right
+Ctrl+E: Center
+Ctrl+J: Justify
+
+Selection
+=========
+doubleClick: Select Word
+tripleClick: Select Paragraph
+Shift+End: Select Line
+Ctrl+doubleClick at multiple world, Ctrl+C, select place to paste, Ctrl+V: Copy and paste multiple words
+Alt+Drag at multiple words, Ctrl+C, Select place to paste, Ctrl+V: Copy and paste multiple desired words.
 
 Table
 =====
@@ -55,7 +67,7 @@ Tab: to move forward
 Shift+Tab: to move backward
 Goto last cell,Tab: to add more 'row'
 Goto right outside of any row, Enter: to add more 'row' between to rows.
-select one row, Alt+Shift+Up/DownAuro: to move 'row' up and down
+select cell, Alt+Shift+Up/DownAuro: to move 'row' up and down
 selectCells,Alt+A,M: Merge cell
 selectRow,Shift+Ctrl+Enter: split table
 select some cell below, Alt+Shift+DownAuro: split table
