@@ -1,0 +1,11 @@
+touch '.gitignore': to create an empty file.
+ls -a: to check '.gitignore' file.
+
+nano .gitignore: to edit '.gitignore' file.
+	
+	properties/
+	*.log
+	passwords.txt
+	.gitignore
+
+cat '.gitignore': to check files data

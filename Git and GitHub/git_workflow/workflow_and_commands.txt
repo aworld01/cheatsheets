@@ -1,0 +1,15 @@
+-r: recursive.
+-f: forcefully.
+
+
+git status: to check untracked file.
+
+Single file
+-----------
+git add <file path>: to stage file.
+git rm --cached <file path>: to reverse into working directory from staged area.
+
+git add .: to stage multiple files.
+git rm --cached -r -f .: to reverse into working directory from staged area.
+
+git diff: to check difference between working directory file and staged area file.
