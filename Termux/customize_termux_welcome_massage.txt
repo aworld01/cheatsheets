@@ -1,0 +1,4 @@
+Customize termux welcome massage
+================================
+nano ../usr/etc/motd[type your welcome massage]
+Ctrl+s, Ctrl+x
