@@ -8,4 +8,6 @@ nano .gitignore: to edit '.gitignore' file.
 	passwords.txt
 	.gitignore
 
+Ctrl+S, Ctrl+X
+
 cat '.gitignore': to check files data

@@ -1,7 +1,0 @@
-git config --global alias.st status: to make shortkey of "git status"
-
-git st: to check shortcut command
-
-git config --global alias.psm "push origin master": to make shortkey of "git push origin master"
-
-git psm
