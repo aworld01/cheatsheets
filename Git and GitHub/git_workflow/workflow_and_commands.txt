@@ -3,13 +3,92 @@
 
 
 git status: to check untracked file.
+git clone <url>
+git log
+git remote
+git remote -v
 
-Single file
------------
-git add <file path>: to stage file.
-git rm --cached <file path>: to reverse into working directory from staged area.
 
-git add .: to stage multiple files.
-git rm --cached -r -f .: to reverse into working directory from staged area.
+Note: commit requires username and UserID
+git config --global user.name "<name>"
+git config --global user.email "<email>"
 
-git diff: to check difference between working directory file and staged area file.
+commit editing
+--------------
+git commit --amend: a editor will be open to edit last commit.
+git commit --amend -m "<message>": to edit last commit in oneline.
+
+
+
+
+
+alias
+=====
+git config --global alias.ch checkout: to set alias in oneline.
+
+Set alias with editor
+---------------------
+cd ~
+ls -a
+nano .gitconfig
+
+    [user]
+        st = status
+	com = commit -m
+	ch = checkout
+
+Ctrl+S, Ctrl+X
+source .bashrc
+
+
+
+
+stage
+-----
+git add <file>: to stage a single file.
+git rm --cached <file>: to unstage a single file.
+git restore --staged <file>: unstage a single file.
+
+
+modified file
+-------------
+git add <file>: stage file
+git restore <file>: discard changes.
+git restore --staged --worktree:
+
+
+git add .: to stage all files of working directory.
+git rm --cached -r -f .: to unstage all files of working directory.
+
+
+
+restore commit
+--------------
+git restore --source=a5c945f file1.txt: resore file1.txt
+git restore --source=a5c945f .: restore all commit
+git restore --source=HEAD~1: 1 commit back
+git restore --source=HEAD~2: 2 commit back
+git restore --source=HEAD: back to last commit.
+
+
+
+
+
+Branch
+------
+git branch: to check branch.
+git branch feature: to create branch.
+git switch feature: to switch on feature branch.
+git switch -: to switch on master branch.
+git checkout feature: to switch on feature branch.
+git switch -c test: to create and switch on any branch at a time.
+
+
+
+
+
+
+
+
+
+git diff: to check difference between working directory file and staged file.
