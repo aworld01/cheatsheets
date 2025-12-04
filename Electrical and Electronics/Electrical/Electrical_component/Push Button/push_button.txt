@@ -1,0 +1,22 @@
+PUSH BUTTON
+===========
+There are two parts of Push button.
+1. Bash
+2. Element
+
+NC: Normally Close
+Color: Red
+Terminal number: 1,2
+
+NO: Normally Close
+Color: Green
+Terminal number: 3,4
+
+
+Recognition method
+------------------
+1. Element color
+2. Terminal number
+3. Continuity testing
+4. Checking NO/NC written over
+5. Checking symbols

@@ -1,0 +1,8 @@
+Control wiring
+A1, A2
+
+Power wiring
+1/L1, 3/L2, 5/L3: Input
+2/T1, 4/T2, 6/T3: Output
+
+13 NO, 14 NO: Holding
