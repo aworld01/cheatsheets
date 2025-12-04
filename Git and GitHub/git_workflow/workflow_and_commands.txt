@@ -1,10 +1,20 @@
+sudo apt install git: to install git in Linux system.
+
 -r: recursive.
 -f: forcefully.
+-a: hidden file.
 
+ls -a: show hidden file
+rm -rf .git: delete '.git' directory
 
+Local repository: on your pc.
+Remote repository: on a server.
+
+git init: Initialize git repository
 git status: to check untracked file.
 git clone <url>
 git log
+git log --oneline
 git remote
 git remote -v
 
@@ -12,6 +22,11 @@ git remote -v
 Note: commit requires username and UserID
 git config --global user.name "<name>"
 git config --global user.email "<email>"
+
+git config user.name
+git config user.email
+
+git commit -am <"message">: direct commit without stage
 
 commit editing
 --------------
