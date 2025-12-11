@@ -5,7 +5,10 @@ sudo apt install git: to install git in Linux system.
 -a: hidden file.
 
 ls -a: show hidden file
-rm -rf .git: delete '.git' directory
+rm -rf .git: delete '.git' directory.
+rm -rf ./*: to delete all files in pwd.
+rm -rf ./.??*: to delete all files in pwd including hidden file.
+
 
 Local repository: on your pc.
 Remote repository: on a server.
@@ -26,7 +29,7 @@ git config --global user.email "<email>"
 git config user.name
 git config user.email
 
-git commit -am <"message">: direct commit without stage
+git commit -am <message>: direct commit without stage (works with already tracked file).
 
 commit editing
 --------------
@@ -91,19 +94,45 @@ git restore --source=HEAD: back to last commit.
 
 Branch
 ------
-git branch: to check branch.
-git branch feature: to create branch.
-git switch feature: to switch on feature branch.
-git switch -: to switch on master branch.
+git branch: to check available branch.
+git branch <branch>: to create new branch.
+git branch -m <newName>: to rename the branch.
+
+git checkout <branch>: to switch branch.
+git switch <branch>: to switch branch.
+
+git switch -: to switch into last checkedout branch.
+
+git switch -c <branch>: to create a new branch and switch into at a time.
+git checkout -b <branch>: to create a new branch and switch into at a time.
+
 git checkout feature: to switch on feature branch.
 git switch -c test: to create and switch on any branch at a time.
 
+git merge <branch>: to merge branch.
+git branch -d <branch>: to delete branch.
+git branch -D <branch>: to forcefully delete branch if not merged.
+
+git checkout <file>: to discard modified file (instead staged area).
+git checkout .: to discard all modified file of pwd.
+git checkout 0f04357: detached HEAD to given commit.
+git branch
+(HEAD detached at 0f04357)
+
+git switch master: to switch back to master branch.
+git checkout HEAD~2: go two commit back.
+
+
+NOTE:
+-----
+You can't delete any branch without switching into another branch.
+You have to switch into same branch to rename any branch.
 
 
 
-
-
-
-
-
-git diff: to check difference between working directory file and staged file.
+git diff: to check difference between working directory last commit.
+git diff <file>: to check difference between any single file.
+git diff --staged: to check difference between stage and commit file.
+git diff 92057e6 54a8118
+git diff 92057e6..54a8118: check difference between two commits.
+git diff HEAD: check difference between last commit and working directory, stage area.
