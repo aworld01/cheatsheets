@@ -1,0 +1,15 @@
+Work at Height: 1.2m
+
+PASS
+----
+Pull the pin.
+Aim at the base of fire.
+Squish the handle.
+Swipe around.
+
+RACE
+----
+Rescue
+Alarm
+Contain
+Extinguish
