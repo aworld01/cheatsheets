@@ -1,0 +1,18 @@
+Fuse Holder
+DIN-Rail
+Terminal block
+Add-on block
+Start/Stop push button
+Selector Switch
+Photo cell
+Contactor
+Timmer
+Relay
+Leaching Relay
+SMPS (Switched Mode Power Supply)
+OLR (Over Load Relay)
+ACB (Air Circuit Breaker)
+MCB (Miniature Circuit Breaker)
+MCCB (Molded Case Circuit Breaker)
+RCCB (Residual Current Circuit Breaker)
+VFD (Variable Frequency Drive)

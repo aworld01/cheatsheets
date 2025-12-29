@@ -1,0 +1,8 @@
+VFD (Variable Frequency Drive)
+Working
+-------
+1. Controlls speed of motor by increasing and decreasing Hz frequency.
+2. Energy saving
+3. Improves PF value
+4. Smooth start and stop
+5. Protection from phase failure, phase unbalance, overload, short circuits, and earth fault.

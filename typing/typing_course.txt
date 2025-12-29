@@ -1,4 +1,5 @@
 https://www.keybr.com/
+Goole: gmb typing zone
 
 
 Backspace: delete one-by-one charector.
