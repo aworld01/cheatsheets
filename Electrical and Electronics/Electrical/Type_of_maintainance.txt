@@ -1,0 +1,2 @@
+CM: Corrective Maintenance (Rectifying)
+RM: Reactive Maintenance (Immediately)

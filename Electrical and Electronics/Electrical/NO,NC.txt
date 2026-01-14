@@ -1,0 +1,28 @@
+1,2: NC
+3,4: NO
+5,6: NC
+7,8: NO
+
+
+Contactor:
+    A1,A2: Control wiring
+    13 = 3: NO
+    14 = 4: NO
+    21 = 1: NC
+    22 = 2: NC
+
+
+Timmer:
+    15 = 5: Common
+    16 = 6: NC
+    18 = 8: NO
+    25 = 5: Common
+    26 = 6: NC
+    28 = 8: NO
+
+
+OLR (Over Load Relay):
+    95 = 5: NC
+    96 = 6: NC
+    97 = 7: NO
+    98 = 8: NO
