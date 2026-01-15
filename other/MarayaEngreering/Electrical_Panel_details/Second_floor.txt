@@ -1,0 +1,21 @@
+Touch Zone-06 IP: 10.4.101.9 (Outside of Electrical Room & Low Current Room, Lounge Area)
+
+Low Current Room (Near by Lounge Area):
+    ENC-SF-01
+    UPS Power Panel
+
+Electrical Room (Near by Lounge Area):
+    LP1-SF
+    LCP-2F-02
+    PP1-SF
+
+Electrical Room (Near by UDC Office Corridor):
+    ELP-FF
+    DPK-SF
+    PP3-SF
+    LP2-SF
+    PP2-SF
+    LCP-2F-01
+
+Low Current Room (Near by HR Office):
+    UPS-SF-IDF-06

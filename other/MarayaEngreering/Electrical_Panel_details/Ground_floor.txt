@@ -16,6 +16,7 @@ Electrical Room (Lounge Area):
     Control Panel-03 PP1-CKT-01
     Control Panel-02 PP1-CKT-05 (FOLIO-PSP-04)
     Control Panel-XX PP1-CKT-11
+    MDB-01
     SMDB-G
     PP1-GF
     LP1-GF
