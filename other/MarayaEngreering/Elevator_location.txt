@@ -1,0 +1,5 @@
+Elevator: 01     (GF/Near by South side gate)
+Elevator: 02, 03 (GF/Near by House keeping store)
+Elevator: 04     (GF/Near by Staff W/C corridor)
+Elevator: 05     (GF/Near by VVIP Green Room)
+Elevator: 06, 07 (GF/Near by Prayer Room) 

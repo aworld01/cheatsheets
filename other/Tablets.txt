@@ -1,0 +1,15 @@
+Processor: Snapdragon 8 Gen 3 (4nm)
+RAM: 12GB (LPDDR5X)
+Storage: 256GB (UFS 3.1)
+Network: WiFi 6E / 5G
+Display: 12.1"
+Resotion: 2136*3200 (IPS LCD) 2.5K
+Refresh rate: 144Hz
+Sound: Dolby Vision Atmos & HDR 10
+Speakers: Quad Speakers
+Charge: 45W Turbo Charge
+Aspect ratio: 7:5
+Brightness: 900nits
+Battery: 9510 mAh
+Charging: 67W
+IP rating: IP68 (Dust & Water resistance)
