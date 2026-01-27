@@ -1,0 +1,26 @@
+Brand: Waaree
+Volt: 24 volts
+VOC: 
+Amp: 25A
+Watt: 545 Watts
+Weight: 54 Kilograms
+Dimension: 2.27L * 1.13W * 0.05H Meters
+Technology: Mono PERC Halfcut Panel
+Cells: xxx
+
+
+
+Brand: Waaree
+Volt: 24 volts
+VOC: 49.61
+Amp: 13.83A
+Watt: 540 Watts
+Weight: 54 Kilograms
+Dimension: 2.27L * 1.13W * 0.05H Meters
+Technology: Mono PERC Halfcut Panel
+Cells: 144 cells
+
+
+39.5 Inch = 1 Meter
+90.06 Inch = 39.5 * 2.28
+7.505 Feet = 90.06 / 12

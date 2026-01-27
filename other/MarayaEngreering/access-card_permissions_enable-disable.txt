@@ -7,5 +7,9 @@ PIN only
 Card and PIN
 Card or PIN
 
-Operations/Control Map.../Select access Items/rightClick/Door Mode.../Unlock [unlimited access]/OK
-Operations/Events
+Operations
+    Control Map...
+        Select access Items/rightClick/Door Mode.../Unlock [unlimited access]/OK
+
+Operations
+    Events
