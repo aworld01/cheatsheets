@@ -1,4 +1,4 @@
-Note: Master branch created after the first commit.
+Note: The 'main' branch created automatically after the first commit.
    
 
 
@@ -7,8 +7,10 @@ git branch: to check available branch.
 
 git branch <branchName>: to create a new branch.
 
-git branch -m <newName>: to rename the current branch. (You have to switch into same branch to rename it.)
+git branch -m <oldName> <newName>: to rename the current branch. (You have to switch into same branch to rename it.)
 
 git branch -d <branchName>: to delete branch. (You can't delete the same branch without switching into another branch.)
 
 git branch -D <branchName>: to forcefully delete branch. (it requires if the branch is not merged.)
+
+git push origin --delete <branchName>: remove remote branch.

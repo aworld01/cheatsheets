@@ -1,0 +1,5 @@
+nh: lunch NetHunter.
+nh -r: lunch NetHunter as administrator.
+nh kex passwd: set the KeX password.
+nh kex start: start NetHunter GUI.
+nh kex stop: stop NetHunter GUI.
