@@ -5,7 +5,10 @@ git branch: to check available branch.
 
 git branch <branchName>: to create a new branch.
 
-git branch -m <oldName> <newName>: to rename the current branch. (You have to switch into same branch to rename it.)
+
+git branch -m <newName>: rename current branch.
+
+git branch -m <oldName> <newName>: rename any branch.
 
 
 git checkout <branch>: to switch branch.
