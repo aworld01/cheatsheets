@@ -59,28 +59,6 @@ git remote -v
 
 
 
-
-alias
-=====
-git config --global alias.ch checkout: to set alias in oneline.
-
-Set alias with editor
----------------------
-cd ~
-ls -a
-nano .gitconfig
-
-    [user]
-        st = status
-	com = commit -m
-	ch = checkout
-
-Ctrl+S, Ctrl+X
-source .bashrc
-
-
-
-
 stage
 -----
 git add <file>: to stage a single file.
@@ -100,32 +78,6 @@ git rm --cached -r -f .: to unstage all files of working directory.
 
 
 
-restore commit
---------------
-git restore --source=a5c945f file1.txt: resore file1.txt
-git restore --source=a5c945f .: restore all commit
-git restore --source=HEAD~1: 1 commit back
-git restore --source=HEAD~2: 2 commit back
-git restore --source=HEAD: back to last commit.
-
-
-
-
-
-Branch
-------
-git checkout <branch>: to switch branch.
-git switch <branch>: to switch branch.
-
-git switch -: to switch into last checkedout branch.
-
-git switch -c <branch>: to create a new branch and switch into at a time.
-git checkout -b <branch>: to create a new branch and switch into at a time.
-
-git checkout feature: to switch on feature branch.
-git switch -c test: to create and switch on any branch at a time.
-
-git merge <branch>: to merge branch.
 
 git checkout <file>: to discard modified file (instead staged area).
 git checkout .: to discard all modified file of pwd.
@@ -146,33 +98,6 @@ git diff 92057e6..54a8118: check difference between two commits.
 git diff HEAD: check difference between last commit and working directory, stage area.
 
 
-
-
-restore commit
-==============
-git restore --source=<commit-hash> <file>: to go at that commit's a specific file point.
-git restore --source=<commit-hash> .: to go at that commit point.
-
-git restore --source=HEAD: to go at last commit point.
-git restore --source=HEAD~1: to go one commit back.
-git restore --source=HEAD~2: to go two commits back.
-
-
-
-
-git reset
-=========
-git reset: to unstage file.
-git reset --mixed <file>: unstage file. ("--mixed" is default value)
-
-git reset --soft HEAD~1: undo the last commit but keep changes in stage area.
-git reset --mixed HEAD~1: undo the last commit and unstage the changes.
-git reset --hard <commit-hash>: discard changes and reset the last commit.
-
-
-git revert
-==========
-git revert <commit-hash>: to remove any commit and make a new commit copy.
 
 commit-hash = 2a7c326
 

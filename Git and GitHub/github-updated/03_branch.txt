@@ -1,13 +1,25 @@
 Note: The 'main' branch created automatically after the first commit.
    
 
-
-
 git branch: to check available branch.
 
 git branch <branchName>: to create a new branch.
 
 git branch -m <oldName> <newName>: to rename the current branch. (You have to switch into same branch to rename it.)
+
+
+git checkout <branch>: to switch branch.
+
+git switch <branch>: to switch branch.
+
+git switch -: to switch into last checkedout branch.
+
+git switch -c <branch>: to create a new branch and switch into at a time.
+
+git checkout -b <branch>: to create a new branch and switch into at a time.
+
+git merge <branch>: to merge branch.
+
 
 git branch -d <branchName>: to delete branch. (You can't delete the same branch without switching into another branch.)
 

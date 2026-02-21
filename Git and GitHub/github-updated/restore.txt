@@ -1,0 +1,13 @@
+git restore --source=<commit-hash> <file>: to go at that commit's a specific file point.
+git restore --source=<commit-hash> .: to go at that commit point.
+git restore --source=HEAD: to go at last commit point.
+git restore --source=HEAD~1: to go one commit back.
+git restore --source=HEAD~2: to go two commits back.
+
+
+Syntax:
+    git restore --source=a5c945f file1.txt: resore file1.txt
+    git restore --source=a5c945f .: restore all commit
+    git restore --source=HEAD~1: 1 commit back
+    git restore --source=HEAD~2: 2 commit back
+    git restore --source=HEAD: back to last commit.

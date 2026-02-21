@@ -13,21 +13,17 @@ There are two ways to create alias/shortcuts in git.
 For current directory
 ==========================
 Admin@DESKTOP-EAIRQCJ MINGW64 ~/Desktop/myFile/git_workflowss
+ls -a
 cd .git
 ls -a
-config
-
 nano config
 
 
 For current user directory
 ==========================
 cd ~
-Admin@DESKTOP-EAIRQCJ MINGW64 ~
 ls -a
-.gitconfig
-
-nano .gitconfig:
+nano .gitconfig
     [user]
         name = Windows X-lite
         email = abdulzoha786@gmail.com
@@ -39,7 +35,7 @@ nano .gitconfig:
         editor = code --wait
 
 Ctrl+S, Ctrl+X
-
+source .bashrc
 
 
 Create an alias of Linux command
