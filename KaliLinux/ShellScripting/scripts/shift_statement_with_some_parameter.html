@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>basicStructure</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+.pre{
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+</style>
+</head>
+<body>		
+
+<h1>ShellScripting</h1>
+<p>Shift statement with some parameters</p>
+<p class="pre">
+#!/bin/bash
+myname()
+{
+    local name=Abdul
+    echo "My name is" $name
+}
+echo $name
+myname
+</p>
+
+
+<p>Global variable</p>
+<p class="pre">
+#!/bin/bash
+name=Zoha
+myname()
+{
+    echo "My name is" $name
+}
+echo $name
+myname
+</p>
+
+
+
+<p class="pre">
+<b>ls -l</b>: to check permisions.
+<b>chmod u+x first_script.sh</b>: to give user permision.
+<b>./first_script.sh</b>: to execute shellscript.
+<b>sh first_script.sh</b>: to execute shellscript.
+<b>>></b>: to append
+<b>></b>: to overwrite
+<b>Ctrl+L</b>: to clear screen
+</p>
+</body>
+</html>

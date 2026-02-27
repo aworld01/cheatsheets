@@ -1,0 +1,8 @@
+The "attrib +h +r +s" command is used in the Windows command prompt to set attributes for a file or folder.
+
++h: Makes the file or folder hidden.
++r: Makes the file or folder as read-only.
++s: Makes the file or folder a system file.
+
+attrib +h +r +s: to hide
+attrib -h -r -s: to unhide

@@ -1,0 +1,1 @@
+git revert <commit-hash>: to remove any commit and make a new commit copy.

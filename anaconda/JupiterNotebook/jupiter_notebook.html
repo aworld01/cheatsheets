@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/html5.gif">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>ArtificialWorld</title>
+</head>
+<body>
+    
+    <h1>JupiterNotebook</h1>
+    <p>17:00 / 39:08</p>
+    <h2>greenColor for 'editMode' blueColor for 'CommandMode'</h2><br>
+
+    <ol>
+    <li><b>Esc</b> to 'CommandMode'</li>
+    <li><b>Enter</b> for 'EditMode'</li>
+    <li><b>Esc, m</b>: to markupMode</li>
+    <li><b>Esc, y</b>: to code</li>
+    <li><b>Esc, EuroUp and EuroDown</b> to navigate between cell.</li>
+    <li><b>Esc, Spacebar</b> to scroll down.</li>
+    <li><b>Esc, Shift+Spacebar</b> to scroll up.</li>
+    <li><b>Esc, a</b> to add new cell above the current cell.</li>
+    <li><b>Esc, b</b> to add new cell below the current cell.</li>
+    <li><b>Esc, Shift+downEuro</b> to select below cell.</li>
+    <li><b>Esc, Shift+upEuro</b> to select above cell.</li>
+    <li><b>Esc, select,x</b> to cut cell.</li>
+    <li><b>Esc, select,v</b> to paste cell.</li>
+    <li><b>Esc, select,c,v</b> to copy cell.</li>
+    <li><b>Esc, select,D*2</b> to delete cell.</li>
+    <li><b>Ctrl+Enter</b> to run cell.</li>
+    <li><b>Shift+Enter</b> to run cell and add new cell below.</li>
+    <li><b>Esc, z</b> to undo cell.</li>
+    <li><b>Esc, Shift+m</b>: to merge cell</li>
+    <li><b>Ctrl+Shift+-</b>: to split cell</li>
+    <li><b>Tab</b>: to autocompelete</li>
+    <li><b>("between") Shift+Tab</b>: to read documentation</li>
+    <br>
+
+    <h2>Using jupyter as commandline</h2>
+    <li><b>!cd</b>: to change directory</li>
+    <li><b>!dir</b>: to check directory</li>
+    <li><b>!python --version</b>: to check python version (running cmd command)</li>
+
+    <li><b>torch.__version__</b>: to check any installed packages version</li>
+
+    <li><b>df</b>: to check dataframe</li>
+    <li><b>pd.set_option('display.max_rows',None)</b>: to prevent trunketion dataframe</li>
+    <li><b>df</b></li>
+    <li><b>pd.set_option('display.max_rows',20)</b>: to see only 20 rows from dataframe</li>
+    <li><b>df</b></li>
+
+    <li><b>df</b>: to check dataframe</li>
+    <li><b>pd.set_option('display.max_columns',None)</b>: to prevent trunketion dataframe</li>
+    <li><b>df</b></li>
+    <li><b>pd.set_option('display.max_columns',20)</b>: to see only 20 columns from dataframe</li>
+    <li><b>df</b></li>
+
+    <h3>To ignore all warnings</h3>
+    <li><b>import warnings</b></li>
+    <li><b>warnings.filterwarnings('ignore')</b></li>
+
+    <h3>To print all variables</h3>
+    <li><b>from IPython.core.interactiveshell import InteractiveShell</b></li>
+    <li><b>InteractiveShell.ast_node_interactivity = "all"</b></li>
+
+
+</ol>
+</body>
+</html>

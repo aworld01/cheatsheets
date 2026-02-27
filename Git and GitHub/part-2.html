@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Git and GitHub</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+    
+</style>
+</head>
+<body>
+
+<h1>Git 2.29.2</h1>
+<p>KaliLinux 2020.1(cd /home/kali/Documents)</p>
+
+<h2>Goto your folder path, open<b1> Terminal</b1> and fire the commands below:-</h2>
+<hr>
+
+<span class="cmd">git commit -am "direct commit"</span>
+<div class="def"> to direct commit modified files/folders. (skip staging area)</div>
+
+<span class="cmd">git rm 'filename'</span>
+<div class="def"> to remove and stage the file.</div>
+
+<span class="cmd">git mv 'filename' 'new_filename'</span>
+<div class="def"> to rename and stage the file.</div>
+
+<span class="cmd">git restore --staged .</span>
+<div class="def"> to unstage all files.</div>
+
+<span class="cmd">git checkout -- myFile.txt</span>
+<div class="def"> to unmodify myFile.txt</div>
+
+<span class="cmd">git checkout -f</span>
+<div class="def"> to unmodify all modified files and goto your last commit.</div>
+
+
+
+<h1>Check log</h1>
+<span class="cmd">git log</span>
+<div class="def">to check log. press "q" to quit.</div>
+
+<span class="cmd">git log -p</span>
+<div class="def">to check diffrences of log commits.</div>
+
+<span class="cmd">git log -p -5</span>
+<div class="def">to check diffrences of only 5 log commits.</div>
+
+<span class="cmd">git log --stat</span>
+<div class="def">to check diffrences in short list.</div>
+
+<span class="cmd">git log --pretty=short</span>
+<div class="def">to see all commits in short list</div>
+
+<span class="cmd">git log --pretty=full</span>
+<div class="def">to get more commits information.</div>
+
+<span class="cmd">git log --pretty=oneline</span>
+<div class="def"> to see all commits in only one line.</div>
+
+<span class="cmd">git log --since=2.days</span>
+<div class="def"> to see last two day's log.</div>
+
+<span class="cmd">git log --since=2.weeks</span>
+<div class="def"> to see last two week's log.</div>
+
+<span class="cmd">git log --since=2.months</span>
+<div class="def"> to see last two month's log.</div>
+
+
+
+<h2>To check difference of modified files.</h2><br>
+
+<span class="cmd">git diff</span>
+<div class="def"> to check last modified files diffrences.</div>
+
+<span class="cmd">git diff --staged file2.txt</span>
+<div class="def"> to compare difference between last commited file2.txt to current staging area file2.txt.</div>
+
+
+
+
+
+
+
+<h1>Branching(to save repository from any changes)</h1>
+<span class="cmd">git branch</span>
+<div class="def">to check branch list.</div>
+
+<span class="cmd">git branch "new branch name"</span>
+<div class="def"> to make a new branck.</div>
+
+<span class="cmd">git checkout "branch name"</span>
+<div class="def"> to switch branck.</div>
+
+<span class="cmd">git branch</span><br/><br/>
+
+<span class="cmd">git checkout -b "new branch name"</span>
+<div class="def"> to make a new branck and switch on.</div>
+
+<span class="cmd">git branch</span>
+<div class="def">to check branch list and selected branch.</div>
+    
+<div class="def">Goto git folder and modify some file/folder.</div>
+
+<span class="cmd">git status</span>
+<div class="def"> to check status.</div>
+
+<span class="cmd">git add .</span>
+<div class="def"> to stage all files and folders.</div>
+
+<span class="cmd">git commit -m "made a new branch and modified some file/folder."</span>
+<div class="def">to create a checkpoint.</div>
+
+<span class="cmd">git checkout 'old branch name'</span>
+<div class="def">to switch to the old branch.</div>
+
+<div class="def">Goto git folder and check, all "old branch's" files and folders will be there as it was as.</div>
+
+
+<span class="cmd">git merge myBranch</span>
+<div class="def">to merge branches.</div>
+
+
+
+
+
+
+
+<span class="cmd">git push origin master</span>
+<div class="def">to push repository to remote.</div>
+
+<span class="cmd">git push origin "local branch" : "remote branch"</span>
+<div class="def">to push local branch to remote with a new name.</div>
+
+<div class="def">Goto: github.com reload your page and see changes.</div>
+
+<span class="cmd">git branch -d myBranch</span>
+<div class="def">to delete local branch.</div>
+
+<span class="cmd">git branch -v</span>
+<div class="def">to see branch list with last commit.</div>
+
+<span class="cmd">git branch --merged</span>
+<div class="def"> to see all merged branch.</div>
+
+<span class="cmd">git --no-merged</span>
+<div class="def">to see not merged branch.</div>
+
+<span class="cmd">git remote</span>
+<div class="def"> to see remote branches.</div>
+
+<span class="cmd">git remote -v</span>
+<div class="def"> to see remoted website.</div>
+
+<span class="cmd">git push -d origin "branch name"</span>
+<div class="def">to delete remote branch.</div>
+
+<span class="cmd">git push origin --delete myBranch</span>
+<div class="def">to delete remote branch.</div>
+</div>
+
+</body>
+</html>

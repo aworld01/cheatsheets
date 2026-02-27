@@ -1,0 +1,11 @@
+pip install django: to install django.
+pip install django==2.1: to install a specific version.
+pip install django --upgrade: to upgrade django.
+
+django-admin startproject myProject: to create a project.
+cd hello: to goto hello project.
+python3 manage.py runserver: to run server.
+CTRL+click on ip: to open webpage.
+
+
+46:00/2:56:23

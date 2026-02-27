@@ -1,0 +1,8 @@
+sc /scannow => Scans and repairs system files.
+bootrec /fixmbr => fix Master Boot Record.
+DISM /Online /Cleanup-Image /RestoreHealth: Repair Windows image.
+ipconfig /flushdns => Clear DNS cache.
+chkdsk f C: => Check disk for errors.
+chkdsk /r X => to repair corrupted memory (X: is memory drive)
+cleanmgr => to run "Disk Cleanup Manager"
+Win+R[cmd], Ctrl+Shift+Enter, Alt+Y => to open "CMD" as administrator

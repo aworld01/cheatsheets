@@ -1,0 +1,17 @@
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126: to install "pytorch" with GPU
+
+conda uninstall pytorch torchvision torchaudio# This removes PyTorch and its related packages.
+
+conda clean --all: If you want to clean up unused dependencies
+
+conda list | grep pytorch: conda list | grep pytorch: This command works with only Linux OS
+
+
+
+To install torchtext (it's discontinue now)
+===========================================
+pip install torch==2.3.0
+pip install torchtext==0.18
+
+
+

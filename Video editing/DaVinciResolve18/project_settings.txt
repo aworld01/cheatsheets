@@ -1,0 +1,24 @@
+Shift+9: Project settings
+=========================
+
+Timeline Format:
+----------------
+    Timeline resolution: [1920x1080 HD]
+    Pixel aspect ratio : (.) Square
+    Timeline frame rate: [24]
+    Playback frame rate: [24]
+
+Otimized Media and Render Cache:
+--------------------------------
+    Proxy media resolution: [Quarter]
+    Proxy media format    : [DNxHR HQX]
+
+    Note: rightClick at Original file in "Media" tab/Click on "Generate Proxy Media"
+          Goto: Playback/Proxy Handling/Prefer Proxies
+
+
+Working Folders:
+---------------
+    Proxy generation location: [C:\Users\Abdul\Videos\DaVinci Resolve\ProxyMedia]
+    Cache files location     : [C:\Users\Abdul\Videos\DaVinci Resolve\CacheClip]
+    Gallery stills location  :  [C:\Users\Abdul\Videos\DaVinci Resolve\.gallery]

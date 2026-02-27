@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>python3_file_IO</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+}
+ol{
+    white-space: Pre-wrap;
+    padding: 0px 16px;
+    margin-bottom: 10px;
+}
+</style>
+</head>
+<body style="background: gray url('Images/d.jpgd')">
+
+<h1>python3_file_IO</h1>
+<ol>
+<h2>With block/Context manager</h2>
+'''
+The with statement can be used while openinig a file.
+When we open a file using with statement there is no need to close the file explicitly.
+'''
+<li>
+with open("file.txt", mode="r", encoding="utf-8") as f: #read mode.
+  data = f.read() #to read a file.
+  print(data)
+</li>
+<hr>
+
+<li>
+with open("file.txt", mode="w", encoding="utf-8") as f: #write mode.
+  f.write("Hello world!") #to write a file.
+</li>
+<hr>
+
+<li>
+with open("file.txt", mode="a", encoding="utf-8") as f: #append mode.
+  f.write("I'm Abdul Zoha") #to write new data next to old data.
+</li>
+<hr>
+
+<li>
+with open("file.txt", mode="r+", encoding="utf-8") as f: #read + write mode.
+  data = f.read() #to read file
+  print(data)
+  f.write("I'm Abdul Zoha") #to append file
+  f.seek(0) #to seek cursor at 0 index
+  data2 = f.read() #to see updated file
+  print(data2)
+</li>
+<hr>
+
+<li>
+with open("file.txt", mode="r+", encoding="utf-8") as f: #read + write mode.
+  data = f.read()
+  l = len(data) #to move cursor at last of data
+  f.seek(l)
+  f.write("Artificialworld01") #to write new data next to old data.
+</li>
+<hr>
+
+<h2>Write one file data to another file.</h2>
+<li>
+with open("file.txt", mode="r", encoding="utf-8") as rf:
+    with open("file2.txt", mode="w", encoding="utf-8") as wf:
+        wf.write(rf.read())
+</li>
+<hr>
+</ol>
+   
+</body>
+</html>

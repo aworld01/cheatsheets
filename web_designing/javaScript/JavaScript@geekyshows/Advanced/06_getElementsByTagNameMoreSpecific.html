@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<!-- <link rel="icon" href="images/html5.gif"> -->
+<link rel="stylesheet" type="text/css"? href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+
+<h1>getElementsByTagName_MoreSpecific</h1>
+
+<xmp>
+<p id="artificial">Hello
+    <span>Geekyshows</span>
+    <em>World</em>
+</p>
+</xmp><br>
+
+var getSpan=document.getElementById("geek");
+<br>
+var result=getSpan.getElementsByTagName("span");
+<br>
+var result=document.getElementById("geek").getElementsByTagName("span");
+<br>
+var result=document.getElementById("geek").getElementsByTagName("*");
+<hr>
+
+
+<h1>Examples</h1>
+<h2>We are learning JS</h2>
+<h2>Now</h2>
+<p id="geek">Hello
+    <span>Geekyshows</span>
+    <em>world </em>
+    <span>Youtube</span>
+</p>
+<p id="find">
+    <span>Bye</span>
+    Geekyshows
+</p>
+<div>
+    <p>1st p inside div</p>
+    <p>2nd p inside div</p>
+</div>
+<br>
+
+<script>
+    // var getSpan=document.getElementById("geek");
+    // var result=getSpan.getElementsByTagName("span");
+
+    var result=document.getElementById("geek").getElementsByTagName("span");
+    document.write(result);
+    console.log(result);
+</script>
+
+</body>
+</html>

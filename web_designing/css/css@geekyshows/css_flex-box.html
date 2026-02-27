@@ -1,0 +1,102 @@
+<!-- 
+    display: flex;
+    width: 30%; flex-basis: 30%;
+    flex: 2;
+    flex-wrap: wrap;
+
+    flex-direction: column; (default)
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+
+    justify-content: flex-start;(default)
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+
+    align-items: flex-start;
+    align-items: center;
+    align-items: flex-end;
+
+
+    section{
+        width: 100%;
+        background: cyan;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    section div{
+        flex-basis: 30%;
+        padding: 20px;
+        border: 1px solid black;
+    }
+    .flexOne{
+        background: red;
+    }
+    .flexTwo{
+        background: yellow;
+    }
+    .flexThree{
+        background: green;
+    }
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS FlexBox</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .flex-container{
+        background: dodgerblue;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex-container > div{
+        background: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+    }
+    @media(min-width: 768px){
+        section{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+    }}
+</style>
+</head>
+<body>
+
+<h1>The flex-wrap Property</h1>
+<p>
+The "flex-wrap: wrap;" specifies that the flex items will wrap if necessary
+</p>
+
+<div class="flex-container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+    <div>11</div>
+    <div>12</div>
+</div>
+
+</body>
+</html>

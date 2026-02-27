@@ -1,0 +1,104 @@
+Open "Run (Win+R)"
+Open "MS Word(winword)
+
+
+
+Microsoft Word 2024 (.docx) Document/Page
+Zoom: 10%-500% (Alt+V+Z)
+
+FILE
+New (Ctrl+N)
+Open (Ctrl+O)
+Save (Ctrl+S)
+Save As (F12)
+
+
+Close "Word" document (Ctrl+W)
+Select all (Ctrl+A)
+Take demo text: =rand()
+Take one paragraph and two sentences: =rand(1,2)
+
+Goto View/Ruler: to enable Ruler (check/uncheck) #It will work only in "Print Layout"
+Goto File/Options/Advanced/Display/Show measurements in units of (Inches): to set the Ruler.
+
+
+
+
+
+
+HOME TAB
+AaBbDcDd(Normal) #to give title of the page.
+Underline (Ctrl+U)
+Italic (Ctrl+I)
+Bold (Ctrl+B)
+Font (Ctrl+D) (Size: 1-1638) (11: Normal)
+Subscript (Ctrl+=)
+Superscript (Ctrl+Shift++)
+Change Case: Aa
+
+CTRL+D/(Strikethrough/Double strikethrough) #to strikethrough
+Cut (Ctrl+X)
+Paste (Ctrl+V)
+Copy (Ctrl+C)
+Align Left (Ctrl+L)
+Align Center (Ctrl+E)
+Align Right (Ctrl+R)
+Justify (Ctrl+J)
+Undo (Ctrl+Z)
+Redo (Ctrl+Y)
+Select all (Ctrl+A)
+Delete a complete word "right to left" (Ctrl+Backspace)
+Delete a complete word "left to right" (Ctrl+Delete)
+Find (Ctrl+F)
+Replace (Ctrl+H)
+Goto (Ctrl+G)
+
+Format Painter (Ctrl+Shift+C, Ctrl+Shift,V)
+1.Select content with the formatting you like.
+2.Click Format Painter
+3.Select something else to automatically apply the formatting
+(FYI: To apply the formatting in multiple places, double click Format Painter
+
+Clipboard
+Clear All Formatting
+Line and Paragraph Spacing
+Shading
+Borders
+Bullets
+Increase indent
+Decrease indent
+Sort
+Paragraph mark
+Style
+Select
+
+
+
+
+
+
+INSERT TAB
+Cover Page
+Blank Page
+Page Break (Ctrl+Enter)
+Duplicate (Ctrl+D)
+Create new page(Ctrl+Enter)
+
+
+
+
+
+
+DESIGN TAB
+
+LAYOUT TAB
+
+REFERENCES TAB
+
+MAILINGS TAB
+
+REVIEW TAB
+Spelling & Grammar (F7)
+Thesaurus (Shift+F7)
+
+VIEW TAB

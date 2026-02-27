@@ -1,0 +1,10 @@
+AI (1950): Introduce any technique which enables computers to mimic human behavior.
+ML (1960): Subset of AI techniques which use statistical methods to enable machines to improve with expriences.
+DL (1970): Subset of ML which make the computation of multilayer neural networks feasible.
+
+RNN: for text/voice processing
+CNN: for image processing
+
+
+
+Transformer research paper: Attention is all you need

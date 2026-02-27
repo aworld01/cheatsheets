@@ -1,0 +1,34 @@
+Open photo:
+    01. dubleClick at empty area to open photo.
+    02. Goto: File/Open: to open photo.
+    03. Ctrl+O: to open photo.
+
+Ctrl+D: Deselect
+EuroKey: to move Marquee Tool Selection.
+Ctrl+Backspace: to fill background color.
+Alt+Backspace: to fill foreground color.
+Ctrl+Z: Undo
+Ctrl+Alt+Z: Undo step by step
+Ctrl+S: Save file.
+
+Alt+scrollout: Zoom out
+Alt+scrollIn: Zoom In
+
+Ctrl+T: Free Transform
+
+Toolbar:
+========
+01. Marquee tool (M)
+    Rectangular Marquee Tool
+    Elliptical Marquee Tool
+    Single Row Marquee Tool
+    Single Column Marquee Tool
+
+02. Move tool (V)
+
+03. Lasso Tool (L)
+    Lasso Tool
+    Polygonal Lasso Tool
+    Magnetic Lasso Tool
+
+04. Magic Wand Tool (W)

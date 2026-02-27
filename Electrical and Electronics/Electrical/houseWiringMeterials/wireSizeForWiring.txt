@@ -1,0 +1,8 @@
+Grid2Meter => 8mm
+Meter2Mainboard => 4mm
+AC => 4mm
+Power => 2.5mm
+Board2board => 2.5mm
+Lights, fans => 1mm
+Grounding => 1mm
+Inverter/UPS => 1mm/0.75mm

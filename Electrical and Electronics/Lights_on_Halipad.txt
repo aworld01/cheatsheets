@@ -1,0 +1,3 @@
+inside: 06 pcs
+midside: 16 pcs
+outside: 16 pcs

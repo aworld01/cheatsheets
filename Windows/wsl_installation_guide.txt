@@ -1,0 +1,104 @@
+wsl --install: Install WSL.
+
+wsl: switch into default distribution.
+
+wsl -v: check version
+wls --version: check version
+
+wsl --status: Check status.
+
+shutdown -r: to restart the computer
+
+wsl --status
+
+wsl -l: List installed Linux distributions.
+wsl --list: List installed Linux distributions.
+
+wsl -l -v: check detailed list of installed distributions.
+wsl --list --verbose: check detailed list of installed distributions.
+
+wsl -l -o:  List available distro to download and install.
+wsl --list --online: List available distro to download and install.
+
+wsl --install -d kali-Linux: to install additional Linux distributions after the initial install.
+
+wsl -d kali-linux -u root: to login with root user.
+
+wsl config --default-user root: to make "root" as default user.
+
+wsl -d ubuntu -u geek: to switch into ubuntu distribution.
+
+wsl -t <distribution>: Stop a specific running distribution.
+wsl --terminate <distribution>: Stop a specific running distribution.
+
+wsl --unregister <distribution>: Uninstall distribution.
+
+wsl --setdefault <distribution name>: to set default distribution.
+
+wsl --distribution <distribution name> --user <user name>: Run a specific Linux distribution from CMD or PowerShell
+
+wsl -d <distribution name> -u <user name>: Run a specific Linux distribution from CMD or PowerShell
+
+kali-tweaks: to select "Metapackages" => select "top10"
+
+sudo apt install kali-win-kex: to install GUI (Graphical User Interface)
+kex [password]
+
+kex: to start kali GUI
+
+wsl -d kali-linux -u thor
+
+wsl --version: Check WSL version
+
+wsl --update: Update WSL
+
+wsl --shutdown: Shutdown all running distributions
+
+wsl --set-default-version 1: switch from wsl2 into wsl1
+
+wsl --export <distribution> <backupFileName.tar>: Backup WSL
+
+wsl --import-in-place <distribution> <fileName>: Restore WSL
+
+wsl ip a: to check ip address
+
+wsl hostname: to check default distribution's hostname
+
+
+LINUX COMMANDS
+==============
+
+Set root password
+=================
+passwd root:
+    New password:
+    Retype new password:
+    passwd: password update successfully.
+
+ cat /etc/os-release: to check Linux version.
+
+ ip a: check ip
+
+ su
+ Password: login to root user
+
+ hostname: check hostname
+
+
+ Change hostname
+ ===============
+ sudo nano /etc/wsl.conf
+
+ [boot]
+ systemd=true
+
+ [network]
+hostname=ubuntu
+generateHosts=false
+
+Ctrl+S, Ctrl+X
+
+wsl -l -v
+wsl --shutdown
+
+

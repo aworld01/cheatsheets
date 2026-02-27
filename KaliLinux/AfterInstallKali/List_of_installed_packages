@@ -1,0 +1,35 @@
+update && upgrade -y
+
+sudo apt install vlc -y
+sudo apt install blender -y
+sudo apt install libreoffice -y
+sudo apt install nodejs -y
+
+sudo apt install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0 -y
+sudo apt install ffmpeg libav-tools
+sudo pip3 install pyaudio
+sudo apt update
+
+sudo apt install python3-pip -y
+sudo apt install python3-pil python3-pil-imagetk
+sudo pip3 install playsound
+sudo apt install python3-venv -y
+sudo apt install python3-pyinstaller -y
+
+
+
+git clone https://github.com/Und3rf10w/kali-anonsurf.git
+chmod 775 -R kali-anonsurf
+cd kali-anonsurf
+./installer.sh
+
+sudo apt install tor torbrowser-launcher -y
+torbrowser-launcher
+
+sudo apt install virtualbox -y
+sudo apt install virtualbox-ext-pack
+
+
+VirtualBox Guest Addition
+phoneinfoga
+configure git with pc

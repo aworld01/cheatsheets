@@ -1,0 +1,72 @@
+"""
+##url.py(main)
+from django.contrib import admin
+from django.urls import path
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+]
+
+http://127.0.0.1:8000/admin: to goto admin page.
+
+
+
+
+
+
+
+##url.py
+from django.contrib import admin
+from django.urls import path
+from . import views #to import views.py module
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', views.home) #to add views.py's function url
+]
+
+
+##views.py
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("This is home page")
+
+
+
+
+
+
+
+##views.py
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("<h1>This is home page<h1>") #to apply the HTML tags.
+
+
+
+
+
+
+
+##url.py
+from django.contrib import admin
+from django.urls import path
+from . import views #to import views.py module
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', views.home),
+    path('contact/', views.contact),
+]
+
+
+##views.py
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("This is home page")
+
+def contact(request):
+    return HttpResponse("<h1>This is our contact page</h1> <br> <p>Welcome to our page.</p>")

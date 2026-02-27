@@ -1,0 +1,13 @@
+Shift+Restart: Restart the computer in Advanced Boot Option menu.
+
+shutdown /r /o /f /t 00: Restart the computer in Advanced Boot Option menu.
+
+/r: This switch specifies that the computer should be restart.
+
+/f: This switch specifies force close applications
+
+/t 00: This switch set timeout to 0 seconds for an immediate restart
+
+/o: This switch tells the system to go to the Advanced Boot Option menu (also known as Windows Recovery Environment) after restarting.
+
+shutdown /s /fw: restart in boot menu

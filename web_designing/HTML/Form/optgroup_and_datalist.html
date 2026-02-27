@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>HTML/Form Source code...</title>
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+body{
+	background-color: black;
+	color: white;
+	}
+h1{
+	text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>optgroup and datalist</h1>
+	
+<form name="frmDataEntry" action="processor.html" method="post">
+<label>Cars</label><br/>
+<select name="slctcars">
+	<optgroup label="Toyota">
+		<option value="In">Innova</option>
+		<option value="In">Etios</option>
+		<option value="In">Fortuner</option>
+	</optgroup>
+	<optgroup label="Renault">
+		<option value="In">Kwid</option>
+		<option value="In">Duster</option>
+		<option value="In">Captur</option>
+	</optgroup>
+</select>
+<hr>
+
+<label>Cars</label><br/>
+<input list="cars">
+<datalist id="cars">
+	<option value="Innova">
+	<option value="Etios">
+	<option value="Fortuner">
+	<option value="Kwid">
+	<option value="Duster">
+	<option value="Captur">
+</datalist>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+1: Google[office customization tool] # Microsoft 365 Apps admin center
+
+
+64-bit
+
+Office Suites[Office LTSC Professonal Plus 2024 - Volume Licencse]
+
+Word
+Excel
+PowerPoint
+
+NEXT
+
+Select primary language[English (United States)]
+
+NEXT/NEXT
+
+Uninstall any MSI versions of Office, including Visio and Projec[Off]
+
+NEXT
+
+Office LTSC Professional Plus 2021 - Volume License [KMS]
+
+NEXT/NEXT/FINISH/Export/[Office Open XML Format]/OK
+
+[check] I accept the terms in the license agreement/Export
+
+
+
+Create new folder named "Office" and paste downloaded file in it.
+
+2: Google[Office Deployment Tool], Download the file, Install, and Extract it into any folder.
+
+Open extracted file's folder and copy office.exe file into "Office" named folder.
+
+Open cmd as Administrator mode in "Office" folder and fire the command:
+	setup /configure configuration.xml
+
+
+
+

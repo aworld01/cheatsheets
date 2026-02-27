@@ -1,0 +1,46 @@
+Alias means shortcut in git.
+
+There are two ways to create alias/shortcuts in git.
+
+1. Using commandline
+
+    git config --global alias.st status
+    git config --global alias.ch checkout
+    git config --global alias.ps "push origin master"
+
+
+2. Using Editor
+For current directory
+==========================
+Admin@DESKTOP-EAIRQCJ MINGW64 ~/Desktop/myFile/git_workflowss
+ls -a
+cd .git
+ls -a
+nano config
+
+
+For current user directory
+==========================
+cd ~
+ls -a
+nano .gitconfig
+    [user]
+        name = Windows X-lite
+        email = abdulzoha786@gmail.com
+    [alias]
+        st = status
+        ps = push origin master
+        pl = pull origin master
+    [core]
+        editor = code --wait
+
+Ctrl+S, Ctrl+X
+source .bashrc
+
+
+Create an alias of Linux command
+cd ~
+nano .bashrc
+    alias gt = 'git'
+
+source .bashrc 

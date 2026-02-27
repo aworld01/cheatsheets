@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Home</title>
+<link rel="icon" href="images/css.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+[class*="ga"]{color: green;}
+</style>
+</head>
+<body>
+
+<h1>Attribute selector</h1>
+<p class="def">
+	We can set style using attribute or its value (class or id)......<br><br>
+
+	p[class]{color: green;} Set style using attribute and its value.<br><br>
+
+	p[class="game"]{color: green;} Set style using attribute and its value.<br><br>
+
+	[class~="game"]{color: green;} Set style using an attribute value containing a specified word.<br><br>
+
+	[class|="game"]{color: green;} Set style using with the specified attribute starting with the specified value. The value must be a whole word.<br><br>
+
+	[class^="game"]{color: green;} Set style whose attribute value begins with a specified value.<br><br>
+
+	[class$="game"]{color: green;} Set style whose attribute value ends with a specified value. It's not necessary that the value should be a whole world.<br><br>
+	
+	[class*="ga"]{color: green;} Set style whose attribute value contains a specified value.<br><br>
+</p>
+
+<div class="ls">
+p[id]{color: green;}
+
+p[class]{color: green;}
+
+p[class="game"]{color: green;}
+
+[class~="game"]{color: green;}
+
+[class|="game"]{color: green;}
+
+[class^="game"]{color: green;}
+
+[class$="game"]{color: green;}
+
+[class*="ga"]{color: green;}
+</div>
+
+<p class="super">super</p>
+<p class="game">game</p>
+<p class="super game">super game</p>
+<p class="supergame">supergame</p>
+<p class="game-super">game-super</p>
+<p class="gamesuper">gamesuper</p>
+<p class="game super">game super</p>
+<p class="super game">super game</p>
+
+</body>
+</html>

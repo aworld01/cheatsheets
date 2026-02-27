@@ -1,0 +1,42 @@
+who
+users
+uname
+uname -ra
+ls -R
+lsblk
+df
+wget www.w3schools.com
+
+echo Hello world > file.txt
+rm ./file.txt
+sudo ifconfig
+dig google.com: to get google server ips
+top
+kill 2042
+yes Abdul: to infinite-loop
+factor 10: to get factor(lcm)
+man shutdown
+shutdown now: to shutdown
+shutdown now -r: to restart
+
+users
+
+user (/etc/passwd)
+passwd (/etc/shadow)
+group (/etc/gpasswd)
+gpasswd (/etc/gshadow)
+
+sudo adduser abc
+
+libre office package command for linux
+
+apt install espeak
+espeak 'Hello world'
+
+apt install xcowsay
+xcowsay Hello world
+
+
+
+
+compeleted

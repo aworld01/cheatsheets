@@ -1,0 +1,18 @@
+Time Stamp
+00:00 Intro
+01:32 setTimeout
+25:53  setInterval
+42:52 callbacks in general
+55:26 callbacks, callback hell, the pyramid of doom
+01:24:01 Intro to promise
+01:58:33 Function returning a promise
+02:00:12 Promise and setTimeout
+02:02:34 Promise.resolve and promise chaining
+02:09:37 Callback hell to flat code 
+02:22:42 AJAX Basic Theory
+02:27:50 XHR (XML HTTP Request)
+02:53:03  XHR practice and error handling
+03:02:49 XHR using promises
+03:13:09 Fetch API
+03:24:00 Consume Promises Using Async Await
+03:33:47  ES6 Modules

@@ -1,0 +1,10 @@
+python --version
+pip install nltk
+
+import nltk
+nltk.download()
+
+nltk.download('punkt')
+nltk.download("averaged_perceptron_tagger") #to check word type on parts of speech <br>
+
+# from nltk.corpus import wordnet

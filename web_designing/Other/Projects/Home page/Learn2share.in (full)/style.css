@@ -1,0 +1,168 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.clear{
+	clear: both;
+}
+
+.container{
+	width: 100%;
+}
+
+.wrapper{
+	width: 95%;
+	margin: auto;
+}
+
+.dark{
+	background-color: #31353d;
+	color: white;
+}
+
+.light{
+	background-color: #e9edf2;
+}
+
+#mob{
+	float: right;
+}
+
+#email{
+	display: inline-block;
+}
+
+#top_div{
+	height: 40px;
+	line-height: 40px;
+}
+
+#logo_left{
+	display: inline-block;
+}
+
+#logo_right{
+	float: right;
+	margin-top: 50px;
+}
+
+.textstyle{
+	height: 20px;
+	border-radius: 3px;
+}
+
+.button{
+	background-color: green;
+	color: white;
+	padding: 3px;
+	border-radius: 7px;
+	width: 70px;
+}
+
+ul li{
+	width: 250px;
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+
+ul li a{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+ul li a:hover{
+	background-color: orange;
+	color: black;
+}
+
+.slider_image{
+	height: 355px;
+}
+
+.slider_image img{
+	width: 98%;
+	height: 300px;
+	border: 1px solid blue;
+	padding: 15px;
+	background-color: lightblue;
+	box-shadow: 5px 5px 10px black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p{
+	text-align: justify;
+}
+
+.ti{
+	margin: auto;
+	width: 200px;
+	cursor: pointer;
+}
+
+.ti img{
+	width: 200px;
+	height: 185px;
+}
+
+.div_text{
+	width: 30%;
+	margin: 3px;
+	margin-top: 15px;
+	display: inline-block;
+	box-shadow: 5px 5px 10px gray;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+
+.buttom_div_lett{
+	display: inline-block;
+	width: 65%;
+	margin-top: 15px;
+}
+
+.buttom_div_lett img{
+	border: 1px solid blue;
+	width: 200px;
+	height: 250px;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 8px;
+}
+
+.buttom_div_left_text{
+	text-align: left;
+}
+
+.buttom_div_right{
+	width: 32%;
+	float:right;
+	margin-top: 15px;
+}
+
+.latest_news img{
+	border: 1px solid blue;
+	width: 70px;
+	height: 75px;
+	padding: 3px;
+	margin: 3px;
+	border-radius: 5px;
+}
+
+.footer_section{
+	width: 30%;
+	margin: 3px;
+	margin-top: 15px;
+	display: inline-block;
+	padding: 15px;
+	margin-bottom: 15px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<link rel="icon" href="images/javascript.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+</style>
+</head>
+<body> 
+
+<h1>for_in_loop in JavaScript</h1>
+<p>
+    It's used to iteret object's property.
+</p>
+<hr>
+<!-- 
+<script>
+    function Mobile(model_no){
+        this.model = model_no;
+        this.color = 'white'
+        this.ram = '4GB';
+        this.price = function(){
+            document.write(this.model + " Price Rs. 3000 <br>");
+        };
+    }
+    var samsung = new Mobile('Galaxy');
+    var nokia = new Mobile('3310');
+
+    for(var specs in nokia){
+        document.write(nokia[specs]+"<br>")
+    }
+</script> -->
+
+
+<!-- <script>
+    function Mobile(model_no){
+        this.model = model_no;
+        this.color = 'white'
+        this.ram = '4GB';
+        this.price = function(){
+            document.write(this.model + " Price Rs. 3000 <br>");
+        };
+    }
+    var samsung = new Mobile('Galaxy');
+    var nokia = new Mobile('3310');
+
+    for(var specs in nokia){
+        if(typeof nokia[specs] !== 'function')
+        document.write(nokia[specs]+"<br>")
+    }
+</script> -->
+
+
+<!-- <script>
+    function Mobile(model_no){
+        this.model = model_no;
+        this.color = 'white'
+        this.ram = '4GB';
+        this.price = function(){
+            document.write(this.model + " Price Rs. 3000 <br>");
+        };
+    }
+    var samsung = new Mobile('Galaxy');
+    var nokia = new Mobile('3310');
+
+    for(var specs in nokia){
+        if(typeof nokia[specs] !== 'function')
+        document.write(specs+" "+nokia[specs]+"<br>")
+    }
+</script> -->
+
+
+<script>
+    function Mobile(model_no){
+        this.model = model_no;
+        this.color = 'white'
+        this.ram = '4GB';
+        this.price = function(){
+            document.write(this.model + " Price Rs. 3000 <br>");
+        };
+    }
+    var samsung = new Mobile('Galaxy');
+    var nokia = new Mobile('3310');
+
+    document.write(Object.keys(nokia)); // to check object related keys
+</script>
+
+</body>
+</html>

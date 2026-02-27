@@ -1,0 +1,8 @@
+Win+R[mrt]: Malicious Software Removal Tool
+Ctrl+Win+O: On-Screen Keyboard
+Win+X+U*3: Fast shutdown your pc
+Shift+Restart: Advanced Recovery Mode
+Win+D: Minimize all open tasks
+Win+.: Open emoji window
+Win+Shift+S: Snipping Tool
+Win+Alt+R: Screen Recorder

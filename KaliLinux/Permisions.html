@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Permision</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+h1{
+    text-align: center;
+}
+
+</style>
+</head>
+<body style="background: gray;">
+
+<h1>File permisions = chmod</h1>
+<h2>3 types fact</h2>
+<p>To check the permisions of any type of file: <b>ls -l</b></p>
+<p>Indicator:Permissions:User:Group:Filesize:Date:Time:Filename</p>
+
+
+<h2>Indicator</h2>
+<table style="background: peru; border: 1px solid blue; padding: 10px; margin: 10px;">
+    <tr>
+    <td>~:</td>
+    <td>RegularFile</td>
+    </tr>
+    <tr>
+    <td>d:</td>
+    <td>Directory</td>
+    </tr>
+    <tr>
+    <td>l:</td>
+    <td>Symblic link</td>
+    </tr>
+</table>
+
+
+<h2>Type of permissions:-</h2>
+<table style="background: peru; border: 1px solid blue; padding: 10px; margin: 10px;">
+    <tr>
+    <td>1:</td>
+    <td>User permission</td>
+    </tr>
+    <tr>
+    <td>2:</td>
+    <td>Group permission</td>
+    </tr>
+    <tr>
+    <td>3:</td>
+    <td>Other user permission</td>
+    </tr>
+</table>
+
+<table style="background: peru; border: 1px solid blue; padding: 10px; margin: 10px;">
+   <tr>
+   <td>u: </td>
+   <td>User</td>
+   </tr>
+   <tr>
+   <td>g: </td>
+   <td>Group</td>
+   </tr>
+   <tr>
+   <td>o: </td>
+   <td>Other</td>
+   </tr>
+   <tr>
+   <td>a: </td>
+   <td>All</td>
+   </tr>
+   <tr>
+   <td>-R: </td>
+   <td>Recursive</td>
+   </tr>
+</table>
+
+<table style="background: peru; border: 1px solid blue; padding: 10px; margin: 10px;">
+    <tr>
+    <td>+: </td>
+    <td>Add permission</td>
+    </tr>
+    <tr>
+    <td>-: </td>
+    <td>Remove permission</td>
+    </tr>
+    <tr>
+    <td>=: </td>
+    <td>Replace permission</td>
+    </tr>
+</table>
+
+<table style="background: peru; border: 1px solid blue; padding: 10px; margin: 10px;">
+    <tr>
+    <td>4 =</td>
+    <td>read</td>
+    </tr>
+    <tr>
+    <td>2 =</td>
+    <td>write</td>
+    </tr>
+    <tr>
+    <td>1 =</td>
+    <td>execute</td>
+    </tr>
+</table>
+<hr>
+
+<h2>02: Binary reference/numeric permissions</h2>
+<p>
+    Change the permision of any type of file by binary reference: <b>chmod 777 -R 'myFolder'</b>
+</p>
+
+<h2>01: Explicitly/symbolic permissions</h2>
+
+<table style="background: peru; border: 1px solid blue; padding: 10px; margin: 10px;">
+    <tr>
+    <td>Admin:</td>
+    <td>1 + 2 + 4 = 7</td>
+    <td>Read Write Execute</td>
+    </tr>
+    <tr>
+    <td>Group:</td>
+    <td>4 + 2 = 6</td>
+    <td>Read Write</td>
+    </tr>
+    <tr>
+    <td>Other:</td>
+    <td>4</td>
+    <td>Read</td>
+    </tr>
+</table>
+
+<p>Change the permision of any type of file by symbolic type: <b>chmod a+rwx -R 'myFolder'</b></p> 
+
+   
+<p>Now the complete permision looks like: <b> ~ rwxrwxrwx</b></p>
+<hr>
+<hr>
+
+
+
+<h1>Change owner = chown</h1>
+<p>
+    <b>chown userName File/DirectoryName</b>: to change owner only.
+</p>
+<p>
+    <b>chown userName:groupName File/DirectoryName</b>: to change owner and group at the same time.
+</p>
+<p>
+    <b>chown :groupName File/DirectoryName</b>: to change group only.
+</p>
+<p>
+<b>chown user:group -R myFolder</b>: to recursively change user and group of 'myFolder'.
+</p>
+<hr>
+<hr>
+<hr>
+
+
+
+<h1>Give 'root' permision to <u>Visual Studio Code</u> in Kali Linux 2020.2</h1>
+<p>Fire the command below to give permision</p>
+<b>nano /usr/bin/code</b>: The file will be open in nano text editor, then put hash before line just like below:-
+<pre>
+#      if [ -z $CAN_LAUNCH_AS_ROOT ]; then
+#               echo "You are trying to start vscode as>
+#               exit 1
+#       fi
+</pre>
+All done ! Now open Visual Studio Code and have fun:-
+
+</body>
+</html>

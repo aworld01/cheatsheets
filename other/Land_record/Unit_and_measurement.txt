@@ -1,0 +1,27 @@
+Note: Plot > Khatiyan
+
+1 Mile = 1609 meters
+1 Jareeb = 100 Kadi
+1 Hath = 18 inch
+1 Dismil = 435.6 sqft (square feet)
+
+1 Bigha = 20 Kattha
+1 Kattha = 20 Dhur
+1 Dhur = 20 Dhurki
+1 Dhurki = 20 Furki
+
+
+1 Kattha = 1620 sqft (variable unit)
+1 Dhur = 81 sqft
+1 Dhurki = 4.05 sqft
+1 Dismil = 0.2689 Kattha
+1 Kattha = 3.719 Decimal
+1 Dhur = 0.18595 Decimal
+1 Dhurki = 0.0092975 Decimal
+
+
+
+435.6 / 1620 = 0.2689 Kattha
+
+1620 / 435.6 = 3.719 Dismil
+

@@ -1,0 +1,6 @@
+GROUP BY KEYWORD
+The GROUP BY command is used to group the result set(used with aggregate functions: Count, Max, Min, Sum, Avg).
+Exp:
+select count(id), fname, lname from students group by lname;
+select count(id), fname, lname from students group by lname order by lname desc;
+select count(id), fname, lname, age from students group by age order by lname desc;

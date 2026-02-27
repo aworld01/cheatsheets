@@ -1,0 +1,160 @@
+termux-setup-storage
+pkg install man
+pkg install openssh
+apt install python
+pip install --upgrade pip
+pip install wordlist
+pkg install zip
+pkg install unzip
+pkg install git
+pkg install php
+pkg install openssh
+pkg install apache2
+pkg install termux-api
+pkg install gnupg
+pkg install cmatrix
+pkg install libcaca
+pkg install sl
+pkg remove sl
+pkg install httrack
+pkg install zsh
+pkg install neofetch
+pkg install fish
+pkg install mariadb
+playstore/termux-api
+pkg update && pkg upgrade
+apt update && apt upgrade
+pkg list
+pkg list --upgradeable
+
+clear
+ls
+mkdir myFolder
+ls
+pwd
+cd myFolder
+pwd
+cd
+cd ~
+cd /$HOME/myFoler
+cd /$DOWNLOADS
+cd /sdcard
+cd /sdcard0
+cd ..
+cd ../..
+rm -rf myFolder
+ls
+touch myFile.txt
+cat myFile.txt
+nano myFile.txt
+rm myFile.txt
+
+cd myFolder && ls
+
+sl
+sl
+mv random.sh /$HOME/myFolder
+cp random.sh /$HOME
+mv -v myFolder /$DOWNLOADS
+cp -R myFolder /$HOME
+ls -a
+ls -lh
+chmod +x *
+whoami
+uname -a
+cd ${PREFIX}
+ls
+cd bin
+ls
+ifconfig
+curl ifconfig.me
+ping google.com
+CTRL+C
+
+
+echo $SHELL
+echo $0
+ps
+
+
+02:20:00/05:08:00
+
+whoami
+clear
+pwd
+cd $home
+cd ~
+history
+history -c
+cd /sdcard
+cd /sdcard && ls
+date
+cal
+sl
+cmatrix
+
+termux-battery-status
+termux-brightness 0-255/auto
+termux-camera-info
+termux-camera-photo -c 1 image.jpeg
+termux-clipboard-get
+termux-dialog
+termux-dialog -t Hello
+termux-download https://abc.com
+
+gpg -c file.txt
+gpg file.txt.gpg
+
+zip file.zip file1 file2 file3
+unzip file.zip
+
+wordlist -m 4 -M 7 -o wordlist.txt 123Abc
+
+apachectl
+apachectl -k stop
+cd ..
+cd usr/share/apache2/default-site/htdocs
+
+ifconfig
+ping google.com
+
+git clone https://github.com/gameye98/owscan
+cd owscan
+chmod 775 owscan.php
+php owscan.php
+hackthissite.org
+git clone https://github.com/Hax4us/httrack_in_termux
+cd httrack_in_termux
+chmod +x httrack
+httrack
+project name: abc
+base path: /sdcard/my_files/
+Enter urls: w3schools.com
+
+df
+cat /proc/cpuinfo
+dpkg --list
+free -h -t
+
+export PS="\w $"
+nano $PREFIX/etc/bash.bashrc
+ls --help
+
+uptime
+history
+history -c
+
+
+
+man git
+cacafire
+neofetch
+
+TERMUX-API
+termux-tts-engines
+termux-tts-speak
+termux-torch on
+termux-torch off
+termux-vibrate
+termux-volume
+termux-battery-status

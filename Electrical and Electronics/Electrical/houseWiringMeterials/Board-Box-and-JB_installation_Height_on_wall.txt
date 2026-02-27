@@ -1,0 +1,4 @@
+Lighting box installation height: 1250mm (to the center)
+Power box installation height: 450mm (to the center)
+JB installation height: 2.5-3m
+Guyser installation height: 1.8m

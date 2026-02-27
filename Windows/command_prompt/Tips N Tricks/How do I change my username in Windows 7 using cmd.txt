@@ -1,0 +1,8 @@
+How do I change my username in Windows 7 using "cmd".
+
+
+01. Press (Win + R) and type "cmd" then press (Enter)
+02. Type "netplwiz" Then press (Enter)
+03. Select the account and click on "Properties" button
+04. Enter the new name for the account
+05. Save and restart your computer

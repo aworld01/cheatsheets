@@ -1,0 +1,13 @@
+1: Maximum amount of RAM Capacity Supported
+2: Number of RAM slots
+3: Type of RAM (DDR3, DDR4)
+4: Clock speed
+
+If there are 4 slots in your PC and Maximum amount of RAM Capacity 32GB
+4/32=8GB per RAM
+
+
+DDR3 has 240 pin connector
+DDR4 has 288 pin connector
+
+Download (CPU-Z) to check RAM

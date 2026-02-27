@@ -1,0 +1,12 @@
+01. Ctrl+Shift+Esc = startup apps/disabled all unnecessary apps.
+02. Win+I = Settings/System/Notifications/Turn off.
+
+03.Disable Web Search Suggestions Completely:
+---------------------------------------------
+    1. Win+R, Alt+Y = Run[regedit]/HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer
+    2. RightClick/New/DWORD (32-bit)
+    3. Name it: DisableSearchBoxSuggestions
+    4. Set its value to 1
+    5. Restart your PC
+
+04: Win+R[shell:appsfolder]: to check all installed apps.

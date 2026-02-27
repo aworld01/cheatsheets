@@ -1,0 +1,13 @@
+Type of Diaode:
+	FR diaode
+	SR diaode
+
+Model: IN4007
+Load: < 1amp and < 1000v
+
+Model: IN5408
+Load: < 3amp and < 1000v
+
+Model: 6A4
+Load: < 6amp and < 30v
+

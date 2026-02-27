@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Home</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+p{
+	border: 1px solid blue;
+	background-color: mediumturquoise;
+}
+p.effect{
+	visibility: hidden;
+}
+table,th,td{
+	border: 1px solid red;
+}
+tr.colps{
+	visibility: collapse;
+}
+</style>
+</head>
+<body>
+
+<h1>Visibility</h1>
+
+<div class="prpt">
+	visibility: visible; (defalut)
+	visibility: hidden;
+	visibility: collapse; (use in table)
+</div>
+<hr>
+
+<p class="p1">This is paragraph 1.</p>
+<p class="effect">This is paragraph 2.</p>
+<p class="p3">This is paragraph 3.</p>
+
+<table class="effect">
+<tr>
+	<th>Name</th>
+	<th>Roll</th>
+	<th>Result</th>
+</tr>
+<tr class="colps">
+	<td>Rahul</td>
+	<td>101</td>
+	<td>pass</td>
+</tr>
+<tr>
+	<td>Rani</td>
+	<td>102</td>
+	<td>Pass</td>
+</tr>
+</table>
+    
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Naming CSS Grid Lines</title>
+<style>
+    .container{
+        background: #eee;
+        width: 720px;
+        margin: 45px auto 0;
+
+        display: grid;
+        grid-template-columns: repeat(3,[col-start] 1fr [col-end]);
+        grid-template-rows: [header-start] 120px [header-end menu-start] 60px [menu-end box-start] 100px [box-end content-start] 400px [content-end footer-start] 50px [footer-end];
+        grid-gap: 15px;
+    }
+    /* (Press> F12/.container/grid/display line numbers) */
+
+    
+    .header{
+        background: orangered;
+        grid-row: header-start/header-end;
+        grid-column: col-start 1 / col-end -1;
+    }
+
+    .menu{
+        background: yellowgreen;
+        grid-row: menu-start/menu-end;
+        grid-column: col-start 1 / col-end -1;
+    }
+
+    .box1{
+        background: mediumpurple;
+    }
+
+    .box2{
+        background: hotpink;
+    }
+
+    .sidebar{
+        background: royalblue;
+        grid-row: box-start/content-end;
+    }
+    .content{
+        background: #7DCEAB;
+        grid-row: content-start/content-end;
+        grid-column: col-start 1 / col-end 2;
+    }
+    .footer{
+        background: goldenrod;
+        grid-row: footer-start/footer-end;
+        grid-column: 1/-1;
+    }
+</style>
+</head>
+<body>
+    
+<div class="container">
+    <div class="header">Header</div>
+    <div class="menu">Menu</div>
+    <div class="box1">Box1</div>
+    <div class="box2">Box2</div>
+    <div class="sidebar">Sidebar</div>
+    <div class="content">Content</div>
+    <div class="footer">Footer</div>
+</div>
+
+</body>
+</html>
+
+<!-- 02:40/09:12 -->

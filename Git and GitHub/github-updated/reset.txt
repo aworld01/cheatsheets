@@ -1,0 +1,8 @@
+git reset
+=========
+git reset: to unstage file.
+git reset --mixed <file>: unstage file. ("--mixed" is default value)
+
+git reset --soft HEAD~1: undo the last commit but keep changes in stage area.
+git reset --mixed HEAD~1: undo the last commit and unstage the changes.
+git reset --hard <commit-hash>: discard changes and reset the last commit.

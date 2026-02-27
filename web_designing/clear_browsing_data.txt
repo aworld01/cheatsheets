@@ -1,0 +1,4 @@
+CTRL+SHIFT+DELETE
+
+white-space: pre;
+white-space: normal; (default)

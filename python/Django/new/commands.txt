@@ -1,0 +1,4 @@
+pip install django: to install django
+django-admin startproject mywebsite: to create project
+python manage.py runserver: to start project
+python manage.py runserver 4444: to start project with a specific port

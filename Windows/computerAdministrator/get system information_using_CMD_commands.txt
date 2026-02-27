@@ -1,0 +1,11 @@
+wmic computersystem get model => to get model number
+wmic computersystem get name => to get computer name
+wmic computersystem get manufacturer => to get manufacturer name
+wmic computersystem get systemtype => to get system type
+
+wmic computersystem get manufacturer, model, name,  systemtype => to get all above information with a single command
+
+hostname => to get hostname
+wmic computersystem where name="DESKTOP-7933TFG" call rename name="Abdul786-PC" => to change hostname
+
+

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>python3_file_IO</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+}
+p{
+    white-space: Pre-wrap;
+}
+ol{
+    white-space: Pre-wrap;
+    padding: 0px 16px;
+    margin-bottom: 10px;
+}
+</style>
+</head>
+<body style="background: gray url('Images/d.jpgd')">
+
+<h1>python3_file_IO</h1>
+
+<p>
+<b>r = read mode (default)</b>: read a file or create a new file, if not exist.
+<b>w = write mode</b>: erase all old data and write new data or create a new file, if not exist.
+<b>a = append mode</b>: write new data next to old data or create a new file, if not exist.
+<b>r+ = read + write mode</b>: read and overwrite the file but not create a new one. (it will overwrite the file data from starting point.)
+</p>
+<hr>
+
+<ol>
+<h2>opening_a_file</h2>
+<li>
+f = open("Files/file.txt", mode="r", encoding="utf-8")
+print(f)
+</li>
+<hr>
+
+
+<h2>read_to_a_file</h2>
+<li>
+f = open("File.txt") #read mode (default)
+data = f.read() #to read a file.
+print(data) #to print data
+f.close() #to close the file
+</li>
+<hr>
+
+<li>
+f = open("File.txt", mode="r", encoding="utf-8")
+data = f.read()
+print(data)
+f.close()
+</li>
+<hr>
+
+<li>
+f = open("File.txt", mode="r", encoding="utf-8")
+data = f.read(5) #to read only five letters of file.
+print(data)
+f.close()
+</li>
+<hr>
+
+<li>
+f = open("File.txt", mode="r", encoding="utf-8")
+data = f.read(5)
+print(data)
+data2 = f.read(7) #to read next seven letters of file.
+print(data2)
+f.close()
+</li>
+<hr>
+
+
+<li>
+f = open("File.txt", mode="r", encoding="utf-8")
+data = f.readline() #to read a single line at a time
+print(data)
+data2 = f.readline()
+print(data2)
+f.close()
+</li>
+<hr>
+
+<li>
+f = open("File.txt", mode="r", encoding="utf-8")
+data = f.readline()
+print(data, end="") #to remove extra gaps between lines.
+data2 = f.readline()
+print(data2)
+f.close()
+</li>
+<hr>
+
+<li>
+f = open("File.txt", mode="r", encoding="utf-8")
+data = f.readlines() #to read all lines at a time and returns values in list.
+print(data)
+f.close()
+</li>
+<hr>
+
+<li>
+#to know the length of lines.
+f = open("File.txt", mode="r", encoding="utf-8")
+data = f.readlines()
+print(data)
+l = len(data) #to get lines of data
+print(f"The number of lines is: {l}")
+f.close()
+</li>
+<hr>
+
+<li>
+f = open("File.txt", mode="r", encoding="utf-8")
+data = f.readlines()
+for line in data:
+  print(line, end="")
+f.close()
+</li>
+
+<li>
+f = open("File.txt", mode="r", encoding="utf-8")
+for line in f:
+  print(line, end="")
+f.close()
+</li>
+
+<h2>read_to_a_file_in_binary_mode</h2>
+<li>
+f = open("file.txt", mode="rb") # read_binary mode
+data = f.read()
+print(data)
+f.close()
+</li>
+</ol>
+   
+</body>
+</html>

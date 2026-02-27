@@ -1,0 +1,6 @@
+Name: HP 15-da1016ne
+Model: 15-da1016ne
+SN# CND9013F30
+
+Name: HP 15-da1016ne
+Model: 15-da1xxx

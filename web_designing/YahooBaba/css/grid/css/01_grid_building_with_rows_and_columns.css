@@ -1,0 +1,30 @@
+.container{
+    background: gray;
+    width: 700px;
+    height: 700px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 50% repeat(2,150px);
+    grid-template-rows: 1fr 200px;
+}
+.boxs{
+    border: 1px solid blue;
+}
+.item1{
+    background: orangered;
+}
+.item2{
+    background: yellowgreen;
+}
+.item3{
+    background: slateblue;
+}
+.item4{
+    background: hotpink;
+}
+.item5{
+    background: royalblue;
+}
+.item6{
+    background: goldenrod;
+}

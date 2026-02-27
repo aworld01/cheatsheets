@@ -1,0 +1,5 @@
+sentenceSegmentation
+wordTokenisation
+Removing stopWords & specialCharecters
+textLemmatization
+converting text into lowerCase

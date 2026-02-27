@@ -1,0 +1,9 @@
+Google [win11debloater] => Raphire/Win11Debloat => Download the latest version of the script
+
+Extract All, and goto the folder
+
+Run "Run" file as Administrator.
+
+Press 2, Press 3, Only show installed
+
+Check all the apps that you want to delete

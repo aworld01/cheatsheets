@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<link rel="icon" href="images/javascript.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+</style>
+</head>
+<body> 
+
+<h1>get_userInput_in_2D_Array in JavaScript</h1>
+
+<script>
+    var rows = 3;
+    var cols = 2;
+    // array constructor
+    var stu = new Array(rows);
+
+    for(var i=0; i<rows; i++){
+        stu[i] = new Array(cols);
+    }
+    // Input for array
+    for(var i=0; i<rows; i++){
+        for(var j=0; j<cols; j++){
+            stu[i][j] = prompt("Enter name: ")
+        }
+    }
+
+    // Displaying values
+    for(var i=0; i<rows; i++){
+        for(var j=0; j<cols; j++){
+            document.write(i+" "+j+stu[i][j])
+        }
+        document.write("<br>")
+    }
+</script>
+
+</body>
+</html>

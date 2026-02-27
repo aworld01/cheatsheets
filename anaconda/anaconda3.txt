@@ -1,0 +1,31 @@
+Create virtual environment
+==========================
+conda --version: to check version
+conda -V: to check version
+
+# Update the conda package manager to the latest version in your base environment
+conda update -n base conda
+conda update --all
+
+# Use conda to update Navigator in your base environment
+conda update -n base anaconda-navigator
+
+conda clean --all: If you want to clean up unused dependencies
+
+conda env list: to check all available Conda environments
+conda create --name python3.12 -y: to create virtual environment
+conda activate python3.12: to activate the environment
+conda deactivate: to deactivate the environment
+conda create --name python3.11 python=3.11 -y: to create virtual environment with a specific python version
+conda remove -n <ENV_NAME> --all -y: to remove virtual environment
+
+conda search python: to check available python versions
+conda install python=3.6: to install python 3.6 version
+conda install -c conda-forge ffmpeg -y: to install ffmpeg
+conda install pytorch torchvision torchaudio pytorch-cuda=12.6 -c pytorch -c nvidia: to install pytorch gpu version
+
+
+pip install tensorflow: to install tensorflow
+
+jupyter notebook: to open "Jupyter notebook"
+Ctrl+C: to terminate "jupyter notebook" running command.

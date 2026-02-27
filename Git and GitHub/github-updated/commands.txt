@@ -1,0 +1,3 @@
+git --version: check version.
+
+git update-git-for-windows -y: update git.

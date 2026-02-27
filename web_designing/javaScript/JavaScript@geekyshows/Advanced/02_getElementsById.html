@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Element Access Methods</h1>
+    <table border=1px solid blue>
+        <tr>
+            <th>Method</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>document.getElementById("ID)</td>
+            <td>Get the element with the specified ID</td>
+        </tr>
+        <tr>
+            <td>document.getElementsByTagName("Tag_Name")</td>
+            <td>Get all the specified element by the Tag Name</td>
+        </tr>
+        <tr>
+            <td>document.getElementsByClassName("Class_Name")</td>
+            <td>Get all the  specified element by the class name</td>
+        </tr>
+        <tr>
+            <td>document.querySelector("CSS_Selector")</td>
+            <td>It returns the first match of the passed selector string</td>
+        </tr>
+        <tr>
+            <td>document.querySelectorAll("CSS_Selector")</td>
+            <td>It returns a node list of DOM elements that match the query</td>
+        </tr>
+    </table>
+    <p>
+        The method get<b>E</b>lement<b>B</b>y<b>I</b>d("ID_Name") returns an element object representing the element whose id property matches the specified string. Since element IDs are required to be unique if specified, they're a useful way to get access to a specific element quickly. <br>
+        Ex:- <br>
+        getElementById("geek") <br>
+        Where geek is id of that element
+    </p>
+
+    <h1 id="show">We are learning JS</h1>
+    <h2>Subscribe our channel</h2>
+    <p id="art">Hello world</p>
+    <p id="find">Bye world</p>
+    <hr>
+
+    <script>
+        var result=document.getElementById("find")
+        document.write(result)
+        console.log(result)
+    </script>
+</body>
+</html>

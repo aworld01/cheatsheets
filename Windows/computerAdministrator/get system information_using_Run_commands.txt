@@ -1,0 +1,2 @@
+Win+R[winver]: check "windows" version
+Win+R[slmgr.vbs /dll]: check "Windows" license

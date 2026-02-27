@@ -1,0 +1,58 @@
+Some terminologies of Machine Learning
+======================================
+x = inputs
+w = weights
+b = bias
+y^ = outputs / predicted value
+y = real value
+
+y - y^ = loss
+optimization = Backpropagation
+cost function = loss function
+
+
+MSE: 1/N (w*x-y)**2
+
+def loss(y,t):
+  return ((y-t)**2).mean()
+
+
+
+dy/dw: 1/N 2x(w*x -y)
+
+def grad(x,y,t):
+  return np.dot(2*x,y-t).mean()
+
+
+
+numpy_vs_pyTorch
+================
+TRANSPOSE
+=========
+import torch
+import numpy as np
+
+torch.t(m) #only for 2D matrix
+torch.transpose(m,0,1) #for nd matrix
+np.transpos(m)
+
+
+
+
+Type of Neural Networks
+=======================
+ANN
+CNN
+RNN
+
+
+
+
+from sklearn.model_selection import train_test_split
+
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=2)
+
+x_train
+x_test
+y_train
+y_test

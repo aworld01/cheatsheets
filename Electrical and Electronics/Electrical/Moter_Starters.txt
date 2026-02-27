@@ -1,0 +1,5 @@
+DOL (Direct On Line) => 7.5KW / 10HP
+Start-Delta starter => <10HP
+VFD (Variable Frequency Device)
+Soft starter
+Reverse-Forward starter

@@ -1,0 +1,3 @@
+Win++: Enable magnifier
+Win+H: Enable voice typing (online)
+Win+D: Minimize and Maximize all open Windows

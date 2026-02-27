@@ -1,0 +1,2 @@
+Ctrl+B, Enter: Bevel tool
+    works with Cube

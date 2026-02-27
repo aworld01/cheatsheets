@@ -1,0 +1,9 @@
+File System => NTFS & FAT32
+Partition System => Lagacy & EFI
+Partition Style => MBR & GPT
+
+Legacy = MBR = NTFS
+EFI = GPT = FAT32
+
+
+This information can be useful during format PC.

@@ -1,0 +1,11 @@
+x = inputs
+w = weights
+b = bias
+y_cap = outputs / predicted value
+y = real value
+
+y - y_cap = loss
+optimization = backpropagation
+cost function = loss function
+
+MNN = Multilayer Neural Network

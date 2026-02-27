@@ -1,0 +1,27 @@
+Import files
+Change Aspect Ratio
+Trim, Split
+Extract and add audio
+Voice over
+Text and Animation
+Sound Effects
+Transition, Animation, Effects
+Remove Background
+Tracking
+Blur
+Keyframing, Masking
+Layers
+Caption, Auto caption
+Stabilization
+Slow motion
+Reverse
+Noise reduction
+Isolate Voice
+Color grading
+Retouching
+Speech ramping
+Export file
+
+Note:
+	Animation: for image and text
+	Translation: for smooth scene changes

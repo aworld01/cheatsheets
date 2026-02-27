@@ -1,0 +1,4 @@
+Ctrl+M, M: to change "Code Shell" into "Text Shell"
+Ctrl+M, Y: to change "Text Shell" into "Code Shell"
+Ctrl+M, J: Move cell down
+Ctrl+M, K: Move cell up

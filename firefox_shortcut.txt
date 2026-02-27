@@ -1,0 +1,2 @@
+CTRL+SHIFT+DELETE: to delete history
+CTRL+F5: to refresh page

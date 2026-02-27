@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>linuxSelectedCommands</title>
+<link rel="icon" href="images/KaliLinux.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+<div class="terminal">
+<h1>KaliLinux_2020.2</h1>
+<p>
+    Press: <span class="bt">CTRL</span> + <span class="bt">ALT</span> + <span class="bt">T</span> to open terminal.
+</p>
+
+<div class="background">
+    <img src="Images/titlebar.jpg" alt="titlebar" style="width: 890px; height: 73px; position: fixed;">
+
+    <ul style="padding: 0; margin-left: 5px; list-style-type: none;">
+    <li>
+    <img src="Images/root.png">lsb_release -a<br>
+    <span style="color: yellow;">to check the version of KaliLinux</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">sudo apt-get update<br>
+    <span style="color: yellow;">to update Linux OS.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">sudo apt-get upgrade<br>
+    <span style="color: yellow;">to upgrade Linux OS.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">sudo apt-get dist-upgrade<br>
+    <span style="color: yellow;">to upgrade core Linux OS.</span>
+    </li>
+    <hr>
+
+    <h2>Or</h2>
+
+    <li>
+    <img src="Images/root.png">sudo apt-get update && apt -y full-upgrade<br>
+    <span style="color: yellow;">to full upgrade your Linux OS.</span>
+
+    <li>
+    <img src="Images/root.png">sudo chsh -s /bin/zsh<br>
+    <span style="color: yellow;">to change the user shell.</span>
+    </li>
+    <hr>
+
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">sudo apt-get install -y virtualbox-guest-x11<br>
+    <span style="color: yellow;">to install guest edition in your virtual box.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">sudo apt-get install vlc<br>
+    <span style="color: yellow;">to install vlc player</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">sudo apt-get remove -y vlc<br>
+    <span style="color: yellow;">to remove vlc player</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">sudo apt-get --purge remove vlc<br>
+    <span style="color: yellow;">to remove configration file of any software after removing that.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">pwd<br>
+    <span style="color: yellow;">to check persent working directory.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">mkdir 'new_folder'<br>
+    <span style="color: yellow;">to make a 'new_folder'.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">ls -la<br>
+    <span style="color: yellow;">to check all list of files and directory.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">rm -rf 'New folder'<br>
+    <span style="color: yellow;">to forcely delete any file and folder.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">whatis rm<br>
+    <span style="color: yellow;">to get a short details about rm.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">man rm<br>
+    <span style="color: yellow;">to get a manual about rm.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">man ls > command_menu.txt<br>
+    <span style="color: yellow;">to print ls command manual into a plain text file.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">rm --help<br>
+    <span style="color: yellow;">to know uses and santax of rm command.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">which rm<br>
+    <span style="color: yellow;">to know the path of rm exist.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">which python3<br>
+    <span style="color: yellow;">to know the path of python3 exist.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">locate -i leafpad<br>
+    <span style="color: yellow;">to find any file.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">bg<br>
+    <span style="color: yellow;">to see stopped program</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">fg 1<br>
+    <span style="color: yellow;">to run background stopped program</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">jobs<br>
+    <span style="color: yellow;">to see background program status.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">ps a<br>
+    <span style="color: yellow;">to see the list of running tasks.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">kill 729<br>
+    <span style="color: yellow;">to kill any running task. (729 is PID)</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">kill -9 729<br>
+    <span style="color: yellow;">to forcely kill any running task.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">ps aux<br>
+    <span style="color: yellow;">to see all running procese.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">ps aux | less<br>
+    <span style="color: yellow;">to see all running procese line by line.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png"><span class="bt">CTRL</span> + <span class="bt">C</span><br>
+    <span style="color: yellow;">to kill any running command.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png"><span class="bt">CTRL</span> + <span class="bt">Z</span><br>
+    <span style="color: yellow;">to stop any running command.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">reboot<br>
+    <span style="color: yellow;">to restart the operating system.</span>
+    </li>
+    <hr>
+
+    <li>
+    <img src="Images/root.png">shutdown now<br>
+    <span style="color: yellow;">to shutdown the operating system.</span>
+    </li>
+    <hr>
+    </ul>
+</div>
+</div>
+    
+    
+</body>
+</html>

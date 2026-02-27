@@ -1,0 +1,85 @@
+Ctrl+F1: hide/unhide riben bar
+Ctrl + Shift + +: Superscript
+Ctrl + =: Subscript
+Alt + =: Equation
+click3: Select whole paragraph.
+Shift+F3: Change case.
+Ctrl+Backspace: Delete whole word.
+Ctrl+Click: Select whole sentence.
+---,Enter: Horizontal Line.
+===,Enter: Double Horizontal Line.
+###,Enter: Thik Horizontal line.
+***,Enter: Doted Horizontal line.
+~~~,Enter: Zigzag Horizontal line.
+Select, Ctrl+Shift+>: Grow
+Select, Ctrl+Shift+<: Shrink
+=rand(): apply dummy text
+=rand(2,8): =rand(paragraph, lines)
+(c): copywrite
+(tm): trademark
+(r): registermark
+-->: rightAero
+<--: leftAero
+==>: fat rightAero
+<==: fat leftAero
+<=>: double sided Aero
+:): smile emoji
+(:: sad emoji
+:|: simple emoji
+Tab,Tab: Nested Tab
+Shift,Tab: PreTab
+Ctrl+F9: Curly braket, perform any type of calculation inside.
+Ctrl+Enter: page break
+Alt+N,X,Enter,Backspace: Insert Textbox
+Ctrl+L: Align Left
+Alt+W+O: to enable/disable focus mode.
+Ctrl+D: Font Setting
+
+
+
+
+Equation
+========
+Alt+=: Insert New Equation
+x/y, space: Fraction
+x^y, space: Superscript
+x_y, space: Subscript
+\sqrt, space: square root
+\sqrt, (1+2+4): to put more than one value
+{2/3}, space: value in bracket
+Ctrl+L: Align left
+Ctrl+R: Align right
+Ctrl+E: Center
+Ctrl+J: Justify
+
+Selection
+=========
+doubleClick: Select Word
+tripleClick: Select Paragraph
+Shift+End: Select Line
+Ctrl+doubleClick at multiple world, Ctrl+C, select place to paste, Ctrl+V: Copy and paste multiple words
+Alt+Drag at multiple words, Ctrl+C, Select place to paste, Ctrl+V: Copy and paste multiple desired words.
+
+Table
+=====
++-------------+----------+------------+: Three column, 1 row.
+Tab: to move forward
+Shift+Tab: to move backward
+Goto last cell,Tab: to add more 'row'
+Goto right outside of any row, Enter: to add more 'row' between to rows.
+select cell, Alt+Shift+Up/DownAuro: to move 'row' up and down
+selectCells,Alt+A,M: Merge cell
+selectRow,Shift+Ctrl+Enter: split table
+select some cell below, Alt+Shift+DownAuro: split table
+selectCell,rightClick,Delete cells/[Delete entire row/columns]/Ok
++,Tab,+,Tab,+,Tab,+,Enter: 1 row, 3 column Table, increase row by pressing Tab
+
+Macro
+=====
+File > Options > Trust Center > Trust Center Settings > Enabel all macros > OK > OK
+View > Macros
+
+
+Tip: use 'Tab' button instead 'Space' for writing things blockwise.
+     use 'Tab', click on ruler, 'Tab', click on ruler, 'Tab', click on ruler: to set 'Tab' steps.
+     double 

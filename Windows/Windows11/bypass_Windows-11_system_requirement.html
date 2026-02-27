@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Techchip</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+p{
+    white-space: pre-wrap;
+}
+ul{
+    margin-left: 10px;
+}
+</style>
+</head>
+<body>
+
+<h1>Bypass Windows 11 system requirements</h1>
+<pre>
+    Windows 11.iso
+    VirtualBox
+    Create a Virtual Hard Disk now
+    VHD
+    Display/Enable 3d acselatation
+</pre>
+<ul>
+    <li>Shift+F10</li>
+    <li>regedit</li>
+    <li>HKEY_LOCAL_MACHINE/SYSTEM/Setup/</li>
+    <li>rightClick/New/Key/LabConfig/</li>
+    <li>rightClick on blank/New/DWORD (32bit) Value/BypassSecureBootCheck[1]</li>
+    <li>rightClick on blank/New/DWORD (32bit) Value/BypassTPMCheck[1]</li>
+    <li>rightClick on blank/New/DWORD (32bit) Value/BypassRAMCheck[1]</li>
+</ul>
+
+<h3>Bypass Internet requirements</h3>
+<p>
+    <b>Shift+F10</b>, <b>oobe\bypassnro</b>
+</p>
+  
+</body>
+</html>

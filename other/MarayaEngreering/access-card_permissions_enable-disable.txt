@@ -1,0 +1,15 @@
+Disable the Door
+Unlock [unlimited access]
+Locked [no access, Egress active]
+Site Code only
+Card only
+PIN only
+Card and PIN
+Card or PIN
+
+Operations
+    Control Map...
+        Select access Items/rightClick/Door Mode.../Unlock [unlimited access]/OK
+
+Operations
+    Events

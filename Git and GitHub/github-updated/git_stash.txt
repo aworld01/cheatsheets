@@ -1,0 +1,31 @@
+git stash: to stash.
+
+git stash list: to check stash list.
+
+git stash pop: to recover last stashed item. (remove from stash list)
+
+git stash list:
+
+git stash apply: to recover last stashed item. Puts into stage area. (remains in stash list)
+
+git stash drop stash@{2}: to remove stashed item by its stash-id.
+
+git stash clear: to delete all stashed item.
+
+git stash -- <file>: to stash a particular file.
+
+git stash -m "<massage>": to stash with massage.
+
+git stash list:
+
+git stash -m "<massage>" -- <file>: to stash a particular file with massage.
+
+git stash list:
+
+git stash show <stash-id>: to check changes.
+
+git stash show -p <stash-id>: to check exact changes.
+
+git stash --keep-index: to stash only untracked changes. Not staged file.
+
+git stash --include-untracked: to stash untracked changes also.

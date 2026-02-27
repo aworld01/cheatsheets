@@ -1,0 +1,32 @@
+git config --global init.defaultBranch main: set default branch name.
+
+git config --global user.name "<userName>": set user name.
+
+git config user.name: check username.
+
+git config --global user.email "<userEmail>": set user email.
+
+git config user.email: check useremail.
+
+git config --global alias.st status: set alias.
+
+git config --global core.editor nano: set nano as git editor.
+
+
+cd ~
+ls -a
+nano .gitconfig
+
+[user]
+    name = Windows X-Lite
+    email = abdulzoha786@gmail.com
+[alias]
+    st = staus
+    ps = push origin main
+    pl = pull origin main
+    lo = log
+    lo1 = log --oneline
+[core]
+    editor = code --wait
+[init]
+    defaultBranch = main

@@ -1,0 +1,18 @@
+Low Current Room (Near Theatre):
+    ENC-FF
+    Touch Zone-05 (IP: 10.4.101.8)
+
+Electrical Room (Near Theatre):
+    SMDB-FF
+    LPP2-FF
+    LCP-1F-01 (LPP2-CKT-26)
+    LPP1-FF
+    LCP-1F-02 (LPP1-CKT-24)
+
+Low Current Room (Near Artist Green Room):
+    UPS-FF-IDF-05
+    STC Main MDB IUA001
+    STC HVAC
+    STC Access Control Panel IUA001
+    STC BATB Box IUA001
+    

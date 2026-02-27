@@ -1,0 +1,2 @@
+fsutil behavior query DisableDeleteNotify: to check
+fsutil behavior set DisableDeleteNotify 0: to set

@@ -1,0 +1,54 @@
+Lithium Battery Cell Company Name:
+============================
+EVE
+HighStar
+
+
+Type of Lithium batteries:
+    INR, IFR
+    Prismatic cell (LiFePO4)
+    Cylindrica Cell
+
+
+
+
+The "number codes" on lithium batteries can refer to several different things, depending on the type of battery and what information the manufacturer is conveying. Here's a breakdown of the common meanings.
+
+1. Dimensions (especially for cylindrical and prismatic batteries):
+
+    Cylindrical Batteries (e.g. 18650): The numbers often indicate the physical size:
+        First two digits: Diameter in millimeters (e.g. "18" in 18650 means 18mm diameter)
+
+	Next two digits: Length in millimeters (e.g. "65" in 18650 means 65mm length)
+
+	Last digit (often "0"): indicates the cylindrical shape.
+
+    Prismatic / Pouch Batteries (e.g. LP521540): These numbers usually represent the battery's dimensions in millimeters.
+        Example: LP521540 could mean 5.2mm thickness, 15mm width, and 40mm length (sometimes the decimal point replacement varies, so always 	check the manufacturer's specific naming convention.
+
+
+For battery pack:
+
+    1S (Single cell): ~3.7V
+    2S (Two cells in series): ~7.4V
+    3S (Three cells in series): ~11.1V
+
+Discharge Rate (C-rating):
+    C: This refers to the discharge rate, which indicates how quickly a battery can be safely discharged without damage. It's a multiple of the battery's capacity. 
+
+    Example: A 50C rating on a 5Ah (5000mAh) battery means it can safely deliver a continuous current of 50C*5A = 250 Amperes.
+
+
+Model of batteries:
+    18650
+    32700
+    32650
+    32140
+
+Items requered in lithium battery build:
+    Service lead
+    BMS (Battery Management System)
+    Active Balancer
+
+
+New Lithium cell size: 4680

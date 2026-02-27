@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Home</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+.tr{
+	width: 10px;
+	height: 10px;
+	background-color: green;
+	transition: width 2s ease-in, height 4s ease-in 4s;
+}
+.tr:hover{
+	width: 100%;
+	height: 500px;
+	background-color: red;
+}
+</style>
+</head>
+<body>
+
+<h1>transition</h1>
+<div class="ls">
+ease: It specifies a transition effect with slow start, then fast, then end slowly (default) (equivalent to cubic-bezier(0.25,0.1,0.25,1))
+
+linear: It specifies a transition effect with the same speed from start to end. (equivalent to cubic-bezier(0.25,0.1,0.25,1))
+
+ease-in: It specifies a transition effect with a slow start (equivalent to cubic-bezier(0.42,0,1,1))
+
+ease-out: It specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))
+
+cubic-bezier(.3,.7,.95,.39): Define your own values in the cubic-bezier function. Possible values are numeric values from 0 to 1.
+
+ease-in-out: 
+step-start
+step-end
+steps(int, start or end)
+
+<hr>
+.tr{	
+	width: 10px;
+	height: 10px;
+	background-color: green;
+	transition-delay: 4s;
+	transition-duration: 2s;
+	transition-property: width, height, background-color;
+	transition-timing-function: cubic-bezier(.3,.7,.95,.39);
+}
+.tr:hover{
+	width: 100%;
+	height: 500px;
+	background-color: red;
+}
+<hr>
+/* transition-property transition-duration transition-timing-function transition-delay; */
+.tr{
+	width: 10px;
+	height: 10px;
+	background-color: green;
+	transition: all 2s ease-in 4s;
+}
+.tr:hover{
+	width: 100%;
+	height: 500px;
+	background-color: red;
+}
+<hr>
+.tr{
+	width: 10px;
+	height: 10px;
+	background-color: green;
+	transition: 2s ease-in 4s;
+	transition-property: width, height, background-color;
+}
+.tr:hover{
+	width: 100%;
+	height: 500px;
+	background-color: red;
+}
+<hr>
+.tr{
+	width: 10px;
+	height: 10px;
+	background-color: green;
+	transition: width 2s ease-in, height 4s ease-in 4s;
+}
+.tr:hover{
+	width: 100%;
+	height: 500px;
+	background-color: red;
+}
+</div>
+
+<hr>
+<div class="tr"></div>
+
+</body>
+</html>

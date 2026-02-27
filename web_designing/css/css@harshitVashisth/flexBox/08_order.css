@@ -1,0 +1,29 @@
+.container{
+    border: 3px solid blue;
+    display: flex;
+    height: 40px;
+}
+.box{
+    border: 1px solid #666;
+    width: 200px;
+}
+.box1{
+    background: pink;
+    order: 3;
+}
+.box2{
+    background: lightblue;
+    order: 2;
+}
+.box3{
+    background: lightcoral;
+    order: 5;
+}
+.box4{
+    background: lightgrey;
+    order: 1;
+}
+.box5{
+    background: lightsalmon;
+    order: 0;
+}

@@ -1,0 +1,13 @@
+FREE WINDOWS 11 ACTIVATION VIA PowerShell
+
+1. slmgr /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX 
+2. slmgr /skms kms8.msguides.com 
+3. slmgr /ato     Note: Internet required for this command
+
+Replace XXXXX-XXXXX-XXXXX-XXXXX-XXXXX with correct key for your version 
+Home: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99 
+Home N: 3KHY7-WNT83-DGQKR-F7HPR-844BM
+Professional: W269N-WFGWX-YVC9B-4J6C9-T83GX 
+Professional N: MH37W-N47XK-V7XM9-C7227-GCQG9
+Education: NW6C2-QMPVW-D7KKK-3GKT6-VCFB2 
+Education N: 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ

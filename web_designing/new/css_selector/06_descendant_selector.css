@@ -1,0 +1,9 @@
+div p{
+    background: yellow;
+}
+div div h2{
+    background: green;
+}
+div footer a{
+    text-decoration: none;
+}

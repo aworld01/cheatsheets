@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/html5.gif">
+    <title>CSS tags and attributes</title>
+	<style>
+		h1
+			{
+			text-align: center;
+			}
+		ol
+			{
+			padding-left: 100px;
+			}
+		body{
+			background: gray;
+			color: maroon;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+
+<h1>CSS Tags</h1>
+<ol>
+	<li><xmp><style>  </style></xmp></li>
+	
+	<li><xmp><span>  </span></xmp></li>
+	
+	<li><xmp><div> </div></xmp></li>
+	
+	<li> // SingleLine comment</li>
+	
+	<li>/* MultiLine comment */</li>
+</ol>
+	
+<h1>CSS Attributes</h1>
+<ol>
+	<li>background-color: gray;</li>
+	<li>background: gray;</li>
+	<li>color: maroon;</li>
+	<li>height: 200px; width: 50%;</li>
+	<li>max-width: 500px;</li>
+	<li>box-sizing: border-box;</li>
+<hr>
+	
+<h2>Border</h2>
+	<li>border: none;</li>
+	<li>border: hidden;</li>
+	<li>border: 4px solid blue;</li>
+	<li>border: 4px dotted blue;</li>
+	<li>border: 4px dashed blue;</li>
+	<li>border: 4px double blue;</li>
+	<li>border: 4px groove blue;</li>
+	<li>border: 4px ridge blue;</li>
+	<li>border: 4px inset blue;</li>
+	<li>border: 4px outset blue;</li>
+	<li>border-style: dotted dashed solid double;</li><br>
+	
+	<li>border-right: 4px solid blue;</li>
+	<li>border-left: 4px solid blue;</li>
+	<li>border-top: 4px solid blue;</li>
+	<li>border-bottom: 4px solid blue;</li><br>
+	
+	<li>border-radius: 10px;</li>
+	<li>border-radius: 10px 4px 8px 5px;</li>
+	<li>border-radius: 10px 0px 10px 0px;</li>
+	<li>border-top-left-radius: 10px;</li>
+	<li>border-top-right-radius: 10px;</li>
+	<li>border-bottom-left-radius: 10px;</li>	
+	<li>border-bottom-right-radius: 10px;</li>
+<hr>
+		
+<h2>Outline</h2>
+	<li>outline: 5px solid yellow;</li>
+	<li>outline: 5px dotted yellow;</li>
+	<li>outline: 5px dashed yellow;</li>
+	<li>outline: 5px double yellow;</li>
+	<li>outline: 5px groove yellow;</li>
+	<li>outline: 5px ridge yellow;</li>
+	<li>outline: 5px inset yellow;</li>
+	<li>outline: 5px outset yellow;</li>
+<hr>
+	
+<h2>Text</h2>
+	<li>text-align: right;</li>
+	<li>text-align: center;</li>
+	<li>text-align: justify;</li>
+	
+	<li>text-transform: uppercase;</li>
+	<li>text-transform: lowercase;</li>
+	<li>text-transform: capitalize;</li>
+	
+	<li>text-decoration: overline;</li>
+	<li>text-decoration: line-through;</li>
+	<li>text-decoration: underline;</li>
+	<li>text-decoration: none;</li>
+
+	<li>text-indent: 30px;</li>
+	<li>text-shadow: 3px 3px white;</li>
+	<li>letter-spacing: 3px;</li>
+	<li>word-spacing: 15px;</li>
+	<li>line-height: 150%;</li>
+	<li>direction: rtl; unicode-bidi: bidi-override;</li>
+<hr>
+	
+<h2>Font</h2>
+	<li>font-size: 24pt;</li>
+	<li>font-weight: bold;</li>
+	<li>font-style: italic;</li>
+	<li>font-family: arial, Georgia, "Times New Roman", Times, serif;</li>
+	<li>font-variant: small-caps;</li>
+<hr>
+	
+<h2>Float</h2>
+	<li>float: left;</li>
+	<li>float: right;</li>
+	<li>float: center;</li>
+<hr>
+	
+<h2>Margin</h2>
+	<li>margin: auto; (You can set the margin property to auto to horizontally center the element within its container.)</li>
+	<li>margin: 10px;</li>
+	<li>margin: 25px 50px;</li>
+	<li>margin: 25px 50px 75px;</li>
+	<li>margin: 25px 50px 75px 55px;</li>
+	<li>margin-top: 5px;</li>
+	<li>margin-right: 5px;</li>
+	<li>margin-bottom: 5px;</li>
+	<li>margin-left: 5px;</li>
+<hr>
+	
+<h2>Padding</h2>
+	<li>padding: 25px;</li>
+	<li>padding: 25px 50px;</li>
+	<li>padding: 25px 50px 75px;</li>
+	<li>padding: 25px 50px 75px 55px;</li>	
+	<li>padding-top: 5px;</li>
+	<li>padding-right: 10px;</li>
+	<li>padding-bottom: 5px;</li>
+	<li>padding-left: 10px;</li>	
+<hr>
+	
+<h2>Display</h2>
+	<li>display: none;</li>
+	<li>display: inline-block;</li>
+	<li>display: block;</li>
+	<li>display: flex;</li>
+	<li>display: grid;</li>
+<hr>
+	
+<h2>Hyperlinks</h2>
+	<li>a:link (a normal, unvisited link)</li>
+	<li>a:visited (a link the user has visited)</li>
+	<li>a:hover (a link when the user mouses over it)</li>
+	<li>a:active (a link the moment it is clicked)</li>					
+	<li>text-decoration: none;</li>
+<hr>
+
+
+
+<h1>CSS Examples</h1>
+<h2>Background</h2>
+	<li>
+		body
+		<br>
+			{
+			<br>
+			background-image: url (s.jpg);
+			<br>
+			background-repeat: no-repeat; / repeat-x; / repeat-y;
+			<br>
+			background-position: 15% 54px;
+			<br>
+			background-size: cover; / background-size: 100%;<br>
+			<br>
+			background: #ffffff url("img_tree.png") no-repeat right top;
+			}
+	</li>
+<hr>
+
+	
+<h2>Tables</h2>
+	<li>
+		table<br>
+			{
+			<br>
+			border: 5px solid blue;
+			<br>
+			}
+	</li><br>
+
+	<li>
+		tr<br>
+			{
+			<br>
+			background-color: yellow;
+			<br>
+			}
+	</li><br>
+
+	<li>
+		td<br>
+			{
+			<br>
+			border: 3px dashed red;
+			<br>
+			}
+	</li>
+<hr>
+	
+<h2>Lists</h2>	
+	<li>
+		ul<br>
+			{
+			<br>
+			list-style-type: none;
+			<br>
+			}
+	</li><br>
+
+	<li>
+		ul<br>
+			{
+			<br>
+			list-style-type: circle;
+			<br>
+			}
+	</li><br>
+
+	<li>
+		ul<br>
+			{
+			<br>
+			list-style-type: square;
+			<br>
+			}
+	</li><br>
+
+	<li>
+		ul<br>
+			{
+			<br>
+			list-style-type: none;
+			<br>
+			padding: 0px;
+			<br>
+			}
+	</li><br>
+
+	<li>
+		ul<br>
+			{
+			<br>
+			list-style-image: url(s.jpg);
+			<br>
+			}
+	</li>
+<hr>
+
+<h1>Combinators</h1>
+<h2>Tag Selector</h2>
+	<li>
+		p
+		<br>
+		{
+		<br>
+		color: red;
+		<br>
+		font-size; 40px;
+		<br>
+		}
+	</li>
+<hr>
+
+<h2>Class Selector</h2>
+	<li>
+		.redborder (an HTML element can have list of class attribute values separated by white space, if required.)
+		<br>
+		{
+		<br>
+		border: 1px solid red;
+		<br>
+		}
+	</li>
+<hr>
+
+<h2>Id Selector</h2>
+	<li>
+		#navigationbar (an HTML element should not have list of id attribute values separated by white space.)
+		<br>
+		{
+		<br>
+		border: 1px solid red;
+		<br>
+		}
+	</li>
+<hr>
+
+<h2>Descendant Selector</h2>
+	<li>
+		div p
+		<br>
+		{
+		<br>
+		color: red;
+		<br>
+		font-size; 40px;
+		<br>
+		}
+	</li>
+<hr>
+
+<h2>Group Selector</h2>
+	<li>
+		h1, p
+		<br>
+		{
+		<br>
+		color: blue;
+		<br>
+		background-color: black;
+		<br>
+		font-weight: bold;
+		<br>
+		}
+	</li>
+<hr>
+
+<h2>Child Selector</h2>
+	<li>
+		p > a
+		<br>
+		{
+		<br>
+		color: red;
+		<br>
+		font-size; 40px;
+		<br>
+		}
+	</li>
+<hr>
+
+<h2>Adjacent Sibling Selector</h2>
+	<li>
+		p + a
+		<br>
+		{
+		<br>
+		color: red;
+		<br>
+		font-size; 40px;
+		<br>
+		}
+	</li>
+<hr>
+
+<h2>General Sibling Selector</h2>
+	<li>
+		p ~ a
+		<br>
+		{
+		<br>
+		color: red;
+		<br>
+		font-size; 40px;
+		<br>
+		}
+	</li>
+<hr>
+
+	<li>
+		p:first-letter
+		<br>
+		{
+		<br>
+			color: red;
+		<br>
+			font-weight: bold;
+		<br>
+			font-size: 200%;
+		<br>
+		}
+	</li>
+<hr>
+
+<h2>Position</h2>
+    <li>
+		.absolute<br>
+		{<br>
+		border: 1px solid blue;<br>
+		top: 35px;<br>
+		left: 5%;<br>
+		position: absolute;<br>
+		}<br><br>
+
+		.relative<br>
+		{<br>
+		border: 1px solid red;<br>
+		top: 55px;<br>
+		left: 25%;<br>
+		position: relative;<br>
+		}<br><br>
+
+		.fixed<br>
+		{<br>
+		border: 1px solid green;<br>
+		top: 75px;<br>
+		left: 5%;<br>
+		position: fixed;<br>
+		}
+	</li>
+<hr>
+<li>
+	<pre>
+#div
+	{
+	background-color: skyblue;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-left: 102px;
+	}
+#div1
+	{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-left: 204px;
+	}
+#div3
+	{
+	background-color: purple;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-top: 102px;
+	}
+#div4
+	{
+	background-color: black;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	}
+	</pre>
+	</li>
+<hr>
+
+	<li>
+	<pre>
+a:link
+	{
+	color: red;
+	text-decoration: none;
+	font-size: 40px;
+	background-color: skyblue;
+	}
+a:hover
+	{
+	color: red;
+	text-decoration: underline;
+	font-size: 41px;
+	background-color: pink;
+	font-weight: bold;
+	}
+a:active
+	{
+	color: yellow;
+	background-color: black;
+	}
+a:visited
+	{
+	color: white;
+	background-color: red;
+	}
+	</pre>
+	</li>
+
+</ol>
+</body>
+</html>

@@ -1,0 +1,6 @@
+make a static directory on /root
+
+#settings.py
+STATICFILES_DIRS=[
+os.path.join(BASE_DIR, "static")
+]

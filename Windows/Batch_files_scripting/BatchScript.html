@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>homePage</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+body
+	{
+	background-color: black;
+	color: white;
+	}
+</style>
+</head>
+<body>
+
+<h1><u>BatchScript by DesiProgrammer</u></h1>
+<h2>How to make BatchScript:-</h2>
+<p>Open the Notepad and type the following command and save the file with .bat extention.</p>
+
+<ol>
+	<li>
+	<xmp>
+	@echo off
+	echo Hello world!
+	pause
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	echo Hello world!
+	echo I'm new Hacker
+	pause
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	echo Hello world!
+	echo.
+	echo I'm new Hacker
+	pause
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	echo               Hello world!
+	echo.
+	echo I'm new		 Hacker.
+	pause
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	echo Hello world!..
+	echo.
+	pause
+	cls
+	pause
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	echo Press a key to goto..
+	pause
+	cls
+	goto a
+
+	:a
+	echo I'm in goto
+	pause
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	echo Press a key to goto..
+	pause
+	cls
+	goto a
+
+	:a
+	echo Hello I'm in goto
+	goto a
+	pause
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	color 71
+	echo deleting your drives
+	pause
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	color 71
+	echo deleting your drives
+	exit /B
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	color 0a
+	echo Hi, you are going to be hacked!
+	echo.
+	echo press q to stop.
+	pause
+	cls
+	goto a
+
+	:a
+	color 0c
+	echo %random% echo deleting drives. %random%%random% Stop if you can %random%
+	echo %random% echo deleting drives... %random%%random% Stop if you can %random% 
+	goto a
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	set /p var=Enter a number: 
+	echo You entered %var%
+	pause
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	set /p var=Enter a number: 
+	set /p var1=Enter another number: 
+	set /a s=%var% + %var1%
+	echo Your sum is: %s%
+	pause
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	set /p var=Enter your name: 
+	echo Hey Mr. %var%
+	pause
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	set /a var=20
+	echo %var%
+	pause
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	set /a var=15
+	set /p var1=Enter a number: 
+	if %var%==%var1% echo Yes, you are right!
+	pause
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	set /a var=15
+	set /p var1=Enter a number: 
+	if %var%==%var1% (echo Yes, you are right!) else (echo No, you should try again.)
+	pause
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	xcopy  /y /s "C:\Users\camp.PC-1SH0X3J\Desktop\ramkaran\*.mp4" "C:\Users\campPC-1SH0X3J\Desktop\New folder"
+	pause
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	xcopy  /y /s "C:\Users\camp.PC-1SH0X3J\Desktop\ramkaran\*.mp4" "C:\Users\campPC-1SH0X3J\Desktop\New folder"
+	</xmp>
+	</li>
+
+	<li>
+	<xmp>
+	@echo off
+	xcopy  /y /s "C:\Users\camp.PC-1SH0X3J\Desktop\ramkaran\*.mp4" "C:\Users\camp.PC-1SH0X3J\Desktop\New folder" > nul
+	</xmp>
+	</li>
+
+<hr>
+
+
+
+<h1><u>BatchScript by (TutorialsPoint)</u></h1>
+<h3>FolderBomb..</h3>
+	<li>
+	<xmp>
+	@echo off
+	:x
+	md %random%
+	goto x
+	</xmp>
+	</li>
+<hr>
+
+<h3>UserAccountBomb..</h3>
+	<li>
+	<xmp>
+	@echo off
+	:x
+	net user %random% /add
+	goto x
+	</xmp>
+	</li>
+<hr>
+
+<h3>ForkBomb..</h3>
+	<li>
+	<xmp>
+	@echo off
+	%0|%0
+	</xmp>
+	</li>
+<hr>
+
+<h3>Disable the Firewall..</h3>
+	<li>
+	<xmp>
+	@echo off
+	netsh firewall set opmode disable/enable
+	</xmp>
+	</li>
+
+	<hr>
+	
+	
+	
+<h1><u>BatchScript by (windows-commandline.com)</u></h1>
+<h3>Rename..</h3>
+	<li>
+	<xmp>
+	@echo off
+	clear
+	ren *file.txt file2.txt
+	pause
+	</xmp>
+	</li>
+
+<h3>Rename_by_extension..</h3>
+	<li>
+	<xmp>
+	@echo off
+	clear
+	ren *.txt *.html
+	pause
+	</xmp>
+	</li>
+
+<h3>Rename_Recursively..</h3>
+	<li>
+	<xmp>
+	@echo off
+	clear
+	forfiles /S /M *.asp /C "cmd /c rename @file @fname.html"
+	pause
+	</xmp>
+	</li>
+
+<h3>Rename_Recursively_to_remove_extension..</h3>
+	<li>
+	<xmp>
+	@echo off
+	clear
+	forfiles /S /M *.txt /C "cmd /c rename @file @fname"
+	pause
+	</xmp>
+	</li>
+
+<h3>Rename_Recursively_to_add_prefix..</h3>
+	<li>
+	<xmp>
+	@echo off
+	clear
+	forfiles /S /M *.txt /C "cmd /c rename @file photo@file"
+	pause
+	</xmp>
+	</li>
+
+<h3>Rename_Recursively_to_handling_names_with_white_spaces..</h3>
+	<li>
+	<xmp>
+	@echo off
+	clear
+	forfiles /M *.txt /C "cmd /c rename @file \"@fname - pic.jpg\""
+	pause
+	</xmp>
+	</li>
+<hr>
+</ol>
+</body>
+</html>

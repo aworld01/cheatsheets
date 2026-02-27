@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snippets</title>
+</head>
+<body>
+
+    <h1>Make Web Developer Life Easy...</h1>
+    <p>Goto: File/Preferences/Configure User Snippets/</p>
+        
+
+    <h2>Making JavaScript snippets</h2>
+    <pre>
+        // example-1
+        // 	"fat Arrow Function": {
+        // 		"prefix": "fatArr",
+        // 		"body": "const $1 = ($2) => {console.log('$3');};",
+        // 		"description": "creating the fat arrow function"
+        // 	}
+        // }
+    </pre>   
+
+    <pre>
+        // example-2
+            "fat Arrow Function": {
+                "prefix": "cl",
+                "body": ["console.log('$1');", "", ""], //double quotes to insert newline
+                "description": "Log output to console"
+            }
+        }
+    </pre>
+
+
+
+    
+    <h2>Making CSS snippets</h2>
+    <pre>
+    // example-1
+        "flex shortcut": {
+            "prefix": "dflex",
+         	"body": "display: flex;",
+         	"description": "to center the div using flex"
+         }
+    </pre>
+    
+
+    <pre>
+    // example-2
+        "flex shortcut": {
+        	"prefix": "dflex",
+        	"body": [
+        		"display: flex;",
+        		"justify-content: center;",
+        		"align-items: center;"
+        	],
+            "description": "to center the div using flex"
+        }
+    </pre>
+    
+
+    <pre>
+    // example-3
+        "width height shortcut": {
+            "prefix": "wh",
+            "body": [
+                "width: $1;",
+                "height: $2;"
+            ],
+            "description": "width and height"
+        }
+    </pre>
+</body>
+</html>

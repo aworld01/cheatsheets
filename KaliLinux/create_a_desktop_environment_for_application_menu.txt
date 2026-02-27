@@ -1,0 +1,15 @@
+Environment path:-
+sudo nano /usr/share/applications/blender.desktop
+
+
+[Desktop Entry]
+Type=Application
+Name=Blender-3.4
+Comment=Video Editing Software
+GenericName=Video Editor
+Exec=./blender
+Icon=/home/neo/myApps/blender-3.4.0-linux-x64/blender.svg
+Path=/home/neo/myApps/blender-3.4.0-linux-x64
+StartupNotify=False
+StartupWMClass=Code
+Categories=Utility;TextEditor;Development;IDE;

@@ -1,0 +1,29 @@
+Note: git requires userName and userEmail to commit.
+
+Initialize userName and userEmail
+---------------------------------
+git config --global user.name "<name>"
+
+git config --global user.email "<email>"
+
+
+check userName and userEmail
+----------------------------
+git config user.name
+
+git config user.email
+
+
+git commit: An editor will open with default commit massage where you can edit your commit.
+
+git commit -m "<massage>": to commit in a single line with your won massage.
+
+git commit -am "<massage>": direct commit without stage. (works with already tracked file)
+
+
+
+Editing the commit massage
+--------------------------
+git commit --amend: An editor will open with last commit massage where you can modify the commit massage.
+
+git commit --amend -m "<massage>": to modify commit in a single line with new massage.

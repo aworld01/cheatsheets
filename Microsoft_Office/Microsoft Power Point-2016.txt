@@ -1,0 +1,33 @@
+Open "Run (Win+R)"
+Open "MS Word(powerpnt)
+
+
+
+Microsoft Word 2016 (.pptx) Presentation/Slide
+Zoom: 10%-500% (Alt+V+Z)
+.pps: To direct show the presentation
+
+HOME TAB
+Insert New Slide (Ctrl+M)
+Delete Slide (Delete)
+Layout
+Reset
+Section
+Section/Rename Section
+Section/Remove Section
+Section/Remove All Sections
+Insert/Picture
+Format/Crop
+Insert/Shapes/Callouts
+Start from beginning (F5)
+
+DESIGN TAB
+TRANSITIONS TAB
+ANIMATIONS TAB
+SLIDE SHOW TAB
+INSERT/Photo Album
+
+
+
+
+01:20:00/01:40:04

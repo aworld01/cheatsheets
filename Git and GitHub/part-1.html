@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Git and GitHub</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+    
+</style>
+</head>
+<body>
+
+<h1>Git 2.29.2</h1>
+<p>KaliLinux 2020.1(cd /home/kali/Documents)</p>
+
+<h2>Goto your folder path, open<b1> Terminal</b1> and fire the commands below:-</h2>
+<hr>
+
+<span class="cmd">git --version</span>
+<div class="def">to check the version of git.</div>
+
+<span class="cmd">git update-git-for-windows -y</span>
+<div class="def">to update git.</div>
+
+<span class="cmd">git config --global user.name 'Windows-10'</span>
+<div class="def"> to configure your name.</div>
+
+<span class="cmd">git config --global user.email 'artificialworld09@gmail.com'</span>
+<div class="def"> to configure your email.</div>
+
+<span class="cmd">git config --list</span>
+<div class="def"> to check configured.</div>
+<hr>
+
+
+<h2>MUMBAI</h2><br>
+<span class="cmd">mkdir 'local_git'</span>
+<div class="def"> to make a folder name 'local_git'.</div>
+
+<span class="cmd">cd 'local_git'</span>
+<div class="def"> to goto into 'local_git' folder.</div>
+
+<span class="cmd">git status</span>
+<div class="def"> to check git status.</div>
+
+<span class="cmd">git init</span>
+<div class="def"> to initialise git repository.</div>
+
+<span class="cmd">git status</span><br/><br/>
+
+<div class="cmd">cat >sayari
+Dil e nadaan tujhe huaa kya hai.
+CTRL + D
+</div><br>
+
+<span class="cmd">git status</span><br/><br/>
+
+<span class="cmd">git add .</span>
+<div class="def"> to stage all files and folders at once.</div>
+
+<span class="cmd">git status</span><br/><br/>
+
+<span class="cmd">git commit -m 'initial_commit'</span>
+<div class="def"> to create first checkpoint.</div>
+
+<span class="cmd">git status</span><br/><br/>
+
+<span class="cmd">git log</span>
+<div class="def"> to check log of commits.</div>
+
+<span class="cmd">git show (commit id)</span>
+<div class="def"> to check commited files information.</div>
+
+
+<div class="def">(Now create a github account and repository and copy the url of repository then replace your url with below command's url.)</div>
+
+<span class="cmd">git remote add origin https://github.com/artificialworld09/workspace.git</span>
+<div class="def"> to connect your 'lacal repository' with your 'central repository'.</div>
+
+<div class="cmd">git push -u origin master
+Username for 'https://github.com'
+Password for 'https://artificialworld09@github.com/'
+</div>
+<div class="def"> to push your local repository to central repository.</div>
+
+<div class="def"> Now check your central repository, it should be updated.</div>
+<hr>
+
+
+<h2>SINGAPURGIT</h2><br>
+<div class="def">(Goto your github account's repository and copy the url of repository then replace your url with below command's url.)</div>
+
+<span class="cmd">git clone https://github.com/artificialworld09/workspace.git</span>
+<div class="def"> to clone the github repository.</div>
+
+<span class="cmd">cd workspace</span>
+<div class="def"> to goto git directory.</div>
+
+<span class="cmd">git log</span><br/><br/>
+
+<span class="cmd">git show (commit id)</span><br><br>
+
+<div class="cmd">cat >>mumbai
+Aakhir is marz ki dawaa kya hai.
+CTRL + D
+</div><br>
+
+<span class="cmd">git status</span><br/><br/>
+
+<span class="cmd">git add .</span><br/><br/>
+
+<span class="cmd">git status</span><br/><br/>
+
+<span class="cmd">git commit -m 'Commit from Singapur'</span><br/><br/>
+
+<span class="cmd">git status</span><br/><br/>
+
+<span class="cmd">git log</span><br/><br/>
+
+<span class="cmd">git show (commit id)</span><br><br>
+
+<div class="cmd">git push -u origin master
+Username for 'https://github.com'
+Password for 'https://artificialworld09@github.com/'
+</div><br>
+<div class="def"> Now check your central repository, it should be updated.</div>
+<hr>
+
+
+
+<h2>Mumbai</h2><br>
+<span class="cmd">git pull origin master</span><br><br>
+
+<span class="cmd">git log</span><br/><br/>
+
+<span class="cmd">git show (commit id)</span><br><br>
+<hr>
+
+<span class="cmd">git log</span>
+<div class="def"> to check log of commits. Press 'q' to exit.</div>
+
+<h2>To ignore already added file, first put into ignore list then fire the commands below:-</h2><br>
+<span class="cmd">git rm --cached 'filename'</span>
+<div class="def"> to remove 'file' cached history and ignore next time.</div>
+
+<div class="def">make some changes into ignored file, and type the command 'git status'. the ignored file should be not track..</div>
+
+</body>
+</html>

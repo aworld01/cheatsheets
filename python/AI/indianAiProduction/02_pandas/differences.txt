@@ -1,0 +1,6 @@
+df.head vs nrows
+================
+
+df.head(n): This method is used on a DataFrame object to return the first n rows. If n is not specified, it defaults to 5. It’s useful for quickly inspecting the first few rows of a DataFrame that is already loaded into memory.
+
+nrows: This parameter is used with functions like pd.read_csv() to limit the number of rows to read from a file. When you set nrows=n, Pandas will read the first n rows of the file while loading it into a DataFrame.

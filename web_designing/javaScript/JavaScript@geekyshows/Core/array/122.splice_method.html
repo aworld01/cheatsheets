@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>JavaScript</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+p{
+    white-space: pre-wrap;
+}
+</style>
+</head>
+<body>
+
+<h1>splice methed in JavaScript</h1>
+<p>
+The splice() method changes the contents of an array by removing existing elements and/or adding new elements.
+This method changes the original array.
+Syntax:- array_name.splice(start, deletecount, replacevalues);
+
+Start - The first argument start specifies at what position to add/remove items, use negative values to specify the position from the end of the array.
+
+Deletecount - The second argument deletecount, is the number of elements to delete beginning with index start.
+
+Replacevalues - replacevalues are inserted in place of the deleted elements. If more than one separate it by comma.
+</p>
+<br>
+<hr>
+
+<!-- <script>
+    var geek = ["Rahul","Sonam","Sumit","Raj","Rohan"];
+    document.write(geek,"<br>");
+    geek.splice(2); // delete all elements from two index
+    document.write(geek,"<br>");
+</script> -->
+
+<!-- <script>
+    var geek = ["Rahul","Sonam","Sumit","Raj","Rohan"];
+    document.write(geek,"<br>");
+    geek.splice(2, 1); // delete 1 element from two index
+    document.write(geek,"<br>");
+</script> -->
+
+<!-- <script>
+    var geek = ["Rahul","Sonam","Sumit","Raj","Rohan"];
+    document.write(geek,"<br>");
+    geek.splice(1, 2); // delete 2 from one index
+    document.write(geek,"<br>");
+</script> -->
+
+<!-- <script>
+    var geek = ["Rahul","Sonam","Sumit","Raj","Rohan"];
+    document.write(geek,"<br>");
+    geek.splice(1, 0, "Dell"); // insert 'Dell' at one index without deletion
+    document.write(geek,"<br>");
+</script> -->
+
+<!-- <script>
+    var geek = ["Rahul","Sonam","Sumit","Raj","Rohan"];
+    document.write(geek,"<br>");
+    geek.splice(1, 0, "Dell","HP"); // insert 'Dell',"HP" after zero index without deletion
+    document.write(geek,"<br>");
+</script> -->
+
+<script>
+    var geek = ["Rahul","Sonam","Sumit","Raj","Rohan"];
+    document.write(geek,"<br>");
+    geek.splice(2, 1, "Dell","HP"); // delete 1 elemant from 2 index and insert 'Dell','HP'
+    document.write(geek,"<br>");
+</script>                                     
+
+</body>
+</html>

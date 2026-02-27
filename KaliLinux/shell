@@ -1,0 +1,2 @@
+echo $SHELL: to check using shell.
+cat /etc/shells: to check list of shells.

@@ -1,0 +1,50 @@
+"""
+make an app using below command:- 
+python3 manage.py startapp myApp: to create an app.
+
+go into app and create "urls.py" file.
+
+go into urls.py file and type:-
+
+
+urls.py
+from django.contrib import admin
+from django.urls import path
+from myApp import views
+
+urlpatterns=[
+    path('', views.index, name='home'),
+    path('about', views.about, name='about'),
+    path('services', views.services, name='services'),
+    path('contacts', views.contacts, name='contacts')
+]
+
+
+
+views.py
+from django.shortcuts import HttpResponse
+
+def index(request):
+    return HttpResponse("This is home page")
+def about(request):
+    return HttpResponse("This is about page")
+def services(request):
+    return HttpResponse("This is services page")
+def contacts(request):
+    return HttpResponse("This is contact page")
+
+
+
+
+urls.py(main)
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('myApp.urls'))
+]
+
+
+
+http://127.0.0.1:8000/admin: to goto admin page.

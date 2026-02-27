@@ -1,0 +1,11 @@
+{
+    "name": "Abdul Zoha",
+    "age": 25,
+    "skills": [
+        "python",
+        "shell",
+        "javaScript"
+    ],
+    "Yes": true,
+    "No": false
+}

@@ -1,0 +1,25 @@
+/q: quite
+/f: by force
+/s: subdirectories
+/r: repair
+
+Open "Command Prompt" as administrator
+Win+R[cmd], Ctrl+Shift+Enter, Alt+Y
+
+1. System File Checker:
+    sfc /scannow: to repair system corrupted file.
+
+2. Repair Windows Image using (Deployment Imaging Service Management):
+Note: Need Internet
+    DISM /Online /Cleanup-Image /RestoreHealth
+
+3. Memory Diagnostic Tool (RAM):
+Note: It needs to restart your pc
+    mdsched
+
+4. chkdsk c: /f /r: to repair bad sectors
+
+5. del /q /f /s %temp%\*: to delete temporary files
+
+6. del /q C:\Windows\Prefetch\*: to delete prefetch files
+

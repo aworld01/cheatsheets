@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    background: orangered;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid blue;
+}
+#container .right_div, .left_div{
+    text-align: center;
+}
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+.button button{
+    width: 70px;
+    height: 32px;
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Lists (Python3)</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+	.disc{
+		background: yellow;
+		white-space: pre-wrap;
+		border: 2px solid blue;
+		font-weight: bold;
+	}
+	.disc h2{
+		margin-bottom: 0;
+	}
+li
+	{
+	white-space: pre-wrap;
+	}
+</style>
+</head>
+<body>
+	
+	
+<li>
+<h2>in_keyword_with_list</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+if "Apple" in fruits:
+	print("Apple is present !")
+else:
+	print("Apple is not present !")
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>list Sorting = .sort()</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+fruits.sort()
+print(fruits)
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>list Sorting = sorted()</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+print(sorted(fruits))
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+print(sorted(fruits, reverse=True))
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>list .reverse()</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+fruits.reverse()
+print(fruits)
+</li>
+
+<li>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+print(fruits[::-1])
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>list .count()</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava","Banana"]
+print(fruits)
+print(fruits.count("Banana"))
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>list .copy()</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+fruits2 = fruits.copy()
+print(fruits2)
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>list .clear()</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+print(fruits)
+fruits.clear()
+print(fruits)
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>'in' and 'not in' keyword in List</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+if 'Mango' in fruits:
+  print('Mango is persent')
+if 'Papaya' not in fruits:
+  print('Papaya is not persent')
+</li>
+<hr>
+
+
+
+
+<li>
+<h2>loops_in_List</h2>
+fruits = ["Apple", "Mango", "Banana","Orange","Grapes","Guava"]
+i = 0
+while i < len(fruits):
+    print(fruits[i])
+    i = i + 1
+</li>
+
+
+
+
+<li>
+list = [1,2,3,5,8,2,5.2]
+total = 0
+i = 0
+while i < len(list):
+    total += list[i]
+    i = i + 1
+average = total / len(list)
+print(average)
+</li>
+
+
+
+
+<li>
+maching = []
+a = [1,3,4,6,8]
+b = range(1,11)
+for i in b:
+	if i not in a:
+		maching.append(i)
+print(maching)
+</li>
+<hr>
+</ol>
+
+</body>
+</html>

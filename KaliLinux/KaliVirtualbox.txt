@@ -1,0 +1,7 @@
+Insert Guest Additions CD image
+sudo df -h
+/media/cdrom0
+chmod 777 VBoxLinuxAdditions.run
+sudo ./VBoxLinuxAdditions.run
+
+sudo usermod -aG vboxusers thor: to add user to virtualbox group if not usb support.

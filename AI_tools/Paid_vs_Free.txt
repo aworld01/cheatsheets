@@ -1,0 +1,37 @@
+Paid        vs       Free
+==========================
+Research
+========
+Chatgpt     => Deepseek  => Grok3
+
+Generate Images
+===============
+Midjourney  => Leonardo  => Ideogram
+
+
+Video Editing
+============
+Captions    => Capcut
+
+
+Design
+======
+Canva       => MS designer
+
+
+Text to speech
+==============
+Eleven Labs => Speechma => Speechify
+
+
+pictopy     => Runway AI
+
+AI Presentations
+================
+Tome AI     => Gamma
+
+AI Music
+========
+AIVA        => Suno AI
+
+

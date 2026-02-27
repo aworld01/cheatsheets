@@ -1,0 +1,15 @@
+CHECK USED HEALTHY RECOVERY PARTITION
+=====================================
+open "cmd" Run as administrator
+
+reagentc /info
+
+check used disk partition
+
+diskpart
+
+list disk
+select disk 1
+list volume
+select volume 8
+delete volume override

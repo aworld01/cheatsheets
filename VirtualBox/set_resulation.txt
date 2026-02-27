@@ -1,0 +1,19 @@
+Debug mode
+mount -o remount,rw /mnt
+cd /mnt/grub
+vi menu.lst
+
+vga=ask SRC=/android
+vga=864
+:wq
+
+reboot -f
+
+
+Hexadecimal: 360
+Decimal: 864
+
+
+To add a new resolution into your virtualbox
+C:\myApps\VirtualBox>VBoxManage.exe setextradata global GUI/MaxGuestResolution any
+C:\myApps\VirtualBox>VBoxmanage.exe setextradata "PrimeOS" CustomVideoMode1 "1920x1080x32"

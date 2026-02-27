@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.main h1{
+    color: white;
+    background: green;
+    text-align: center;
+}
+.main #list{
+    margin: 2% 0 0 2%;
+    width: 500px;
+    height: 700px;
+    background: gray;
+    color: white;
+    padding: 15px;
+}
+.main #list #you{
+    text-align: right;
+}
+.main input{
+    margin: 2% 0 0 2%;
+    font-size: 1.5rem;
+}
+.main button{
+    font-size: 1.5rem;
+    padding: 0 10px;
+}

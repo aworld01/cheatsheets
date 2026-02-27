@@ -1,0 +1,26 @@
+WHICH NOT EQUAL
+Exp:
+select * from students where age=25;
+select * from students where age!=25;
+select * from students where age<>25;
+
+
+
+
+
+LOGICAL OPERATORS
+The logical operators are those that are true or false. They return a true or false values to combine one or more true or false values.
+
+
+AND(&&) operator: This operator in SQL is used to compare data with more than one condition. If all the conditions returns True then only it will display records.
+Exp:
+select * from students where age>25 && age<30;
+select * from students where age>25 and age<30;
+select * from students where lname='Thapa' and age=25;
+
+
+OR(||) operator: This operator in SQL is used to compare data with more than one condition. If either of condition is True it will return data.
+Exp:
+select * from students where age>25 || age<30;
+select * from students where age>25 or age<30;
+select * from students where lname='Thapa' or age=26;

@@ -1,0 +1,8 @@
+=50+30: to add
+=50-30: to minus
+=50/2: to substract
+=50*2: to multiply
+=sum(C2:E3): to sum
+=max(C2:E3): to min
+=count(C2:E3): to count
+=F2/300*100

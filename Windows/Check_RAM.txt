@@ -1,0 +1,4 @@
+Win+R[mdsched.exe]/Restart now and check for problems: Windows Memory Diagnostic
+
+
+Win+R[eventvwr.msc]/Windows Logs/System/Find[MemoryDiagnostic]/Select and doubleClick/Details/CompletionType: Pass

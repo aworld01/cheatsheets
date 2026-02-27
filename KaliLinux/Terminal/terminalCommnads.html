@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/star.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <script src="script/menu.js" defer></script>
+    <title>terminalCommands</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="left items">
+            <a href="sqlite.html">SQLite</a><br>
+            <a href="mysql.html">MySQL</a><br>
+        </div>
+
+        <div class="right">
+            <h1>KaliLinux_2020.2</h1>
+            <p><span style="font-weight: bold;">CTRL + ALT + T</span>: to open terminal.</p>
+            <hr>
+            
+            <dl>
+                <dt>lsb_release -a</dt>
+                <dd>to check the version of KaliLinux</dd>
+
+                <dt>uname -r</dt>
+                <dd>to see the released version of kernel.</dd>
+
+                <dt>uname -a</dt>
+                <dd>to see the whole informations about kernel. Like- released version, user login, released date etc.</dd>
+
+                <dt>cat /etc/issue</dt>
+                <dd>to see linux destibution.</dd>
+
+                <dt>sudo apt-get update</dt>
+                <dd>address update, update software source data.</dd>
+
+                <dt>sudo apt-get upgrade</dt>
+                <dd>software update, update all installed software</dd>
+
+                <dt>sudo apt-get dist-upgrade</dt>
+                <dd>system update, replace the system version</dd>
+
+                <dt>sudo apt-get clean</dt>
+                <dd>clean up garbade, delete all downloaded packages.</dd>
+
+                <dt>sudo apt-get update && apt -y full-upgrade</dt>
+                <dd>to full upgrade your Linux OS.</dd>
+
+                <dt>sudo chsh -s /bin/zsh</dt>
+                <dd>to change the user shell.</dd>
+
+                <dt>sudo apt-get install -y virtualbox-guest-x11</dt>
+                <dd>to install guest edition in your virtual box.</dd>
+
+                <dt>sudo apt-get install vlc</dt>
+                <dd>to install vlc player</dd>
+
+                <dt>sudo apt-get remove -y vlc</dt>
+                <dd>to uninstall vlc player</dd>
+
+                <dt>sudo apt-get --purge remove vlc</dt>
+                <dd>to remove configration file of vlc after removing that.</dd>
+
+                <dt>apt list --installed</dt>
+                <dd>to check installed packeges in Linux.</dd>
+
+                <dt>pwd</dt>
+                <dd>to check persent working directory.</dd>
+
+                <dt>mkdir 'new_folder'</dt>
+                <dd>to make a 'new_folder'.</dd>
+
+                <dt>cd 'myFolder'</dt>
+                <dd>to go into 'myFolder'.</dd>
+
+                <dt>cd ~</dt>
+                <dd>to comeback into home directory.</dd>
+
+                <dt>cd /</dt>
+                <dd>to go into root directory.</dd>
+
+                <dt>cd ..</dt>
+                <dd>to come out from any folder.</dd>
+
+                <dt>rmdir 'New folder'</dt>
+                <dd>to remove any empty folder.</dd>
+
+                <dt>rm -r 'My file'</dt>
+                <dd>to remove any file and folder.</dd>
+
+                <dt>rm -f 'My file'</dt>
+                <dd>to remove any file and folder without any notification.</dd>
+
+                <dt>rm -f *</dt>
+                <dd>to remove everything of persent working directory without any notification.</dd>
+
+                <dt>rm -rf 'New folder'</dt>
+                <dd>to forcefully remove any file and folder.</dd>
+
+                <dt>clear</dt>
+                <dd>to clear the Terminal.</dd>
+
+                <dt>touch 'myFile.txt'</dt>
+                <dd>to create an empty file.</dd>
+
+                <dt>cat 'myFile.txt'</dt>
+                <dd>to read myFile.txt</dd>
+
+                <dt>cat -n myFile.txt</dt>
+                <dd>to read myFile.txt with line number.</dd>
+
+                <dt>cat myFile.txt | tr 'a-z' 'A-Z'</dt>
+                <dd>to read myFile.txt into uppercase.</dd>
+
+                <dt>cat > 'myFile.txt'<br>
+                    This is my first file created by Terminal command.<br>
+                    CTRL+D
+                </dt>
+                <dd>to create a new text file.</dd>
+
+                <dt>cat 'myFile.txt' > 'newFile.txt'</dt>
+                <dd>to copy myFile.txt data into newFile.txt</dd>
+
+                <dt>cat 'myFile.txt' >> 'newFile.txt'</dt>
+                <dd>to add 'myFile.txt' file data into 'newFile.txt' file without overwriting.</dd>
+
+                <dt>cat -n 'My file'</dt>
+                <dd>not found</dd>
+
+                <dt>cat /proc/cpuinfo</dt>
+                <dd>to get information about processor.</dd>
+
+                <dt>cat /proc/meminfo</dt>
+                <dd>to get information about memory.</dd>
+
+                <dt>whatis rm</dt>
+                <dd>to get a short details about rm.</dd>
+
+                <dt>man rm</dt>
+                <dd>to get a manual about rm.</dd>
+
+                <dt>man ls > command_menu.txt</dt>
+                <dd>to print ls command manual into a plain text file.</dd>
+
+                <dt>rm --help</dt>
+                <dd>to know uses and santax of rm.</dd>
+
+                <dt>which rm</dt>
+                <dd>to know the path of rm exist.</dd>
+
+                <dt>which python3</dt>
+                <dd>to know the path of python3 exist.</dd>
+
+                <dt>locate -i leafpad</dt>
+                <dd>to find any file.</dd>
+
+                <dt>find / -name MyFile.txt</dt>
+                <dd>to find MyFile.txt named file in whole system.</dd>
+
+                <dt>find / -name *.htm</dt>
+                <dd>to find any file by that extention name.</dd>
+
+                <dt>find / -size 512k</dt>
+                <dd>to find any file by that size.</dd>
+
+                <dt>CTRL+C</dt>
+                <dd>to kill any running command.</dd>
+
+                <dt>CTRL+Z</dt>
+                <dd>to send any command into background.</dd>
+
+                <dt>bg</dt>
+                <dd>to see background command</dd>
+
+                <dt>fg 1</dt>
+                <dd>to run background stopped command</dd>
+
+                <dt>jobs</dt>
+                <dd>to see background program status.</dd>
+
+
+
+
+                <dt>ps a</dt>
+                <dd>to check the list of running tasks.</dd>
+
+                <dt>kill 729</dt>
+                <dd>to kill any running task. (729 is PID)</dd>
+
+                <dt>kill -9 729</dt>
+                <dd>to kill any running task forcefully.</dd>
+
+                <dt>ps aux</dt>
+                <dd>to check all running procese.</dd>
+
+                <dt>ps aux | less</dt>
+                <dd>to check all running procese line by line.</dd>
+
+                <dt>top</dt>
+                <dd>to check tasks of running commands. (press Q to stop 'top command')</dd>
+
+                <dt>du</dt>
+                <dd>to check file size.</dd>
+
+                <dt>du -h a.html</dt>
+                <dd>to check any specific file size.</dd>
+
+                <dt>free</dt>
+                <dd>to check free disk-space of your PC.</dd>
+
+                <dt>mv testFile.txt ./newFolder/</dt>
+                <dd>to move file in parent directory.</dd>
+
+                <dt>mv testFile.txt ..</dt>
+                <dd>to move out file from current directory.</dd>
+
+                <dt>mv testfile.txt /home/user/Desktop/</dt>
+                <dd>to move any file to any specific location.</dd>
+
+                <dt>mv testfile.txt /home/user/Desktop/'New file.txt'</dt>
+                <dd>to move any file with new given name.</dd>
+
+                <dt>mv myFile.txt .myFile.txt</dt>
+                <dd>to hide any file.(we can hide any file by putting . before the file.)</dd>
+
+                <dt>mv myFile.txt myFile1.txt</dt>
+                <dd>to rename any file.</dd>
+
+                <dt>ls</dt>
+                <dd>to check the file and folder list of persent working directory.</dd>
+
+                <dt>ls /home/user</dt>
+                <dd>to check the file and folder list of specific path directory.</dd>
+
+                <dt>ls a*</dt>
+                <dd>to check all file and folder started from 'a' charector.</dd>
+
+                <dt>ls -a</dt>
+                <dd>to check file and folder list. (including hidden file and folder).</dd>
+
+                <dt>ls -l</dt>
+                <dd>to see long list.</dd>
+
+                <dt>ls -la</dt>
+                <dd>tto check all type of files and directories.</dd>
+
+                <dt>cp /root/Desktop/'myFile' /root/Documents/</dt>
+                <dd>to copy any file from one location to another lacation.</dd>
+
+                <dt>cp /root/Desktop/myFile.txt /root/Documents/yourFile.txt</dt>
+                <dd>to copy any file with a new name.</dd>
+
+                <dt>cp -r/root/Desktop/* /root/Documents/</dt>
+                <dd>to copy all file from one location to another lacation.</dd>
+
+                <dt>history</dt>
+                <dd>to see that commands history which have fired before.</dd>
+
+                <dt>!1349</dt>
+                <dd>You can use this command after running history command, this command is used to run again the command that is available in history record. (1349 is record list line number.)</dd>
+
+                <dt>history -c</dt>
+                <dd>to clear the history.</dd>
+
+                <dt>cal</dt>
+                <dd>to see the calendar of current month.</dd>
+
+                <dt>cal 2017</dt>
+                <dd>to see the calendar of year 2017.</dd>
+
+                <dt>cal 03 2016</dt>
+                <dd>to see the calendar of March 2016.</dd>
+
+                <dt>date</dt>
+                <dd>to see the current date.</dd>
+
+                <dt>date 042517102018</dt>
+                <dd>to set Date and Time of computer. (04-Month; 25-Day; 17-Time; 10-Minute; 2018-Year</dd>
+
+                <dt>w</dt>
+                <dd>to see the user login details.</dd>
+
+                <dt>last</dt>
+                <dd>to see last user login information.</dd>
+
+                <dt>uptime</dt>
+                <dd>to check log on time of your PC.</dd>
+
+                <dt>chage -l root</dt>
+                <dd>to get information about any user.</dd>
+
+                <dt>chage -W 2 root</dt>
+                <dd>to set user expiry warning for user.</dd>
+
+                <dt>chage -E 2018-04-27 root</dt>
+                <dd>to set expiry date of root user.</dd>
+
+                <dt>whoami</dt>
+                <dd>to see from which user are you logged in.</dd>
+
+                <dt>hostname</dt>
+                <dd>to see host name.</dd>
+
+                <dt>su -<br>
+                    password: ******
+                </dt>
+                <dd>to login as Super/root user.</dd>
+
+                <dt>passwd -d root</dt>
+                <dd>to remove user password.</dd>
+
+                <dt>passwd<br>
+                    New password: ******<br>
+                    Retype new password: ******<br>
+                </dt>
+                <dd>to change root password.</dd>
+
+                <dt>passwd matrix<br>
+                    passwd matrix: *****<br>
+                    Retype new password: *****<br>
+                    passwd: password updated succesefully<br>
+                </dt>
+                <dd>to change user password.</dd>
+
+                <dt>useradd newUser</dt>
+                <dd>to add newUser.</dd>
+
+                <dt>passwd newUser<br>
+                    passwd newUser: *****<br>
+                    Retype new password: *****<br>
+                    passwd: password updated successfully<br>
+                </dt>
+                <dd>to set password of newUser.</dd>
+
+                <dt>passwd -d newUser</dt>
+                <dd>to delete newUser password.</dd>
+
+                <dt>usermod -L newUser</dt>
+                <dd>to lock newUser.</dd>
+
+                <dt>usermod -U newUser</dt>
+                <dd>to unlock newUser.</dd>
+
+                <dt>adduser user1<br>
+                    New password: *****<br>
+                    Retype new password: *****<br>
+                    Full Name[]: Abdul Zoha<br>
+                    Room Number[]: GF-10<br>
+                    Work Phone[]: 50457791<br>
+                    Home Phone[]: 9006228083<br>
+                    Other: []:<br>
+                    Is the information correct? [Y/n] y
+                </dt>
+                <dd>to add new user.</dd>
+
+                <dt>head file.txt</dt>
+                <dd>to read upper 10 lines of file.txt</dd>
+
+                <dt>head -2 file.txt</dt>
+                <dd>to read upper 2 lines of file.txt</dd>
+
+                <dt>tail file.txt</dt>
+                <dd>to read last 10 lines of file.txt</dd>
+
+                <dt>tail -2 file.txt</dt>
+                <dd>to read last 2 lines of file.txt</dd>
+
+                <dt>wc 'My file'</dt>
+                <dd>to count lines, words and charectors of any text document.</dd>
+
+                <dt>wc -l 'My file.txt'</dt>
+                <dd>to count lines of any text document.</dd>
+
+                <dt>wc -c 'My file.txt'</dt>
+                <dd>to count charectors of any text document.(including spaces).</dd>
+
+                <dt>wc -w 'My file.txt'</dt>
+                <dd>to count words of any text document.</dd>
+
+                <dt>diff 'My file.txt' 'My file2.txt'</dt>
+                <dd>to see the diffrences between two documents data.</dd>
+
+                <dt>df -h</dt>
+                <dd>to see the partitions details.</dd>
+
+                <dt>df -h /dev/sda1</dt>
+                <dd>to see any specific partition details.</dd>
+
+                <dt>look manage</dt>
+                <dd>to find out 'manage' word in your computer.</dd>
+
+                <dt>ln -s MyFile SoftLink</dt>
+                <dd>to create a SoftLink of any file.</dd>
+
+                <dt>ln MyFile HardLink</dt>
+                <dd>to create a HardLink of any file.</dd>
+            </dl>
+
+            <h3>What is diffrence between Softlink and Hardlink?</h3>
+            <p>We can access Hardlink whenever original file deleted. But we can never access Softlink whenever original file deleted.</p>
+
+            <dl>
+                <dt>tar -cvf MyFolder.tar MyFolder</dt>
+                <dd>to archive any folder in '.tar' extention.</dd>
+
+                <dt>tar -xvf MyFolder.tar</dt>
+                <dd>to extract '.tar' file.</dd>
+
+                <dt>tar -tvf MyFolder.tar</dt>
+                <dd>to check any '.tar' file's data.</dd>
+
+                <dt>gzip MyFile</dt>
+                <dd>to convert any file into zip file.</dd>
+
+                <dt>zcat MyFile.gz</dt>
+                <dd>to read '.gz' extention file's data, created by gzip command.</dd>
+
+                <dt>gunzip MyFile.gz</dt>
+                <dd>to unzip 'gzip' file.</dd>
+
+                <dt>bzip2 MyFile</dt>
+                <dd>to convert any file into bzip file.</dd>
+
+                <dt>bunzip2 MyFile.bz2</dt>
+                <dd>to unzip 'bzip2' file.</dd>
+
+                <dt>ping 127.0.0.1</dt>
+                <dd>to check the connectivity of network.</dd>
+
+                <dt>ping -c 5 127.0.0.1</dt>
+                <dd>to check the connectivity of network but only for five (5) times.</dd>
+
+                <dt>ethtool etho</dt>
+                <dd>to check the Internet cable connection details.</dd>
+
+                <dt>ifconfig</dt>
+                <dd>to check the network interfaces.</dd>
+
+                <dt>ifconfig eth0 192.168.0.115</dt>
+                <dd>to change the IP of eth0. (Temp)</dd>
+
+                <dt>ifconfig eth0</dt>
+                <dd>to check the physical network interface.</dd>
+
+                <dt>df -h</dt>
+                <dd>to see the partitions details.</dd>
+            </dl>
+
+            <h3>Applying Fix ip address:-</h3>
+            <pre>
+                Goto: Search bar and type: <b>Advanced Network Configuration</b>
+                Select your internet connection and click on Gear icon.
+                Goto: IPv4 Settings/Add 
+                Address: 192.168.0.100
+                Netmask: 24
+                Gateway: 192.168.0.255 /Save
+
+                Now goto the open Terminal and fire these commands:-
+                ifconfig eth0 down
+                service networking restart
+                ifconfig eth0 up
+                ifconfig eth0
+            </pre>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,105 @@
+sudo apt install git: to install git in Linux system.
+
+-r: recursive.
+-f: forcefully.
+-a: hidden file.
+
+ls -a: show hidden file
+rm -rf .git: delete '.git' directory.
+rm -rf ./*: to delete all files in pwd.
+rm -rf ./.??*: to delete all files in pwd including hidden file.
+
+
+Local repository: on your pc.
+Remote repository: on a server.
+
+
+1. untracked file => stage as "new file" => commit
+2. modified  => stage as "modified" => commit
+
+untracked file => stage as "new file": git add <file>
+stage as "new file" => untracked file: git rm --cached <file>
+
+stage as "new file" => commit: git commit -m <massage>
+
+commit => stage as "modified": git reset --soft <commit-hash>
+
+modified => commit: git commit -am <massage>
+commit => modified: git reset --mixed <commit-hash>
+commit => modified: git reset <commit-hash>
+
+modified => stage as "modified": git add <file>
+stage as "modified" => modified: git restore --staged <file>
+
+modified => discard: git restore <file>
+
+
+
+
+ls -a: to check existing file in current working directory.
+
+git status: to check status.
+
+git init: Initialize git repository
+
+ls -a:
+
+git status: to check untracked file.
+
+
+
+
+git clone <url>
+git log
+git log --oneline
+git remote
+git remote -v
+
+
+
+
+
+stage
+-----
+git add <file>: to stage a single file.
+git rm --cached <file>: to unstage a single file.
+git restore --staged <file>: unstage a single file.
+
+
+modified file
+-------------
+git add <file>: stage file
+git restore <file>: discard changes.
+git restore --staged --worktree:
+
+
+git add .: to stage all files of working directory.
+git rm --cached -r -f .: to unstage all files of working directory.
+
+
+
+
+git checkout <file>: to discard modified file (instead staged area).
+git checkout .: to discard all modified file of pwd.
+git checkout 0f04357: detached HEAD to given commit.
+git branch
+(HEAD detached at 0f04357)
+
+git switch master: to switch back to master branch.
+git checkout HEAD~2: go two commit back.
+
+
+
+git diff: to check difference between working directory last commit.
+git diff <file>: to check difference between any single file.
+git diff --staged: to check difference between stage and commit file.
+git diff 92057e6 54a8118
+git diff 92057e6..54a8118: check difference between two commits.
+git diff HEAD: check difference between last commit and working directory, stage area.
+
+
+
+commit-hash = 2a7c326
+
+Ctrl+L: clear the screen.
+open .: open in file explorer

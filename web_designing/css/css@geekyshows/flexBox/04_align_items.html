@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #container{
+            display: flex;
+            align-items: center;
+        }
+    </style>
+    <title>flexBox</title>
+</head>
+<body>
+    <h1 class="center">align-items</h1>
+    <p>This property is used to specify the defalut alignment for items inside the container. This property can be override using align-self property for each item. We can set this property to stretch(default), center, flex-start, flex-end, baseline. It's applys on with height.</p>
+
+<pre>
+align-items: stretch; (default)
+align-items: flex-start;
+align-items: flex-end;
+align-items: center;
+align-items: baseline;
+</pre>
+
+    <p>align-items: stretch; (default): This is used to stretch the item to fit the container. It won't work if you spacify height already.</p>
+
+    <p>align-items: flex-start; This is used to position the item at the beginning of the container.</p>
+
+    <p>align-items: flex-end; This is used to position the item at the end of the container.</p>
+
+    <p>align-items: center; This is used to position the item at the center of the container.</p>
+
+    <p>align-items: baseline; This is used to position the item at the baseline of the container.</p>
+
+    <div id="container">
+        <div id="one" class="center">01</div>
+        <div id="two" class="center">02</div>
+        <div id="three" class="center">03</div>
+        <div id="four" class="center">04</div>
+        <div id="five" class="center">05</div>
+        <div id="six" class="center">06</div>
+    </div>
+</body>
+</html>

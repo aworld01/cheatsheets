@@ -1,0 +1,20 @@
+Touch Zone-01 (GF/Near Green Room)
+CAM-GF-31
+
+Touch Zone-02 (GF/BMS Room)
+CAM-GF-51
+
+Touch Zone-03 (GF/Cloak Room)
+CAM-GF-11
+
+Touch Zone-04 (GF/Near Coffeeshop)
+CAM-GF-58
+
+Touch Zone-05 (FF/Low Current Room)
+CAM-FF-08
+
+Touch Zone-06 (SF/Lounge Area)
+CAM-SF-03
+
+Touch Zone-07 (TF/Low Current Room)
+CAM-TF-12

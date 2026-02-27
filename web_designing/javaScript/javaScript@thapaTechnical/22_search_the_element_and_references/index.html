@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: sans-serif;
+            background: #2a364f;
+            display: grid;
+            place-items: center;
+        }
+        button{
+            display: inline-block;
+            background: #f8b627;
+            color: #f4f4f4;
+            font-size: 16px;
+            width: 132px;
+            text-align: center;
+            border-radius: 3px;
+            transition: 400ms;
+            text-decoration: none;
+            padding: 10px 22px;
+            z-index: 1000;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+        p{
+            text-align: center;
+            color: rgba(255,255,255, 0.8);
+        }
+        h1{
+            color: aquamarine;
+        }
+    </style>
+    <title>demoPage</title>
+</head>
+<body>
+    <p class="para">Plz line the video</p>
+    <p class="para">Plz share this video</p>
+    <p>Don't forget to subscribe my Channel</p>
+    <h1 id="heading">changed the content of the h1</h1>
+
+    <button onclick="changeContent()">Click me</button>
+
+    <script>
+        /* exmple1 */
+        // function changeContent(){
+        // document.getElementById("heading").innerHTML = "Welcome to ArTiFiCiAl WoRlD!!!"
+        // console.log(document.getElementById("name").value);
+        // }
+        
+        /* exmple2 */
+        // function changeContent(){
+        // const h1 = document.getElementById("heading");
+        // h1.innerHTML = "Welcome to ArTiFiCiAl WoRlD!!!"
+        // }
+        
+        /* exmple3 */
+        function changeContent(){
+        document.querySelector("#heading").innerHTML = "I changed again"
+        }
+    </script>
+</body>
+</html>

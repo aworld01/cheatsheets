@@ -1,0 +1,94 @@
+star, delta, parrelel, series
+
+Earthing deep: 2.5m - 3m
+
+Indian AC supply frequency 50Hz cycle per second
+
+Amp = Watt / Volt:
+    Watt = 1000W
+    Volt = 200V
+    5 = 1000 / 200
+
+Watt = Volt * Amp:
+    Volt = 200W
+    Amp  = 5amp
+    1000 = 200 * 5
+
+1KW (Kilowatt) = 1000W (Watt)
+1Amp (Ampare) = 1000mA (miliAmpare)
+1HP = 746 Watts
+
+
+cableColorCode:
+    American: Black, Brown, Blue
+    British : Red, Yellow, Blue
+
+cableSize: 0.5, 0.75, 1, 1.5, 2.5, 4, 6, 10, 16, 25, 35, 50, 70, 95, 120, 150, 185, 240, 300, 400, 500, 630, 800, 1000
+
+cableGlandSize:
+    1.5 = 20s
+    2.5 = 20S
+    4   = 20S
+    6   = 20S
+    10  = 25S
+    16  = 25L
+    25  = 32S
+    35  = 32L
+    50  = 40S
+    70  = 40L
+    95  = 50S
+    120  = 50L
+    150  = 63S
+    185  = 63L
+    240  = 75S
+    300  = 75L
+    500  = 90S
+
+
+
+Lugs
+====
+There are 2 types of lug:
+    1. Insulated lug
+    2. Without Insulated lug
+
+    1. Insulated lug: This lug has plastic cover. It has three color. Red, Blue, and Yellow. Color represents size
+    
+    Size of lug
+    ===========
+    Red    : 1.5mm
+    Blue   : 2.5mm
+    Yellow : 4 / 6mm
+
+There are 5 types of lug:
+    1. Pin type
+    2. Ring type
+    3. Utype type
+    4. Flat type
+    5. Star type
+
+Type of wiring
+==============
+    Conduit wiring:
+        Surface wiring, concealed wiring
+    Casing caping wiring
+    Cleat Wiring
+
+Type of current
+===============
+There are 2 types of current:
+    1. AC (Alternating Current)
+    2. DC (Direct Current)
+
+Type of circuit
+===============
+    1. Open Circuit: The circuit is incomplete, stopping current flow
+    2. Closed Circuit: The circuit is complete, allowing current to flow.
+    3. Short Circuit: An unintended connection causes excessive current flow, often leading to damage.
+
+Type of connection
+==================
+There are thee types of connection:
+    1. Series Connection
+    2. Parallel Connection
+    3. Series-Parallel Connection

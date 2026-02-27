@@ -1,0 +1,87 @@
+Prerequisits
+============
+- Your disk must be using MBR.
+- Your system must support UEFI boot mode (you’ll need to switch to UEFI after conversion).
+- It must have no more than 3 primary partitions.
+- One partition must be marked active and contain the OS.
+- You must be running Windows 10 version 1703 or later.
+
+
+
+Converting a disk from MBR (Master Boot Record) to GPT (GUID Partition Table) is essential:
+
+    - If you're upgrading to modern systems like Windows 11 etc.
+
+    - If you're installing Windows and encounter the “Windows cannot be installed to this disk” error, you can convert MBR to GPT mid-installation via "Shift + F10"
+
+    - Enabling features like Secure Boot and UEFI
+    
+Method to Convert MBR to GPT using Command Prompt with MBR2GPT Tool (No Data Loss):
+===================================================================================
+
+    This is the safest and fastest method for system disks:
+    Open Command Prompt as Administrator:
+        Win+R[cmd], Ctrl+Shift+Enter, Alt+Y
+
+        Run: mbr2gpt /validate /disk:<disk number> /allowFullOS
+        Then: mbr2gpt /convert /disk:<disk number> /allowFullOS
+        
+        Example:
+            Run: mbr2gpt /validate /disk:0 /allowFullOS
+            Then: mbr2gpt /convert /disk:0 /allowFullOS
+
+After conversion
+================
+- Enter your BIOS/UEFI settings.
+- Enter your BIOS/UEFI settings.
+- Save and reboot.
+
+Important Tips
+==============
+- Back up your data before any conversion.
+- Ensure your system supports UEFI if you're switching from MBR to GPT.
+- Use MBR2GPT for system disks to avoid reinstalling Windows.
+- Save and reboot.
+
+
+
+
+
+ What Does UEFI Do?
+ ===================
+UEFI is the firmware that runs before your operating system loads. It replaces the older BIOS system and offers:
+
+- Faster boot times
+- Support for drives larger than 2 TB
+- Secure Boot to prevent malware during startup
+- Graphical interface (mouse support, menus)
+- Compatibility with both legacy BIOS and modern OS features
+
+Think of UEFI as a mini operating system embedded in your motherboard that helps your PC start up securely and efficiently.
+
+
+
+Why It Matters for You?
+=======================
+Since you're converting MBR to GPT, switching to UEFI boot mode is essential. GPT disks require UEFI to boot properly. If your system still uses legacy BIOS, it won’t boot from a GPT disk unless you change the firmware settings.
+
+
+Some import Full forms used in this artical:
+============================================
+EFI: Extensible Firmware Interface.
+UEFI: Unified Extensible Firmware Interface.
+MBR: Master Boot Record.
+GPT: GUID Partition Table.
+
+
+
+Purpose
+=======
+EFI: Original firmware interface developed by Intel in the late 1990s
+UEFI: Modern, standardized version of EFI adopted widely since ~2007
+
+
+Key features
+============
+EFI: Modular design, pre-OS applications, network booting.
+UEFI: Secure Boot, faster startup, support for large drives, graphical interface

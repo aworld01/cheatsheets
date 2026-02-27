@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #container{
+            display: flex;
+	        justify-content: center;
+        }
+    </style>
+    <title>Flex Box</title>
+</head>
+<body>
+    <h1 class="center">justify-content</h1>
+    <p>This property is used to align the flexible container's items when the items do not use all available space on the main-axis (horizontally). We can set this property to flex-start (default), flex-end, center, space-between, space-around.</p>
+
+<pre>
+justify-content: flex-start; (default)
+justify-content: flex-end;
+justify-content: center;
+justify-content: space-between;
+justify-content: space-around;
+</pre>
+
+    <p>flex-start: This is used to position the item at the beginning of the container.</p>
+
+    <p>flex-end: This is used to position the item at the end of the container.</p>
+
+    <p>center: This is used to position the item at the center of the container.</p>
+
+    <p>space-between: This is used to position the item with space between the lines.</p>
+
+    <p>space-around: This is used to position the item at with space before, between, and after the lines.</p>
+
+    <div id="container">
+        <div id="one" class="center">01</div>
+        <div id="two" class="center">02</div>
+        <div id="three" class="center">03</div>
+        <div id="four" class="center">04</div>
+        <div id="five" class="center">05</div>
+        <div id="six" class="center">06</div>
+    </div>
+</body>
+</html>

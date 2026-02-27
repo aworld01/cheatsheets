@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #container{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+    </style>
+    <title>flexBox</title>
+</head>
+<body>
+    <h1 class="center">align-content</h1>
+    <p>This property is used to modify the behavior of the flex-wrap property. It's similar to align-items, but instead of aligning flex items, it aligns flex lines. There must be multiple lines of items for this property to have any effect. We can set this property to stretch(default), center, flex-start, flex-end, space-between, space-around.</p>
+    <p>It works with "flex-wrap: wrap;"</p>
+<pre>
+align-content: stretch; (default)
+align-content: center;
+align-content: flex-start;
+align-content: flex-end;
+align-content: space-between;
+align-content: space-around;
+</pre>
+
+    <p>align-content: stretch; (default): Lines stretch to take up the remaining space.</p>
+
+    <p>align-content: center; Lines are packed toward the center of the flex container.</p>
+
+    <p>align-content: flex-start; Lines are packed toward the start of the flex container.</p>
+
+    <p>align-content: flex-end; Lines are packed toward the end of the flex container.</p>
+
+    <p>align-content: space-between; Lines are evenly distributed in the flex container.</p>
+
+    <p>align-content: space-around; Lines are evenly distributed in the flex container, with half-size spaces on either end.</p>
+
+    <div id="container">
+        <div id="one" class="center">01</div>
+        <div id="two" class="center">02</div>
+        <div id="three" class="center">03</div>
+        <div id="four" class="center">04</div>
+        <div id="five" class="center">05</div>
+        <div id="six" class="center">06</div>
+        <div id="seven" class="center">07</div>
+        <div id="eight" class="center">08</div>
+        <div id="nine" class="center">09</div>
+        <div id="ten" class="center">10</div>
+        <div id="eleven" class="center">11</div>
+        <div id="twelve" class="center">12</div>
+    </div>
+</body>
+</html>

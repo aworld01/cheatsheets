@@ -1,0 +1,101 @@
+Learn More
+Open "Run (Win+R)"
+Open "MS Excel(photoshop)
+
+
+
+Adobe Photoshop 7.0 (photo.psd)
+Layers (F7)
+Option
+Tools
+Menu
+File/Open (Ctrl+O)
+Image/Duplicate
+Image/Image size/Constrain Proportions
+Undo (Ctrl+Z)
+Multiple Undo (Ctrl+Alt+Z)
+Zoom In (Ctrl++) 1600%
+Zoom Out (Ctrl+-)
+
+JPEG: Joint Photographic Expert Group
+GIF: Graphic Interchange Format
+PNG: Photographic Network Group
+BMP: Bitmap Image
+
+New (Ctrl+N)
+Moov Tool (V)
+Copy (Ctrl+C)
+Paste (Ctrl+V)
+Layers
+Auto Select Layer
+Deselet (Ctrl+D)
+
+
+Rectangular Marquee Tool (M)
+Feather effect
+Delete Layer
+Rulers (Ctrl+R)
+Free Transform (Ctrl+T)
+Shift+Drag: to Resize Image without loss Proportionality
+Duplicate Layer (Alt+Drag) Auto select layer should be checked.
+New Layer (Ctrl+Shift+N)
+Flip Horizontal
+Crop (C)
+
+Eliptical Marquee Tool
+Fill (Alt+Delete)
+Save for Web (Alt+Shift+Ctrl+S)
+Delete (Delete)
+File/Automate/Picture Package
+Image/Mode/RGB Color/Flatten
+File/Automate/Picture Package/Flatten All Layers
+
+
+File/Automate/Picture Package/Flatten All Layers
+Custom Text
+Custom Text: myPic
+Font Size: 12pt
+Color: Blue
+Opacity: 100%
+Position: Top Left
+Rotate: 45 Degrees CCW
+
+Slice Tool (K)
+Pen Tool (P)
+Right_click/Make Selection/Feather(3)
+Convert Pen Tool selection (Ctrl+Enter)
+Inverse (Ctrl+Shift+I)
+Filter/Blur/Gaussian Blur
+Filter/Blur/Motion Blur
+Filter/Blur/Radial Blur
+Filter/Pixelate/Mosaic
+Increase Font Size (Ctrl+Shift+>)
+Decrease Font Size (Ctrl+Shift+<)
+Layer/Layer Style/Drop Shadow
+Create warped text
+Copy Layer Style
+Paste Layer Style
+Healing Brush Tool (J) Alt+Left_click and Drag
+Patch Tool
+Brush Tool (B)
+Clone Stamp Tool (S) Alt+Left_click and Drag, Aligned
+History Brush Tool (Y)
+Pattern Stamp Tool (S)
+Art History Brush (Y)
+Eraser Tool (E)
+Background Eraser Tool (E)
+Magic Eraser Tool (E)
+Gradient Tool (G)
+Paint Bucket Tool (G)
+Blur Tool (R)
+Sharpen Tool (R)
+Smudge Tool (R)
+Filter/Liquify (Shift+Ctrl+X)
+Save Optimized As (Ctrl+Shift+Alt+S)
+Dudge Tool (O)
+Burn Tool (O)
+Rectange Tool (U) Shape Layers
+Custom Shape Tool (U)/Shape
+Filter/Render/Lighting Effects
+
+02:11:00/02:41:48

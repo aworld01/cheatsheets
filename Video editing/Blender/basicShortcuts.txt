@@ -1,0 +1,15 @@
+54:13 / 8:43:28
+
+select, H: hide object
+select, Alt+H: Unhide object
+select, X,D: delete
+A: Select All
+Alt+A: Deselect All
+
+Shift+A: Add object
+E: Extrude
+Shift+D: Duplicate
+Select+L: Select all linked object
+Ctrl+R: Loopcut
+Edge select+F: Fill
+

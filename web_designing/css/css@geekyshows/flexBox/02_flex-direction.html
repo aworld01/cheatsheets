@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #container{
+            display: flex;
+	        flex-direction: column;
+        }
+    </style>
+    <title>flexBox</title>
+</head>
+<body>
+    <h1 class="center">flex-direction</h1>
+    <p>This property is used to set the direction of flexible items. If the element is not a flexible item, the flex-direction property has no effect. We can set this property to row (default), row-reverse, column, column-reverse.</p>
+
+<pre>
+flex-direction: row; (default)
+flex-direction: row-reverse;
+flex-direction: column;
+flex-direction: column-reverse;
+</pre>
+
+    <p>flex-direction: row; (default): This is used to display the flexible items horizontally as row.</p>
+
+    <p>flex-direction: row-reverse; This is used to display the flexible items same as row, but in reverse order.</p>
+
+    <p>flex-direction: column; This is used to display the flexible items vertically as column.</p>
+
+    <p>flex-direction: column-reverse; This is used to display the flexible items same as column, but in reverse order.</p>
+
+    <div id="container">
+        <div id="one" class="center">01</div>
+        <div id="two" class="center">02</div>
+        <div id="three" class="center">03</div>
+        <div id="four" class="center">04</div>
+        <div id="five" class="center">05</div>
+        <div id="six" class="center">06</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>basicStructure</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+.pre{
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+</style>
+</head>
+<body>		
+
+<h1>ShellScripting</h1>
+<p>Shift statement</p>
+<p>
+    Shift is a bash built-in which kind of removes arguments from the beginning of the argument list. Given that the 3 arguments provided to the script are available in $1 $2 $3, then a call to shift will make $2 the new $1. A shift by two making new $1 the old $3.
+    Bydefault n=1 in shift.
+</p>
+<p class="pre">
+#!/bin/bash
+echo $1 $2 $3 $4 $5
+shift
+echo $1 $2 $3 $4 $5
+shift 2
+echo $1 $2 $3 $4 $5
+# type: ./test.sh one two three four five
+</p>
+
+<p class="pre">
+#!/bin/bash
+num=0
+until [ $num -gt 10 ]
+do
+echo $num
+((num++))
+done
+</p>
+
+<p class="pre">
+#!/bin/bash
+num=0
+until [ $num -gt 10 ]
+do
+echo $num
+((++num))
+done
+</p>
+
+<p class="pre">
+#!/bin/bash
+num=0
+until (( $num > 10 ))
+do
+echo $num
+((++num))
+done
+</p>
+
+
+
+<p class="pre">
+<b>ls -l</b>: to check permisions.
+<b>chmod u+x first_script.sh</b>: to give user permision.
+<b>./first_script.sh</b>: to execute shellscript.
+<b>sh first_script.sh</b>: to execute shellscript.
+<b>>></b>: to append
+<b>></b>: to overwrite
+<b>Ctrl+L</b>: to clear screen
+</p>
+</body>
+</html>

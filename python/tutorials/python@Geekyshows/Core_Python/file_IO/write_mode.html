@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>python3_file_IO</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+}
+ol{
+    white-space: Pre-wrap;
+    padding: 0px 16px;
+    margin-bottom: 10px;
+}
+</style>
+</head>
+<body style="background: gray url('Images/d.jpgd')">
+
+<h1>python3_file_IO</h1>
+<ol>
+<h2>write_to_a_file</h2>
+<li>
+f = open("File.txt", mode="w", encoding="utf-8") #write mode.
+f.write("What are you doing?") #to write a file.
+f.close()
+</li>
+<hr>
+
+<li>
+f = open("file.txt", mode="w", encoding="utf-8")
+f.write("Hello world\nHow are you?")
+f.close()
+print("Writing success...")
+</li>
+<hr>
+
+<li>
+f = open("File.txt", mode="a", encoding="utf-8") #append mode.
+f.write("What are you doing?") #to append a file.
+f.close()
+</li>
+<hr>
+
+<li>
+f = open("File.txt", mode="r+", encoding="utf-8") #read + write mode.
+data = f.read() #to read file
+print(data)
+f.write("What are you doing?\n") #to write file.
+f.seek(0) #to move cursor to 0 index
+data2 = f.read()
+print(data)
+f.close()
+</li>
+
+<li>
+f = open("File.txt", mode="r+", encoding="utf-8")
+data = f.read()
+print(data)
+l = len(data)
+f.seek(data) #to write new data next to old data.
+f.write("What are you doing?")
+f.close()
+</li>
+</ol>
+   
+</body>
+</html>

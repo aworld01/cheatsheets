@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>CSS</title>
+<link rel="icon" href="images/css.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+p.effect{
+	border: 3px solid blue; border-radius: 30px 40px 20px 50px / 15px 10px 5px 8px;
+}
+</style>
+</head>
+<body>
+
+<p>You can define border in:-</p>
+<ul class="list">
+/* for all corner */
+	<li>border: 3px solid blue; border-radius: 30px;</li>
+	<br>
+	
+	<li>border: 3px solid blue; border-top-left-radius: 10px;</li>
+	<li>border: 3px solid blue; border-top-right-radius: 10px;</li>
+	<li>border: 3px solid blue; border-bottom-left-radius: 10px;</li>
+	<li>border: 3px solid blue; border-bottom-right-radius: 10px;</li>
+	<br>
+
+/* border: 3px solid blue; border-top-left-radius: hr vr */
+	<li>border: 3px solid blue; border-top-left-radius: 10px 20px;</li>
+	<li>border: 3px solid blue; border-top-right-radius: 10px 20px;</li>
+	<li>border: 3px solid blue; border-bottom-left-radius: 10px 20px;</li>
+	<li>border: 3px solid blue; border-bottom-right-radius: 10px 20px;</li>
+	<br>
+	
+/* border-radius: top-left_and_bottom-right top-right_and_bottom-left; */
+	<li>border: 3px solid blue; border-radius: 20px 40px;</li>
+	<br>
+
+/* border-radius: top-left top-right_and_bottom-left bottom-right; */
+	<li>border: 3px solid blue; border-radius: 20px 70px 40px;</li>
+	<br>
+
+/* border-radius: top-left top-right bottom-right bottom-left; */;
+	<li>border: 3px solid blue; border-radius: 30px 40px 20px 50px;</li>
+	<br>
+
+/*hr = top-left top-right bottom-right bottom-left / vr =  top-left top-right bottom-right bottom-left; */
+	<li>border: 3px solid blue; border-radius: 30px 40px 20px 50px / 15px 10px 5px 8px;</li>
+</ul>
+<br>
+
+<h1>Normal list</h1>
+<p>
+	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed vitae velit ipsa, harum voluptas corporis reprehenderit odit aliquid iusto ullam laudantium cupiditate officia blanditiis consectetur reiciendis eaque dolorum sapiente repudiandae.
+</p>
+<br>
+
+<h1>border: 4px solid red;</h1>
+<p class="effect">
+	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed vitae velit ipsa, harum voluptas corporis reprehenderit odit aliquid iusto ullam laudantium cupiditate officia blanditiis consectetur reiciendis eaque dolorum sapiente repudiandae.
+</p>
+    
+</body>
+</html>

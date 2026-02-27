@@ -1,0 +1,1 @@
+aria2c kali-linux-2025.1c-installer-amd64.iso.torrent: to download file using *.torrent file

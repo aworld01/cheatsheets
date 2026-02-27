@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>basicStructure</title>
+<link rel="icon" href="images/html5.gif">
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+h1, h2
+    {
+    text-align: center;
+    }
+</style>
+</head>
+<body style="background: gray;">		
+
+<h1>Ways to be annonymous:-</h1>
+<ol>
+    <li><h2>Installing and Configuring TOR with Proxychains</h2></li>
+    <p><b>sudo apt-get install tor</b>: to install tor.</p>
+    <p><b>sudo apt-get install proxychains</b>: to install proxychains</p>
+    <p><b>locate proxychains.conf</b>: to locate where 'proxychains.conf' file is.</p>
+    <p><b>nano /etc/proxychains.conf</b>: to edit 'proxychains.conf' file.</p>
+
+    <p>The edited changes will look like this:-</p>
+    <pre>
+    dynamic_chain
+    #strict_chain
+    
+    socks4  127.0.0.1 9050
+    socks5  127.0.0.1 9050
+    </pre>
+    
+    <p><b>service tor start</b>: to start tor service.</p>
+    <p><b>service tor stop</b>: to stop tor service.</p>
+    <p><b>service tor restart</b>: to restart tor service.</p>
+    <p><b>tor-resolve w3schools.com</b>: to get ip address of w3schools.com</p>
+    <p><b>proxychains firefox</b>: to open 'firefox' with proxychains.</p>
+    <p><b>proxychains nmap -sS -v 66.29.212.110</b></p>
+    <hr>
+
+    <li><h2>Install Tor Browser in Kali Linux using apt in Terminal</h2></li>
+    <p>Open Terminal and fire the commands below:-</p>
+    <p><b>sudo apt-get install tor torbrowser-launcher</b>: to install TorBrowser</p>
+    <p><b>sudo torbrowser-launcher</b>: to open the Tor Browser</p>
+
+
+    <li><h2>Anonsurf tool</h2></li>
+
+    <p><b>git clone https://github.com/Und3rf10w/kali-anonsurf.git</b>: to download 'anonsurf' tool.</p>
+    <p><b>cd kali-anonsurf</b>: to go into kali-anonsurf directory.</p>
+    <p><b>sudo bash installer.sh</b>: to install anonsurf tool.</p>
+    <p><b>anonsurf start</b>: to start anonsurf.</p>
+    <p><b>anonsurf status</b>: to check status of anonsurf.</p>
+    <p><b>anonsurf myip</b>: to check your ip.</p>
+    <p><b>anonsurf restart</b>: to restart anonsurf.</p>
+    <p><b>anonsurf stop</b>: to stop anonsurf.</p>
+    <hr>
+
+
+    <li><h2>4nonimizer tool</h2></li>
+
+    <p><b>git clone https://github.com/Hackplayers/4nonimizer</b>: to download '4nonimizer' tool.</p>
+    <p><b>cd 4nonimizer</b>: to go into 4nonimizer directory.</p>
+    <p><b>./4nonimizer install</b>: to install 4nonimizer tool.</p>
+    <p><b>4nonimizer start</b>: to start 4nonimizer.</p>
+    <p><b>4anonsurf stop</b>: to stop 4nonimizer stop.</p>
+    <p><b>4nonimizer help</b>: to get help about 4nonimizer.</p>
+    <hr>
+
+
+    <li><h2>Nipe tool</h2></li>
+
+    <p><b>git clone https://github.com/GouveaHeitor/nipe</b>: to download 'nipe' tool.</p>
+    <p><b>cd nipe</b>: to go into nipe directory.</p>
+    <p><b>chmod +x setup.sh</b>: to give permision.</p>
+    <p><b>./setup.sh</b>: to install nipe tool.</p>
+
+    <p><b>perl nipe.pl start</b>: to start nipe.</p>
+    <p><b>perl nipe.pl status</b>: to check status of nipe.</p>
+    <p><b>perl nipe.pl restart</b>: to restart nipe.</p>
+    <p><b>perl nipe.pl stop</b>: to stop nipe.</p>
+    <hr>
+</ol>
+
+<h1>Annonymous testing sites:-</h1>
+
+<a href="whatismyip.com"><h2>whatismyip.com</h2></a>
+<a href="dnsleaktest.com"><h2>dnsleaktest.com</h2></a>
+    
+<p>hidemyass proxy list</p>
+<p>chkdsk /f</p>
+<p>25/03/2020</p>
+    
+</body>
+</html>

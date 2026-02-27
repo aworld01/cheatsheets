@@ -1,0 +1,47 @@
+DATE TIME DATA TYPES
+MySQL comes with the following data types for storing a date or a date/time value in the database;
+
+DATE- format: YYYY-MM-DD
+
+TIME- format: HH:MI:SS
+
+DATETIME- format: YYYY-MM-DD HH:MI:SS
+
+Exp:
+create table hosp(
+id int not null auto_increment primary key,
+fname varchar(30),
+dob date,
+dtime time,
+dat datetime
+);
+
+desc hosp;
+
+insert into hosp(
+fname, dob, dtime, dat
+)
+value(
+'Vinod', '1992,12,30', '12:14:35', '1992,12,30 12:14:35'
+);
+
+
+
+
+CURRENT FUNCTION
+CURDATE(): Gives the current date: YYYY-MM-DD
+CURTIME(): Gives current time: HH:MI:SS
+NOW(): Gives both current date & time: YYYY-MM-DD HH:MI:SS
+
+select curdate(); to get current date.
+select curtime(); to get current time.
+select now(); to get current date & time.
+select now() as 'Date & Time';
+
+Exp:
+insert into hosp(
+fname, dob, dtime, dat
+)
+value(
+'Abdul', curdate(), curtime(), now()
+);

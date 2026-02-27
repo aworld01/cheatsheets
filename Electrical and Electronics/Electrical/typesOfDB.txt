@@ -1,0 +1,74 @@
+TYPE OF DB
+==========
+MDB: Main Distribution Board
+SDB: Sub Distribution Board
+LDB: Lighting Distribution Board
+PDB: Power Distribution Board
+IDB: Industrial Distribution Board
+CU: Consumer Unit
+
+
+CONDUTE
+=======
+PVC
+---
+HMS (Heavy Mechanical Stress): for slape piping.
+MMS (Medium Mechanical Stress): for slape piping.
+LMS (Light Mechanical Stress): for wall piping.
+
+CONDUTE SIZE
+============
+"20mm" for Lighting
+"25mm" for Power and others
+
+"PVC" for Concealed piping
+"GI" for open piping
+
+WIRE SIZE
+=========
+2.5mm for Lighting
+4mm for power
+6mm for Geyser, AC, Oven, Boiler, etc
+
+BREAKER SIZE
+============
+"16A, 20A, 32A" for power
+"6A-10A" for Lighting
+
+REQUIRED THINGS FOR DB DRESSING
+===============================
+Load Schedule
+Ferrules (R,Y,B,N,E,0-9)
+Cable ties
+Insulation tape
+Wire Stripper & Pliers
+Screw drivers
+Cable lugs & Clamping tool
+
+GI BACKBOX
+==========
+3x3: Lighting
+3x6: Power
+
+
+DB AND BOX FIXING
+=================
+DB fixing height: 1800mm from top
+Power socket height: 450mm
+Lighting switch board height: 1200mm
+
+MCB: "Overloads" and "short circuits" protection.
+RCCB: "Human" protection.
+RCBO: "Overloads", "short circuits", and "Human" protection.
+
+WHY WE USE "RING CIRCUITS"
+==========================
+1. Reducing the load on individual wires
+2. Smaller dimeter wires can be used campared to radial circuits
+3. If one section of the ring fails, power can still be supplied from the other direction.
+
+
+Voltage in single phase: 220v-230v
+Voltage in 3 phase: 415v-440v
+
+ACB (Air circuits Breaker): use for MDB in substations

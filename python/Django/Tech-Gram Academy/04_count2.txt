@@ -1,0 +1,134 @@
+##urls.py
+from django.contrib import admin
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', views.home),
+    path('count/', views.count, name='count'),
+]
+
+
+
+##views.py
+from django.shortcuts import render
+
+def count(request):
+    data = request.GET['textaria']
+    print(data)
+    return render(request, "count.html")
+
+
+
+##index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my homepage....</title>
+</head>
+<body>
+    
+<h1>Welcome to wordCount website...</h1>
+    
+<form action="{% url 'count' %}">
+    <textarea name="textaria" cols="40" rows="10"></textarea>
+    <br>
+    <input type="submit" value="Count">
+</form>    
+</body>
+</html>
+
+
+
+
+
+
+
+
+##views.py
+from django.shortcuts import render
+
+def count(request):
+    data = request.GET['textaria']
+    return render(request, "count.html", {'textaria':data})
+
+
+
+##index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my homepage....</title>
+</head>
+<body>
+    
+<h1>Welcome to wordCount website...</h1>
+    
+<form action="{% url 'count' %}">
+    <textarea name="textaria" cols="40" rows="10"></textarea>
+    <br>
+    <input type="submit" value="Count">
+</form>    
+</body>
+</html>
+
+
+
+##count.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my homepage....</title>
+</head>
+<body>
+    
+<h1>Counted worlds:</h1>
+{{ textaria }}
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+##views.py
+from django.shortcuts import render
+
+def count(request):
+    data = request.GET['textaria']
+    word_list=data.split()
+    n=len(word_list)
+    return render(request, 'count.html', {'textaria':data, 'words':n})
+
+
+
+##count.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my homepage....</title>
+</head>
+<body>
+    
+<h1>Word count:</h1>
+<h2>Your text...</h2>
+{{ textaria }} <br>
+
+<h2>Counted words...</h2>
+Total words = {{ words }}
+
+</body>
+</html>

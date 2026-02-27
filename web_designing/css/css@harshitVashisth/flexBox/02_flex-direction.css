@@ -1,0 +1,24 @@
+.container{
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    border: 1px solid #666;
+    width: 200px;
+}
+.box1{
+    background: pink;
+}
+.box2{
+    background: lightblue;
+}
+.box3{
+    background: lightcoral;
+}
+.box4{
+    background: lightgrey;
+}
+.box5{
+    background: lightsalmon;
+}

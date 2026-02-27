@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>HTML/Form Source code...</title>
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+body{
+	background-color: black;
+	color: white;
+	}
+h1{
+	text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>file tag</h1>
+	
+<form name="frmDataEntry" action="processor.html" method="post">	
+		
+<label>Please Upload your file:</label><br/><br/>
+<input type="file" name="image" id="image" required ><br/>
+<hr/>
+
+<label>Please Upload your file:</label><br/><br/>
+<input type="file" accept="image/*" name="image" id="image" required ><br/>
+<p>for all types of image</p>
+<hr/>
+
+<label>Please Upload your file:</label><br/><br/>
+<input type="file" accept="audio/*" name="image" id="image" required ><br/>
+<p>for all types of audio</p>
+<hr/>
+
+<label>Please Upload your file:</label><br/><br/>
+<input type="file" accept="video/*" name="image" id="image" required ><br/>
+<p>for all types of video</p>
+<hr/>
+</form>
+
+</body>
+</html>

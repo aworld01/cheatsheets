@@ -1,0 +1,10 @@
+price = Dependent variable
+area, bedrooms, age = Independent variables (features)
+m1, m2, m3 = Coefficients
+b = Intercept
+
+
+
+
+3000 sqr ft area, 3 bedrooms, 40 years old
+2500 sqr ft area, 4 bedrooms, 05 years old

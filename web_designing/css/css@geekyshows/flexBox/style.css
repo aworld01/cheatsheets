@@ -1,0 +1,49 @@
+
+h1{
+    text-align: center;
+}
+#container{
+    border: 2px solid black;
+    height: 400px;
+}
+.center{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+#one{
+	background-color: pink;
+}
+#two{
+	background-color: blue;
+}
+#three{
+	background-color: red;
+}
+#four{
+	background-color: green;
+}
+#five{
+	background-color: orange;
+}
+#six{
+	background-color: magenta;
+}
+#seven{
+    background: yellowgreen;
+}
+#eight{
+    background: darkblue;
+}
+#nine{
+    background: hotpink;
+}
+#ten{
+    background: rebeccapurple;
+}
+#eleven{
+    background: darkviolet;
+}
+#twelve{
+    background: greenyellow;
+}

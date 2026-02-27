@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>HTML Lists Source code...</title>
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+body
+	{
+	background-color: black;
+	color: white;
+	}
+.scode
+	{
+	background-color: gray;
+	border: 3px solid blue;
+	width: 80%;
+	border-radius: 10px;
+	}
+xmp
+	{
+	font-size: 200%;
+	font-family: arial;
+	margin: 0px;
+	overflow: auto;
+	}
+</style>
+</head>
+<body>
+
+<h1>HTML Lists Example...</h1>
+
+
+<pre>
+	ul 
+		{
+		list-style: square inside url("sqpurple.gif");
+		}
+</pre>
+
+<h2>order_list</h2>	
+<ol>
+	<li>HTML</li>
+	<li>Java</li>
+	<li>JavaScript</li>
+	<li>SQL</li>
+</ol>	
+<hr>
+
+<!-- <ol type="I"> -->
+<ol style="list-style-type: upper-roman;">
+	<li>HTML</li>
+	<li>Java</li>
+	<li>JavaScript</li>
+	<li>SQL</li>
+</ol>	
+<hr>
+
+<!-- <ol type="i"> -->
+<ol style="list-style-type: lower-roman;">
+	<li>HTML</li>
+	<li>Java</li>
+	<li>JavaScript</li>
+	<li>SQL</li>
+</ol>	
+<hr>
+
+<!-- <ol type="A"> -->
+<ol style="list-style-type: upper-alpha">
+	<li>HTML</li>
+	<li>Java</li>
+	<li>JavaScript</li>
+	<li>SQL</li>
+</ol>	
+<hr>
+
+<!-- <ol type="a"> -->
+<ol style="list-style-type: lower-alpha">
+	<li>HTML</li>
+	<li>Java</li>
+	<li>JavaScript</li>
+	<li>SQL</li>
+</ol>	
+<hr>
+
+<ol reversed>
+	<li>HTML</li>
+	<li>Java</li>
+	<li>JavaScript</li>
+	<li>SQL</li>
+</ol>	
+<hr>
+
+<ol start="5">
+	<li>HTML</li>
+	<li>Java</li>
+	<li>JavaScript</li>
+	<li>SQL</li>
+</ol>	
+<hr><hr><hr>
+
+
+
+<h2>unorder_list</h2>
+<!-- <ul type="disc" (default)> -->
+<ul>
+	<li>HTML</li>
+	<li>Java</li>
+	<li>JavaScript</li>
+	<li>SQL</li>
+</ul>	
+<hr>
+
+<!-- <ul type="circle"> -->
+<ul style="list-style-type:circle;">
+	<li>HTML</li>
+	<li>Java</li>
+	<li>JavaScript</li>
+	<li>SQL</li>
+</ul>	
+<hr>
+
+<!-- <ul type="square"> -->
+<ul style="list-style-type:square;">
+	<li>HTML</li>
+	<li>Java</li>
+	<li>JavaScript</li>
+	<li>SQL</li>
+</ul>	
+<hr>
+
+<!-- <ul type="none"> -->
+<ul style="list-style-type:none;">
+	<li>HTML</li>
+	<li>Java</li>
+	<li>JavaScript</li>
+	<li>SQL</li>
+</ul>
+<hr>
+
+<dl>
+	<dt>HTML</dt>
+		<dd>is a markup language.</dd>
+	<dt>Java</dt>
+		<dd>is a programming language and platform.</dd>
+	<dt>JavaScript</dt>
+		<dd>is a scripting language.</dd>
+	<dt>SQL</dt>
+		<dd>is a query language.</dd>
+</dl>
+<hr><hr><hr>
+
+<h1>Nested HTML Lists</h1>
+
+<h2>A Nested List</h2>
+
+<p>
+	List can be nested (lists inside lists):
+</p>
+
+<ul>
+	<li>Coffee</li>
+	<li>Tea
+		<ul>
+			<li>Black tea</li>
+			<li>Green tea</li>
+		</ul>
+	</li>
+	<li>Milk</li>
+</ul>
+<hr><hr><hr>
+
+
+<h1>Horizontal List with CSS</h1>
+<div class="scode">
+<xmp>
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>HTML Lists Source code...</title>
+<link rel="stylesheet" type="text/css" href="#">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+ul
+	{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #333333;
+	}
+
+li
+	{
+	float: left;
+	}
+
+li a
+	{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+	}
+
+li a:hover
+	{
+	background-color: #111111;
+	}
+	</style>
+</head>
+<body>
+	
+
+<h2>Navigation Menu</h2>
+<p>
+	In this example, we use CSS to style the list horizontally, to create a navigation menu:
+</p>
+
+<ul>
+	<li><a href="#home">Home</a></li>
+	<li><a href="#news">News</a></li>
+	<li><a href="#contact">Contact</a></li>
+	<li><a href="#about">AboutUs</a></li>
+</ul>
+	
+ </body>
+</html>
+</xmp>
+</div>
+
+</body>
+</html>
