@@ -103,3 +103,20 @@ commit-hash = 2a7c326
 
 Ctrl+L: clear the screen.
 open .: open in file explorer
+
+
+
+
+git remote -v: to check origin url.
+
+git branch -r: to check remote branch.
+
+git fetch origin custom: to fetch a specific branch files info.
+
+git fetch: to fetch all branch files info.
+
+git pull origin master: to pull a specific branch files.
+
+git pull: to pull current branch files.
+
+git fetch && git checkout <branch>: to fetch and checkout branch at a time.

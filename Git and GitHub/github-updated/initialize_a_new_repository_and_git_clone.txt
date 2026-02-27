@@ -1,0 +1,20 @@
+Clone a Repository:
+    git clone git@github.com:username/repo-name.git
+
+example:
+    git clone git@github.com:aworld01/math.git
+
+
+
+
+
+Create a new repository:
+    Goto: github.com/HomeBerger/Repositories/New repository:
+	Repository name: [name]
+	Create repository
+Then run:
+    git init
+    git remote add origin git@github.com:username/repo-name.git
+
+example:
+    git remote add origin git@github.com:aworld01/math.git

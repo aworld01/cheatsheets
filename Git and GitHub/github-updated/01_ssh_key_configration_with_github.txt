@@ -1,0 +1,89 @@
+SSH key Generation
+==================
+1. Generate SSH Key (Recommended for Secure Connection):
+    ssh-keygen -t ed25519 -C "your-email@example.com"
+
+Press Enter to accept default file location
+
+Set a passphrase if you want (optional):
+Example of Good passphrase:
+        "MyScooterTailLampFix2023WasTricky!"
+
+2.Run:  cat ~/.ssh/id_ed25519.pub
+
+3.Copy the output (your public key).
+
+4. Go to GitHub → Settings → SSH and GPG keys/New SSH key:
+    Title: deviceName
+    Key: Paste the copied key and save
+
+5. ssh -T git@github.com #Test the Connection
+
+You should see a message like:
+Hi Abdul! You've successfully authenticated...
+
+
+
+
+
+
+SSH Key Generation with Passphrase
+==================================
+1. Generate SSH Key:
+    ssh-keygen -t ed25519 -C "your-email@example.com"
+
+    Press Enter to accept default file location.
+
+    Type a strong, memorable passphrase
+    Confirm: Retype it
+
+2. Start the SSH Agent
+This tool stores your key in memory so you don’t have to retype the passphrase:
+    eval "$(ssh-agent -s)"
+
+3. Add Your Key to the Agent:
+    ssh-add ~/.ssh/id_ed25519
+
+You’ll be asked for your passphrase once.
+After that, the agent remembers it until you log out or restart.
+
+4. Optional: Auto-Start Agent on Login (Windows)
+If you're using Git Bash or WSL - Add this to your '~/.bash_profile' or '~/.bashrc':
+    eval "$(ssh-agent -s)"
+    ssh-add ~/.ssh/id_ed25519
+
+
+
+
+
+git config --global user.name "Your GitHub Username" #to set user name.
+
+git config --global user.email "your-email@example.com #to set user email.
+
+git config --list #to check set user name and email.
+
+ssh-keygen -t ed25519 -C "your-email@example.com" #to generate SSH key
+
+cat ~/.ssh/id_ed25519.pub #to check and copy SSH Key
+
+Add SSH Key to GitHub
+---------------------
+Go to GitHub → Settings → SSH and GPG keys/New SSH key:
+    Title: TinyCore
+    Key:
+	Paste the copied key and save
+
+ssh -T git@github.com #Test the Connection
+
+git clone git@github.com:username/repo-name.git #to clone a repo
+
+
+
+
+TinyCore OS
+===========
+tce-load -wi git: to install Git
+tce-load -wi openssh: to install OpenSSH in "TinyCore OS" if not available
+winget install Microsoft.OpenSSH.Preview: to install OpenSSH in "Windows 11" if not available
+
+Passphrase[abc123]

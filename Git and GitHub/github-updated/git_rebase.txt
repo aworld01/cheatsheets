@@ -4,16 +4,12 @@ NOTE: Don't use "rebase" command with any shared branch.
 
 git rebase master
 
-git remote -v: to check origin url.
 
-git branch -r: to check remote branch.
 
-git fetch origin custom: to fetch a specific branch files info.
+git rebase --interactive
+------------------------
+-i = --interactive
+r = reword/edit commit massage
+d = drop/delete
 
-git fetch: to fetch all branch files info.
-
-git pull origin master: to pull a specific branch files.
-
-git pull: to pull current branch files.
-
-git fetch && git checkout <branch>: to fetch and checkout branch at a time.
+git rebase -i <commit-hash>
