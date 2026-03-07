@@ -5,3 +5,5 @@ Car Number: 5542
 
 
 First money taken: 1425 SAR
+
+Money paid: 50,000 + 55,000 = 102000/-

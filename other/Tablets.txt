@@ -13,3 +13,15 @@ Brightness: 900nits
 Battery: 9510 mAh
 Charging: 67W
 IP rating: IP68 (Dust & Water resistance)
+
+
+
+Names:
+-----
+Realme Pad3
+Oneplus Pad2/3
+Yoga tab plus
+Redmi Pad 2 pro
+
+
+Vevo V60

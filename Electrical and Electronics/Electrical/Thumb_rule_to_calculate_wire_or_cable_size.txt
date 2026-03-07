@@ -1,0 +1,3 @@
+This method will work till 30mm wire:
+   cableSize * 4 = Amp
+   wireSize * 6 = Amp
