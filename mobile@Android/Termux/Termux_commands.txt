@@ -1,5 +1,6 @@
 termux-info: Check termux version
 termux-setup-storage: give storage permission
+source .bashrc: restart '.bashrc' file.
 
 pkg install man
 pkg install openssh
