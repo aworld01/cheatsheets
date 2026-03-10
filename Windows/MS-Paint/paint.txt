@@ -1,0 +1,11 @@
+Win+R[mspaint]: to open paint.
+
+Tools
+-----
+P = Pencil
+B = Fill
+T = Text
+E = Eraser
+I = Color picker
+Z = Magnifier
+
