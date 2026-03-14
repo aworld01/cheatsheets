@@ -1,23 +1,21 @@
 Paid loan
 ---------
-Nasim:         55,000/-
 Tinku:         15,000/-
-Sister (wife): 23,000/-
+Nasim:         55,000+20,000 = 75,000/-
+Wife (Sister): 23,000+5,000 = 28,000/-
 -----------------------
-Total:         93,000/-
+Total:         118,000/-
 
 
 Balance loan:
 -------------
 AbdulAish:          10,000/-
-Sister (Wife):      05,000/-
-Nasim:              20,000/-
 Wife's home:        85,000/-
 Sister:             57,000/-
 PappuBhai (Mother): 25,000/-
 ----------------------------
-Total:             202,000/-
+Total:             177,000/-
 
-Bank Balance:      92,928.55/-
+Bank Balance:      67,928.55/-
 
 Final:             10,9072/-
