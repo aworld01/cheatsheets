@@ -1,0 +1,25 @@
+git checkout <branch>: to change the branch.
+
+git checkout -b <branch>: to create and switch the branch at a time.
+
+git checkout <file>: to discard modified file.
+
+git checkout <commit-hash>: to switch at any specific commit. (detach head)
+
+git branch #(HEAD detached at commit-hash)
+
+cd .git
+ls
+cat head
+cd refs
+ls
+cd heads
+ls
+
+HEAD => BRANCH => LATEST COMMIT
+
+git checkout -b bkp: create branch with detached head and switch at a time.
+
+git checkout HEAD~2: go 2 commit backward.
+
+git switch <branch>: to come out from detached mode.
