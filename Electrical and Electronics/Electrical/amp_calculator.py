@@ -1,4 +1,7 @@
 """
+Power = Watt
+Current = Ampare (I)
+
 R = Resistence (ohm)
 W = Watt
 I = Current (Ampare)
