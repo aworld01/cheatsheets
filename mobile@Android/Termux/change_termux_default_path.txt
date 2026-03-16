@@ -1,2 +1,0 @@
-nano ~/.bashrc:
-	cd '~/storage/shared/myFiles/gitFiles/'

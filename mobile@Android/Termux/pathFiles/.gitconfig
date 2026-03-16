@@ -1,0 +1,23 @@
+# mv .gitconfig ~
+
+[user]
+	name = Termux
+	email = abdulzoha786@gmail.com
+
+[safe]
+	directory = /storage/emulated/0/myFiles
+	directory = /storage/emulated/0/myFiles/gitPractice
+	directory = /storage/emulated/0/myFiles/gitFiles/cheatsheets
+	directory = /storage/emulated/0/myFiles/gitFiles/newUpdates
+[alias]
+        st = status
+        co = commit
+        cm = commit -m
+	pl = pull origin main
+        ps = push origin main
+	l1 = log --oneline
+	lo = log
+[core]
+	editor = nano
+[init]
+	defaultBranch = main
