@@ -17,3 +17,4 @@ python/AI/pytorch/Ali Hassan/.vector_cache/
 *.AVI
 *.GIF
 
+*.cpython-39.pyc
